@@ -1,0 +1,58 @@
+[package]
+edition = "2021"
+name = "TakeGPCException"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_RouteToSErrorOffset]
+path = "../AArch64_RouteToSErrorOffset"
+
+[dependencies.AArch64_TakeException]
+path = "../AArch64_TakeException"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.EncodeGPCSC]
+path = "../EncodeGPCSC"
+
+[dependencies.EncodeLDFSC]
+path = "../EncodeLDFSC"
+
+[dependencies.HaveAccessFlagUpdateExt]
+path = "../HaveAccessFlagUpdateExt"
+
+[dependencies.HaveAtomicExt]
+path = "../HaveAtomicExt"
+
+[dependencies.HaveDirtyBitModifierExt]
+path = "../HaveDirtyBitModifierExt"
+
+[dependencies.HaveDoubleFaultExt]
+path = "../HaveDoubleFaultExt"
+
+[dependencies.HaveNV2Ext]
+path = "../HaveNV2Ext"
+
+[dependencies.HaveRME]
+path = "../HaveRME"
+
+[dependencies.IPAValid]
+path = "../IPAValid"
+
+[dependencies.IsExternalAbort__1]
+path = "../IsExternalAbort__1"
+
+[dependencies.ThisInstrAddr]
+path = "../ThisInstrAddr"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bit]
+path = "../u__UNKNOWN_bit"

@@ -1,0 +1,55 @@
+[package]
+edition = "2021"
+name = "AArch32_S1TTWParamsEL2"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_HaveHPDExt]
+path = "../AArch32_HaveHPDExt"
+
+[dependencies.HMAIR0_read]
+path = "../HMAIR0_read"
+
+[dependencies.HMAIR1_read]
+path = "../HMAIR1_read"
+
+[dependencies.HSCTLR_read]
+path = "../HSCTLR_read"
+
+[dependencies.HTCR_read]
+path = "../HTCR_read"
+
+[dependencies.HaveTrapLoadStoreMultipleDeviceExt]
+path = "../HaveTrapLoadStoreMultipleDeviceExt"
+
+[dependencies.Mk_MAIRType]
+path = "../Mk_MAIRType"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HSCTLR_Type_EE]
+path = "../u_get_HSCTLR_Type_EE"
+
+[dependencies.u_get_HSCTLR_Type_WXN]
+path = "../u_get_HSCTLR_Type_WXN"
+
+[dependencies.u_get_HSCTLR_Type_nTLSMD]
+path = "../u_get_HSCTLR_Type_nTLSMD"
+
+[dependencies.u_get_HTCR_Type_HPD]
+path = "../u_get_HTCR_Type_HPD"
+
+[dependencies.u_get_HTCR_Type_IRGN0]
+path = "../u_get_HTCR_Type_IRGN0"
+
+[dependencies.u_get_HTCR_Type_ORGN0]
+path = "../u_get_HTCR_Type_ORGN0"
+
+[dependencies.u_get_HTCR_Type_SH0]
+path = "../u_get_HTCR_Type_SH0"
+
+[dependencies.u_get_HTCR_Type_T0SZ]
+path = "../u_get_HTCR_Type_T0SZ"

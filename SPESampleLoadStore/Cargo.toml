@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "SPESampleLoadStore"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.CollectPhysicalAddress]
+path = "../CollectPhysicalAddress"
+
+[dependencies.SPESetDataPhysicalAddress]
+path = "../SPESetDataPhysicalAddress"
+
+[dependencies.SPESetDataVirtualAddress]
+path = "../SPESetDataVirtualAddress"
+
+[dependencies.common]
+path = "../common"

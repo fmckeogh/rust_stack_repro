@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "u__WriteGIC"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HighestSetBit]
+path = "../HighestSetBit"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.gic_readonly]
+path = "../gic_readonly"
+
+[dependencies.u__GIC_ClearActiveInterrupt]
+path = "../u__GIC_ClearActiveInterrupt"

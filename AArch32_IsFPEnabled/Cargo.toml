@@ -1,0 +1,43 @@
+[package]
+edition = "2021"
+name = "AArch32_IsFPEnabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_IsFPEnabled]
+path = "../AArch64_IsFPEnabled"
+
+[dependencies.CPACR_read__1]
+path = "../CPACR_read__1"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HCPTR_read]
+path = "../HCPTR_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_CPACR_Type_cp10]
+path = "../u_get_CPACR_Type_cp10"
+
+[dependencies.u_get_CPTR_EL3_Type_TFP]
+path = "../u_get_CPTR_EL3_Type_TFP"
+
+[dependencies.u_get_HCPTR_Type_TCP10]
+path = "../u_get_HCPTR_Type_TCP10"
+
+[dependencies.u_get_NSACR_Type_cp10]
+path = "../u_get_NSACR_Type_cp10"

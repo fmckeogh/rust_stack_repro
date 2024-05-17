@@ -1,0 +1,55 @@
+[package]
+edition = "2021"
+name = "TLBI_VAAE1OS_SysOpsWrite_e3dbcbfec1559aff"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.AArch64_TLBI_VAA]
+path = "../AArch64_TLBI_VAA"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.IsHCRXEL2Enabled]
+path = "../IsHCRXEL2Enabled"
+
+[dependencies.SecurityStateAtEL]
+path = "../SecurityStateAtEL"
+
+[dependencies.VMID_read]
+path = "../VMID_read"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCRX_EL2_Type_FGTnXS]
+path = "../u_get_HCRX_EL2_Type_FGTnXS"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HCR_EL2_Type_TTLB]
+path = "../u_get_HCR_EL2_Type_TTLB"
+
+[dependencies.u_get_HCR_EL2_Type_TTLBOS]
+path = "../u_get_HCR_EL2_Type_TTLBOS"
+
+[dependencies.u_get_HFGITR_EL2_Type_TLBIVAAE1OS]
+path = "../u_get_HFGITR_EL2_Type_TLBIVAAE1OS"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"

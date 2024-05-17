@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "AArch32_SysRegRead64"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_AutoGen_SysRegRead64]
+path = "../AArch32_AutoGen_SysRegRead64"
+
+[dependencies.AMCGCR_read]
+path = "../AMCGCR_read"
+
+[dependencies.ELFromM32]
+path = "../ELFromM32"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.u_get_AMCGCR_Type_CG0NC]
+path = "../u_get_AMCGCR_Type_CG0NC"
+
+[dependencies.u_get_AMCGCR_Type_CG1NC]
+path = "../u_get_AMCGCR_Type_CG1NC"

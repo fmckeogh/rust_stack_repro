@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "SCTLR_EL3_SysRegRead_6ae2b7096922ae74"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_SCTLR_EL3]
+path = "../u__get_SCTLR_EL3"

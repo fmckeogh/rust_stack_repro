@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "DFAR_S_write"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HDFAR_read]
+path = "../HDFAR_read"
+
+[dependencies.HDFAR_write]
+path = "../HDFAR_write"
+
+[dependencies.common]
+path = "../common"

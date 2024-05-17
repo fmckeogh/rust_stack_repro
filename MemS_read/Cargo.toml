@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "MemS_read"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CreateAccDescA32LSMD]
+path = "../CreateAccDescA32LSMD"
+
+[dependencies.Mem_with_type_read]
+path = "../Mem_with_type_read"
+
+[dependencies.common]
+path = "../common"

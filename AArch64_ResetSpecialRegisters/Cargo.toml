@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "AArch64_ResetSpecialRegisters"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveAArch32EL]
+path = "../HaveAArch32EL"
+
+[dependencies.Mk_DSPSR_EL0_Type]
+path = "../Mk_DSPSR_EL0_Type"
+
+[dependencies.Mk_SPSR_EL1_Type]
+path = "../Mk_SPSR_EL1_Type"
+
+[dependencies.Mk_SPSR_EL2_Type]
+path = "../Mk_SPSR_EL2_Type"
+
+[dependencies.Mk_SPSR_EL3_Type]
+path = "../Mk_SPSR_EL3_Type"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"

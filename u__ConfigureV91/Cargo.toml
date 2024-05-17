@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "u__ConfigureV91"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__ConfigureV86]
+path = "../u__ConfigureV86"
+
+[dependencies.u__ConfigureV90]
+path = "../u__ConfigureV90"

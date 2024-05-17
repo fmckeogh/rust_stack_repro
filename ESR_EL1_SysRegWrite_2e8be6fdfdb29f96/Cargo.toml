@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "ESR_EL1_SysRegWrite_2e8be6fdfdb29f96"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Mk_ESR_EL1_Type]
+path = "../Mk_ESR_EL1_Type"
+
+[dependencies.Mk_ESR_EL2_Type]
+path = "../Mk_ESR_EL2_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_NV]
+path = "../u_get_HCR_EL2_Type_NV"
+
+[dependencies.u_get_HCR_EL2_Type_NV2]
+path = "../u_get_HCR_EL2_Type_NV2"

@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "MAIR_EL3_SysRegRead_3a3602f6f0c9e03f"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"

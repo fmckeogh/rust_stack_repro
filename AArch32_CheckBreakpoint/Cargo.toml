@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "AArch32_CheckBreakpoint"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_BreakpointMatch]
+path = "../AArch32_BreakpointMatch"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.Halt]
+path = "../Halt"
+
+[dependencies.HaltOnBreakpointOrWatchpoint]
+path = "../HaltOnBreakpointOrWatchpoint"
+
+[dependencies.NumBreakpointsImplemented]
+path = "../NumBreakpointsImplemented"
+
+[dependencies.S1TranslationRegime__1]
+path = "../S1TranslationRegime__1"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__id]
+path = "../u__id"

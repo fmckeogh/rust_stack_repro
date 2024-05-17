@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "AArch64_CheckFPEnabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_AdvSIMDFPAccessTrap]
+path = "../AArch64_AdvSIMDFPAccessTrap"
+
+[dependencies.AArch64_CheckFPAdvSIMDTrap]
+path = "../AArch64_CheckFPAdvSIMDTrap"
+
+[dependencies.IsInHost]
+path = "../IsInHost"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_CPACR_EL1_Type_FPEN]
+path = "../u_get_CPACR_EL1_Type_FPEN"

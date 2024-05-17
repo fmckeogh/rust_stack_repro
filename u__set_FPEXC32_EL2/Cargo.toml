@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "u__set_FPEXC32_EL2"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u_get_FPEXC32_EL2_Type_DZF]
+path = "../u_get_FPEXC32_EL2_Type_DZF"
+
+[dependencies.u_get_FPEXC32_EL2_Type_IDF]
+path = "../u_get_FPEXC32_EL2_Type_IDF"
+
+[dependencies.u_get_FPEXC32_EL2_Type_IOF]
+path = "../u_get_FPEXC32_EL2_Type_IOF"
+
+[dependencies.u_get_FPEXC32_EL2_Type_IXF]
+path = "../u_get_FPEXC32_EL2_Type_IXF"
+
+[dependencies.u_get_FPEXC32_EL2_Type_OFF]
+path = "../u_get_FPEXC32_EL2_Type_OFF"
+
+[dependencies.u_get_FPEXC32_EL2_Type_UFF]
+path = "../u_get_FPEXC32_EL2_Type_UFF"

@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "CheckSPAlignment"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SPAlignmentFault]
+path = "../AArch64_SPAlignmentFault"
+
+[dependencies.Align_bits]
+path = "../Align_bits"
+
+[dependencies.SCTLR_read__1]
+path = "../SCTLR_read__1"
+
+[dependencies.SP_read]
+path = "../SP_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_SCTLRType_SA]
+path = "../u_get_SCTLRType_SA"
+
+[dependencies.u_get_SCTLRType_SA0]
+path = "../u_get_SCTLRType_SA0"

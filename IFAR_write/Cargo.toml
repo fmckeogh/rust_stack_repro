@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "IFAR_write"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.IFAR_NS_write]
+path = "../IFAR_NS_write"
+
+[dependencies.IFAR_S_write]
+path = "../IFAR_S_write"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,88 @@
+[package]
+edition = "2021"
+name = "AArch64_CheckTimerConditions"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.HaveECVExt]
+path = "../HaveECVExt"
+
+[dependencies.HaveRME]
+path = "../HaveRME"
+
+[dependencies.HaveSecureEL2Ext]
+path = "../HaveSecureEL2Ext"
+
+[dependencies.HaveVirtHostExt]
+path = "../HaveVirtHostExt"
+
+[dependencies.IsTimerConditionMet]
+path = "../IsTimerConditionMet"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_CNTHCTL_EL2_Type_CNTPMASK]
+path = "../u_get_CNTHCTL_EL2_Type_CNTPMASK"
+
+[dependencies.u_get_CNTHCTL_EL2_Type_CNTVMASK]
+path = "../u_get_CNTHCTL_EL2_Type_CNTVMASK"
+
+[dependencies.u_get_CNTHCTL_EL2_Type_ECV]
+path = "../u_get_CNTHCTL_EL2_Type_ECV"
+
+[dependencies.u_get_CNTHPS_CTL_EL2_Type_ENABLE]
+path = "../u_get_CNTHPS_CTL_EL2_Type_ENABLE"
+
+[dependencies.u_get_CNTHPS_CTL_EL2_Type_IMASK]
+path = "../u_get_CNTHPS_CTL_EL2_Type_IMASK"
+
+[dependencies.u_get_CNTHP_CTL_EL2_Type_ENABLE]
+path = "../u_get_CNTHP_CTL_EL2_Type_ENABLE"
+
+[dependencies.u_get_CNTHP_CTL_EL2_Type_IMASK]
+path = "../u_get_CNTHP_CTL_EL2_Type_IMASK"
+
+[dependencies.u_get_CNTHVS_CTL_EL2_Type_ENABLE]
+path = "../u_get_CNTHVS_CTL_EL2_Type_ENABLE"
+
+[dependencies.u_get_CNTHVS_CTL_EL2_Type_IMASK]
+path = "../u_get_CNTHVS_CTL_EL2_Type_IMASK"
+
+[dependencies.u_get_CNTHV_CTL_EL2_Type_ENABLE]
+path = "../u_get_CNTHV_CTL_EL2_Type_ENABLE"
+
+[dependencies.u_get_CNTHV_CTL_EL2_Type_IMASK]
+path = "../u_get_CNTHV_CTL_EL2_Type_IMASK"
+
+[dependencies.u_get_CNTPS_CTL_EL1_Type_ENABLE]
+path = "../u_get_CNTPS_CTL_EL1_Type_ENABLE"
+
+[dependencies.u_get_CNTPS_CTL_EL1_Type_IMASK]
+path = "../u_get_CNTPS_CTL_EL1_Type_IMASK"
+
+[dependencies.u_get_CNTP_CTL_EL0_Type_ENABLE]
+path = "../u_get_CNTP_CTL_EL0_Type_ENABLE"
+
+[dependencies.u_get_CNTP_CTL_EL0_Type_IMASK]
+path = "../u_get_CNTP_CTL_EL0_Type_IMASK"
+
+[dependencies.u_get_CNTV_CTL_EL0_Type_ENABLE]
+path = "../u_get_CNTV_CTL_EL0_Type_ENABLE"
+
+[dependencies.u_get_CNTV_CTL_EL0_Type_IMASK]
+path = "../u_get_CNTV_CTL_EL0_Type_IMASK"
+
+[dependencies.u_get_SCR_EL3_Type_ECVEn]
+path = "../u_get_SCR_EL3_Type_ECVEn"

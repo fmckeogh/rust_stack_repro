@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_VMOV_rs_Op_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckAdvSIMDOrVFPEnabled]
+path = "../CheckAdvSIMDOrVFPEnabled"
+
+[dependencies.D_read]
+path = "../D_read"
+
+[dependencies.D_set]
+path = "../D_set"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.R_read]
+path = "../R_read"
+
+[dependencies.common]
+path = "../common"

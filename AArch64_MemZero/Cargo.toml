@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "AArch64_MemZero"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_DataMemZero]
+path = "../AArch64_DataMemZero"
+
+[dependencies.AArch64_TagMemZero]
+path = "../AArch64_TagMemZero"
+
+[dependencies.Align_bits]
+path = "../Align_bits"
+
+[dependencies.CreateAccDescDCZero]
+path = "../CreateAccDescDCZero"
+
+[dependencies.HaveMTE2Ext]
+path = "../HaveMTE2Ext"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_DCZID_EL0_Type_BS]
+path = "../u_get_DCZID_EL0_Type_BS"

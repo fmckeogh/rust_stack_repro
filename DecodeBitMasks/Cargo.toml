@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "DecodeBitMasks"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HighestSetBit]
+path = "../HighestSetBit"
+
+[dependencies.ROR]
+path = "../ROR"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.replicate_bits_borealis_internal]
+path = "../replicate_bits_borealis_internal"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.zext_ones]
+path = "../zext_ones"

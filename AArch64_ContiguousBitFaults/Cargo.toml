@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "AArch64_ContiguousBitFaults"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_IASize]
+path = "../AArch64_IASize"
+
+[dependencies.ContiguousSize]
+path = "../ContiguousSize"
+
+[dependencies.TranslationSize]
+path = "../TranslationSize"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"

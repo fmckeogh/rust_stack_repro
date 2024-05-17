@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "AMAIR_EL2_SysRegWrite_4119e8051bae499e"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_NV]
+path = "../u_get_HCR_EL2_Type_NV"

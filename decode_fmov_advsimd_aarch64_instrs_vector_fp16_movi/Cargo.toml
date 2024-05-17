@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_fmov_advsimd_aarch64_instrs_vector_fp16_movi"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_vector_fp16_movi]
+path = "../execute_aarch64_instrs_vector_fp16_movi"
+
+[dependencies.replicate_bits_borealis_internal]
+path = "../replicate_bits_borealis_internal"

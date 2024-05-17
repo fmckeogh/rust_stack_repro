@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "GPCCR_EL3_SysRegWrite_34a621e690dc851f"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Mk_GPCCR_EL3_Type]
+path = "../Mk_GPCCR_EL3_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__set_GPCCR_EL3]
+path = "../u__set_GPCCR_EL3"

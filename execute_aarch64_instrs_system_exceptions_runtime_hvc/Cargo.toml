@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_system_exceptions_runtime_hvc"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_CallHypervisor]
+path = "../AArch64_CallHypervisor"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_HCD]
+path = "../u_get_HCR_EL2_Type_HCD"
+
+[dependencies.u_get_SCR_EL3_Type_HCE]
+path = "../u_get_SCR_EL3_Type_HCE"

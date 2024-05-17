@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_SVC_Op_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_CallSupervisor]
+path = "../AArch32_CallSupervisor"
+
+[dependencies.AArch32_CheckForSVCTrap]
+path = "../AArch32_CheckForSVCTrap"
+
+[dependencies.common]
+path = "../common"

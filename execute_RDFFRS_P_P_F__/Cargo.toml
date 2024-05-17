@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "execute_RDFFRS_P_P_F__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckNonStreamingSVEEnabled]
+path = "../CheckNonStreamingSVEEnabled"
+
+[dependencies.FFR_read]
+path = "../FFR_read"
+
+[dependencies.P_read]
+path = "../P_read"
+
+[dependencies.P_set]
+path = "../P_set"
+
+[dependencies.PredTest]
+path = "../PredTest"
+
+[dependencies.common]
+path = "../common"

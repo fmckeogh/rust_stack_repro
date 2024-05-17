@@ -1,0 +1,79 @@
+[package]
+edition = "2021"
+name = "AArch32_EncodePARSD"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_PARFaultStatusSD]
+path = "../AArch32_PARFaultStatusSD"
+
+[dependencies.AArch32_PARInnerAttrs]
+path = "../AArch32_PARInnerAttrs"
+
+[dependencies.AArch32_PAROuterAttrs]
+path = "../AArch32_PAROuterAttrs"
+
+[dependencies.AArch32_ReportedInnerAttrs]
+path = "../AArch32_ReportedInnerAttrs"
+
+[dependencies.AArch32_ReportedOuterAttrs]
+path = "../AArch32_ReportedOuterAttrs"
+
+[dependencies.IsFault]
+path = "../IsFault"
+
+[dependencies.Mk_PAR_Type]
+path = "../Mk_PAR_Type"
+
+[dependencies.PAR_read]
+path = "../PAR_read"
+
+[dependencies.PAR_write]
+path = "../PAR_write"
+
+[dependencies.ReportedPARShareability]
+path = "../ReportedPARShareability"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_bit]
+path = "../u__IMPDEF_bit"
+
+[dependencies.u__IMPDEF_bits]
+path = "../u__IMPDEF_bits"
+
+[dependencies.u__UNKNOWN_bit]
+path = "../u__UNKNOWN_bit"
+
+[dependencies.u_update_PAR_Type_F]
+path = "../u_update_PAR_Type_F"
+
+[dependencies.u_update_PAR_Type_FST]
+path = "../u_update_PAR_Type_FST"
+
+[dependencies.u_update_PAR_Type_Inner]
+path = "../u_update_PAR_Type_Inner"
+
+[dependencies.u_update_PAR_Type_LPAE]
+path = "../u_update_PAR_Type_LPAE"
+
+[dependencies.u_update_PAR_Type_NOS]
+path = "../u_update_PAR_Type_NOS"
+
+[dependencies.u_update_PAR_Type_NS]
+path = "../u_update_PAR_Type_NS"
+
+[dependencies.u_update_PAR_Type_Outer]
+path = "../u_update_PAR_Type_Outer"
+
+[dependencies.u_update_PAR_Type_PA]
+path = "../u_update_PAR_Type_PA"
+
+[dependencies.u_update_PAR_Type_SH]
+path = "../u_update_PAR_Type_SH"
+
+[dependencies.u_update_PAR_Type_SS]
+path = "../u_update_PAR_Type_SS"

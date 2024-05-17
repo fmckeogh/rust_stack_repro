@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "Z_set"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.common]
+path = "../common"

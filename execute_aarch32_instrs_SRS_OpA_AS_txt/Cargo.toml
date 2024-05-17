@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_SRS_OpA_AS_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_MonitorModeTrap]
+path = "../AArch64_MonitorModeTrap"
+
+[dependencies.BadMode]
+path = "../BadMode"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.LR_read]
+path = "../LR_read"
+
+[dependencies.MemA_set]
+path = "../MemA_set"
+
+[dependencies.Rmode_read]
+path = "../Rmode_read"
+
+[dependencies.Rmode_set]
+path = "../Rmode_set"
+
+[dependencies.SPSR_read]
+path = "../SPSR_read"
+
+[dependencies.common]
+path = "../common"

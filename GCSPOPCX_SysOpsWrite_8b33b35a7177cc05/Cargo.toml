@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "GCSPOPCX_SysOpsWrite_8b33b35a7177cc05"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.EXLOCKException]
+path = "../EXLOCKException"
+
+[dependencies.GCSPOPCX]
+path = "../GCSPOPCX"
+
+[dependencies.GetCurrentEXLOCKEN]
+path = "../GetCurrentEXLOCKEN"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HFGITR_EL2_Type_nGCSEPP]
+path = "../u_get_HFGITR_EL2_Type_nGCSEPP"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"

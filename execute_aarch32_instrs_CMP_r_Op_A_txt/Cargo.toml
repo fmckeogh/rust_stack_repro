@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_CMP_r_Op_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AddWithCarry]
+path = "../AddWithCarry"
+
+[dependencies.R_read]
+path = "../R_read"
+
+[dependencies.Shift]
+path = "../Shift"
+
+[dependencies.common]
+path = "../common"

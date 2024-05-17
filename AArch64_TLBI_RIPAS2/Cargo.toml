@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "AArch64_TLBI_RIPAS2"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Broadcast]
+path = "../Broadcast"
+
+[dependencies.TLBI]
+path = "../TLBI"
+
+[dependencies.TLBIRange]
+path = "../TLBIRange"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.common]
+path = "../common"

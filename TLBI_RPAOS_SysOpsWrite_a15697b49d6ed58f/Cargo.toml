@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "TLBI_RPAOS_SysOpsWrite_a15697b49d6ed58f"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_TLBI_RPA]
+path = "../AArch64_TLBI_RPA"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

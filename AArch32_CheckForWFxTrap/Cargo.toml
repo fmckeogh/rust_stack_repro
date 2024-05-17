@@ -1,0 +1,67 @@
+[package]
+edition = "2021"
+name = "AArch32_CheckForWFxTrap"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_TakeHypTrapException__1]
+path = "../AArch32_TakeHypTrapException__1"
+
+[dependencies.AArch32_TakeMonitorTrapException]
+path = "../AArch32_TakeMonitorTrapException"
+
+[dependencies.AArch32_TakeUndefInstrException]
+path = "../AArch32_TakeUndefInstrException"
+
+[dependencies.AArch64_CheckForWFxTrap]
+path = "../AArch64_CheckForWFxTrap"
+
+[dependencies.AArch64_WFxTrap]
+path = "../AArch64_WFxTrap"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.ConditionSyndrome]
+path = "../ConditionSyndrome"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.ExceptionSyndrome]
+path = "../ExceptionSyndrome"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.SCTLR_read__2]
+path = "../SCTLR_read__2"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HCR_Type_TWE]
+path = "../u_get_HCR_Type_TWE"
+
+[dependencies.u_get_HCR_Type_TWI]
+path = "../u_get_HCR_Type_TWI"
+
+[dependencies.u_get_SCR_Type_TWE]
+path = "../u_get_SCR_Type_TWE"
+
+[dependencies.u_get_SCR_Type_TWI]
+path = "../u_get_SCR_Type_TWI"
+
+[dependencies.u_get_SCTLR_Type_nTWE]
+path = "../u_get_SCTLR_Type_nTWE"
+
+[dependencies.u_get_SCTLR_Type_nTWI]
+path = "../u_get_SCTLR_Type_nTWI"

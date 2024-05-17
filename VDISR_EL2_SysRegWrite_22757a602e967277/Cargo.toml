@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "VDISR_EL2_SysRegWrite_22757a602e967277"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.Mk_DISR_EL1_Type]
+path = "../Mk_DISR_EL1_Type"
+
+[dependencies.Mk_VDISR_EL2_Type]
+path = "../Mk_VDISR_EL2_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_AMO]
+path = "../u_get_HCR_EL2_Type_AMO"
+
+[dependencies.u_get_SCR_EL3_Type_EA]
+path = "../u_get_SCR_EL3_Type_EA"

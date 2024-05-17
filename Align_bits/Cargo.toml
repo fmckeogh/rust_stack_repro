@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "Align_bits"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Align_int]
+path = "../Align_int"
+
+[dependencies.Slice_int]
+path = "../Slice_int"
+
+[dependencies.common]
+path = "../common"

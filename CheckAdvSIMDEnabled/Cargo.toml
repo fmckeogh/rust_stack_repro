@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "CheckAdvSIMDEnabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_CheckAdvSIMDOrFPEnabled]
+path = "../AArch32_CheckAdvSIMDOrFPEnabled"
+
+[dependencies.D_read]
+path = "../D_read"
+
+[dependencies.common]
+path = "../common"

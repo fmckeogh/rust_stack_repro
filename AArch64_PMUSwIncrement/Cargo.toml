@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "AArch64_PMUSwIncrement"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_GetNumEventCountersAccessible]
+path = "../AArch64_GetNumEventCountersAccessible"
+
+[dependencies.PMUEvent__2]
+path = "../PMUEvent__2"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.neq_int]
+path = "../neq_int"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.u_get_MDCR_EL2_Type_HPME]
+path = "../u_get_MDCR_EL2_Type_HPME"
+
+[dependencies.u_get_PMCR_EL0_Type_E]
+path = "../u_get_PMCR_EL0_Type_E"

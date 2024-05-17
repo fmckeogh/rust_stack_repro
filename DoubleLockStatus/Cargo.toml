@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "DoubleLockStatus"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.DBGOSDLR_read]
+path = "../DBGOSDLR_read"
+
+[dependencies.DBGPRCR_read]
+path = "../DBGPRCR_read"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.HaveDoubleLock]
+path = "../HaveDoubleLock"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_DBGOSDLR_Type_DLK]
+path = "../u_get_DBGOSDLR_Type_DLK"
+
+[dependencies.u_get_DBGPRCR_EL1_Type_CORENPDRQ]
+path = "../u_get_DBGPRCR_EL1_Type_CORENPDRQ"
+
+[dependencies.u_get_DBGPRCR_Type_CORENPDRQ]
+path = "../u_get_DBGPRCR_Type_CORENPDRQ"
+
+[dependencies.u_get_OSDLR_EL1_Type_DLK]
+path = "../u_get_OSDLR_EL1_Type_DLK"

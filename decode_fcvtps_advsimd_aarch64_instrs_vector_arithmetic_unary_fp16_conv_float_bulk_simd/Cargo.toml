@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_fcvtps_advsimd_aarch64_instrs_vector_arithmetic_unary_fp16_conv_float_bulk_simd"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.FPDecodeRounding]
+path = "../FPDecodeRounding"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_vector_arithmetic_unary_fp16_conv_float_bulk_sisd]
+path = "../execute_aarch64_instrs_vector_arithmetic_unary_fp16_conv_float_bulk_sisd"

@@ -1,0 +1,55 @@
+[package]
+edition = "2021"
+name = "execute_LDR_ZA_RI__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_Abort]
+path = "../AArch64_Abort"
+
+[dependencies.AArch64_MemSingle_read]
+path = "../AArch64_MemSingle_read"
+
+[dependencies.AlignmentEnforced]
+path = "../AlignmentEnforced"
+
+[dependencies.AlignmentFault]
+path = "../AlignmentFault"
+
+[dependencies.CheckSMEAndZAEnabled]
+path = "../CheckSMEAndZAEnabled"
+
+[dependencies.CheckSPAlignment]
+path = "../CheckSPAlignment"
+
+[dependencies.CreateAccDescSME]
+path = "../CreateAccDescSME"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.FailTransaction]
+path = "../FailTransaction"
+
+[dependencies.HaveTME]
+path = "../HaveTME"
+
+[dependencies.IsAligned__1]
+path = "../IsAligned__1"
+
+[dependencies.SP_read]
+path = "../SP_read"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.ZAvector_set]
+path = "../ZAvector_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.neq_int]
+path = "../neq_int"

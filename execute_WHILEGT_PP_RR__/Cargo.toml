@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "execute_WHILEGT_PP_RR__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckSVEEnabled]
+path = "../CheckSVEEnabled"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.Ones]
+path = "../Ones"
+
+[dependencies.P_set]
+path = "../P_set"
+
+[dependencies.PredTest]
+path = "../PredTest"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.asl_Int]
+path = "../asl_Int"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "execute_UMLSL_ZA_ZZi_4xi"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckStreamingSVEAndZAEnabled]
+path = "../CheckStreamingSVEAndZAEnabled"
+
+[dependencies.Elem_read]
+path = "../Elem_read"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.ZAvector_read]
+path = "../ZAvector_read"
+
+[dependencies.ZAvector_set]
+path = "../ZAvector_set"
+
+[dependencies.Z_read]
+path = "../Z_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.fmod_int]
+path = "../fmod_int"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"

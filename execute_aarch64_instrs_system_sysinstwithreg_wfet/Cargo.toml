@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_system_sysinstwithreg_wfet"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.EndOfInstruction]
+path = "../EndOfInstruction"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.Hint_WFE]
+path = "../Hint_WFE"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

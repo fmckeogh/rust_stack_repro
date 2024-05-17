@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_integer_tags_mcgettagarray"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_MemTag_read]
+path = "../AArch64_MemTag_read"
+
+[dependencies.Align_bits]
+path = "../Align_bits"
+
+[dependencies.CheckSPAlignment]
+path = "../CheckSPAlignment"
+
+[dependencies.CreateAccDescLDGSTG]
+path = "../CreateAccDescLDGSTG"
+
+[dependencies.SP_read]
+path = "../SP_read"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.u_get_GMID_EL1_Type_BS]
+path = "../u_get_GMID_EL1_Type_BS"

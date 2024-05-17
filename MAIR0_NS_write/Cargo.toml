@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "MAIR0_NS_write"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.Mk_PRRR_Type]
+path = "../Mk_PRRR_Type"
+
+[dependencies.PRRR_NS_read]
+path = "../PRRR_NS_read"
+
+[dependencies.PRRR_NS_write]
+path = "../PRRR_NS_write"
+
+[dependencies.PRRR_read]
+path = "../PRRR_read"
+
+[dependencies.PRRR_write]
+path = "../PRRR_write"
+
+[dependencies.common]
+path = "../common"

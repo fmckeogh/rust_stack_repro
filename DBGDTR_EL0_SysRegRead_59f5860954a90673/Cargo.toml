@@ -1,0 +1,46 @@
+[package]
+edition = "2021"
+name = "DBGDTR_EL0_SysRegRead_59f5860954a90673"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.DBGDTR_EL0_read__1]
+path = "../DBGDTR_EL0_read__1"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_MDCR_EL2_Type_TDA]
+path = "../u_get_MDCR_EL2_Type_TDA"
+
+[dependencies.u_get_MDCR_EL2_Type_TDCC]
+path = "../u_get_MDCR_EL2_Type_TDCC"
+
+[dependencies.u_get_MDCR_EL2_Type_TDE]
+path = "../u_get_MDCR_EL2_Type_TDE"
+
+[dependencies.u_get_MDCR_EL3_Type_TDA]
+path = "../u_get_MDCR_EL3_Type_TDA"
+
+[dependencies.u_get_MDCR_EL3_Type_TDCC]
+path = "../u_get_MDCR_EL3_Type_TDCC"
+
+[dependencies.u_get_MDSCR_EL1_Type_TDCC]
+path = "../u_get_MDSCR_EL1_Type_TDCC"

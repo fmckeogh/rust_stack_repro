@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "u__set_HCPTR"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HCPTR_read]
+path = "../HCPTR_read"
+
+[dependencies.HCPTR_write]
+path = "../HCPTR_write"
+
+[dependencies.IsCurrentSecurityState]
+path = "../IsCurrentSecurityState"
+
+[dependencies.Mk_HCPTR_Type]
+path = "../Mk_HCPTR_Type"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCPTR_Type_TCP10]
+path = "../u_get_HCPTR_Type_TCP10"
+
+[dependencies.u_get_HCPTR_Type_TCP11]
+path = "../u_get_HCPTR_Type_TCP11"
+
+[dependencies.u_get_NSACR_Type_cp10]
+path = "../u_get_NSACR_Type_cp10"
+
+[dependencies.u_update_HCPTR_Type_TCP10]
+path = "../u_update_HCPTR_Type_TCP10"
+
+[dependencies.u_update_HCPTR_Type_TCP11]
+path = "../u_update_HCPTR_Type_TCP11"

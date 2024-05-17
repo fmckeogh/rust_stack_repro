@@ -1,0 +1,157 @@
+[package]
+edition = "2021"
+name = "AArch64_SS2TTWParams"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_S2DecodeTG0]
+path = "../AArch64_S2DecodeTG0"
+
+[dependencies.Have128BitDescriptorExt]
+path = "../Have128BitDescriptorExt"
+
+[dependencies.Have52BitIPAAndPASpaceExt]
+path = "../Have52BitIPAAndPASpaceExt"
+
+[dependencies.HaveAccessFlagUpdateExt]
+path = "../HaveAccessFlagUpdateExt"
+
+[dependencies.HaveAccessFlagUpdateForTableExt]
+path = "../HaveAccessFlagUpdateForTableExt"
+
+[dependencies.HaveDirtyBitModifierExt]
+path = "../HaveDirtyBitModifierExt"
+
+[dependencies.HaveFeatCMOW]
+path = "../HaveFeatCMOW"
+
+[dependencies.HaveS2PIExt]
+path = "../HaveS2PIExt"
+
+[dependencies.HaveStage2MemAttrControl]
+path = "../HaveStage2MemAttrControl"
+
+[dependencies.HaveTHExt]
+path = "../HaveTHExt"
+
+[dependencies.IsHCRXEL2Enabled]
+path = "../IsHCRXEL2Enabled"
+
+[dependencies.Mk_S2PIRType]
+path = "../Mk_S2PIRType"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.VTTBR_EL2_read]
+path = "../VTTBR_EL2_read"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCRX_EL2_Type_CMOW]
+path = "../u_get_HCRX_EL2_Type_CMOW"
+
+[dependencies.u_get_HCR_EL2_Type_DC]
+path = "../u_get_HCR_EL2_Type_DC"
+
+[dependencies.u_get_HCR_EL2_Type_FWB]
+path = "../u_get_HCR_EL2_Type_FWB"
+
+[dependencies.u_get_HCR_EL2_Type_PTW]
+path = "../u_get_HCR_EL2_Type_PTW"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HCR_EL2_Type_VM]
+path = "../u_get_HCR_EL2_Type_VM"
+
+[dependencies.u_get_SCTLR_EL2_Type_EE]
+path = "../u_get_SCTLR_EL2_Type_EE"
+
+[dependencies.u_get_VSTCR_EL2_Type_SA]
+path = "../u_get_VSTCR_EL2_Type_SA"
+
+[dependencies.u_get_VSTCR_EL2_Type_SL0]
+path = "../u_get_VSTCR_EL2_Type_SL0"
+
+[dependencies.u_get_VSTCR_EL2_Type_SL2]
+path = "../u_get_VSTCR_EL2_Type_SL2"
+
+[dependencies.u_get_VSTCR_EL2_Type_SW]
+path = "../u_get_VSTCR_EL2_Type_SW"
+
+[dependencies.u_get_VSTCR_EL2_Type_T0SZ]
+path = "../u_get_VSTCR_EL2_Type_T0SZ"
+
+[dependencies.u_get_VSTCR_EL2_Type_TG0]
+path = "../u_get_VSTCR_EL2_Type_TG0"
+
+[dependencies.u_get_VSTTBR_EL2_Type_SKL]
+path = "../u_get_VSTTBR_EL2_Type_SKL"
+
+[dependencies.u_get_VTCR_EL2_Type_AssuredOnly]
+path = "../u_get_VTCR_EL2_Type_AssuredOnly"
+
+[dependencies.u_get_VTCR_EL2_Type_D128]
+path = "../u_get_VTCR_EL2_Type_D128"
+
+[dependencies.u_get_VTCR_EL2_Type_DS]
+path = "../u_get_VTCR_EL2_Type_DS"
+
+[dependencies.u_get_VTCR_EL2_Type_HA]
+path = "../u_get_VTCR_EL2_Type_HA"
+
+[dependencies.u_get_VTCR_EL2_Type_HAFT]
+path = "../u_get_VTCR_EL2_Type_HAFT"
+
+[dependencies.u_get_VTCR_EL2_Type_HD]
+path = "../u_get_VTCR_EL2_Type_HD"
+
+[dependencies.u_get_VTCR_EL2_Type_IRGN0]
+path = "../u_get_VTCR_EL2_Type_IRGN0"
+
+[dependencies.u_get_VTCR_EL2_Type_NSA]
+path = "../u_get_VTCR_EL2_Type_NSA"
+
+[dependencies.u_get_VTCR_EL2_Type_NSW]
+path = "../u_get_VTCR_EL2_Type_NSW"
+
+[dependencies.u_get_VTCR_EL2_Type_ORGN0]
+path = "../u_get_VTCR_EL2_Type_ORGN0"
+
+[dependencies.u_get_VTCR_EL2_Type_PS]
+path = "../u_get_VTCR_EL2_Type_PS"
+
+[dependencies.u_get_VTCR_EL2_Type_S2PIE]
+path = "../u_get_VTCR_EL2_Type_S2PIE"
+
+[dependencies.u_get_VTCR_EL2_Type_SH0]
+path = "../u_get_VTCR_EL2_Type_SH0"
+
+[dependencies.u_get_VTCR_EL2_Type_SL0]
+path = "../u_get_VTCR_EL2_Type_SL0"
+
+[dependencies.u_get_VTCR_EL2_Type_SL2]
+path = "../u_get_VTCR_EL2_Type_SL2"
+
+[dependencies.u_get_VTCR_EL2_Type_T0SZ]
+path = "../u_get_VTCR_EL2_Type_T0SZ"
+
+[dependencies.u_get_VTCR_EL2_Type_TG0]
+path = "../u_get_VTCR_EL2_Type_TG0"
+
+[dependencies.u_get_VTCR_EL2_Type_TL0]
+path = "../u_get_VTCR_EL2_Type_TL0"
+
+[dependencies.u_get_VTCR_EL2_Type_TL1]
+path = "../u_get_VTCR_EL2_Type_TL1"
+
+[dependencies.u_get_VTTBR_EL2_Type_SKL]
+path = "../u_get_VTTBR_EL2_Type_SKL"

@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "PMBIDR_EL1_SysRegRead_48dfa0662916d0ce"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_PMBIDR_EL1]
+path = "../u__get_PMBIDR_EL1"
+
+[dependencies.u_get_HDFGRTR_EL2_Type_PMBIDR_EL1]
+path = "../u_get_HDFGRTR_EL2_Type_PMBIDR_EL1"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"

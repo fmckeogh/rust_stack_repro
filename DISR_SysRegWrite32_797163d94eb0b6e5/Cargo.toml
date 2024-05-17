@@ -1,0 +1,67 @@
+[package]
+edition = "2021"
+name = "DISR_SysRegWrite32_797163d94eb0b6e5"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_TakeHypTrapException]
+path = "../AArch32_TakeHypTrapException"
+
+[dependencies.AArch64_AArch32SystemAccessTrap]
+path = "../AArch64_AArch32SystemAccessTrap"
+
+[dependencies.DISR_write]
+path = "../DISR_write"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.HSTR_read]
+path = "../HSTR_read"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.Mk_DISR_Type]
+path = "../Mk_DISR_Type"
+
+[dependencies.Mk_VDISR_EL2_Type]
+path = "../Mk_VDISR_EL2_Type"
+
+[dependencies.Mk_VDISR_Type]
+path = "../Mk_VDISR_Type"
+
+[dependencies.R_read]
+path = "../R_read"
+
+[dependencies.VDISR_write]
+path = "../VDISR_write"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_AMO]
+path = "../u_get_HCR_EL2_Type_AMO"
+
+[dependencies.u_get_HCR_Type_AMO]
+path = "../u_get_HCR_Type_AMO"
+
+[dependencies.u_get_HSTR_EL2_Type_T12]
+path = "../u_get_HSTR_EL2_Type_T12"
+
+[dependencies.u_get_HSTR_Type_T12]
+path = "../u_get_HSTR_Type_T12"
+
+[dependencies.u_get_SCR_EL3_Type_EA]
+path = "../u_get_SCR_EL3_Type_EA"
+
+[dependencies.u_get_SCR_Type_EA]
+path = "../u_get_SCR_Type_EA"

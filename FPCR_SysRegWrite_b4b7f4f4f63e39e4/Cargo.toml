@@ -1,0 +1,55 @@
+[package]
+edition = "2021"
+name = "FPCR_SysRegWrite_b4b7f4f4f63e39e4"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.Mk_FPCR_Type]
+path = "../Mk_FPCR_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__set_FPCR]
+path = "../u__set_FPCR"
+
+[dependencies.u_get_CPACR_EL1_Type_FPEN]
+path = "../u_get_CPACR_EL1_Type_FPEN"
+
+[dependencies.u_get_CPTR_EL2_Type_FPEN]
+path = "../u_get_CPTR_EL2_Type_FPEN"
+
+[dependencies.u_get_CPTR_EL2_Type_TFP]
+path = "../u_get_CPTR_EL2_Type_TFP"
+
+[dependencies.u_get_CPTR_EL3_Type_TFP]
+path = "../u_get_CPTR_EL3_Type_TFP"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"

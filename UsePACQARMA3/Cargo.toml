@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "UsePACQARMA3"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HavePACQARMA3Auth]
+path = "../HavePACQARMA3Auth"
+
+[dependencies.HavePACQARMA3Generic]
+path = "../HavePACQARMA3Generic"
+
+[dependencies.common]
+path = "../common"

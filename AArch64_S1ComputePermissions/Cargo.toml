@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "AArch64_S1ComputePermissions"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_S1DirectBasePermissions]
+path = "../AArch64_S1DirectBasePermissions"
+
+[dependencies.AArch64_S1E0POEnabled]
+path = "../AArch64_S1E0POEnabled"
+
+[dependencies.AArch64_S1IndirectBasePermissions]
+path = "../AArch64_S1IndirectBasePermissions"
+
+[dependencies.AArch64_S1OverlayPermissions]
+path = "../AArch64_S1OverlayPermissions"
+
+[dependencies.AArch64_S1POEnabled]
+path = "../AArch64_S1POEnabled"
+
+[dependencies.common]
+path = "../common"

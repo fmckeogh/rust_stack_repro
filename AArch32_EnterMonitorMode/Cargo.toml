@@ -1,0 +1,70 @@
+[package]
+edition = "2021"
+name = "AArch32_EnterMonitorMode"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_EnterMonitorModeInDebugState]
+path = "../AArch32_EnterMonitorModeInDebugState"
+
+[dependencies.AArch32_WriteMode]
+path = "../AArch32_WriteMode"
+
+[dependencies.BranchTo]
+path = "../BranchTo"
+
+[dependencies.CheckExceptionCatch]
+path = "../CheckExceptionCatch"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.EndOfInstruction]
+path = "../EndOfInstruction"
+
+[dependencies.GetPSRFromPSTATE]
+path = "../GetPSRFromPSTATE"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.HavePANExt]
+path = "../HavePANExt"
+
+[dependencies.HaveSSBSExt]
+path = "../HaveSSBSExt"
+
+[dependencies.R_set]
+path = "../R_set"
+
+[dependencies.SCTLR_read__2]
+path = "../SCTLR_read__2"
+
+[dependencies.SPSR_set]
+path = "../SPSR_set"
+
+[dependencies.SynchronizeContext]
+path = "../SynchronizeContext"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.u_get_SCTLR_Type_DSSBS]
+path = "../u_get_SCTLR_Type_DSSBS"
+
+[dependencies.u_get_SCTLR_Type_EE]
+path = "../u_get_SCTLR_Type_EE"
+
+[dependencies.u_get_SCTLR_Type_SPAN]
+path = "../u_get_SCTLR_Type_SPAN"
+
+[dependencies.u_get_SCTLR_Type_TE]
+path = "../u_get_SCTLR_Type_TE"

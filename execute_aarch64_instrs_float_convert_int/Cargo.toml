@@ -1,0 +1,58 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_float_convert_int"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckFPAdvSIMDEnabled64]
+path = "../CheckFPAdvSIMDEnabled64"
+
+[dependencies.CheckFPEnabled64]
+path = "../CheckFPEnabled64"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.FPCR_read]
+path = "../FPCR_read"
+
+[dependencies.FPToFixed]
+path = "../FPToFixed"
+
+[dependencies.FPToFixedJS]
+path = "../FPToFixedJS"
+
+[dependencies.FixedToFP]
+path = "../FixedToFP"
+
+[dependencies.IsMerging]
+path = "../IsMerging"
+
+[dependencies.V_read]
+path = "../V_read"
+
+[dependencies.V_set]
+path = "../V_set"
+
+[dependencies.Vpart_read]
+path = "../Vpart_read"
+
+[dependencies.Vpart_set]
+path = "../Vpart_set"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__id]
+path = "../u__id"

@@ -1,0 +1,46 @@
+[package]
+edition = "2021"
+name = "AArch64_AutoGen_SysRegWrite128"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_UnallocatedSysRegAccess]
+path = "../AArch64_UnallocatedSysRegAccess"
+
+[dependencies.PAR_EL1_SysRegWrite128_e67f3244d494abe6]
+path = "../PAR_EL1_SysRegWrite128_e67f3244d494abe6"
+
+[dependencies.RCWMASK_EL1_SysRegWrite128_b8a59eaf95f35a5f]
+path = "../RCWMASK_EL1_SysRegWrite128_b8a59eaf95f35a5f"
+
+[dependencies.RCWSMASK_EL1_SysRegWrite128_d70b97b0479af313]
+path = "../RCWSMASK_EL1_SysRegWrite128_d70b97b0479af313"
+
+[dependencies.S3_op1_Cn_Cm_op2_SysRegWrite128_54572e14feed5fe8]
+path = "../S3_op1_Cn_Cm_op2_SysRegWrite128_54572e14feed5fe8"
+
+[dependencies.TTBR0_EL1_SysRegWrite128_66ee61de597f133e]
+path = "../TTBR0_EL1_SysRegWrite128_66ee61de597f133e"
+
+[dependencies.TTBR0_EL1_SysRegWrite128_8ea27f288a4b152e]
+path = "../TTBR0_EL1_SysRegWrite128_8ea27f288a4b152e"
+
+[dependencies.TTBR0_EL2_SysRegWrite128_db720477dd35bd78]
+path = "../TTBR0_EL2_SysRegWrite128_db720477dd35bd78"
+
+[dependencies.TTBR1_EL1_SysRegWrite128_d20c29029eb4ed94]
+path = "../TTBR1_EL1_SysRegWrite128_d20c29029eb4ed94"
+
+[dependencies.TTBR1_EL2_SysRegWrite128_4bfd1913f2c26b7d]
+path = "../TTBR1_EL2_SysRegWrite128_4bfd1913f2c26b7d"
+
+[dependencies.TTBR1_EL2_SysRegWrite128_c87556637100112b]
+path = "../TTBR1_EL2_SysRegWrite128_c87556637100112b"
+
+[dependencies.VTTBR_EL2_SysRegWrite128_3ec09d9d33270957]
+path = "../VTTBR_EL2_SysRegWrite128_3ec09d9d33270957"
+
+[dependencies.common]
+path = "../common"

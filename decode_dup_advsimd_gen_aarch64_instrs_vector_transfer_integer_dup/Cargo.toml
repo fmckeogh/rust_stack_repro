@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "decode_dup_advsimd_gen_aarch64_instrs_vector_transfer_integer_dup"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.LowestSetBit]
+path = "../LowestSetBit"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_vector_transfer_integer_dup]
+path = "../execute_aarch64_instrs_vector_transfer_integer_dup"
+
+[dependencies.fdiv_int]
+path = "../fdiv_int"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.u_shl_int_general]
+path = "../u_shl_int_general"

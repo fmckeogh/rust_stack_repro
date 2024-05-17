@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "AArch32_OutputDomain"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ConstrainUnpredictableBits]
+path = "../ConstrainUnpredictableBits"
+
+[dependencies.DACR_NS_read]
+path = "../DACR_NS_read"
+
+[dependencies.DACR_read]
+path = "../DACR_read"
+
+[dependencies.HaveAArch32EL]
+path = "../HaveAArch32EL"
+
+[dependencies.common]
+path = "../common"

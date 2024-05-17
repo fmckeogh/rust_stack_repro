@@ -1,0 +1,61 @@
+[package]
+edition = "2021"
+name = "AArch64_WatchpointMatch"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_StateMatch]
+path = "../AArch64_StateMatch"
+
+[dependencies.AArch64_WatchpointByteMatch]
+path = "../AArch64_WatchpointByteMatch"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HaveRME]
+path = "../HaveRME"
+
+[dependencies.Havev8p9Debug]
+path = "../Havev8p9Debug"
+
+[dependencies.IsWatchpointEnabled]
+path = "../IsWatchpointEnabled"
+
+[dependencies.NumWatchpointsImplemented]
+path = "../NumWatchpointsImplemented"
+
+[dependencies.PC_read]
+path = "../PC_read"
+
+[dependencies.S1TranslationRegime__1]
+path = "../S1TranslationRegime__1"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_DBGWCR_EL1_Type_HMC]
+path = "../u_get_DBGWCR_EL1_Type_HMC"
+
+[dependencies.u_get_DBGWCR_EL1_Type_LBN]
+path = "../u_get_DBGWCR_EL1_Type_LBN"
+
+[dependencies.u_get_DBGWCR_EL1_Type_LBNX]
+path = "../u_get_DBGWCR_EL1_Type_LBNX"
+
+[dependencies.u_get_DBGWCR_EL1_Type_LSC]
+path = "../u_get_DBGWCR_EL1_Type_LSC"
+
+[dependencies.u_get_DBGWCR_EL1_Type_PAC]
+path = "../u_get_DBGWCR_EL1_Type_PAC"
+
+[dependencies.u_get_DBGWCR_EL1_Type_SSC]
+path = "../u_get_DBGWCR_EL1_Type_SSC"
+
+[dependencies.u_get_DBGWCR_EL1_Type_SSCE]
+path = "../u_get_DBGWCR_EL1_Type_SSCE"
+
+[dependencies.u_get_DBGWCR_EL1_Type_WT]
+path = "../u_get_DBGWCR_EL1_Type_WT"

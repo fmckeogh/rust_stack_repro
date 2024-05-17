@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "ZAtile_set"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Elem_read]
+path = "../Elem_read"
+
+[dependencies.ZAhslice_set]
+path = "../ZAhslice_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.fdiv_int]
+path = "../fdiv_int"
+
+[dependencies.u__id]
+path = "../u__id"

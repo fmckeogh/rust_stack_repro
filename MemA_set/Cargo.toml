@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "MemA_set"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CreateAccDescExLDST]
+path = "../CreateAccDescExLDST"
+
+[dependencies.Mem_with_type_set]
+path = "../Mem_with_type_set"
+
+[dependencies.common]
+path = "../common"

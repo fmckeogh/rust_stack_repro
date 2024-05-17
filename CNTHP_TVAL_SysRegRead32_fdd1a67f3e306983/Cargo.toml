@@ -1,0 +1,103 @@
+[package]
+edition = "2021"
+name = "CNTHP_TVAL_SysRegRead32_fdd1a67f3e306983"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_TakeHypTrapException]
+path = "../AArch32_TakeHypTrapException"
+
+[dependencies.AArch64_AArch32SystemAccessTrap]
+path = "../AArch64_AArch32SystemAccessTrap"
+
+[dependencies.CNTHCTL_read]
+path = "../CNTHCTL_read"
+
+[dependencies.CNTKCTL_read__1]
+path = "../CNTKCTL_read__1"
+
+[dependencies.CNTP_CTL_NS_read]
+path = "../CNTP_CTL_NS_read"
+
+[dependencies.CNTP_CTL_read]
+path = "../CNTP_CTL_read"
+
+[dependencies.CNTP_CVAL_NS_read]
+path = "../CNTP_CVAL_NS_read"
+
+[dependencies.CNTP_CVAL_read]
+path = "../CNTP_CVAL_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.PhysicalCountInt]
+path = "../PhysicalCountInt"
+
+[dependencies.R_set]
+path = "../R_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"
+
+[dependencies.u_get_CNTHCTL_EL2_Type_ECV]
+path = "../u_get_CNTHCTL_EL2_Type_ECV"
+
+[dependencies.u_get_CNTHCTL_EL2_Type_EL0PTEN]
+path = "../u_get_CNTHCTL_EL2_Type_EL0PTEN"
+
+[dependencies.u_get_CNTHCTL_EL2_Type_EL1PCEN]
+path = "../u_get_CNTHCTL_EL2_Type_EL1PCEN"
+
+[dependencies.u_get_CNTHCTL_EL2_Type_EL1PTEN]
+path = "../u_get_CNTHCTL_EL2_Type_EL1PTEN"
+
+[dependencies.u_get_CNTHCTL_Type_PL1PCEN]
+path = "../u_get_CNTHCTL_Type_PL1PCEN"
+
+[dependencies.u_get_CNTHPS_CTL_EL2_Type_ENABLE]
+path = "../u_get_CNTHPS_CTL_EL2_Type_ENABLE"
+
+[dependencies.u_get_CNTHP_CTL_EL2_Type_ENABLE]
+path = "../u_get_CNTHP_CTL_EL2_Type_ENABLE"
+
+[dependencies.u_get_CNTKCTL_EL1_Type_EL0PTEN]
+path = "../u_get_CNTKCTL_EL1_Type_EL0PTEN"
+
+[dependencies.u_get_CNTKCTL_Type_PL0PTEN]
+path = "../u_get_CNTKCTL_Type_PL0PTEN"
+
+[dependencies.u_get_CNTP_CTL_Type_ENABLE]
+path = "../u_get_CNTP_CTL_Type_ENABLE"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HCR_Type_TGE]
+path = "../u_get_HCR_Type_TGE"
+
+[dependencies.u_get_SCR_EL3_Type_ECVEn]
+path = "../u_get_SCR_EL3_Type_ECVEn"
+
+[dependencies.u_get_SCR_EL3_Type_NS]
+path = "../u_get_SCR_EL3_Type_NS"
+
+[dependencies.u_get_SCR_Type_NS]
+path = "../u_get_SCR_Type_NS"

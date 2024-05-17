@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "AArch64_VAIsOutOfRange"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_AddrTop]
+path = "../AArch64_AddrTop"
+
+[dependencies.AArch64_GetVARange]
+path = "../AArch64_GetVARange"
+
+[dependencies.AArch64_IASize]
+path = "../AArch64_IASize"
+
+[dependencies.HasUnprivileged]
+path = "../HasUnprivileged"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.is_ones_subrange]
+path = "../is_ones_subrange"
+
+[dependencies.is_zero_subrange]
+path = "../is_zero_subrange"

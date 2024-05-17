@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "u__get_CNTP_CTL"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Mk_CNTP_CTL_Type]
+path = "../Mk_CNTP_CTL_Type"
+
+[dependencies.common]
+path = "../common"

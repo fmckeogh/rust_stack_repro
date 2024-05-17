@@ -1,0 +1,46 @@
+[package]
+edition = "2021"
+name = "execute_FMOPA_ZA32_PP_ZZ_16"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ActivePredicateElement]
+path = "../ActivePredicateElement"
+
+[dependencies.CheckStreamingSVEAndZAEnabled]
+path = "../CheckStreamingSVEAndZAEnabled"
+
+[dependencies.Elem_read]
+path = "../Elem_read"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.FPCR_read]
+path = "../FPCR_read"
+
+[dependencies.FPDotAdd_ZA]
+path = "../FPDotAdd_ZA"
+
+[dependencies.FPNeg]
+path = "../FPNeg"
+
+[dependencies.FPZero]
+path = "../FPZero"
+
+[dependencies.P_read]
+path = "../P_read"
+
+[dependencies.ZAtile_read]
+path = "../ZAtile_read"
+
+[dependencies.ZAtile_set]
+path = "../ZAtile_set"
+
+[dependencies.Z_read]
+path = "../Z_read"
+
+[dependencies.common]
+path = "../common"

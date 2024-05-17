@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "AArch64_AccessIsTagChecked"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_AllocationTagAccessIsEnabled]
+path = "../AArch64_AllocationTagAccessIsEnabled"
+
+[dependencies.EffectiveMTX]
+path = "../EffectiveMTX"
+
+[dependencies.EffectiveTBI]
+path = "../EffectiveTBI"
+
+[dependencies.EffectiveTCMA]
+path = "../EffectiveTCMA"
+
+[dependencies.HaveMTEStoreOnlyExt]
+path = "../HaveMTEStoreOnlyExt"
+
+[dependencies.StoreOnlyTagCheckingEnabled]
+path = "../StoreOnlyTagCheckingEnabled"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"

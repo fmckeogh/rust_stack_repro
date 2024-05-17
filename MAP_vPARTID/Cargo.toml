@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "MAP_vPARTID"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.fmod_int]
+path = "../fmod_int"
+
+[dependencies.mapvpmw]
+path = "../mapvpmw"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.u_get_MPAMIDR_EL1_Type_PARTID_MAX]
+path = "../u_get_MPAMIDR_EL1_Type_PARTID_MAX"
+
+[dependencies.u_get_MPAMIDR_EL1_Type_VPMR_MAX]
+path = "../u_get_MPAMIDR_EL1_Type_VPMR_MAX"

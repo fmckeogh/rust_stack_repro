@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "ELFromSPSR"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELFromM32]
+path = "../ELFromM32"
+
+[dependencies.EffectiveSCR_EL3_NS]
+path = "../EffectiveSCR_EL3_NS"
+
+[dependencies.EffectiveSCR_EL3_NSE]
+path = "../EffectiveSCR_EL3_NSE"
+
+[dependencies.HaveAArch32]
+path = "../HaveAArch32"
+
+[dependencies.HaveAArch64]
+path = "../HaveAArch64"
+
+[dependencies.HaveRME]
+path = "../HaveRME"
+
+[dependencies.IsSecureEL2Enabled]
+path = "../IsSecureEL2Enabled"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"
+
+[dependencies.u_get_SCR_EL3_Type_NS]
+path = "../u_get_SCR_EL3_Type_NS"

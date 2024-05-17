@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "AArch32_CheckForSVCTrap"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_TakeException]
+path = "../AArch64_TakeException"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.ExceptionSyndrome]
+path = "../ExceptionSyndrome"
+
+[dependencies.HaveFGTExt]
+path = "../HaveFGTExt"
+
+[dependencies.ThisInstrAddr]
+path = "../ThisInstrAddr"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HFGITR_EL2_Type_SVC_EL0]
+path = "../u_get_HFGITR_EL2_Type_SVC_EL0"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"

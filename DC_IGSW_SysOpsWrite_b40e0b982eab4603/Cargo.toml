@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "DC_IGSW_SysOpsWrite_b40e0b982eab4603"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_TSW]
+path = "../u_get_HCR_EL2_Type_TSW"
+
+[dependencies.u_get_HFGITR_EL2_Type_DCISW]
+path = "../u_get_HFGITR_EL2_Type_DCISW"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"

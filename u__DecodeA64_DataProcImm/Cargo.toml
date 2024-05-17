@@ -1,0 +1,79 @@
+[package]
+edition = "2021"
+name = "u__DecodeA64_DataProcImm"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.decode_add_addsub_imm_aarch64_instrs_integer_arithmetic_add_sub_immediate]
+path = "../decode_add_addsub_imm_aarch64_instrs_integer_arithmetic_add_sub_immediate"
+
+[dependencies.decode_addg_aarch64_instrs_integer_tags_mcaddtag]
+path = "../decode_addg_aarch64_instrs_integer_tags_mcaddtag"
+
+[dependencies.decode_adds_addsub_imm_aarch64_instrs_integer_arithmetic_add_sub_immediate]
+path = "../decode_adds_addsub_imm_aarch64_instrs_integer_arithmetic_add_sub_immediate"
+
+[dependencies.decode_adr_aarch64_instrs_integer_arithmetic_address_pc_rel]
+path = "../decode_adr_aarch64_instrs_integer_arithmetic_address_pc_rel"
+
+[dependencies.decode_adrp_aarch64_instrs_integer_arithmetic_address_pc_rel]
+path = "../decode_adrp_aarch64_instrs_integer_arithmetic_address_pc_rel"
+
+[dependencies.decode_and_log_imm_aarch64_instrs_integer_logical_immediate]
+path = "../decode_and_log_imm_aarch64_instrs_integer_logical_immediate"
+
+[dependencies.decode_ands_log_imm_aarch64_instrs_integer_logical_immediate]
+path = "../decode_ands_log_imm_aarch64_instrs_integer_logical_immediate"
+
+[dependencies.decode_bfm_aarch64_instrs_integer_bitfield]
+path = "../decode_bfm_aarch64_instrs_integer_bitfield"
+
+[dependencies.decode_eor_log_imm_aarch64_instrs_integer_logical_immediate]
+path = "../decode_eor_log_imm_aarch64_instrs_integer_logical_immediate"
+
+[dependencies.decode_extr_aarch64_instrs_integer_ins_ext_extract_immediate]
+path = "../decode_extr_aarch64_instrs_integer_ins_ext_extract_immediate"
+
+[dependencies.decode_movk_aarch64_instrs_integer_ins_ext_insert_movewide]
+path = "../decode_movk_aarch64_instrs_integer_ins_ext_insert_movewide"
+
+[dependencies.decode_movn_aarch64_instrs_integer_ins_ext_insert_movewide]
+path = "../decode_movn_aarch64_instrs_integer_ins_ext_insert_movewide"
+
+[dependencies.decode_movz_aarch64_instrs_integer_ins_ext_insert_movewide]
+path = "../decode_movz_aarch64_instrs_integer_ins_ext_insert_movewide"
+
+[dependencies.decode_orr_log_imm_aarch64_instrs_integer_logical_immediate]
+path = "../decode_orr_log_imm_aarch64_instrs_integer_logical_immediate"
+
+[dependencies.decode_sbfm_aarch64_instrs_integer_bitfield]
+path = "../decode_sbfm_aarch64_instrs_integer_bitfield"
+
+[dependencies.decode_smax_imm_aarch64_instrs_integer_arithmetic_max_min_smax_imm]
+path = "../decode_smax_imm_aarch64_instrs_integer_arithmetic_max_min_smax_imm"
+
+[dependencies.decode_smin_imm_aarch64_instrs_integer_arithmetic_max_min_smin_imm]
+path = "../decode_smin_imm_aarch64_instrs_integer_arithmetic_max_min_smin_imm"
+
+[dependencies.decode_sub_addsub_imm_aarch64_instrs_integer_arithmetic_add_sub_immediate]
+path = "../decode_sub_addsub_imm_aarch64_instrs_integer_arithmetic_add_sub_immediate"
+
+[dependencies.decode_subg_aarch64_instrs_integer_tags_mcsubtag]
+path = "../decode_subg_aarch64_instrs_integer_tags_mcsubtag"
+
+[dependencies.decode_subs_addsub_imm_aarch64_instrs_integer_arithmetic_add_sub_immediate]
+path = "../decode_subs_addsub_imm_aarch64_instrs_integer_arithmetic_add_sub_immediate"
+
+[dependencies.decode_ubfm_aarch64_instrs_integer_bitfield]
+path = "../decode_ubfm_aarch64_instrs_integer_bitfield"
+
+[dependencies.decode_umax_imm_aarch64_instrs_integer_arithmetic_max_min_umax_imm]
+path = "../decode_umax_imm_aarch64_instrs_integer_arithmetic_max_min_umax_imm"
+
+[dependencies.decode_umin_imm_aarch64_instrs_integer_arithmetic_max_min_umin_imm]
+path = "../decode_umin_imm_aarch64_instrs_integer_arithmetic_max_min_umin_imm"

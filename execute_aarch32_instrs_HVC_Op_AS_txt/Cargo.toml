@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_HVC_Op_AS_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_CallHypervisor]
+path = "../AArch32_CallHypervisor"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.SCR_GEN_read]
+path = "../SCR_GEN_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_HCD]
+path = "../u_get_HCR_EL2_Type_HCD"
+
+[dependencies.u_get_HCR_Type_HCD]
+path = "../u_get_HCR_Type_HCD"
+
+[dependencies.u_get_SCRType_HCE]
+path = "../u_get_SCRType_HCE"
+
+[dependencies.u_get_SCR_Type_HCE]
+path = "../u_get_SCR_Type_HCE"

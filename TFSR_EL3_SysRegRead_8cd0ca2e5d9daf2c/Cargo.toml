@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "TFSR_EL3_SysRegRead_8cd0ca2e5d9daf2c"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_TFSR_EL3]
+path = "../u__get_TFSR_EL3"

@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "AArch64_ChkFeat"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.GCSEnabled]
+path = "../GCSEnabled"
+
+[dependencies.HaveGCS]
+path = "../HaveGCS"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"

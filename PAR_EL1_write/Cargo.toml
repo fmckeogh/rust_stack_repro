@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "PAR_EL1_write"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Mk_PAR_Type]
+path = "../Mk_PAR_Type"
+
+[dependencies.PAR_read]
+path = "../PAR_read"
+
+[dependencies.PAR_write]
+path = "../PAR_write"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,61 @@
+[package]
+edition = "2021"
+name = "AMAIR2_EL2_SysRegWrite_d6e02923e8c9c534"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.NVMem_set]
+path = "../NVMem_set"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_NV]
+path = "../u_get_HCR_EL2_Type_NV"
+
+[dependencies.u_get_HCR_EL2_Type_NV1]
+path = "../u_get_HCR_EL2_Type_NV1"
+
+[dependencies.u_get_HCR_EL2_Type_NV2]
+path = "../u_get_HCR_EL2_Type_NV2"
+
+[dependencies.u_get_HCR_EL2_Type_TVM]
+path = "../u_get_HCR_EL2_Type_TVM"
+
+[dependencies.u_get_HFGWTR_EL2_Type_nAMAIR2_EL1]
+path = "../u_get_HFGWTR_EL2_Type_nAMAIR2_EL1"
+
+[dependencies.u_get_SCR_EL3_Type_AIEn]
+path = "../u_get_SCR_EL3_Type_AIEn"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"

@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "execute_SQCVTUN_Z_MZ4__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckStreamingSVEEnabled]
+path = "../CheckStreamingSVEEnabled"
+
+[dependencies.Elem_read]
+path = "../Elem_read"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.UnsignedSat]
+path = "../UnsignedSat"
+
+[dependencies.Z_read]
+path = "../Z_read"
+
+[dependencies.Z_set]
+path = "../Z_set"
+
+[dependencies.common]
+path = "../common"

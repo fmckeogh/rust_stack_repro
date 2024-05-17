@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "ALUExceptionReturn"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_ExceptionReturn]
+path = "../AArch32_ExceptionReturn"
+
+[dependencies.ConstrainUnpredictable]
+path = "../ConstrainUnpredictable"
+
+[dependencies.EndOfInstruction]
+path = "../EndOfInstruction"
+
+[dependencies.SPSR_read]
+path = "../SPSR_read"
+
+[dependencies.common]
+path = "../common"

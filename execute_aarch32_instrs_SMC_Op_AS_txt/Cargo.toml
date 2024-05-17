@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_SMC_Op_AS_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_CheckForSMCUndefOrTrap]
+path = "../AArch32_CheckForSMCUndefOrTrap"
+
+[dependencies.AArch32_TakeSMCException]
+path = "../AArch32_TakeSMCException"
+
+[dependencies.AArch64_CallSecureMonitor]
+path = "../AArch64_CallSecureMonitor"
+
+[dependencies.ConstrainUnpredictable]
+path = "../ConstrainUnpredictable"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.EndOfInstruction]
+path = "../EndOfInstruction"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_SCR_EL3_Type_SMD]
+path = "../u_get_SCR_EL3_Type_SMD"
+
+[dependencies.u_get_SCR_Type_SCD]
+path = "../u_get_SCR_Type_SCD"

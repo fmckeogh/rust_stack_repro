@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_ESB_Op_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_ESBOperation]
+path = "../AArch32_ESBOperation"
+
+[dependencies.AArch32_vESBOperation]
+path = "../AArch32_vESBOperation"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.SynchronizeErrors]
+path = "../SynchronizeErrors"
+
+[dependencies.TakeUnmaskedSErrorInterrupts]
+path = "../TakeUnmaskedSErrorInterrupts"
+
+[dependencies.common]
+path = "../common"

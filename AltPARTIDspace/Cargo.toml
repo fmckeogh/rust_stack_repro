@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "AltPARTIDspace"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AltPIdRealm]
+path = "../AltPIdRealm"
+
+[dependencies.AltPIdSecure]
+path = "../AltPIdSecure"
+
+[dependencies.MPAM3_EL3_read]
+path = "../MPAM3_EL3_read"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_MPAM3_EL3_Type_ALTSP_EL3]
+path = "../u_get_MPAM3_EL3_Type_ALTSP_EL3"
+
+[dependencies.u_get_MPAM3_EL3_Type_RT_ALTSP_NS]
+path = "../u_get_MPAM3_EL3_Type_RT_ALTSP_NS"

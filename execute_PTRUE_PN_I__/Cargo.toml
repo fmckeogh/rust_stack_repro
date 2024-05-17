@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "execute_PTRUE_PN_I__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckSVEEnabled]
+path = "../CheckSVEEnabled"
+
+[dependencies.CheckStreamingSVEEnabled]
+path = "../CheckStreamingSVEEnabled"
+
+[dependencies.EncodePredCount]
+path = "../EncodePredCount"
+
+[dependencies.HaveSVE2p1]
+path = "../HaveSVE2p1"
+
+[dependencies.P_set]
+path = "../P_set"
+
+[dependencies.common]
+path = "../common"

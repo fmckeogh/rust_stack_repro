@@ -1,0 +1,73 @@
+[package]
+edition = "2021"
+name = "AArch64_MemSingle_read__1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_Abort]
+path = "../AArch64_Abort"
+
+[dependencies.AArch64_AccessIsTagChecked]
+path = "../AArch64_AccessIsTagChecked"
+
+[dependencies.AArch64_CheckTag]
+path = "../AArch64_CheckTag"
+
+[dependencies.AArch64_PhysicalTag]
+path = "../AArch64_PhysicalTag"
+
+[dependencies.AArch64_TagCheckFault]
+path = "../AArch64_TagCheckFault"
+
+[dependencies.AArch64_TranslateAddress]
+path = "../AArch64_TranslateAddress"
+
+[dependencies.AlignmentFault]
+path = "../AlignmentFault"
+
+[dependencies.AllInAlignedQuantity]
+path = "../AllInAlignedQuantity"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.FailTransaction]
+path = "../FailTransaction"
+
+[dependencies.HandleExternalReadAbort]
+path = "../HandleExternalReadAbort"
+
+[dependencies.HaveLSE2Ext]
+path = "../HaveLSE2Ext"
+
+[dependencies.HaveMTE2Ext]
+path = "../HaveMTE2Ext"
+
+[dependencies.HaveTME]
+path = "../HaveTME"
+
+[dependencies.IsAligned__1]
+path = "../IsAligned__1"
+
+[dependencies.IsFault]
+path = "../IsFault"
+
+[dependencies.IsFault__2]
+path = "../IsFault__2"
+
+[dependencies.MemHasTransactionalAccess]
+path = "../MemHasTransactionalAccess"
+
+[dependencies.PhysMemRead]
+path = "../PhysMemRead"
+
+[dependencies.SPESampleLoadStore]
+path = "../SPESampleLoadStore"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"

@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_float_arithmetic_round_frint_32_64"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckFPEnabled64]
+path = "../CheckFPEnabled64"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.FPCR_read]
+path = "../FPCR_read"
+
+[dependencies.FPRoundIntN]
+path = "../FPRoundIntN"
+
+[dependencies.IsMerging]
+path = "../IsMerging"
+
+[dependencies.V_read]
+path = "../V_read"
+
+[dependencies.V_set]
+path = "../V_set"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_memory_literal_simdfp"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckFPEnabled64]
+path = "../CheckFPEnabled64"
+
+[dependencies.CreateAccDescASIMD]
+path = "../CreateAccDescASIMD"
+
+[dependencies.Mem_read]
+path = "../Mem_read"
+
+[dependencies.SPESampleSIMDFPLoadStore]
+path = "../SPESampleSIMDFPLoadStore"
+
+[dependencies.V_set]
+path = "../V_set"
+
+[dependencies.common]
+path = "../common"

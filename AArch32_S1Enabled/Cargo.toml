@@ -1,0 +1,49 @@
+[package]
+edition = "2021"
+name = "AArch32_S1Enabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_EL2Enabled]
+path = "../AArch32_EL2Enabled"
+
+[dependencies.ELStateUsingAArch32]
+path = "../ELStateUsingAArch32"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.HSCTLR_read]
+path = "../HSCTLR_read"
+
+[dependencies.HaveAArch32EL]
+path = "../HaveAArch32EL"
+
+[dependencies.SCTLR_NS_read]
+path = "../SCTLR_NS_read"
+
+[dependencies.SCTLR_read__2]
+path = "../SCTLR_read__2"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_DC]
+path = "../u_get_HCR_EL2_Type_DC"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HCR_Type_DC]
+path = "../u_get_HCR_Type_DC"
+
+[dependencies.u_get_HCR_Type_TGE]
+path = "../u_get_HCR_Type_TGE"
+
+[dependencies.u_get_HSCTLR_Type_M]
+path = "../u_get_HSCTLR_Type_M"
+
+[dependencies.u_get_SCTLR_Type_M]
+path = "../u_get_SCTLR_Type_M"

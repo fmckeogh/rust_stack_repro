@@ -1,0 +1,85 @@
+[package]
+edition = "2021"
+name = "TTBR0_EL1_SysRegWrite128_66ee61de597f133e"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.IsHCRXEL2Enabled]
+path = "../IsHCRXEL2Enabled"
+
+[dependencies.Mk_TTBR0_EL1_Type]
+path = "../Mk_TTBR0_EL1_Type"
+
+[dependencies.Mk_TTBR0_EL2_Type]
+path = "../Mk_TTBR0_EL2_Type"
+
+[dependencies.NVMem_set__1]
+path = "../NVMem_set__1"
+
+[dependencies.TTBR0_EL1_read]
+path = "../TTBR0_EL1_read"
+
+[dependencies.TTBR0_EL1_write]
+path = "../TTBR0_EL1_write"
+
+[dependencies.TTBR0_EL2_read]
+path = "../TTBR0_EL2_read"
+
+[dependencies.TTBR0_EL2_write]
+path = "../TTBR0_EL2_write"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_HCRX_EL2_Type_D128En]
+path = "../u_get_HCRX_EL2_Type_D128En"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_NV]
+path = "../u_get_HCR_EL2_Type_NV"
+
+[dependencies.u_get_HCR_EL2_Type_NV1]
+path = "../u_get_HCR_EL2_Type_NV1"
+
+[dependencies.u_get_HCR_EL2_Type_NV2]
+path = "../u_get_HCR_EL2_Type_NV2"
+
+[dependencies.u_get_HCR_EL2_Type_TVM]
+path = "../u_get_HCR_EL2_Type_TVM"
+
+[dependencies.u_get_HFGWTR_EL2_Type_TTBR0_EL1]
+path = "../u_get_HFGWTR_EL2_Type_TTBR0_EL1"
+
+[dependencies.u_get_SCR_EL3_Type_D128En]
+path = "../u_get_SCR_EL3_Type_D128En"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"

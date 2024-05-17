@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "MAIR0_read"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.MAIR0_NS_read]
+path = "../MAIR0_NS_read"
+
+[dependencies.MAIR0_S_read]
+path = "../MAIR0_S_read"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "AArch32_TakeUndefInstrException"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_TakeUndefInstrException__1]
+path = "../AArch32_TakeUndefInstrException__1"
+
+[dependencies.ExceptionSyndrome]
+path = "../ExceptionSyndrome"
+
+[dependencies.common]
+path = "../common"

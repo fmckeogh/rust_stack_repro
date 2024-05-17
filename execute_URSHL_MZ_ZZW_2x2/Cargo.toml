@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "execute_URSHL_MZ_ZZW_2x2"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckStreamingSVEEnabled]
+path = "../CheckStreamingSVEEnabled"
+
+[dependencies.Elem_read]
+path = "../Elem_read"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.ShiftSat]
+path = "../ShiftSat"
+
+[dependencies.Z_read]
+path = "../Z_read"
+
+[dependencies.Z_set]
+path = "../Z_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.u_shl_int_general]
+path = "../u_shl_int_general"
+
+[dependencies.u_shr_int_general]
+path = "../u_shr_int_general"

@@ -1,0 +1,892 @@
+[package]
+edition = "2021"
+name = "AArch32_IMPDEFResets"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CCSIDR_read]
+path = "../CCSIDR_read"
+
+[dependencies.CCSIDR_write]
+path = "../CCSIDR_write"
+
+[dependencies.CLIDR_read]
+path = "../CLIDR_read"
+
+[dependencies.CLIDR_write]
+path = "../CLIDR_write"
+
+[dependencies.CTR_read]
+path = "../CTR_read"
+
+[dependencies.CTR_write]
+path = "../CTR_write"
+
+[dependencies.DBGOSLSR_read]
+path = "../DBGOSLSR_read"
+
+[dependencies.DBGOSLSR_write]
+path = "../DBGOSLSR_write"
+
+[dependencies.FPEXC_read]
+path = "../FPEXC_read"
+
+[dependencies.FPEXC_write]
+path = "../FPEXC_write"
+
+[dependencies.HCPTR_read]
+path = "../HCPTR_read"
+
+[dependencies.HCPTR_write]
+path = "../HCPTR_write"
+
+[dependencies.HDCR_read]
+path = "../HDCR_read"
+
+[dependencies.HDCR_write]
+path = "../HDCR_write"
+
+[dependencies.HSCTLR_read]
+path = "../HSCTLR_read"
+
+[dependencies.HSCTLR_write]
+path = "../HSCTLR_write"
+
+[dependencies.HTCR_read]
+path = "../HTCR_read"
+
+[dependencies.HTCR_write]
+path = "../HTCR_write"
+
+[dependencies.HasArchVersion]
+path = "../HasArchVersion"
+
+[dependencies.ICC_HSRE_read]
+path = "../ICC_HSRE_read"
+
+[dependencies.ICC_HSRE_write]
+path = "../ICC_HSRE_write"
+
+[dependencies.ID_DFR0_read]
+path = "../ID_DFR0_read"
+
+[dependencies.ID_DFR0_write]
+path = "../ID_DFR0_write"
+
+[dependencies.ID_DFR1_read]
+path = "../ID_DFR1_read"
+
+[dependencies.ID_DFR1_write]
+path = "../ID_DFR1_write"
+
+[dependencies.ID_ISAR0_read]
+path = "../ID_ISAR0_read"
+
+[dependencies.ID_ISAR0_write]
+path = "../ID_ISAR0_write"
+
+[dependencies.ID_ISAR1_read]
+path = "../ID_ISAR1_read"
+
+[dependencies.ID_ISAR1_write]
+path = "../ID_ISAR1_write"
+
+[dependencies.ID_ISAR2_read]
+path = "../ID_ISAR2_read"
+
+[dependencies.ID_ISAR2_write]
+path = "../ID_ISAR2_write"
+
+[dependencies.ID_ISAR3_read]
+path = "../ID_ISAR3_read"
+
+[dependencies.ID_ISAR3_write]
+path = "../ID_ISAR3_write"
+
+[dependencies.ID_ISAR4_read]
+path = "../ID_ISAR4_read"
+
+[dependencies.ID_ISAR4_write]
+path = "../ID_ISAR4_write"
+
+[dependencies.ID_ISAR5_read]
+path = "../ID_ISAR5_read"
+
+[dependencies.ID_ISAR5_write]
+path = "../ID_ISAR5_write"
+
+[dependencies.ID_ISAR6_read]
+path = "../ID_ISAR6_read"
+
+[dependencies.ID_ISAR6_write]
+path = "../ID_ISAR6_write"
+
+[dependencies.ID_MMFR0_read]
+path = "../ID_MMFR0_read"
+
+[dependencies.ID_MMFR0_write]
+path = "../ID_MMFR0_write"
+
+[dependencies.ID_MMFR1_read]
+path = "../ID_MMFR1_read"
+
+[dependencies.ID_MMFR1_write]
+path = "../ID_MMFR1_write"
+
+[dependencies.ID_MMFR2_read]
+path = "../ID_MMFR2_read"
+
+[dependencies.ID_MMFR2_write]
+path = "../ID_MMFR2_write"
+
+[dependencies.ID_MMFR3_read]
+path = "../ID_MMFR3_read"
+
+[dependencies.ID_MMFR3_write]
+path = "../ID_MMFR3_write"
+
+[dependencies.ID_MMFR4_read]
+path = "../ID_MMFR4_read"
+
+[dependencies.ID_MMFR4_write]
+path = "../ID_MMFR4_write"
+
+[dependencies.ID_MMFR5_read]
+path = "../ID_MMFR5_read"
+
+[dependencies.ID_MMFR5_write]
+path = "../ID_MMFR5_write"
+
+[dependencies.ID_PFR0_read]
+path = "../ID_PFR0_read"
+
+[dependencies.ID_PFR0_write]
+path = "../ID_PFR0_write"
+
+[dependencies.ID_PFR1_read]
+path = "../ID_PFR1_read"
+
+[dependencies.ID_PFR1_write]
+path = "../ID_PFR1_write"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.IsZero]
+path = "../IsZero"
+
+[dependencies.MIDR_read]
+path = "../MIDR_read"
+
+[dependencies.MIDR_write]
+path = "../MIDR_write"
+
+[dependencies.MPIDR_read]
+path = "../MPIDR_read"
+
+[dependencies.MPIDR_write]
+path = "../MPIDR_write"
+
+[dependencies.MVFR0_read]
+path = "../MVFR0_read"
+
+[dependencies.MVFR0_write]
+path = "../MVFR0_write"
+
+[dependencies.MVFR1_read]
+path = "../MVFR1_read"
+
+[dependencies.MVFR1_write]
+path = "../MVFR1_write"
+
+[dependencies.MVFR2_read]
+path = "../MVFR2_read"
+
+[dependencies.MVFR2_write]
+path = "../MVFR2_write"
+
+[dependencies.Mk_CLIDR_Type]
+path = "../Mk_CLIDR_Type"
+
+[dependencies.Mk_ID_ISAR6_Type]
+path = "../Mk_ID_ISAR6_Type"
+
+[dependencies.Mk_NMRR_Type]
+path = "../Mk_NMRR_Type"
+
+[dependencies.Mk_PMCEID0_Type]
+path = "../Mk_PMCEID0_Type"
+
+[dependencies.Mk_PMCEID1_Type]
+path = "../Mk_PMCEID1_Type"
+
+[dependencies.Mk_PMCEID2_Type]
+path = "../Mk_PMCEID2_Type"
+
+[dependencies.Mk_PMCEID3_Type]
+path = "../Mk_PMCEID3_Type"
+
+[dependencies.Mk_PRRR_Type]
+path = "../Mk_PRRR_Type"
+
+[dependencies.NMRR_read]
+path = "../NMRR_read"
+
+[dependencies.NMRR_write]
+path = "../NMRR_write"
+
+[dependencies.PMCEID0_write]
+path = "../PMCEID0_write"
+
+[dependencies.PMCEID1_write]
+path = "../PMCEID1_write"
+
+[dependencies.PMCEID2_write]
+path = "../PMCEID2_write"
+
+[dependencies.PMCEID3_write]
+path = "../PMCEID3_write"
+
+[dependencies.PMCR_read]
+path = "../PMCR_read"
+
+[dependencies.PMCR_write]
+path = "../PMCR_write"
+
+[dependencies.PRRR_read]
+path = "../PRRR_read"
+
+[dependencies.PRRR_write]
+path = "../PRRR_write"
+
+[dependencies.SCTLR_read__2]
+path = "../SCTLR_read__2"
+
+[dependencies.SCTLR_write]
+path = "../SCTLR_write"
+
+[dependencies.VPIDR_read]
+path = "../VPIDR_read"
+
+[dependencies.VPIDR_write]
+path = "../VPIDR_write"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.set_subrange_zeros]
+path = "../set_subrange_zeros"
+
+[dependencies.u_get_Configuration_Type_CFGEND]
+path = "../u_get_Configuration_Type_CFGEND"
+
+[dependencies.u_get_Configuration_Type_ExceptInit]
+path = "../u_get_Configuration_Type_ExceptInit"
+
+[dependencies.u_get_ID_DFR0_EL1_Type_CopDbg]
+path = "../u_get_ID_DFR0_EL1_Type_CopDbg"
+
+[dependencies.u_get_ID_DFR0_Type_CopDbg]
+path = "../u_get_ID_DFR0_Type_CopDbg"
+
+[dependencies.u_get_PMCR_Type_IMP]
+path = "../u_get_PMCR_Type_IMP"
+
+[dependencies.u_get_PMCR_Type_N]
+path = "../u_get_PMCR_Type_N"
+
+[dependencies.u_get_SCR_Type_NS]
+path = "../u_get_SCR_Type_NS"
+
+[dependencies.u_update_CCSIDR_Type_Associativity]
+path = "../u_update_CCSIDR_Type_Associativity"
+
+[dependencies.u_update_CCSIDR_Type_LineSize]
+path = "../u_update_CCSIDR_Type_LineSize"
+
+[dependencies.u_update_CLIDR_Type_ICB]
+path = "../u_update_CLIDR_Type_ICB"
+
+[dependencies.u_update_CLIDR_Type_LoUIS]
+path = "../u_update_CLIDR_Type_LoUIS"
+
+[dependencies.u_update_CLIDR_Type_LoUU]
+path = "../u_update_CLIDR_Type_LoUU"
+
+[dependencies.u_update_CTR_Type_CWG]
+path = "../u_update_CTR_Type_CWG"
+
+[dependencies.u_update_CTR_Type_DIC]
+path = "../u_update_CTR_Type_DIC"
+
+[dependencies.u_update_CTR_Type_DminLine]
+path = "../u_update_CTR_Type_DminLine"
+
+[dependencies.u_update_CTR_Type_ERG]
+path = "../u_update_CTR_Type_ERG"
+
+[dependencies.u_update_CTR_Type_IDC]
+path = "../u_update_CTR_Type_IDC"
+
+[dependencies.u_update_CTR_Type_IminLine]
+path = "../u_update_CTR_Type_IminLine"
+
+[dependencies.u_update_CTR_Type_L1Ip]
+path = "../u_update_CTR_Type_L1Ip"
+
+[dependencies.u_update_DBGOSLSR_Type_OSLK]
+path = "../u_update_DBGOSLSR_Type_OSLK"
+
+[dependencies.u_update_DBGOSLSR_Type_OSLM]
+path = "../u_update_DBGOSLSR_Type_OSLM"
+
+[dependencies.u_update_FPEXC_Type_EX]
+path = "../u_update_FPEXC_Type_EX"
+
+[dependencies.u_update_FPEXC_Type_FP2V]
+path = "../u_update_FPEXC_Type_FP2V"
+
+[dependencies.u_update_FPEXC_Type_TFV]
+path = "../u_update_FPEXC_Type_TFV"
+
+[dependencies.u_update_FPEXC_Type_VECITR]
+path = "../u_update_FPEXC_Type_VECITR"
+
+[dependencies.u_update_FPEXC_Type_VV]
+path = "../u_update_FPEXC_Type_VV"
+
+[dependencies.u_update_HCPTR_Type_TASE]
+path = "../u_update_HCPTR_Type_TASE"
+
+[dependencies.u_update_HCPTR_Type_TCP10]
+path = "../u_update_HCPTR_Type_TCP10"
+
+[dependencies.u_update_HCPTR_Type_TCP11]
+path = "../u_update_HCPTR_Type_TCP11"
+
+[dependencies.u_update_HCPTR_Type_TCPAC]
+path = "../u_update_HCPTR_Type_TCPAC"
+
+[dependencies.u_update_HCPTR_Type_TTA]
+path = "../u_update_HCPTR_Type_TTA"
+
+[dependencies.u_update_HDCR_Type_HPMN]
+path = "../u_update_HDCR_Type_HPMN"
+
+[dependencies.u_update_HSCTLR_Type_EE]
+path = "../u_update_HSCTLR_Type_EE"
+
+[dependencies.u_update_HTCR_Type_HPD]
+path = "../u_update_HTCR_Type_HPD"
+
+[dependencies.u_update_HTCR_Type_HWU59]
+path = "../u_update_HTCR_Type_HWU59"
+
+[dependencies.u_update_HTCR_Type_HWU60]
+path = "../u_update_HTCR_Type_HWU60"
+
+[dependencies.u_update_HTCR_Type_HWU61]
+path = "../u_update_HTCR_Type_HWU61"
+
+[dependencies.u_update_HTCR_Type_HWU62]
+path = "../u_update_HTCR_Type_HWU62"
+
+[dependencies.u_update_HTCR_Type_IRGN0]
+path = "../u_update_HTCR_Type_IRGN0"
+
+[dependencies.u_update_HTCR_Type_ORGN0]
+path = "../u_update_HTCR_Type_ORGN0"
+
+[dependencies.u_update_HTCR_Type_SH0]
+path = "../u_update_HTCR_Type_SH0"
+
+[dependencies.u_update_HTCR_Type_T0SZ]
+path = "../u_update_HTCR_Type_T0SZ"
+
+[dependencies.u_update_ICC_HSRE_Type_SRE]
+path = "../u_update_ICC_HSRE_Type_SRE"
+
+[dependencies.u_update_ID_DFR0_Type_CopDbg]
+path = "../u_update_ID_DFR0_Type_CopDbg"
+
+[dependencies.u_update_ID_DFR0_Type_CopSDbg]
+path = "../u_update_ID_DFR0_Type_CopSDbg"
+
+[dependencies.u_update_ID_DFR0_Type_CopTrc]
+path = "../u_update_ID_DFR0_Type_CopTrc"
+
+[dependencies.u_update_ID_DFR0_Type_MMapDbg]
+path = "../u_update_ID_DFR0_Type_MMapDbg"
+
+[dependencies.u_update_ID_DFR0_Type_MMapTrc]
+path = "../u_update_ID_DFR0_Type_MMapTrc"
+
+[dependencies.u_update_ID_DFR0_Type_MProfDbg]
+path = "../u_update_ID_DFR0_Type_MProfDbg"
+
+[dependencies.u_update_ID_DFR0_Type_PerfMon]
+path = "../u_update_ID_DFR0_Type_PerfMon"
+
+[dependencies.u_update_ID_DFR0_Type_TraceFilt]
+path = "../u_update_ID_DFR0_Type_TraceFilt"
+
+[dependencies.u_update_ID_DFR1_Type_MTPMU]
+path = "../u_update_ID_DFR1_Type_MTPMU"
+
+[dependencies.u_update_ID_ISAR0_Type_BitCount]
+path = "../u_update_ID_ISAR0_Type_BitCount"
+
+[dependencies.u_update_ID_ISAR0_Type_BitField]
+path = "../u_update_ID_ISAR0_Type_BitField"
+
+[dependencies.u_update_ID_ISAR0_Type_CmpBranch]
+path = "../u_update_ID_ISAR0_Type_CmpBranch"
+
+[dependencies.u_update_ID_ISAR0_Type_Coproc]
+path = "../u_update_ID_ISAR0_Type_Coproc"
+
+[dependencies.u_update_ID_ISAR0_Type_Debug]
+path = "../u_update_ID_ISAR0_Type_Debug"
+
+[dependencies.u_update_ID_ISAR0_Type_Divide]
+path = "../u_update_ID_ISAR0_Type_Divide"
+
+[dependencies.u_update_ID_ISAR0_Type_Swap]
+path = "../u_update_ID_ISAR0_Type_Swap"
+
+[dependencies.u_update_ID_ISAR1_Type_Endian]
+path = "../u_update_ID_ISAR1_Type_Endian"
+
+[dependencies.u_update_ID_ISAR1_Type_Except]
+path = "../u_update_ID_ISAR1_Type_Except"
+
+[dependencies.u_update_ID_ISAR1_Type_Except_AR]
+path = "../u_update_ID_ISAR1_Type_Except_AR"
+
+[dependencies.u_update_ID_ISAR1_Type_Extend]
+path = "../u_update_ID_ISAR1_Type_Extend"
+
+[dependencies.u_update_ID_ISAR1_Type_IfThen]
+path = "../u_update_ID_ISAR1_Type_IfThen"
+
+[dependencies.u_update_ID_ISAR1_Type_Immediate]
+path = "../u_update_ID_ISAR1_Type_Immediate"
+
+[dependencies.u_update_ID_ISAR1_Type_Interwork]
+path = "../u_update_ID_ISAR1_Type_Interwork"
+
+[dependencies.u_update_ID_ISAR1_Type_Jazelle]
+path = "../u_update_ID_ISAR1_Type_Jazelle"
+
+[dependencies.u_update_ID_ISAR2_Type_LoadStore]
+path = "../u_update_ID_ISAR2_Type_LoadStore"
+
+[dependencies.u_update_ID_ISAR2_Type_MemHint]
+path = "../u_update_ID_ISAR2_Type_MemHint"
+
+[dependencies.u_update_ID_ISAR2_Type_Mult]
+path = "../u_update_ID_ISAR2_Type_Mult"
+
+[dependencies.u_update_ID_ISAR2_Type_MultS]
+path = "../u_update_ID_ISAR2_Type_MultS"
+
+[dependencies.u_update_ID_ISAR2_Type_MultU]
+path = "../u_update_ID_ISAR2_Type_MultU"
+
+[dependencies.u_update_ID_ISAR2_Type_MultiAccessInt]
+path = "../u_update_ID_ISAR2_Type_MultiAccessInt"
+
+[dependencies.u_update_ID_ISAR2_Type_PSR_AR]
+path = "../u_update_ID_ISAR2_Type_PSR_AR"
+
+[dependencies.u_update_ID_ISAR2_Type_Reversal]
+path = "../u_update_ID_ISAR2_Type_Reversal"
+
+[dependencies.u_update_ID_ISAR3_Type_SIMD]
+path = "../u_update_ID_ISAR3_Type_SIMD"
+
+[dependencies.u_update_ID_ISAR3_Type_SVC]
+path = "../u_update_ID_ISAR3_Type_SVC"
+
+[dependencies.u_update_ID_ISAR3_Type_Saturate]
+path = "../u_update_ID_ISAR3_Type_Saturate"
+
+[dependencies.u_update_ID_ISAR3_Type_SynchPrim]
+path = "../u_update_ID_ISAR3_Type_SynchPrim"
+
+[dependencies.u_update_ID_ISAR3_Type_T32Copy]
+path = "../u_update_ID_ISAR3_Type_T32Copy"
+
+[dependencies.u_update_ID_ISAR3_Type_T32EE]
+path = "../u_update_ID_ISAR3_Type_T32EE"
+
+[dependencies.u_update_ID_ISAR3_Type_TabBranch]
+path = "../u_update_ID_ISAR3_Type_TabBranch"
+
+[dependencies.u_update_ID_ISAR3_Type_TrueNOP]
+path = "../u_update_ID_ISAR3_Type_TrueNOP"
+
+[dependencies.u_update_ID_ISAR4_Type_Barrier]
+path = "../u_update_ID_ISAR4_Type_Barrier"
+
+[dependencies.u_update_ID_ISAR4_Type_PSR_M]
+path = "../u_update_ID_ISAR4_Type_PSR_M"
+
+[dependencies.u_update_ID_ISAR4_Type_SMC]
+path = "../u_update_ID_ISAR4_Type_SMC"
+
+[dependencies.u_update_ID_ISAR4_Type_SWP_frac]
+path = "../u_update_ID_ISAR4_Type_SWP_frac"
+
+[dependencies.u_update_ID_ISAR4_Type_SynchPrim_frac]
+path = "../u_update_ID_ISAR4_Type_SynchPrim_frac"
+
+[dependencies.u_update_ID_ISAR4_Type_Unpriv]
+path = "../u_update_ID_ISAR4_Type_Unpriv"
+
+[dependencies.u_update_ID_ISAR4_Type_WithShifts]
+path = "../u_update_ID_ISAR4_Type_WithShifts"
+
+[dependencies.u_update_ID_ISAR4_Type_Writeback]
+path = "../u_update_ID_ISAR4_Type_Writeback"
+
+[dependencies.u_update_ID_ISAR5_Type_AES]
+path = "../u_update_ID_ISAR5_Type_AES"
+
+[dependencies.u_update_ID_ISAR5_Type_CRC32]
+path = "../u_update_ID_ISAR5_Type_CRC32"
+
+[dependencies.u_update_ID_ISAR5_Type_RDM]
+path = "../u_update_ID_ISAR5_Type_RDM"
+
+[dependencies.u_update_ID_ISAR5_Type_SEVL]
+path = "../u_update_ID_ISAR5_Type_SEVL"
+
+[dependencies.u_update_ID_ISAR5_Type_SHA1]
+path = "../u_update_ID_ISAR5_Type_SHA1"
+
+[dependencies.u_update_ID_ISAR5_Type_SHA2]
+path = "../u_update_ID_ISAR5_Type_SHA2"
+
+[dependencies.u_update_ID_ISAR5_Type_VCMA]
+path = "../u_update_ID_ISAR5_Type_VCMA"
+
+[dependencies.u_update_ID_ISAR6_Type_BF16]
+path = "../u_update_ID_ISAR6_Type_BF16"
+
+[dependencies.u_update_ID_ISAR6_Type_DP]
+path = "../u_update_ID_ISAR6_Type_DP"
+
+[dependencies.u_update_ID_ISAR6_Type_FHM]
+path = "../u_update_ID_ISAR6_Type_FHM"
+
+[dependencies.u_update_ID_ISAR6_Type_I8MM]
+path = "../u_update_ID_ISAR6_Type_I8MM"
+
+[dependencies.u_update_ID_ISAR6_Type_JSCVT]
+path = "../u_update_ID_ISAR6_Type_JSCVT"
+
+[dependencies.u_update_ID_ISAR6_Type_SPECRES]
+path = "../u_update_ID_ISAR6_Type_SPECRES"
+
+[dependencies.u_update_ID_MMFR0_Type_AuxReg]
+path = "../u_update_ID_MMFR0_Type_AuxReg"
+
+[dependencies.u_update_ID_MMFR0_Type_FCSE]
+path = "../u_update_ID_MMFR0_Type_FCSE"
+
+[dependencies.u_update_ID_MMFR0_Type_InnerShr]
+path = "../u_update_ID_MMFR0_Type_InnerShr"
+
+[dependencies.u_update_ID_MMFR0_Type_OuterShr]
+path = "../u_update_ID_MMFR0_Type_OuterShr"
+
+[dependencies.u_update_ID_MMFR0_Type_PMSA]
+path = "../u_update_ID_MMFR0_Type_PMSA"
+
+[dependencies.u_update_ID_MMFR0_Type_ShareLvl]
+path = "../u_update_ID_MMFR0_Type_ShareLvl"
+
+[dependencies.u_update_ID_MMFR0_Type_TCM]
+path = "../u_update_ID_MMFR0_Type_TCM"
+
+[dependencies.u_update_ID_MMFR0_Type_VMSA]
+path = "../u_update_ID_MMFR0_Type_VMSA"
+
+[dependencies.u_update_ID_MMFR1_Type_BPred]
+path = "../u_update_ID_MMFR1_Type_BPred"
+
+[dependencies.u_update_ID_MMFR1_Type_L1Hvd]
+path = "../u_update_ID_MMFR1_Type_L1Hvd"
+
+[dependencies.u_update_ID_MMFR1_Type_L1HvdSW]
+path = "../u_update_ID_MMFR1_Type_L1HvdSW"
+
+[dependencies.u_update_ID_MMFR1_Type_L1HvdVA]
+path = "../u_update_ID_MMFR1_Type_L1HvdVA"
+
+[dependencies.u_update_ID_MMFR1_Type_L1TstCln]
+path = "../u_update_ID_MMFR1_Type_L1TstCln"
+
+[dependencies.u_update_ID_MMFR1_Type_L1Uni]
+path = "../u_update_ID_MMFR1_Type_L1Uni"
+
+[dependencies.u_update_ID_MMFR1_Type_L1UniSW]
+path = "../u_update_ID_MMFR1_Type_L1UniSW"
+
+[dependencies.u_update_ID_MMFR1_Type_L1UniVA]
+path = "../u_update_ID_MMFR1_Type_L1UniVA"
+
+[dependencies.u_update_ID_MMFR2_Type_HWAccFlg]
+path = "../u_update_ID_MMFR2_Type_HWAccFlg"
+
+[dependencies.u_update_ID_MMFR2_Type_HvdTLB]
+path = "../u_update_ID_MMFR2_Type_HvdTLB"
+
+[dependencies.u_update_ID_MMFR2_Type_L1HvdBG]
+path = "../u_update_ID_MMFR2_Type_L1HvdBG"
+
+[dependencies.u_update_ID_MMFR2_Type_L1HvdFG]
+path = "../u_update_ID_MMFR2_Type_L1HvdFG"
+
+[dependencies.u_update_ID_MMFR2_Type_L1HvdRng]
+path = "../u_update_ID_MMFR2_Type_L1HvdRng"
+
+[dependencies.u_update_ID_MMFR2_Type_MemBarr]
+path = "../u_update_ID_MMFR2_Type_MemBarr"
+
+[dependencies.u_update_ID_MMFR2_Type_UniTLB]
+path = "../u_update_ID_MMFR2_Type_UniTLB"
+
+[dependencies.u_update_ID_MMFR2_Type_WFIStall]
+path = "../u_update_ID_MMFR2_Type_WFIStall"
+
+[dependencies.u_update_ID_MMFR3_Type_BPMaint]
+path = "../u_update_ID_MMFR3_Type_BPMaint"
+
+[dependencies.u_update_ID_MMFR3_Type_CMaintSW]
+path = "../u_update_ID_MMFR3_Type_CMaintSW"
+
+[dependencies.u_update_ID_MMFR3_Type_CMaintVA]
+path = "../u_update_ID_MMFR3_Type_CMaintVA"
+
+[dependencies.u_update_ID_MMFR3_Type_CMemSz]
+path = "../u_update_ID_MMFR3_Type_CMemSz"
+
+[dependencies.u_update_ID_MMFR3_Type_CohWalk]
+path = "../u_update_ID_MMFR3_Type_CohWalk"
+
+[dependencies.u_update_ID_MMFR3_Type_MaintBcst]
+path = "../u_update_ID_MMFR3_Type_MaintBcst"
+
+[dependencies.u_update_ID_MMFR3_Type_PAN]
+path = "../u_update_ID_MMFR3_Type_PAN"
+
+[dependencies.u_update_ID_MMFR3_Type_Supersec]
+path = "../u_update_ID_MMFR3_Type_Supersec"
+
+[dependencies.u_update_ID_MMFR4_Type_CCIDX]
+path = "../u_update_ID_MMFR4_Type_CCIDX"
+
+[dependencies.u_update_ID_MMFR5_Type_ETS]
+path = "../u_update_ID_MMFR5_Type_ETS"
+
+[dependencies.u_update_ID_PFR0_Type_AMU]
+path = "../u_update_ID_PFR0_Type_AMU"
+
+[dependencies.u_update_ID_PFR0_Type_CSV2]
+path = "../u_update_ID_PFR0_Type_CSV2"
+
+[dependencies.u_update_ID_PFR0_Type_DIT]
+path = "../u_update_ID_PFR0_Type_DIT"
+
+[dependencies.u_update_ID_PFR0_Type_RAS]
+path = "../u_update_ID_PFR0_Type_RAS"
+
+[dependencies.u_update_ID_PFR0_Type_State0]
+path = "../u_update_ID_PFR0_Type_State0"
+
+[dependencies.u_update_ID_PFR0_Type_State1]
+path = "../u_update_ID_PFR0_Type_State1"
+
+[dependencies.u_update_ID_PFR0_Type_State2]
+path = "../u_update_ID_PFR0_Type_State2"
+
+[dependencies.u_update_ID_PFR0_Type_State3]
+path = "../u_update_ID_PFR0_Type_State3"
+
+[dependencies.u_update_ID_PFR1_Type_GIC]
+path = "../u_update_ID_PFR1_Type_GIC"
+
+[dependencies.u_update_ID_PFR1_Type_GenTimer]
+path = "../u_update_ID_PFR1_Type_GenTimer"
+
+[dependencies.u_update_ID_PFR1_Type_MProgMod]
+path = "../u_update_ID_PFR1_Type_MProgMod"
+
+[dependencies.u_update_ID_PFR1_Type_ProgMod]
+path = "../u_update_ID_PFR1_Type_ProgMod"
+
+[dependencies.u_update_ID_PFR1_Type_Sec_frac]
+path = "../u_update_ID_PFR1_Type_Sec_frac"
+
+[dependencies.u_update_ID_PFR1_Type_Security]
+path = "../u_update_ID_PFR1_Type_Security"
+
+[dependencies.u_update_ID_PFR1_Type_Virt_frac]
+path = "../u_update_ID_PFR1_Type_Virt_frac"
+
+[dependencies.u_update_ID_PFR1_Type_Virtualization]
+path = "../u_update_ID_PFR1_Type_Virtualization"
+
+[dependencies.u_update_MIDR_Type_Architecture]
+path = "../u_update_MIDR_Type_Architecture"
+
+[dependencies.u_update_MIDR_Type_Implementer]
+path = "../u_update_MIDR_Type_Implementer"
+
+[dependencies.u_update_MIDR_Type_PartNum]
+path = "../u_update_MIDR_Type_PartNum"
+
+[dependencies.u_update_MIDR_Type_Revision]
+path = "../u_update_MIDR_Type_Revision"
+
+[dependencies.u_update_MIDR_Type_Variant]
+path = "../u_update_MIDR_Type_Variant"
+
+[dependencies.u_update_MPIDR_Type_Aff0]
+path = "../u_update_MPIDR_Type_Aff0"
+
+[dependencies.u_update_MPIDR_Type_Aff1]
+path = "../u_update_MPIDR_Type_Aff1"
+
+[dependencies.u_update_MPIDR_Type_Aff2]
+path = "../u_update_MPIDR_Type_Aff2"
+
+[dependencies.u_update_MPIDR_Type_M]
+path = "../u_update_MPIDR_Type_M"
+
+[dependencies.u_update_MPIDR_Type_MT]
+path = "../u_update_MPIDR_Type_MT"
+
+[dependencies.u_update_MPIDR_Type_U]
+path = "../u_update_MPIDR_Type_U"
+
+[dependencies.u_update_MVFR0_Type_FPDP]
+path = "../u_update_MVFR0_Type_FPDP"
+
+[dependencies.u_update_MVFR0_Type_FPDivide]
+path = "../u_update_MVFR0_Type_FPDivide"
+
+[dependencies.u_update_MVFR0_Type_FPRound]
+path = "../u_update_MVFR0_Type_FPRound"
+
+[dependencies.u_update_MVFR0_Type_FPSP]
+path = "../u_update_MVFR0_Type_FPSP"
+
+[dependencies.u_update_MVFR0_Type_FPShVec]
+path = "../u_update_MVFR0_Type_FPShVec"
+
+[dependencies.u_update_MVFR0_Type_FPSqrt]
+path = "../u_update_MVFR0_Type_FPSqrt"
+
+[dependencies.u_update_MVFR0_Type_FPTrap]
+path = "../u_update_MVFR0_Type_FPTrap"
+
+[dependencies.u_update_MVFR0_Type_SIMDReg]
+path = "../u_update_MVFR0_Type_SIMDReg"
+
+[dependencies.u_update_MVFR1_Type_FPDNaN]
+path = "../u_update_MVFR1_Type_FPDNaN"
+
+[dependencies.u_update_MVFR1_Type_FPFtZ]
+path = "../u_update_MVFR1_Type_FPFtZ"
+
+[dependencies.u_update_MVFR1_Type_FPHP]
+path = "../u_update_MVFR1_Type_FPHP"
+
+[dependencies.u_update_MVFR1_Type_SIMDFMAC]
+path = "../u_update_MVFR1_Type_SIMDFMAC"
+
+[dependencies.u_update_MVFR1_Type_SIMDHP]
+path = "../u_update_MVFR1_Type_SIMDHP"
+
+[dependencies.u_update_MVFR1_Type_SIMDInt]
+path = "../u_update_MVFR1_Type_SIMDInt"
+
+[dependencies.u_update_MVFR1_Type_SIMDLS]
+path = "../u_update_MVFR1_Type_SIMDLS"
+
+[dependencies.u_update_MVFR1_Type_SIMDSP]
+path = "../u_update_MVFR1_Type_SIMDSP"
+
+[dependencies.u_update_MVFR2_Type_FPMisc]
+path = "../u_update_MVFR2_Type_FPMisc"
+
+[dependencies.u_update_MVFR2_Type_SIMDMisc]
+path = "../u_update_MVFR2_Type_SIMDMisc"
+
+[dependencies.u_update_PMCR_Type_C]
+path = "../u_update_PMCR_Type_C"
+
+[dependencies.u_update_PMCR_Type_IDCODE]
+path = "../u_update_PMCR_Type_IDCODE"
+
+[dependencies.u_update_PMCR_Type_IMP]
+path = "../u_update_PMCR_Type_IMP"
+
+[dependencies.u_update_PMCR_Type_N]
+path = "../u_update_PMCR_Type_N"
+
+[dependencies.u_update_PMCR_Type_P]
+path = "../u_update_PMCR_Type_P"
+
+[dependencies.u_update_PRRR_Type_DS0]
+path = "../u_update_PRRR_Type_DS0"
+
+[dependencies.u_update_PRRR_Type_DS1]
+path = "../u_update_PRRR_Type_DS1"
+
+[dependencies.u_update_PRRR_Type_NS0]
+path = "../u_update_PRRR_Type_NS0"
+
+[dependencies.u_update_PRRR_Type_NS1]
+path = "../u_update_PRRR_Type_NS1"
+
+[dependencies.u_update_SCTLR_Type_EE]
+path = "../u_update_SCTLR_Type_EE"
+
+[dependencies.u_update_SCTLR_Type_SPAN]
+path = "../u_update_SCTLR_Type_SPAN"
+
+[dependencies.u_update_SCTLR_Type_TE]
+path = "../u_update_SCTLR_Type_TE"
+
+[dependencies.u_update_SCTLR_Type_UNK]
+path = "../u_update_SCTLR_Type_UNK"
+
+[dependencies.u_update_SCTLR_Type_V]
+path = "../u_update_SCTLR_Type_V"
+
+[dependencies.u_update_VPIDR_Type_Architecture]
+path = "../u_update_VPIDR_Type_Architecture"
+
+[dependencies.u_update_VPIDR_Type_Implementer]
+path = "../u_update_VPIDR_Type_Implementer"
+
+[dependencies.u_update_VPIDR_Type_PartNum]
+path = "../u_update_VPIDR_Type_PartNum"
+
+[dependencies.u_update_VPIDR_Type_Revision]
+path = "../u_update_VPIDR_Type_Revision"
+
+[dependencies.u_update_VPIDR_Type_Variant]
+path = "../u_update_VPIDR_Type_Variant"

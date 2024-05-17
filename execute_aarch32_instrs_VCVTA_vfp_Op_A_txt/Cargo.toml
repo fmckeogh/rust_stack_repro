@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_VCVTA_vfp_Op_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckVFPEnabled]
+path = "../CheckVFPEnabled"
+
+[dependencies.D_read]
+path = "../D_read"
+
+[dependencies.FPSCR_read]
+path = "../FPSCR_read"
+
+[dependencies.FPToFixed]
+path = "../FPToFixed"
+
+[dependencies.S_read]
+path = "../S_read"
+
+[dependencies.S_set]
+path = "../S_set"
+
+[dependencies.common]
+path = "../common"

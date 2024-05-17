@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "Hint_WFI"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_CheckForWFxTrap]
+path = "../AArch64_CheckForWFxTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.EndOfInstruction]
+path = "../EndOfInstruction"
+
+[dependencies.FailTransaction]
+path = "../FailTransaction"
+
+[dependencies.HaveFeatWFxT]
+path = "../HaveFeatWFxT"
+
+[dependencies.HaveTME]
+path = "../HaveTME"
+
+[dependencies.InterruptPending]
+path = "../InterruptPending"
+
+[dependencies.IsInHost]
+path = "../IsInHost"
+
+[dependencies.LocalTimeoutEvent]
+path = "../LocalTimeoutEvent"
+
+[dependencies.WaitForInterrupt]
+path = "../WaitForInterrupt"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "TLBIP_RVAE3IS_SysOpsWrite128_b118fa02f013962a"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_TLBIP_RVA]
+path = "../AArch64_TLBIP_RVA"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.SecurityStateAtEL]
+path = "../SecurityStateAtEL"
+
+[dependencies.VMID_read]
+path = "../VMID_read"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

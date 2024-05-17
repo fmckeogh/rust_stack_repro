@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "AArch64_AutoGen_SysInstrWithResult"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_UnallocatedSysRegAccess]
+path = "../AArch64_UnallocatedSysRegAccess"
+
+[dependencies.GCSPOPM_SysInstrWithResult_785f34ad5cd557fe]
+path = "../GCSPOPM_SysInstrWithResult_785f34ad5cd557fe"
+
+[dependencies.GCSSS2_SysInstrWithResult_f9ffdfaa333b34bf]
+path = "../GCSSS2_SysInstrWithResult_f9ffdfaa333b34bf"
+
+[dependencies.common]
+path = "../common"

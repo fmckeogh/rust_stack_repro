@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "CNTHP_CTL_EL2_SysRegWrite_52dddcddc87d9536"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Mk_CNTHP_CTL_EL2_Type]
+path = "../Mk_CNTHP_CTL_EL2_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__set_CNTHP_CTL_EL2]
+path = "../u__set_CNTHP_CTL_EL2"
+
+[dependencies.u_get_HCR_EL2_Type_NV]
+path = "../u_get_HCR_EL2_Type_NV"

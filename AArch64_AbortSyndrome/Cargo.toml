@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "AArch64_AbortSyndrome"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_FaultSyndrome]
+path = "../AArch64_FaultSyndrome"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ExceptionSyndrome]
+path = "../ExceptionSyndrome"
+
+[dependencies.HaveMTE4Ext]
+path = "../HaveMTE4Ext"
+
+[dependencies.HavePFAR]
+path = "../HavePFAR"
+
+[dependencies.IPAValid]
+path = "../IPAValid"
+
+[dependencies.IsExternalSyncAbort__1]
+path = "../IsExternalSyncAbort__1"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"
+
+[dependencies.u_get_HCR_EL2_Type_VM]
+path = "../u_get_HCR_EL2_Type_VM"

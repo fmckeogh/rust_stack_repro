@@ -1,0 +1,43 @@
+[package]
+edition = "2021"
+name = "AArch32_ExclusiveMonitorsPass"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_Abort]
+path = "../AArch32_Abort"
+
+[dependencies.AArch32_IsExclusiveVA]
+path = "../AArch32_IsExclusiveVA"
+
+[dependencies.AArch32_TranslateAddress]
+path = "../AArch32_TranslateAddress"
+
+[dependencies.AlignmentFault]
+path = "../AlignmentFault"
+
+[dependencies.ClearExclusiveLocal]
+path = "../ClearExclusiveLocal"
+
+[dependencies.CreateAccDescExLDST]
+path = "../CreateAccDescExLDST"
+
+[dependencies.IsAligned__1]
+path = "../IsAligned__1"
+
+[dependencies.IsExclusiveGlobal]
+path = "../IsExclusiveGlobal"
+
+[dependencies.IsExclusiveLocal]
+path = "../IsExclusiveLocal"
+
+[dependencies.IsFault]
+path = "../IsFault"
+
+[dependencies.ProcessorID]
+path = "../ProcessorID"
+
+[dependencies.common]
+path = "../common"

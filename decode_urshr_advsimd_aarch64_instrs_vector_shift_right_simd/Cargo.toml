@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_urshr_advsimd_aarch64_instrs_vector_shift_right_simd"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HighestSetBit]
+path = "../HighestSetBit"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_vector_shift_right_sisd]
+path = "../execute_aarch64_instrs_vector_shift_right_sisd"
+
+[dependencies.fdiv_int]
+path = "../fdiv_int"
+
+[dependencies.u_shl_int_general]
+path = "../u_shl_int_general"

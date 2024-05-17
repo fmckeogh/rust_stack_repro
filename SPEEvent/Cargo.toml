@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "SPEEvent"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.HaveStatisticalProfilingv1p1]
+path = "../HaveStatisticalProfilingv1p1"
+
+[dependencies.HaveStatisticalProfilingv1p4]
+path = "../HaveStatisticalProfilingv1p4"
+
+[dependencies.common]
+path = "../common"

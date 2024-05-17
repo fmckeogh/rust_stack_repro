@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "decode_UQINCW_R_RS_X"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveSME]
+path = "../HaveSME"
+
+[dependencies.HaveSVE]
+path = "../HaveSVE"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_UQINCW_R_RS_X]
+path = "../execute_UQINCW_R_RS_X"

@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "AArch64_EffectiveTCF"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ConstrainUnpredictableBits]
+path = "../ConstrainUnpredictableBits"
+
+[dependencies.HaveMTEAsymFaultExt]
+path = "../HaveMTEAsymFaultExt"
+
+[dependencies.TranslationRegime]
+path = "../TranslationRegime"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_SCTLR_EL1_Type_TCF]
+path = "../u_get_SCTLR_EL1_Type_TCF"
+
+[dependencies.u_get_SCTLR_EL1_Type_TCF0]
+path = "../u_get_SCTLR_EL1_Type_TCF0"
+
+[dependencies.u_get_SCTLR_EL2_Type_TCF]
+path = "../u_get_SCTLR_EL2_Type_TCF"
+
+[dependencies.u_get_SCTLR_EL2_Type_TCF0]
+path = "../u_get_SCTLR_EL2_Type_TCF0"
+
+[dependencies.u_get_SCTLR_EL3_Type_TCF]
+path = "../u_get_SCTLR_EL3_Type_TCF"

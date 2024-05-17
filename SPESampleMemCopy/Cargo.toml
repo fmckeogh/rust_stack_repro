@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "SPESampleMemCopy"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.SPEGetRandomBoolean]
+path = "../SPEGetRandomBoolean"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_PMSFCR_EL1_Type_FT]
+path = "../u_get_PMSFCR_EL1_Type_FT"
+
+[dependencies.u_get_PMSFCR_EL1_Type_LD]
+path = "../u_get_PMSFCR_EL1_Type_LD"
+
+[dependencies.u_get_PMSFCR_EL1_Type_ST]
+path = "../u_get_PMSFCR_EL1_Type_ST"

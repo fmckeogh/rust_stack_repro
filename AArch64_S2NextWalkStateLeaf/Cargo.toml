@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "AArch64_S2NextWalkStateLeaf"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_ContiguousBit]
+path = "../AArch64_ContiguousBit"
+
+[dependencies.AArch64_LeafBase]
+path = "../AArch64_LeafBase"
+
+[dependencies.AArch64_S2ApplyFWBMemAttrs]
+path = "../AArch64_S2ApplyFWBMemAttrs"
+
+[dependencies.AArch64_S2ApplyOutputPerms]
+path = "../AArch64_S2ApplyOutputPerms"
+
+[dependencies.AArch64_SS2OutputPASpace]
+path = "../AArch64_SS2OutputPASpace"
+
+[dependencies.S2DecodeMemAttrs]
+path = "../S2DecodeMemAttrs"
+
+[dependencies.common]
+path = "../common"

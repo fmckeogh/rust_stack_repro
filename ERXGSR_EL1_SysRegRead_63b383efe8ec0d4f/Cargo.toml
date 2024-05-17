@@ -1,0 +1,46 @@
+[package]
+edition = "2021"
+name = "ERXGSR_EL1_SysRegRead_63b383efe8ec0d4f"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_HCR_EL2_Type_TERR]
+path = "../u_get_HCR_EL2_Type_TERR"
+
+[dependencies.u_get_HFGRTR2_EL2_Type_nERXGSR_EL1]
+path = "../u_get_HFGRTR2_EL2_Type_nERXGSR_EL1"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn2]
+path = "../u_get_SCR_EL3_Type_FGTEn2"
+
+[dependencies.u_get_SCR_EL3_Type_TERR]
+path = "../u_get_SCR_EL3_Type_TERR"

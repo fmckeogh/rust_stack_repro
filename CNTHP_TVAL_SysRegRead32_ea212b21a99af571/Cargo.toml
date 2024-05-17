@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "CNTHP_TVAL_SysRegRead32_ea212b21a99af571"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CNTHP_CTL_read]
+path = "../CNTHP_CTL_read"
+
+[dependencies.CNTHP_CVAL_read]
+path = "../CNTHP_CVAL_read"
+
+[dependencies.PhysicalCountInt]
+path = "../PhysicalCountInt"
+
+[dependencies.R_set]
+path = "../R_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"
+
+[dependencies.u_get_CNTHP_CTL_Type_ENABLE]
+path = "../u_get_CNTHP_CTL_Type_ENABLE"
+
+[dependencies.u_get_SCR_Type_NS]
+path = "../u_get_SCR_Type_NS"

@@ -1,0 +1,61 @@
+[package]
+edition = "2021"
+name = "AArch32_CheckAdvSIMDOrFPEnabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_CheckFPAdvSIMDTrap]
+path = "../AArch32_CheckFPAdvSIMDTrap"
+
+[dependencies.AArch64_CheckFPAdvSIMDEnabled]
+path = "../AArch64_CheckFPAdvSIMDEnabled"
+
+[dependencies.AArch64_CheckFPEnabled]
+path = "../AArch64_CheckFPEnabled"
+
+[dependencies.CPACR_read__1]
+path = "../CPACR_read__1"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.FPEXC_read]
+path = "../FPEXC_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_bits]
+path = "../u__IMPDEF_bits"
+
+[dependencies.u_get_CPACR_Type_ASEDIS]
+path = "../u_get_CPACR_Type_ASEDIS"
+
+[dependencies.u_get_CPACR_Type_cp10]
+path = "../u_get_CPACR_Type_cp10"
+
+[dependencies.u_get_FPEXC_Type_EN]
+path = "../u_get_FPEXC_Type_EN"
+
+[dependencies.u_get_HCR_EL2_Type_RW]
+path = "../u_get_HCR_EL2_Type_RW"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_NSACR_Type_NSASEDIS]
+path = "../u_get_NSACR_Type_NSASEDIS"
+
+[dependencies.u_get_NSACR_Type_cp10]
+path = "../u_get_NSACR_Type_cp10"

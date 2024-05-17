@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "AArch64_S2ApplyOutputPerms"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.HaveExtendedExecuteNeverExt]
+path = "../HaveExtendedExecuteNeverExt"
+
+[dependencies.HaveS2POExt]
+path = "../HaveS2POExt"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_VTCR_EL2_Type_S2POE]
+path = "../u_get_VTCR_EL2_Type_S2POE"

@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "SDER_write"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Mk_SDER32_EL3_Type]
+path = "../Mk_SDER32_EL3_Type"
+
+[dependencies.SDER32_EL3_read]
+path = "../SDER32_EL3_read"
+
+[dependencies.SDER32_EL3_write]
+path = "../SDER32_EL3_write"
+
+[dependencies.common]
+path = "../common"

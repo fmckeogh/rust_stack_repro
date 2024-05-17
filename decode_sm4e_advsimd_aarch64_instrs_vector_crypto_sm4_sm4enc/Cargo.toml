@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_sm4e_advsimd_aarch64_instrs_vector_crypto_sm4_sm4enc"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveSM4Ext]
+path = "../HaveSM4Ext"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_vector_crypto_sm4_sm4enc]
+path = "../execute_aarch64_instrs_vector_crypto_sm4_sm4enc"

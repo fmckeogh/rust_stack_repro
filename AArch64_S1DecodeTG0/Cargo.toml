@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "AArch64_S1DecodeTG0"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_HaveS1TG]
+path = "../AArch64_HaveS1TG"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_bits]
+path = "../u__IMPDEF_bits"

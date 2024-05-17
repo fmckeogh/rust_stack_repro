@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_system_register_system_128"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SysRegRead128]
+path = "../AArch64_SysRegRead128"
+
+[dependencies.AArch64_SysRegWrite128]
+path = "../AArch64_SysRegWrite128"
+
+[dependencies.common]
+path = "../common"

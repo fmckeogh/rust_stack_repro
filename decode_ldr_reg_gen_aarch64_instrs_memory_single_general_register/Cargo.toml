@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_ldr_reg_gen_aarch64_instrs_memory_single_general_register"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.DecodeRegExtend]
+path = "../DecodeRegExtend"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_memory_single_general_register]
+path = "../execute_aarch64_instrs_memory_single_general_register"

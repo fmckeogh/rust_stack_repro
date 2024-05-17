@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "decode_brk_aarch64_instrs_system_exceptions_debug_breakpoint"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveBTIExt]
+path = "../HaveBTIExt"
+
+[dependencies.SetBTypeCompatible]
+path = "../SetBTypeCompatible"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_system_exceptions_debug_breakpoint]
+path = "../execute_aarch64_instrs_system_exceptions_debug_breakpoint"

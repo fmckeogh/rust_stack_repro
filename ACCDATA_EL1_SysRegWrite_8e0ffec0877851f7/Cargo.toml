@@ -1,0 +1,46 @@
+[package]
+edition = "2021"
+name = "ACCDATA_EL1_SysRegWrite_8e0ffec0877851f7"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.Mk_ACCDATA_EL1_Type]
+path = "../Mk_ACCDATA_EL1_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_HFGWTR_EL2_Type_nACCDATA_EL1]
+path = "../u_get_HFGWTR_EL2_Type_nACCDATA_EL1"
+
+[dependencies.u_get_SCR_EL3_Type_ADEn]
+path = "../u_get_SCR_EL3_Type_ADEn"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"

@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "execute_PNEXT_P_P_P__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ActivePredicateElement]
+path = "../ActivePredicateElement"
+
+[dependencies.CheckSVEEnabled]
+path = "../CheckSVEEnabled"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.LastActiveElement]
+path = "../LastActiveElement"
+
+[dependencies.P_read]
+path = "../P_read"
+
+[dependencies.P_set]
+path = "../P_set"
+
+[dependencies.PredTest]
+path = "../PredTest"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"

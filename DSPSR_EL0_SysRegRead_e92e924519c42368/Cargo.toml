@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "DSPSR_EL0_SysRegRead_e92e924519c42368"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_DSPSR_EL0]
+path = "../u__get_DSPSR_EL0"

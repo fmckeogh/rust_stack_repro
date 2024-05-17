@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "SP_EL2_SysRegRead_d604bd0fb0757c08"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"

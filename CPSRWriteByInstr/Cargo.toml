@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "CPSRWriteByInstr"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_WriteModeByInstr]
+path = "../AArch32_WriteModeByInstr"
+
+[dependencies.HaveDITExt]
+path = "../HaveDITExt"
+
+[dependencies.HaveSSBSExt]
+path = "../HaveSSBSExt"
+
+[dependencies.common]
+path = "../common"

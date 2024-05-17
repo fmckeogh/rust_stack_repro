@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "AArch64_S1MinTxSZ"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HasUnprivileged]
+path = "../HasUnprivileged"
+
+[dependencies.Have52BitVAExt]
+path = "../Have52BitVAExt"
+
+[dependencies.Have56BitVAExt]
+path = "../Have56BitVAExt"
+
+[dependencies.common]
+path = "../common"

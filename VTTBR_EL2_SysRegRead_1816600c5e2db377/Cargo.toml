@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "VTTBR_EL2_SysRegRead_1816600c5e2db377"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.NVMem_read]
+path = "../NVMem_read"
+
+[dependencies.VTTBR_EL2_read]
+path = "../VTTBR_EL2_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_VTTBR_EL2]
+path = "../u__get_VTTBR_EL2"
+
+[dependencies.u_get_HCR_EL2_Type_NV]
+path = "../u_get_HCR_EL2_Type_NV"
+
+[dependencies.u_get_HCR_EL2_Type_NV2]
+path = "../u_get_HCR_EL2_Type_NV2"

@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_frint32x_float_aarch64_instrs_float_arithmetic_round_frint_32_64"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.FPCR_read]
+path = "../FPCR_read"
+
+[dependencies.FPRoundingMode]
+path = "../FPRoundingMode"
+
+[dependencies.HaveFrintExt]
+path = "../HaveFrintExt"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_float_arithmetic_round_frint_32_64]
+path = "../execute_aarch64_instrs_float_arithmetic_round_frint_32_64"

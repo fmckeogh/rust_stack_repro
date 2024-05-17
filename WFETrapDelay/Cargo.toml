@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "WFETrapDelay"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.IsInHost]
+path = "../IsInHost"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_TWEDEL]
+path = "../u_get_HCR_EL2_Type_TWEDEL"
+
+[dependencies.u_get_HCR_EL2_Type_TWEDEn]
+path = "../u_get_HCR_EL2_Type_TWEDEn"
+
+[dependencies.u_get_SCR_EL3_Type_TWEDEL]
+path = "../u_get_SCR_EL3_Type_TWEDEL"
+
+[dependencies.u_get_SCR_EL3_Type_TWEDEn]
+path = "../u_get_SCR_EL3_Type_TWEDEn"
+
+[dependencies.u_get_SCTLR_EL1_Type_TWEDEL]
+path = "../u_get_SCTLR_EL1_Type_TWEDEL"
+
+[dependencies.u_get_SCTLR_EL1_Type_TWEDEn]
+path = "../u_get_SCTLR_EL1_Type_TWEDEn"
+
+[dependencies.u_get_SCTLR_EL2_Type_TWEDEL]
+path = "../u_get_SCTLR_EL2_Type_TWEDEL"
+
+[dependencies.u_get_SCTLR_EL2_Type_TWEDEn]
+path = "../u_get_SCTLR_EL2_Type_TWEDEn"

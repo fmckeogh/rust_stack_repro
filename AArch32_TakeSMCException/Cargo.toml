@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "AArch32_TakeSMCException"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_EnterMonitorMode]
+path = "../AArch32_EnterMonitorMode"
+
+[dependencies.AArch32_ITAdvance]
+path = "../AArch32_ITAdvance"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.NextInstrAddr]
+path = "../NextInstrAddr"
+
+[dependencies.SSAdvance]
+path = "../SSAdvance"
+
+[dependencies.common]
+path = "../common"

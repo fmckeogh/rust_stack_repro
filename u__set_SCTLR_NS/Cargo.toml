@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "u__set_SCTLR_NS"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Mk_SCTLR_Type]
+path = "../Mk_SCTLR_Type"
+
+[dependencies.SCTLR_NS_read]
+path = "../SCTLR_NS_read"
+
+[dependencies.SCTLR_NS_write]
+path = "../SCTLR_NS_write"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u_get_SCTLR_Type_CP15BEN]
+path = "../u_get_SCTLR_Type_CP15BEN"
+
+[dependencies.u_get_SCTLR_Type_ITD]
+path = "../u_get_SCTLR_Type_ITD"
+
+[dependencies.u_update_SCTLR_Type_CP15BEN]
+path = "../u_update_SCTLR_Type_CP15BEN"
+
+[dependencies.u_update_SCTLR_Type_ITD]
+path = "../u_update_SCTLR_Type_ITD"

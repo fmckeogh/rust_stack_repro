@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "ESR_set__1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ESR_set]
+path = "../ESR_set"
+
+[dependencies.S1TranslationRegime__1]
+path = "../S1TranslationRegime__1"
+
+[dependencies.common]
+path = "../common"

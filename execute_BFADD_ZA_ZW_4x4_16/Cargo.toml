@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "execute_BFADD_ZA_ZW_4x4_16"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.BFAdd_ZA]
+path = "../BFAdd_ZA"
+
+[dependencies.CheckStreamingSVEAndZAEnabled]
+path = "../CheckStreamingSVEAndZAEnabled"
+
+[dependencies.Elem_read]
+path = "../Elem_read"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.FPCR_read]
+path = "../FPCR_read"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.ZAvector_read]
+path = "../ZAvector_read"
+
+[dependencies.ZAvector_set]
+path = "../ZAvector_set"
+
+[dependencies.Z_read]
+path = "../Z_read"
+
+[dependencies.common]
+path = "../common"

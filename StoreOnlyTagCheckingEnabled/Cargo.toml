@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "StoreOnlyTagCheckingEnabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELIsInHost]
+path = "../ELIsInHost"
+
+[dependencies.HaveMTEStoreOnlyExt]
+path = "../HaveMTEStoreOnlyExt"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_SCTLR_EL1_Type_TCSO]
+path = "../u_get_SCTLR_EL1_Type_TCSO"
+
+[dependencies.u_get_SCTLR_EL1_Type_TCSO0]
+path = "../u_get_SCTLR_EL1_Type_TCSO0"
+
+[dependencies.u_get_SCTLR_EL2_Type_TCSO]
+path = "../u_get_SCTLR_EL2_Type_TCSO"
+
+[dependencies.u_get_SCTLR_EL2_Type_TCSO0]
+path = "../u_get_SCTLR_EL2_Type_TCSO0"
+
+[dependencies.u_get_SCTLR_EL3_Type_TCSO]
+path = "../u_get_SCTLR_EL3_Type_TCSO"

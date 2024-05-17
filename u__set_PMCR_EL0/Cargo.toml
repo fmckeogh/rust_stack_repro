@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "u__set_PMCR_EL0"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_PMCR_EL0_Type_C]
+path = "../u_get_PMCR_EL0_Type_C"
+
+[dependencies.u_get_PMCR_EL0_Type_IDCODE]
+path = "../u_get_PMCR_EL0_Type_IDCODE"
+
+[dependencies.u_get_PMCR_EL0_Type_IMP]
+path = "../u_get_PMCR_EL0_Type_IMP"
+
+[dependencies.u_get_PMCR_EL0_Type_P]
+path = "../u_get_PMCR_EL0_Type_P"

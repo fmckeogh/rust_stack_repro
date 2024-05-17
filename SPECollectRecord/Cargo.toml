@@ -1,0 +1,73 @@
+[package]
+edition = "2021"
+name = "SPECollectRecord"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.HaveSVE]
+path = "../HaveSVE"
+
+[dependencies.HaveStatisticalProfilingFDS]
+path = "../HaveStatisticalProfilingFDS"
+
+[dependencies.HaveStatisticalProfilingv1p1]
+path = "../HaveStatisticalProfilingv1p1"
+
+[dependencies.HaveStatisticalProfilingv1p2]
+path = "../HaveStatisticalProfilingv1p2"
+
+[dependencies.HaveStatisticalProfilingv1p4]
+path = "../HaveStatisticalProfilingv1p4"
+
+[dependencies.HaveTME]
+path = "../HaveTME"
+
+[dependencies.IsZero]
+path = "../IsZero"
+
+[dependencies.PMUEvent]
+path = "../PMUEvent"
+
+[dependencies.StatisticalProfilingEnabled]
+path = "../StatisticalProfilingEnabled"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_bits]
+path = "../u__IMPDEF_bits"
+
+[dependencies.u_get_PMSFCR_EL1_Type_B]
+path = "../u_get_PMSFCR_EL1_Type_B"
+
+[dependencies.u_get_PMSFCR_EL1_Type_FDS]
+path = "../u_get_PMSFCR_EL1_Type_FDS"
+
+[dependencies.u_get_PMSFCR_EL1_Type_FE]
+path = "../u_get_PMSFCR_EL1_Type_FE"
+
+[dependencies.u_get_PMSFCR_EL1_Type_FL]
+path = "../u_get_PMSFCR_EL1_Type_FL"
+
+[dependencies.u_get_PMSFCR_EL1_Type_FT]
+path = "../u_get_PMSFCR_EL1_Type_FT"
+
+[dependencies.u_get_PMSFCR_EL1_Type_FnE]
+path = "../u_get_PMSFCR_EL1_Type_FnE"
+
+[dependencies.u_get_PMSFCR_EL1_Type_LD]
+path = "../u_get_PMSFCR_EL1_Type_LD"
+
+[dependencies.u_get_PMSFCR_EL1_Type_ST]
+path = "../u_get_PMSFCR_EL1_Type_ST"
+
+[dependencies.u_get_PMSLATFR_EL1_Type_MINLAT]
+path = "../u_get_PMSLATFR_EL1_Type_MINLAT"

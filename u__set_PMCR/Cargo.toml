@@ -1,0 +1,46 @@
+[package]
+edition = "2021"
+name = "u__set_PMCR"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.Mk_PMCR_Type]
+path = "../Mk_PMCR_Type"
+
+[dependencies.PMCR_read]
+path = "../PMCR_read"
+
+[dependencies.PMCR_write]
+path = "../PMCR_write"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_PMCR_Type_C]
+path = "../u_get_PMCR_Type_C"
+
+[dependencies.u_get_PMCR_Type_IDCODE]
+path = "../u_get_PMCR_Type_IDCODE"
+
+[dependencies.u_get_PMCR_Type_IMP]
+path = "../u_get_PMCR_Type_IMP"
+
+[dependencies.u_get_PMCR_Type_P]
+path = "../u_get_PMCR_Type_P"
+
+[dependencies.u_update_PMCR_Type_C]
+path = "../u_update_PMCR_Type_C"
+
+[dependencies.u_update_PMCR_Type_IDCODE]
+path = "../u_update_PMCR_Type_IDCODE"
+
+[dependencies.u_update_PMCR_Type_IMP]
+path = "../u_update_PMCR_Type_IMP"
+
+[dependencies.u_update_PMCR_Type_P]
+path = "../u_update_PMCR_Type_P"

@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "AArch32_SysRegReadCanWriteAPSR"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "IsSecureBelowEL3"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveAArch64]
+path = "../HaveAArch64"
+
+[dependencies.HaveSecureEL2Ext]
+path = "../HaveSecureEL2Ext"
+
+[dependencies.SCR_GEN_read]
+path = "../SCR_GEN_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u_get_SCRType_NS]
+path = "../u_get_SCRType_NS"

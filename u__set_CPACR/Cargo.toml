@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "u__set_CPACR"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CPACR_read__1]
+path = "../CPACR_read__1"
+
+[dependencies.CPACR_write]
+path = "../CPACR_write"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.IsCurrentSecurityState]
+path = "../IsCurrentSecurityState"
+
+[dependencies.Mk_CPACR_Type]
+path = "../Mk_CPACR_Type"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_CPACR_Type_cp10]
+path = "../u_get_CPACR_Type_cp10"
+
+[dependencies.u_get_CPACR_Type_cp11]
+path = "../u_get_CPACR_Type_cp11"
+
+[dependencies.u_get_NSACR_Type_cp10]
+path = "../u_get_NSACR_Type_cp10"
+
+[dependencies.u_update_CPACR_Type_cp10]
+path = "../u_update_CPACR_Type_cp10"
+
+[dependencies.u_update_CPACR_Type_cp11]
+path = "../u_update_CPACR_Type_cp11"

@@ -1,0 +1,55 @@
+[package]
+edition = "2021"
+name = "SPEConstructRecord"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveStatisticalProfilingv1p2]
+path = "../HaveStatisticalProfilingv1p2"
+
+[dependencies.SPEAddByteToRecord]
+path = "../SPEAddByteToRecord"
+
+[dependencies.SPEAddPacketToRecord]
+path = "../SPEAddPacketToRecord"
+
+[dependencies.SPEEmptyRecord]
+path = "../SPEEmptyRecord"
+
+[dependencies.SPEGetDataSourcePayloadSize]
+path = "../SPEGetDataSourcePayloadSize"
+
+[dependencies.SPEGetEventsPayloadSize]
+path = "../SPEGetEventsPayloadSize"
+
+[dependencies.SPEWriteToBuffer]
+path = "../SPEWriteToBuffer"
+
+[dependencies.StatisticalProfilingEnabled__1]
+path = "../StatisticalProfilingEnabled__1"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.fmod_int]
+path = "../fmod_int"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.neq_int]
+path = "../neq_int"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.u_get_PMBIDR_EL1_Type_Align]
+path = "../u_get_PMBIDR_EL1_Type_Align"

@@ -1,0 +1,88 @@
+[package]
+edition = "2021"
+name = "AArch32_S1TranslateSD"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_EL2Enabled]
+path = "../AArch32_EL2Enabled"
+
+[dependencies.AArch32_OutputDomain]
+path = "../AArch32_OutputDomain"
+
+[dependencies.AArch32_S1DCacheEnabled]
+path = "../AArch32_S1DCacheEnabled"
+
+[dependencies.AArch32_S1DisabledOutput]
+path = "../AArch32_S1DisabledOutput"
+
+[dependencies.AArch32_S1Enabled]
+path = "../AArch32_S1Enabled"
+
+[dependencies.AArch32_S1HasAlignmentFault]
+path = "../AArch32_S1HasAlignmentFault"
+
+[dependencies.AArch32_S1ICacheEnabled]
+path = "../AArch32_S1ICacheEnabled"
+
+[dependencies.AArch32_S1SDHasPermissionsFault]
+path = "../AArch32_S1SDHasPermissionsFault"
+
+[dependencies.AArch32_S1WalkSD]
+path = "../AArch32_S1WalkSD"
+
+[dependencies.AArch32_SDStageOA]
+path = "../AArch32_SDStageOA"
+
+[dependencies.CreateAddressDescriptor]
+path = "../CreateAddressDescriptor"
+
+[dependencies.ELStateUsingAArch32]
+path = "../ELStateUsingAArch32"
+
+[dependencies.EffectiveShareability]
+path = "../EffectiveShareability"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.HaveAArch32EL]
+path = "../HaveAArch32EL"
+
+[dependencies.HaveTrapLoadStoreMultipleDeviceExt]
+path = "../HaveTrapLoadStoreMultipleDeviceExt"
+
+[dependencies.NormalNCMemAttr]
+path = "../NormalNCMemAttr"
+
+[dependencies.SCTLR_NS_read]
+path = "../SCTLR_NS_read"
+
+[dependencies.SCTLR_read__2]
+path = "../SCTLR_read__2"
+
+[dependencies.SetInGuardedPage]
+path = "../SetInGuardedPage"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__UNKNOWN_AddressDescriptor]
+path = "../u__UNKNOWN_AddressDescriptor"
+
+[dependencies.u__UNKNOWN_SDFType]
+path = "../u__UNKNOWN_SDFType"
+
+[dependencies.u_get_HCR_EL2_Type_VM]
+path = "../u_get_HCR_EL2_Type_VM"
+
+[dependencies.u_get_HCR_Type_VM]
+path = "../u_get_HCR_Type_VM"
+
+[dependencies.u_get_SCTLR_Type_nTLSMD]
+path = "../u_get_SCTLR_Type_nTLSMD"

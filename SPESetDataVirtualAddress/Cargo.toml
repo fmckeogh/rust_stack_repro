@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "SPESetDataVirtualAddress"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EffectiveTBI]
+path = "../EffectiveTBI"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"

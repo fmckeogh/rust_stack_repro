@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_VRSRA_Op_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckAdvSIMDEnabled]
+path = "../CheckAdvSIMDEnabled"
+
+[dependencies.D_read]
+path = "../D_read"
+
+[dependencies.D_set]
+path = "../D_set"
+
+[dependencies.Elem_read]
+path = "../Elem_read"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.RShr]
+path = "../RShr"
+
+[dependencies.asl_Int]
+path = "../asl_Int"
+
+[dependencies.common]
+path = "../common"

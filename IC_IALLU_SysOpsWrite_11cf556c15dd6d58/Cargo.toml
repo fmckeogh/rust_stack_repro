@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "IC_IALLU_SysOpsWrite_11cf556c15dd6d58"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_IC]
+path = "../AArch64_IC"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_FB]
+path = "../u_get_HCR_EL2_Type_FB"
+
+[dependencies.u_get_HCR_EL2_Type_TOCU]
+path = "../u_get_HCR_EL2_Type_TOCU"
+
+[dependencies.u_get_HCR_EL2_Type_TPU]
+path = "../u_get_HCR_EL2_Type_TPU"
+
+[dependencies.u_get_HFGITR_EL2_Type_ICIALLU]
+path = "../u_get_HFGITR_EL2_Type_ICIALLU"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"

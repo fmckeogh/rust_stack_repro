@@ -1,0 +1,154 @@
+[package]
+edition = "2021"
+name = "CountPMUEvents"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.ExternalSecureNoninvasiveDebugEnabled]
+path = "../ExternalSecureNoninvasiveDebugEnabled"
+
+[dependencies.GetNumEventCounters]
+path = "../GetNumEventCounters"
+
+[dependencies.HDCR_read]
+path = "../HDCR_read"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.HaveAArch64]
+path = "../HaveAArch64"
+
+[dependencies.HaveHPMDExt]
+path = "../HaveHPMDExt"
+
+[dependencies.HaveNoSecurePMUDisableOverride]
+path = "../HaveNoSecurePMUDisableOverride"
+
+[dependencies.HavePMUv3ICNTR]
+path = "../HavePMUv3ICNTR"
+
+[dependencies.HavePMUv3p5]
+path = "../HavePMUv3p5"
+
+[dependencies.HavePMUv3p7]
+path = "../HavePMUv3p7"
+
+[dependencies.HaveRME]
+path = "../HaveRME"
+
+[dependencies.HaveSecureEL2Ext]
+path = "../HaveSecureEL2Ext"
+
+[dependencies.HiLoPMUOverflow]
+path = "../HiLoPMUOverflow"
+
+[dependencies.PMCCFILTR_read]
+path = "../PMCCFILTR_read"
+
+[dependencies.PMCNTENSET_read]
+path = "../PMCNTENSET_read"
+
+[dependencies.PMCR_read]
+path = "../PMCR_read"
+
+[dependencies.PMEVTYPER_read]
+path = "../PMEVTYPER_read"
+
+[dependencies.PMUCounterIsHyp]
+path = "../PMUCounterIsHyp"
+
+[dependencies.SDER32_EL3_read]
+path = "../SDER32_EL3_read"
+
+[dependencies.SDER_read]
+path = "../SDER_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.u_get_HDCR_Type_HCCD]
+path = "../u_get_HDCR_Type_HCCD"
+
+[dependencies.u_get_HDCR_Type_HPMD]
+path = "../u_get_HDCR_Type_HPMD"
+
+[dependencies.u_get_HDCR_Type_HPME]
+path = "../u_get_HDCR_Type_HPME"
+
+[dependencies.u_get_HDCR_Type_HPMFZO]
+path = "../u_get_HDCR_Type_HPMFZO"
+
+[dependencies.u_get_MDCR_EL2_Type_HCCD]
+path = "../u_get_MDCR_EL2_Type_HCCD"
+
+[dependencies.u_get_MDCR_EL2_Type_HPMD]
+path = "../u_get_MDCR_EL2_Type_HPMD"
+
+[dependencies.u_get_MDCR_EL2_Type_HPME]
+path = "../u_get_MDCR_EL2_Type_HPME"
+
+[dependencies.u_get_MDCR_EL2_Type_HPMFZO]
+path = "../u_get_MDCR_EL2_Type_HPMFZO"
+
+[dependencies.u_get_MDCR_EL3_Type_MCCD]
+path = "../u_get_MDCR_EL3_Type_MCCD"
+
+[dependencies.u_get_MDCR_EL3_Type_MPMX]
+path = "../u_get_MDCR_EL3_Type_MPMX"
+
+[dependencies.u_get_MDCR_EL3_Type_SCCD]
+path = "../u_get_MDCR_EL3_Type_SCCD"
+
+[dependencies.u_get_MDCR_EL3_Type_SPME]
+path = "../u_get_MDCR_EL3_Type_SPME"
+
+[dependencies.u_get_PMCNTENSET_EL0_Type_C]
+path = "../u_get_PMCNTENSET_EL0_Type_C"
+
+[dependencies.u_get_PMCNTENSET_EL0_Type_F0]
+path = "../u_get_PMCNTENSET_EL0_Type_F0"
+
+[dependencies.u_get_PMCNTENSET_Type_C]
+path = "../u_get_PMCNTENSET_Type_C"
+
+[dependencies.u_get_PMCR_EL0_Type_DP]
+path = "../u_get_PMCR_EL0_Type_DP"
+
+[dependencies.u_get_PMCR_EL0_Type_E]
+path = "../u_get_PMCR_EL0_Type_E"
+
+[dependencies.u_get_PMCR_EL0_Type_FZO]
+path = "../u_get_PMCR_EL0_Type_FZO"
+
+[dependencies.u_get_PMCR_Type_DP]
+path = "../u_get_PMCR_Type_DP"
+
+[dependencies.u_get_PMCR_Type_E]
+path = "../u_get_PMCR_Type_E"
+
+[dependencies.u_get_PMCR_Type_FZO]
+path = "../u_get_PMCR_Type_FZO"
+
+[dependencies.u_get_SDCR_Type_SCCD]
+path = "../u_get_SDCR_Type_SCCD"
+
+[dependencies.u_get_SDCR_Type_SPME]
+path = "../u_get_SDCR_Type_SPME"
+
+[dependencies.u_get_SDER32_EL3_Type_SUNIDEN]
+path = "../u_get_SDER32_EL3_Type_SUNIDEN"
+
+[dependencies.u_get_SDER_Type_SUNIDEN]
+path = "../u_get_SDER_Type_SUNIDEN"

@@ -1,0 +1,64 @@
+[package]
+edition = "2021"
+name = "AArch32_CheckFPAdvSIMDTrap"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_TakeHypTrapException__1]
+path = "../AArch32_TakeHypTrapException__1"
+
+[dependencies.AArch32_TakeUndefInstrException__1]
+path = "../AArch32_TakeUndefInstrException__1"
+
+[dependencies.AArch64_AdvSIMDFPAccessTrap]
+path = "../AArch64_AdvSIMDFPAccessTrap"
+
+[dependencies.AArch64_CheckFPAdvSIMDTrap]
+path = "../AArch64_CheckFPAdvSIMDTrap"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.ConditionSyndrome]
+path = "../ConditionSyndrome"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.EL3SDDUndef]
+path = "../EL3SDDUndef"
+
+[dependencies.EL3SDDUndefPriority]
+path = "../EL3SDDUndefPriority"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.ExceptionSyndrome]
+path = "../ExceptionSyndrome"
+
+[dependencies.HCPTR_read]
+path = "../HCPTR_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_CPTR_EL3_Type_TFP]
+path = "../u_get_CPTR_EL3_Type_TFP"
+
+[dependencies.u_get_HCPTR_Type_TASE]
+path = "../u_get_HCPTR_Type_TASE"
+
+[dependencies.u_get_HCPTR_Type_TCP10]
+path = "../u_get_HCPTR_Type_TCP10"
+
+[dependencies.u_get_NSACR_Type_NSASEDIS]
+path = "../u_get_NSACR_Type_NSASEDIS"
+
+[dependencies.u_get_NSACR_Type_cp10]
+path = "../u_get_NSACR_Type_cp10"

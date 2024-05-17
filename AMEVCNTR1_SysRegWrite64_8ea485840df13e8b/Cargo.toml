@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "AMEVCNTR1_SysRegWrite64_8ea485840df13e8b"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AMEVCNTR1_set]
+path = "../AMEVCNTR1_set"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HSTR_read]
+path = "../HSTR_read"
+
+[dependencies.IsG1ActivityMonitorImplemented]
+path = "../IsG1ActivityMonitorImplemented"
+
+[dependencies.IsHighestEL]
+path = "../IsHighestEL"
+
+[dependencies.Mk_AMEVCNTR1_Type]
+path = "../Mk_AMEVCNTR1_Type"
+
+[dependencies.R_read]
+path = "../R_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HSTR_EL2_Type_T5]
+path = "../u_get_HSTR_EL2_Type_T5"
+
+[dependencies.u_get_HSTR_Type_T5]
+path = "../u_get_HSTR_Type_T5"

@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_frintm_advsimd_aarch64_instrs_vector_arithmetic_unary_fp16_round"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.FPCR_read]
+path = "../FPCR_read"
+
+[dependencies.FPDecodeRounding]
+path = "../FPDecodeRounding"
+
+[dependencies.FPRoundingMode]
+path = "../FPRoundingMode"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_vector_arithmetic_unary_fp16_round]
+path = "../execute_aarch64_instrs_vector_arithmetic_unary_fp16_round"

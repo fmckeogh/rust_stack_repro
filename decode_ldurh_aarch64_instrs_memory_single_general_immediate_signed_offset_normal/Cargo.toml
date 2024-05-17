@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_ldurh_aarch64_instrs_memory_single_general_immediate_signed_offset_normal"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_memory_single_general_immediate_signed_offset_normal]
+path = "../execute_aarch64_instrs_memory_single_general_immediate_signed_offset_normal"
+
+[dependencies.neq_int]
+path = "../neq_int"

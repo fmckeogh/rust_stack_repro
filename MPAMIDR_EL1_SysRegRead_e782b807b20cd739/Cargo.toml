@@ -1,0 +1,49 @@
+[package]
+edition = "2021"
+name = "MPAMIDR_EL1_SysRegRead_e782b807b20cd739"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.MPAM3_EL3_read]
+path = "../MPAM3_EL3_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_MPAMIDR_EL1]
+path = "../u__get_MPAMIDR_EL1"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_MPAM2_EL2_Type_TIDR]
+path = "../u_get_MPAM2_EL2_Type_TIDR"
+
+[dependencies.u_get_MPAM3_EL3_Type_TRAPLOWER]
+path = "../u_get_MPAM3_EL3_Type_TRAPLOWER"
+
+[dependencies.u_get_MPAMHCR_EL2_Type_TRAP_MPAMIDR_EL1]
+path = "../u_get_MPAMHCR_EL2_Type_TRAP_MPAMIDR_EL1"
+
+[dependencies.u_get_MPAMIDR_EL1_Type_HAS_HCR]
+path = "../u_get_MPAMIDR_EL1_Type_HAS_HCR"
+
+[dependencies.u_get_MPAMIDR_EL1_Type_HAS_TIDR]
+path = "../u_get_MPAMIDR_EL1_Type_HAS_TIDR"

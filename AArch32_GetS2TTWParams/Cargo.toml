@@ -1,0 +1,52 @@
+[package]
+edition = "2021"
+name = "AArch32_GetS2TTWParams"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ConstrainUnpredictableBits]
+path = "../ConstrainUnpredictableBits"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.HSCTLR_read]
+path = "../HSCTLR_read"
+
+[dependencies.VTCR_read]
+path = "../VTCR_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_Type_DC]
+path = "../u_get_HCR_Type_DC"
+
+[dependencies.u_get_HCR_Type_PTW]
+path = "../u_get_HCR_Type_PTW"
+
+[dependencies.u_get_HCR_Type_VM]
+path = "../u_get_HCR_Type_VM"
+
+[dependencies.u_get_HSCTLR_Type_EE]
+path = "../u_get_HSCTLR_Type_EE"
+
+[dependencies.u_get_VTCR_Type_IRGN0]
+path = "../u_get_VTCR_Type_IRGN0"
+
+[dependencies.u_get_VTCR_Type_ORGN0]
+path = "../u_get_VTCR_Type_ORGN0"
+
+[dependencies.u_get_VTCR_Type_S]
+path = "../u_get_VTCR_Type_S"
+
+[dependencies.u_get_VTCR_Type_SH0]
+path = "../u_get_VTCR_Type_SH0"
+
+[dependencies.u_get_VTCR_Type_SL0]
+path = "../u_get_VTCR_Type_SL0"
+
+[dependencies.u_get_VTCR_Type_T0SZ]
+path = "../u_get_VTCR_Type_T0SZ"

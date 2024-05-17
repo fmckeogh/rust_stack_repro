@@ -1,0 +1,82 @@
+[package]
+edition = "2021"
+name = "DBGDTRRXint_STC_521dc9133ebece9c"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_TakeHypTrapException]
+path = "../AArch32_TakeHypTrapException"
+
+[dependencies.AArch32_TakeMonitorTrapException]
+path = "../AArch32_TakeMonitorTrapException"
+
+[dependencies.AArch64_AArch32SystemAccessTrap]
+path = "../AArch64_AArch32SystemAccessTrap"
+
+[dependencies.DBGDSCRext_read]
+path = "../DBGDSCRext_read"
+
+[dependencies.DBGDTRRXint_read]
+path = "../DBGDTRRXint_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.HDCR_read]
+path = "../HDCR_read"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.MemA_set]
+path = "../MemA_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_DBGDSCRext_Type_UDCCdis]
+path = "../u_get_DBGDSCRext_Type_UDCCdis"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HCR_Type_TGE]
+path = "../u_get_HCR_Type_TGE"
+
+[dependencies.u_get_HDCR_Type_TDA]
+path = "../u_get_HDCR_Type_TDA"
+
+[dependencies.u_get_HDCR_Type_TDCC]
+path = "../u_get_HDCR_Type_TDCC"
+
+[dependencies.u_get_HDCR_Type_TDE]
+path = "../u_get_HDCR_Type_TDE"
+
+[dependencies.u_get_MDCR_EL2_Type_TDA]
+path = "../u_get_MDCR_EL2_Type_TDA"
+
+[dependencies.u_get_MDCR_EL2_Type_TDCC]
+path = "../u_get_MDCR_EL2_Type_TDCC"
+
+[dependencies.u_get_MDCR_EL2_Type_TDE]
+path = "../u_get_MDCR_EL2_Type_TDE"
+
+[dependencies.u_get_MDCR_EL3_Type_TDA]
+path = "../u_get_MDCR_EL3_Type_TDA"
+
+[dependencies.u_get_MDCR_EL3_Type_TDCC]
+path = "../u_get_MDCR_EL3_Type_TDCC"
+
+[dependencies.u_get_MDSCR_EL1_Type_TDCC]
+path = "../u_get_MDSCR_EL1_Type_TDCC"
+
+[dependencies.u_get_SDCR_Type_TDCC]
+path = "../u_get_SDCR_Type_TDCC"

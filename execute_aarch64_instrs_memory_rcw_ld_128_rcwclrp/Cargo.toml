@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_memory_rcw_ld_128_rcwclrp"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.BigEndian]
+path = "../BigEndian"
+
+[dependencies.CheckSPAlignment]
+path = "../CheckSPAlignment"
+
+[dependencies.CreateAccDescRCW]
+path = "../CreateAccDescRCW"
+
+[dependencies.IsD128Enabled]
+path = "../IsD128Enabled"
+
+[dependencies.MemAtomicRCW]
+path = "../MemAtomicRCW"
+
+[dependencies.SP_read]
+path = "../SP_read"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"

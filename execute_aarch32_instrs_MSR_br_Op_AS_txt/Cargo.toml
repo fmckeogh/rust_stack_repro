@@ -1,0 +1,49 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_MSR_br_Op_AS_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_MonitorModeTrap]
+path = "../AArch64_MonitorModeTrap"
+
+[dependencies.BankedRegisterAccessValid]
+path = "../BankedRegisterAccessValid"
+
+[dependencies.ELR_hyp_write]
+path = "../ELR_hyp_write"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.Mk_SPSR_hyp_Type]
+path = "../Mk_SPSR_hyp_Type"
+
+[dependencies.Mk_SPSR_svc_Type]
+path = "../Mk_SPSR_svc_Type"
+
+[dependencies.R_read]
+path = "../R_read"
+
+[dependencies.Rmode_set]
+path = "../Rmode_set"
+
+[dependencies.SPSR_hyp_read]
+path = "../SPSR_hyp_read"
+
+[dependencies.SPSR_hyp_write]
+path = "../SPSR_hyp_write"
+
+[dependencies.SPSR_svc_read]
+path = "../SPSR_svc_read"
+
+[dependencies.SPSR_svc_write]
+path = "../SPSR_svc_write"
+
+[dependencies.SPSRaccessValid]
+path = "../SPSRaccessValid"
+
+[dependencies.common]
+path = "../common"

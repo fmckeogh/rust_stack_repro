@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "AArch64_LeafBase"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Have52BitPAExt]
+path = "../Have52BitPAExt"
+
+[dependencies.Have56BitPAExt]
+path = "../Have56BitPAExt"
+
+[dependencies.TGxGranuleBits]
+path = "../TGxGranuleBits"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.place_subrange]
+path = "../place_subrange"
+
+[dependencies.u__id]
+path = "../u__id"

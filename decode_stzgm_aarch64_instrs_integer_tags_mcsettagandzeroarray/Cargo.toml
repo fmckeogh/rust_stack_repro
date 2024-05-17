@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_stzgm_aarch64_instrs_integer_tags_mcsettagandzeroarray"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveMTE2Ext]
+path = "../HaveMTE2Ext"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_integer_tags_mcsettagandzeroarray]
+path = "../execute_aarch64_instrs_integer_tags_mcsettagandzeroarray"

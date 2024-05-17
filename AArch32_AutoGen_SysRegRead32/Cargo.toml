@@ -1,0 +1,1228 @@
+[package]
+edition = "2021"
+name = "AArch32_AutoGen_SysRegRead32"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_UnallocatedSysRegAccess]
+path = "../AArch32_UnallocatedSysRegAccess"
+
+[dependencies.ACTLR2_SysRegRead32_b5235ae9298d37ab]
+path = "../ACTLR2_SysRegRead32_b5235ae9298d37ab"
+
+[dependencies.ACTLR_SysRegRead32_6cec3685fb7200c1]
+path = "../ACTLR_SysRegRead32_6cec3685fb7200c1"
+
+[dependencies.ADFSR_SysRegRead32_12834f15645083f8]
+path = "../ADFSR_SysRegRead32_12834f15645083f8"
+
+[dependencies.AIDR_SysRegRead32_ce556bd47a2bd19b]
+path = "../AIDR_SysRegRead32_ce556bd47a2bd19b"
+
+[dependencies.AIFSR_SysRegRead32_dcd7a0d08b788988]
+path = "../AIFSR_SysRegRead32_dcd7a0d08b788988"
+
+[dependencies.AMAIR0_SysRegRead32_9c3a882cb83d441e]
+path = "../AMAIR0_SysRegRead32_9c3a882cb83d441e"
+
+[dependencies.AMAIR1_SysRegRead32_abbf588378c53393]
+path = "../AMAIR1_SysRegRead32_abbf588378c53393"
+
+[dependencies.AMCFGR_SysRegRead32_f4b1155615a324f5]
+path = "../AMCFGR_SysRegRead32_f4b1155615a324f5"
+
+[dependencies.AMCGCR_SysRegRead32_ec0083efd88e8df5]
+path = "../AMCGCR_SysRegRead32_ec0083efd88e8df5"
+
+[dependencies.AMCNTENCLR0_SysRegRead32_4cd517564ca44d4e]
+path = "../AMCNTENCLR0_SysRegRead32_4cd517564ca44d4e"
+
+[dependencies.AMCNTENCLR1_SysRegRead32_d9e05aee283dea2c]
+path = "../AMCNTENCLR1_SysRegRead32_d9e05aee283dea2c"
+
+[dependencies.AMCNTENSET0_SysRegRead32_941308a2fea42e28]
+path = "../AMCNTENSET0_SysRegRead32_941308a2fea42e28"
+
+[dependencies.AMCNTENSET1_SysRegRead32_7b7457f3c7ff281b]
+path = "../AMCNTENSET1_SysRegRead32_7b7457f3c7ff281b"
+
+[dependencies.AMCR_SysRegRead32_3740e4968cc5855a]
+path = "../AMCR_SysRegRead32_3740e4968cc5855a"
+
+[dependencies.AMEVTYPER0_SysRegRead32_2bb2f6721c44cef6]
+path = "../AMEVTYPER0_SysRegRead32_2bb2f6721c44cef6"
+
+[dependencies.AMEVTYPER0_SysRegRead32_2e79e456f9d1dcd3]
+path = "../AMEVTYPER0_SysRegRead32_2e79e456f9d1dcd3"
+
+[dependencies.AMEVTYPER0_SysRegRead32_3d4ae79d0a2a83f7]
+path = "../AMEVTYPER0_SysRegRead32_3d4ae79d0a2a83f7"
+
+[dependencies.AMEVTYPER0_SysRegRead32_d72cb28d75eca03e]
+path = "../AMEVTYPER0_SysRegRead32_d72cb28d75eca03e"
+
+[dependencies.AMEVTYPER1_SysRegRead32_30353b694529c623]
+path = "../AMEVTYPER1_SysRegRead32_30353b694529c623"
+
+[dependencies.AMEVTYPER1_SysRegRead32_3704564c9ad105a9]
+path = "../AMEVTYPER1_SysRegRead32_3704564c9ad105a9"
+
+[dependencies.AMEVTYPER1_SysRegRead32_3d5ee14ab14e0600]
+path = "../AMEVTYPER1_SysRegRead32_3d5ee14ab14e0600"
+
+[dependencies.AMEVTYPER1_SysRegRead32_3f1d2f749c9eacac]
+path = "../AMEVTYPER1_SysRegRead32_3f1d2f749c9eacac"
+
+[dependencies.AMEVTYPER1_SysRegRead32_56620f65cf2520b9]
+path = "../AMEVTYPER1_SysRegRead32_56620f65cf2520b9"
+
+[dependencies.AMEVTYPER1_SysRegRead32_5da5d2022384b9e4]
+path = "../AMEVTYPER1_SysRegRead32_5da5d2022384b9e4"
+
+[dependencies.AMEVTYPER1_SysRegRead32_6862bf1fd0c624fa]
+path = "../AMEVTYPER1_SysRegRead32_6862bf1fd0c624fa"
+
+[dependencies.AMEVTYPER1_SysRegRead32_727db649d7fd62f8]
+path = "../AMEVTYPER1_SysRegRead32_727db649d7fd62f8"
+
+[dependencies.AMEVTYPER1_SysRegRead32_72835fc6dfc4b11f]
+path = "../AMEVTYPER1_SysRegRead32_72835fc6dfc4b11f"
+
+[dependencies.AMEVTYPER1_SysRegRead32_a5bece13ef847a3b]
+path = "../AMEVTYPER1_SysRegRead32_a5bece13ef847a3b"
+
+[dependencies.AMEVTYPER1_SysRegRead32_aefd3ad06352acdf]
+path = "../AMEVTYPER1_SysRegRead32_aefd3ad06352acdf"
+
+[dependencies.AMEVTYPER1_SysRegRead32_b4ee1ae1a6a9e5fe]
+path = "../AMEVTYPER1_SysRegRead32_b4ee1ae1a6a9e5fe"
+
+[dependencies.AMEVTYPER1_SysRegRead32_bc839289c9bacd64]
+path = "../AMEVTYPER1_SysRegRead32_bc839289c9bacd64"
+
+[dependencies.AMEVTYPER1_SysRegRead32_d76669b6678fb9d9]
+path = "../AMEVTYPER1_SysRegRead32_d76669b6678fb9d9"
+
+[dependencies.AMEVTYPER1_SysRegRead32_e5dbca925a693d3a]
+path = "../AMEVTYPER1_SysRegRead32_e5dbca925a693d3a"
+
+[dependencies.AMEVTYPER1_SysRegRead32_ecafc26f65f1dda2]
+path = "../AMEVTYPER1_SysRegRead32_ecafc26f65f1dda2"
+
+[dependencies.AMUSERENR_SysRegRead32_a8f18bf4f7170234]
+path = "../AMUSERENR_SysRegRead32_a8f18bf4f7170234"
+
+[dependencies.CCSIDR2_SysRegRead32_b747ebd0fcc6df4e]
+path = "../CCSIDR2_SysRegRead32_b747ebd0fcc6df4e"
+
+[dependencies.CCSIDR_SysRegRead32_4e417948cc9050d5]
+path = "../CCSIDR_SysRegRead32_4e417948cc9050d5"
+
+[dependencies.CLIDR_SysRegRead32_1324f310591d527a]
+path = "../CLIDR_SysRegRead32_1324f310591d527a"
+
+[dependencies.CNTFRQ_SysRegRead32_4d7a0faa14f3d1f9]
+path = "../CNTFRQ_SysRegRead32_4d7a0faa14f3d1f9"
+
+[dependencies.CNTHCTL_SysRegRead32_36df328680cb805f]
+path = "../CNTHCTL_SysRegRead32_36df328680cb805f"
+
+[dependencies.CNTHPS_CTL_SysRegRead32_a99d410e49082e9f]
+path = "../CNTHPS_CTL_SysRegRead32_a99d410e49082e9f"
+
+[dependencies.CNTHP_CTL_SysRegRead32_5ea09b260a579171]
+path = "../CNTHP_CTL_SysRegRead32_5ea09b260a579171"
+
+[dependencies.CNTHP_TVAL_SysRegRead32_ea212b21a99af571]
+path = "../CNTHP_TVAL_SysRegRead32_ea212b21a99af571"
+
+[dependencies.CNTHP_TVAL_SysRegRead32_fdd1a67f3e306983]
+path = "../CNTHP_TVAL_SysRegRead32_fdd1a67f3e306983"
+
+[dependencies.CNTHVS_CTL_SysRegRead32_a44e5d4ed8fbfe64]
+path = "../CNTHVS_CTL_SysRegRead32_a44e5d4ed8fbfe64"
+
+[dependencies.CNTKCTL_SysRegRead32_9166ed3878001f60]
+path = "../CNTKCTL_SysRegRead32_9166ed3878001f60"
+
+[dependencies.CNTV_TVAL_SysRegRead32_ac1a47c2d11f8dd9]
+path = "../CNTV_TVAL_SysRegRead32_ac1a47c2d11f8dd9"
+
+[dependencies.CONTEXTIDR_SysRegRead32_a8d33c511e223d46]
+path = "../CONTEXTIDR_SysRegRead32_a8d33c511e223d46"
+
+[dependencies.CPACR_SysRegRead32_3e95a711394f5115]
+path = "../CPACR_SysRegRead32_3e95a711394f5115"
+
+[dependencies.CSSELR_SysRegRead32_b9908a214e4391b4]
+path = "../CSSELR_SysRegRead32_b9908a214e4391b4"
+
+[dependencies.CTR_SysRegRead32_99a8e042837c333b]
+path = "../CTR_SysRegRead32_99a8e042837c333b"
+
+[dependencies.DACR_SysRegRead32_a5e223b70013760e]
+path = "../DACR_SysRegRead32_a5e223b70013760e"
+
+[dependencies.DBGAUTHSTATUS_SysRegRead32_e99aa927d23f6bfc]
+path = "../DBGAUTHSTATUS_SysRegRead32_e99aa927d23f6bfc"
+
+[dependencies.DBGBCR_SysRegRead32_01c2798f5fc44bfa]
+path = "../DBGBCR_SysRegRead32_01c2798f5fc44bfa"
+
+[dependencies.DBGBCR_SysRegRead32_0c66b90b6558a3cb]
+path = "../DBGBCR_SysRegRead32_0c66b90b6558a3cb"
+
+[dependencies.DBGBCR_SysRegRead32_216d13962e754b99]
+path = "../DBGBCR_SysRegRead32_216d13962e754b99"
+
+[dependencies.DBGBCR_SysRegRead32_2a19913e0ff50654]
+path = "../DBGBCR_SysRegRead32_2a19913e0ff50654"
+
+[dependencies.DBGBCR_SysRegRead32_2c7e30fbae6d4b48]
+path = "../DBGBCR_SysRegRead32_2c7e30fbae6d4b48"
+
+[dependencies.DBGBCR_SysRegRead32_4aa006511c22539c]
+path = "../DBGBCR_SysRegRead32_4aa006511c22539c"
+
+[dependencies.DBGBCR_SysRegRead32_4c18d60e0902660d]
+path = "../DBGBCR_SysRegRead32_4c18d60e0902660d"
+
+[dependencies.DBGBCR_SysRegRead32_524a8653177fde8f]
+path = "../DBGBCR_SysRegRead32_524a8653177fde8f"
+
+[dependencies.DBGBCR_SysRegRead32_5711831aec3ae94d]
+path = "../DBGBCR_SysRegRead32_5711831aec3ae94d"
+
+[dependencies.DBGBCR_SysRegRead32_8fb0687c13a9ae99]
+path = "../DBGBCR_SysRegRead32_8fb0687c13a9ae99"
+
+[dependencies.DBGBCR_SysRegRead32_afe89ec5412ea81e]
+path = "../DBGBCR_SysRegRead32_afe89ec5412ea81e"
+
+[dependencies.DBGBCR_SysRegRead32_cbd47314947043c8]
+path = "../DBGBCR_SysRegRead32_cbd47314947043c8"
+
+[dependencies.DBGBCR_SysRegRead32_cdd1fd850dc45db5]
+path = "../DBGBCR_SysRegRead32_cdd1fd850dc45db5"
+
+[dependencies.DBGBCR_SysRegRead32_db1b198c49f933c0]
+path = "../DBGBCR_SysRegRead32_db1b198c49f933c0"
+
+[dependencies.DBGBCR_SysRegRead32_e0d675a59f2b5c3e]
+path = "../DBGBCR_SysRegRead32_e0d675a59f2b5c3e"
+
+[dependencies.DBGBCR_SysRegRead32_f6f0a6ec5a19d902]
+path = "../DBGBCR_SysRegRead32_f6f0a6ec5a19d902"
+
+[dependencies.DBGBVR_SysRegRead32_00f589dd9b6e498d]
+path = "../DBGBVR_SysRegRead32_00f589dd9b6e498d"
+
+[dependencies.DBGBVR_SysRegRead32_08fe9e5e419581ae]
+path = "../DBGBVR_SysRegRead32_08fe9e5e419581ae"
+
+[dependencies.DBGBVR_SysRegRead32_0d7192e87273fee3]
+path = "../DBGBVR_SysRegRead32_0d7192e87273fee3"
+
+[dependencies.DBGBVR_SysRegRead32_1730a99ffdcdb940]
+path = "../DBGBVR_SysRegRead32_1730a99ffdcdb940"
+
+[dependencies.DBGBVR_SysRegRead32_3127ee8e7174eb76]
+path = "../DBGBVR_SysRegRead32_3127ee8e7174eb76"
+
+[dependencies.DBGBVR_SysRegRead32_3b08f67b830efeb5]
+path = "../DBGBVR_SysRegRead32_3b08f67b830efeb5"
+
+[dependencies.DBGBVR_SysRegRead32_4a2928b59ff2bd88]
+path = "../DBGBVR_SysRegRead32_4a2928b59ff2bd88"
+
+[dependencies.DBGBVR_SysRegRead32_4b2492f939b2d68d]
+path = "../DBGBVR_SysRegRead32_4b2492f939b2d68d"
+
+[dependencies.DBGBVR_SysRegRead32_54fa7eb1a8a086d2]
+path = "../DBGBVR_SysRegRead32_54fa7eb1a8a086d2"
+
+[dependencies.DBGBVR_SysRegRead32_731a4ca5463f9ac4]
+path = "../DBGBVR_SysRegRead32_731a4ca5463f9ac4"
+
+[dependencies.DBGBVR_SysRegRead32_7547e126cd447504]
+path = "../DBGBVR_SysRegRead32_7547e126cd447504"
+
+[dependencies.DBGBVR_SysRegRead32_7ba934859e2de1ac]
+path = "../DBGBVR_SysRegRead32_7ba934859e2de1ac"
+
+[dependencies.DBGBVR_SysRegRead32_82067dc9734a6b24]
+path = "../DBGBVR_SysRegRead32_82067dc9734a6b24"
+
+[dependencies.DBGBVR_SysRegRead32_aeb056e353dc1a63]
+path = "../DBGBVR_SysRegRead32_aeb056e353dc1a63"
+
+[dependencies.DBGBVR_SysRegRead32_c036021238cbadaa]
+path = "../DBGBVR_SysRegRead32_c036021238cbadaa"
+
+[dependencies.DBGBVR_SysRegRead32_c4752bdaff15ec68]
+path = "../DBGBVR_SysRegRead32_c4752bdaff15ec68"
+
+[dependencies.DBGBXVR_SysRegRead32_1c27a604d2b4f32b]
+path = "../DBGBXVR_SysRegRead32_1c27a604d2b4f32b"
+
+[dependencies.DBGBXVR_SysRegRead32_4c6fa7f444c624cb]
+path = "../DBGBXVR_SysRegRead32_4c6fa7f444c624cb"
+
+[dependencies.DBGBXVR_SysRegRead32_52c85c2c5daef517]
+path = "../DBGBXVR_SysRegRead32_52c85c2c5daef517"
+
+[dependencies.DBGBXVR_SysRegRead32_56d437c5026e56e6]
+path = "../DBGBXVR_SysRegRead32_56d437c5026e56e6"
+
+[dependencies.DBGBXVR_SysRegRead32_718e496a0f71d413]
+path = "../DBGBXVR_SysRegRead32_718e496a0f71d413"
+
+[dependencies.DBGBXVR_SysRegRead32_745a1f5c08c2c352]
+path = "../DBGBXVR_SysRegRead32_745a1f5c08c2c352"
+
+[dependencies.DBGBXVR_SysRegRead32_7511d8f154b2cfe2]
+path = "../DBGBXVR_SysRegRead32_7511d8f154b2cfe2"
+
+[dependencies.DBGBXVR_SysRegRead32_78ef58571ab2de22]
+path = "../DBGBXVR_SysRegRead32_78ef58571ab2de22"
+
+[dependencies.DBGBXVR_SysRegRead32_7ae84360e0b64934]
+path = "../DBGBXVR_SysRegRead32_7ae84360e0b64934"
+
+[dependencies.DBGBXVR_SysRegRead32_8e4aad430b2ecf98]
+path = "../DBGBXVR_SysRegRead32_8e4aad430b2ecf98"
+
+[dependencies.DBGBXVR_SysRegRead32_9a88c64f6ef204ae]
+path = "../DBGBXVR_SysRegRead32_9a88c64f6ef204ae"
+
+[dependencies.DBGBXVR_SysRegRead32_dac7cb34b3ce5d73]
+path = "../DBGBXVR_SysRegRead32_dac7cb34b3ce5d73"
+
+[dependencies.DBGBXVR_SysRegRead32_e8fd3bc58d8acce2]
+path = "../DBGBXVR_SysRegRead32_e8fd3bc58d8acce2"
+
+[dependencies.DBGBXVR_SysRegRead32_e9303c37358e3794]
+path = "../DBGBXVR_SysRegRead32_e9303c37358e3794"
+
+[dependencies.DBGBXVR_SysRegRead32_f467d6fedc917b46]
+path = "../DBGBXVR_SysRegRead32_f467d6fedc917b46"
+
+[dependencies.DBGBXVR_SysRegRead32_fa2068509c645345]
+path = "../DBGBXVR_SysRegRead32_fa2068509c645345"
+
+[dependencies.DBGCLAIMCLR_SysRegRead32_42a543613e49cb33]
+path = "../DBGCLAIMCLR_SysRegRead32_42a543613e49cb33"
+
+[dependencies.DBGCLAIMSET_SysRegRead32_06784b0343d7d2f1]
+path = "../DBGCLAIMSET_SysRegRead32_06784b0343d7d2f1"
+
+[dependencies.DBGDCCINT_SysRegRead32_ba602311e159b54c]
+path = "../DBGDCCINT_SysRegRead32_ba602311e159b54c"
+
+[dependencies.DBGDEVID1_SysRegRead32_faeb62347ce88c7a]
+path = "../DBGDEVID1_SysRegRead32_faeb62347ce88c7a"
+
+[dependencies.DBGDEVID2_SysRegRead32_6baefcc664f89312]
+path = "../DBGDEVID2_SysRegRead32_6baefcc664f89312"
+
+[dependencies.DBGDEVID_SysRegRead32_66290830e754b76a]
+path = "../DBGDEVID_SysRegRead32_66290830e754b76a"
+
+[dependencies.DBGDIDR_SysRegRead32_8ee636612218bdd3]
+path = "../DBGDIDR_SysRegRead32_8ee636612218bdd3"
+
+[dependencies.DBGDRAR_SysRegRead32_421a9884bf20a229]
+path = "../DBGDRAR_SysRegRead32_421a9884bf20a229"
+
+[dependencies.DBGDSAR_SysRegRead32_94ff484a75802dcb]
+path = "../DBGDSAR_SysRegRead32_94ff484a75802dcb"
+
+[dependencies.DBGDSCRext_SysRegRead32_bbe7b972eea0caec]
+path = "../DBGDSCRext_SysRegRead32_bbe7b972eea0caec"
+
+[dependencies.DBGDSCRint_SysRegRead32_4d6240b644e5e8d8]
+path = "../DBGDSCRint_SysRegRead32_4d6240b644e5e8d8"
+
+[dependencies.DBGDTRRXext_SysRegRead32_4782be13f891eb2e]
+path = "../DBGDTRRXext_SysRegRead32_4782be13f891eb2e"
+
+[dependencies.DBGDTRRXint_SysRegRead32_ce20085c05aae144]
+path = "../DBGDTRRXint_SysRegRead32_ce20085c05aae144"
+
+[dependencies.DBGDTRTXext_SysRegRead32_dbe218a3250d179f]
+path = "../DBGDTRTXext_SysRegRead32_dbe218a3250d179f"
+
+[dependencies.DBGOSDLR_SysRegRead32_c1e6447a93f7efb4]
+path = "../DBGOSDLR_SysRegRead32_c1e6447a93f7efb4"
+
+[dependencies.DBGOSECCR_SysRegRead32_391dd35ddd37f699]
+path = "../DBGOSECCR_SysRegRead32_391dd35ddd37f699"
+
+[dependencies.DBGOSLSR_SysRegRead32_7c8a1f5e56c0fe64]
+path = "../DBGOSLSR_SysRegRead32_7c8a1f5e56c0fe64"
+
+[dependencies.DBGPRCR_SysRegRead32_ff2c6b0471b55490]
+path = "../DBGPRCR_SysRegRead32_ff2c6b0471b55490"
+
+[dependencies.DBGVCR_SysRegRead32_19db55a72a941c5f]
+path = "../DBGVCR_SysRegRead32_19db55a72a941c5f"
+
+[dependencies.DBGWCR_SysRegRead32_2c8e3f6807d0cbe3]
+path = "../DBGWCR_SysRegRead32_2c8e3f6807d0cbe3"
+
+[dependencies.DBGWCR_SysRegRead32_34b30f3cf3218c16]
+path = "../DBGWCR_SysRegRead32_34b30f3cf3218c16"
+
+[dependencies.DBGWCR_SysRegRead32_3b1b0be7aff03388]
+path = "../DBGWCR_SysRegRead32_3b1b0be7aff03388"
+
+[dependencies.DBGWCR_SysRegRead32_427272e014730b50]
+path = "../DBGWCR_SysRegRead32_427272e014730b50"
+
+[dependencies.DBGWCR_SysRegRead32_60f3efc31648e354]
+path = "../DBGWCR_SysRegRead32_60f3efc31648e354"
+
+[dependencies.DBGWCR_SysRegRead32_696fee9dbbdf30bb]
+path = "../DBGWCR_SysRegRead32_696fee9dbbdf30bb"
+
+[dependencies.DBGWCR_SysRegRead32_862efdc01d71fc1c]
+path = "../DBGWCR_SysRegRead32_862efdc01d71fc1c"
+
+[dependencies.DBGWCR_SysRegRead32_a166e9fb14e381a7]
+path = "../DBGWCR_SysRegRead32_a166e9fb14e381a7"
+
+[dependencies.DBGWCR_SysRegRead32_c04d3d89801ab85d]
+path = "../DBGWCR_SysRegRead32_c04d3d89801ab85d"
+
+[dependencies.DBGWCR_SysRegRead32_c11448c554efe1b1]
+path = "../DBGWCR_SysRegRead32_c11448c554efe1b1"
+
+[dependencies.DBGWCR_SysRegRead32_c49e6cc415f000b3]
+path = "../DBGWCR_SysRegRead32_c49e6cc415f000b3"
+
+[dependencies.DBGWCR_SysRegRead32_c5e0186238203543]
+path = "../DBGWCR_SysRegRead32_c5e0186238203543"
+
+[dependencies.DBGWCR_SysRegRead32_e262457611dfe741]
+path = "../DBGWCR_SysRegRead32_e262457611dfe741"
+
+[dependencies.DBGWCR_SysRegRead32_f40826807efdc23f]
+path = "../DBGWCR_SysRegRead32_f40826807efdc23f"
+
+[dependencies.DBGWCR_SysRegRead32_fa67eb6a8f2349c1]
+path = "../DBGWCR_SysRegRead32_fa67eb6a8f2349c1"
+
+[dependencies.DBGWCR_SysRegRead32_fba46a7399a2c310]
+path = "../DBGWCR_SysRegRead32_fba46a7399a2c310"
+
+[dependencies.DBGWFAR_SysRegRead32_eb3aaa02963f85c2]
+path = "../DBGWFAR_SysRegRead32_eb3aaa02963f85c2"
+
+[dependencies.DBGWVR_SysRegRead32_00161ecd371e1b48]
+path = "../DBGWVR_SysRegRead32_00161ecd371e1b48"
+
+[dependencies.DBGWVR_SysRegRead32_0f5b4c975d3928f0]
+path = "../DBGWVR_SysRegRead32_0f5b4c975d3928f0"
+
+[dependencies.DBGWVR_SysRegRead32_2e5f3331ba566316]
+path = "../DBGWVR_SysRegRead32_2e5f3331ba566316"
+
+[dependencies.DBGWVR_SysRegRead32_328f6a9c09b12c20]
+path = "../DBGWVR_SysRegRead32_328f6a9c09b12c20"
+
+[dependencies.DBGWVR_SysRegRead32_4bb9af81a75faa61]
+path = "../DBGWVR_SysRegRead32_4bb9af81a75faa61"
+
+[dependencies.DBGWVR_SysRegRead32_4f5bca529a325f7f]
+path = "../DBGWVR_SysRegRead32_4f5bca529a325f7f"
+
+[dependencies.DBGWVR_SysRegRead32_672b3a4673cc16b1]
+path = "../DBGWVR_SysRegRead32_672b3a4673cc16b1"
+
+[dependencies.DBGWVR_SysRegRead32_6a1d08c571006557]
+path = "../DBGWVR_SysRegRead32_6a1d08c571006557"
+
+[dependencies.DBGWVR_SysRegRead32_7cd7645018d2576e]
+path = "../DBGWVR_SysRegRead32_7cd7645018d2576e"
+
+[dependencies.DBGWVR_SysRegRead32_9fd65afd85a62538]
+path = "../DBGWVR_SysRegRead32_9fd65afd85a62538"
+
+[dependencies.DBGWVR_SysRegRead32_a8d1c2ea29be76f1]
+path = "../DBGWVR_SysRegRead32_a8d1c2ea29be76f1"
+
+[dependencies.DBGWVR_SysRegRead32_b4df3a7002c9f7a0]
+path = "../DBGWVR_SysRegRead32_b4df3a7002c9f7a0"
+
+[dependencies.DBGWVR_SysRegRead32_c6ca5289ed10ec19]
+path = "../DBGWVR_SysRegRead32_c6ca5289ed10ec19"
+
+[dependencies.DBGWVR_SysRegRead32_da9f18e2f273c366]
+path = "../DBGWVR_SysRegRead32_da9f18e2f273c366"
+
+[dependencies.DBGWVR_SysRegRead32_de66eaaa5ee8659b]
+path = "../DBGWVR_SysRegRead32_de66eaaa5ee8659b"
+
+[dependencies.DBGWVR_SysRegRead32_f5ed12ff92151086]
+path = "../DBGWVR_SysRegRead32_f5ed12ff92151086"
+
+[dependencies.DFAR_SysRegRead32_24eaaed98bd8c8b9]
+path = "../DFAR_SysRegRead32_24eaaed98bd8c8b9"
+
+[dependencies.DFSR_SysRegRead32_094c65de67978ba7]
+path = "../DFSR_SysRegRead32_094c65de67978ba7"
+
+[dependencies.DISR_SysRegRead32_9f42ad0cc10a5f19]
+path = "../DISR_SysRegRead32_9f42ad0cc10a5f19"
+
+[dependencies.DLR_SysRegRead32_8fb9614c85c3b992]
+path = "../DLR_SysRegRead32_8fb9614c85c3b992"
+
+[dependencies.DSPSR2_SysRegRead32_6da9b04f72c6c3f2]
+path = "../DSPSR2_SysRegRead32_6da9b04f72c6c3f2"
+
+[dependencies.DSPSR_SysRegRead32_b8ab5544c94609ec]
+path = "../DSPSR_SysRegRead32_b8ab5544c94609ec"
+
+[dependencies.ERRIDR_SysRegRead32_98e51b40bf051290]
+path = "../ERRIDR_SysRegRead32_98e51b40bf051290"
+
+[dependencies.ERRSELR_SysRegRead32_89386228f05f3e86]
+path = "../ERRSELR_SysRegRead32_89386228f05f3e86"
+
+[dependencies.ERXADDR2_SysRegRead32_ee8844bbda44b8b3]
+path = "../ERXADDR2_SysRegRead32_ee8844bbda44b8b3"
+
+[dependencies.ERXADDR_SysRegRead32_ca0ccd8f0f00724b]
+path = "../ERXADDR_SysRegRead32_ca0ccd8f0f00724b"
+
+[dependencies.ERXCTLR2_SysRegRead32_538545d1d2bef52f]
+path = "../ERXCTLR2_SysRegRead32_538545d1d2bef52f"
+
+[dependencies.ERXCTLR_SysRegRead32_223464c9a84e4bc3]
+path = "../ERXCTLR_SysRegRead32_223464c9a84e4bc3"
+
+[dependencies.ERXFR2_SysRegRead32_2ed16754dcca71f1]
+path = "../ERXFR2_SysRegRead32_2ed16754dcca71f1"
+
+[dependencies.ERXFR_SysRegRead32_38334a5a99e8eedf]
+path = "../ERXFR_SysRegRead32_38334a5a99e8eedf"
+
+[dependencies.ERXMISC0_SysRegRead32_945d1e7792b59484]
+path = "../ERXMISC0_SysRegRead32_945d1e7792b59484"
+
+[dependencies.ERXMISC1_SysRegRead32_24c39414a2e1d0b1]
+path = "../ERXMISC1_SysRegRead32_24c39414a2e1d0b1"
+
+[dependencies.ERXMISC2_SysRegRead32_17926cb7ab87a983]
+path = "../ERXMISC2_SysRegRead32_17926cb7ab87a983"
+
+[dependencies.ERXMISC3_SysRegRead32_2387d2346ca52482]
+path = "../ERXMISC3_SysRegRead32_2387d2346ca52482"
+
+[dependencies.ERXMISC4_SysRegRead32_6139ba68e2078794]
+path = "../ERXMISC4_SysRegRead32_6139ba68e2078794"
+
+[dependencies.ERXMISC5_SysRegRead32_e7e0b0e38858a927]
+path = "../ERXMISC5_SysRegRead32_e7e0b0e38858a927"
+
+[dependencies.ERXMISC6_SysRegRead32_9abf31f5358e2067]
+path = "../ERXMISC6_SysRegRead32_9abf31f5358e2067"
+
+[dependencies.ERXMISC7_SysRegRead32_99b78145ea2ea108]
+path = "../ERXMISC7_SysRegRead32_99b78145ea2ea108"
+
+[dependencies.ERXSTATUS_SysRegRead32_5466a91990979d70]
+path = "../ERXSTATUS_SysRegRead32_5466a91990979d70"
+
+[dependencies.FCSEIDR_SysRegRead32_cb9b2f57b39997f9]
+path = "../FCSEIDR_SysRegRead32_cb9b2f57b39997f9"
+
+[dependencies.HACR_SysRegRead32_a717d701accd9575]
+path = "../HACR_SysRegRead32_a717d701accd9575"
+
+[dependencies.HACTLR2_SysRegRead32_0445e99237541ba9]
+path = "../HACTLR2_SysRegRead32_0445e99237541ba9"
+
+[dependencies.HACTLR_SysRegRead32_2bf8282054123267]
+path = "../HACTLR_SysRegRead32_2bf8282054123267"
+
+[dependencies.HADFSR_SysRegRead32_c586b2ce1fe8150f]
+path = "../HADFSR_SysRegRead32_c586b2ce1fe8150f"
+
+[dependencies.HAIFSR_SysRegRead32_6fddec5e27f03691]
+path = "../HAIFSR_SysRegRead32_6fddec5e27f03691"
+
+[dependencies.HAMAIR0_SysRegRead32_377efb316c773bdf]
+path = "../HAMAIR0_SysRegRead32_377efb316c773bdf"
+
+[dependencies.HAMAIR1_SysRegRead32_b4da9627c11c58d9]
+path = "../HAMAIR1_SysRegRead32_b4da9627c11c58d9"
+
+[dependencies.HCPTR_SysRegRead32_36b5e5e38803084d]
+path = "../HCPTR_SysRegRead32_36b5e5e38803084d"
+
+[dependencies.HCR2_SysRegRead32_f7ed44285bae255b]
+path = "../HCR2_SysRegRead32_f7ed44285bae255b"
+
+[dependencies.HCR_SysRegRead32_9baa0bb29521adc6]
+path = "../HCR_SysRegRead32_9baa0bb29521adc6"
+
+[dependencies.HDCR_SysRegRead32_ca37580e50123c00]
+path = "../HDCR_SysRegRead32_ca37580e50123c00"
+
+[dependencies.HDFAR_SysRegRead32_b442fa1081ced0da]
+path = "../HDFAR_SysRegRead32_b442fa1081ced0da"
+
+[dependencies.HIFAR_SysRegRead32_97075d5570b400a8]
+path = "../HIFAR_SysRegRead32_97075d5570b400a8"
+
+[dependencies.HMAIR0_SysRegRead32_f157e09e6f0e50a5]
+path = "../HMAIR0_SysRegRead32_f157e09e6f0e50a5"
+
+[dependencies.HMAIR1_SysRegRead32_fd5c958c2380e7ae]
+path = "../HMAIR1_SysRegRead32_fd5c958c2380e7ae"
+
+[dependencies.HPFAR_SysRegRead32_985da2a8b12c2ec3]
+path = "../HPFAR_SysRegRead32_985da2a8b12c2ec3"
+
+[dependencies.HRMR_SysRegRead32_ce0678ac4cae9992]
+path = "../HRMR_SysRegRead32_ce0678ac4cae9992"
+
+[dependencies.HSCTLR_SysRegRead32_7d1999deb1c478b9]
+path = "../HSCTLR_SysRegRead32_7d1999deb1c478b9"
+
+[dependencies.HSR_SysRegRead32_8b698f9bb5858477]
+path = "../HSR_SysRegRead32_8b698f9bb5858477"
+
+[dependencies.HSTR_SysRegRead32_1f7e6811bde077a5]
+path = "../HSTR_SysRegRead32_1f7e6811bde077a5"
+
+[dependencies.HTCR_SysRegRead32_ad0d0f0fabd96a9f]
+path = "../HTCR_SysRegRead32_ad0d0f0fabd96a9f"
+
+[dependencies.HTPIDR_SysRegRead32_882efba325cc7f8f]
+path = "../HTPIDR_SysRegRead32_882efba325cc7f8f"
+
+[dependencies.HTRFCR_SysRegRead32_b1ffee03b0b71c5a]
+path = "../HTRFCR_SysRegRead32_b1ffee03b0b71c5a"
+
+[dependencies.HVBAR_SysRegRead32_d6c8aecebbe5fd70]
+path = "../HVBAR_SysRegRead32_d6c8aecebbe5fd70"
+
+[dependencies.ICC_BPR0_SysRegRead32_7c3bac42de4de5ac]
+path = "../ICC_BPR0_SysRegRead32_7c3bac42de4de5ac"
+
+[dependencies.ICC_BPR1_SysRegRead32_afd3e126a3be69bd]
+path = "../ICC_BPR1_SysRegRead32_afd3e126a3be69bd"
+
+[dependencies.ICC_HPPIR0_SysRegRead32_b32431f23ec6243a]
+path = "../ICC_HPPIR0_SysRegRead32_b32431f23ec6243a"
+
+[dependencies.ICC_HSRE_SysRegRead32_0e6b0f816b017dd6]
+path = "../ICC_HSRE_SysRegRead32_0e6b0f816b017dd6"
+
+[dependencies.ICC_IAR0_SysRegRead32_22d846d8001a81c5]
+path = "../ICC_IAR0_SysRegRead32_22d846d8001a81c5"
+
+[dependencies.ICC_IAR1_SysRegRead32_8d514dfe4b6957fe]
+path = "../ICC_IAR1_SysRegRead32_8d514dfe4b6957fe"
+
+[dependencies.ICC_MCTLR_SysRegRead32_f1e0f70708724584]
+path = "../ICC_MCTLR_SysRegRead32_f1e0f70708724584"
+
+[dependencies.ICC_MGRPEN1_SysRegRead32_92bbab53b6030359]
+path = "../ICC_MGRPEN1_SysRegRead32_92bbab53b6030359"
+
+[dependencies.ICC_MSRE_SysRegRead32_79a8be5256989c32]
+path = "../ICC_MSRE_SysRegRead32_79a8be5256989c32"
+
+[dependencies.ICC_PMR_SysRegRead32_aa604b328cea6616]
+path = "../ICC_PMR_SysRegRead32_aa604b328cea6616"
+
+[dependencies.ICC_SRE_SysRegRead32_4fd5ef8b1be9c965]
+path = "../ICC_SRE_SysRegRead32_4fd5ef8b1be9c965"
+
+[dependencies.ICH_AP0R_SysRegRead32_8a9ae74c0d05c4d8]
+path = "../ICH_AP0R_SysRegRead32_8a9ae74c0d05c4d8"
+
+[dependencies.ICH_AP0R_SysRegRead32_941887291ce9d9ce]
+path = "../ICH_AP0R_SysRegRead32_941887291ce9d9ce"
+
+[dependencies.ICH_AP0R_SysRegRead32_f7de8d51fc141ec6]
+path = "../ICH_AP0R_SysRegRead32_f7de8d51fc141ec6"
+
+[dependencies.ICH_AP0R_SysRegRead32_fa5d134ae7836c23]
+path = "../ICH_AP0R_SysRegRead32_fa5d134ae7836c23"
+
+[dependencies.ICH_AP1R_SysRegRead32_0df0cbf9f8197fd3]
+path = "../ICH_AP1R_SysRegRead32_0df0cbf9f8197fd3"
+
+[dependencies.ICH_AP1R_SysRegRead32_19b0a11aa0aeb1f4]
+path = "../ICH_AP1R_SysRegRead32_19b0a11aa0aeb1f4"
+
+[dependencies.ICH_AP1R_SysRegRead32_21b1b518e28be46b]
+path = "../ICH_AP1R_SysRegRead32_21b1b518e28be46b"
+
+[dependencies.ICH_AP1R_SysRegRead32_893d03c9b3bc367a]
+path = "../ICH_AP1R_SysRegRead32_893d03c9b3bc367a"
+
+[dependencies.ICH_EISR_SysRegRead32_6c8baaadbfc73196]
+path = "../ICH_EISR_SysRegRead32_6c8baaadbfc73196"
+
+[dependencies.ICH_ELRSR_SysRegRead32_1d9d4e5a379e315c]
+path = "../ICH_ELRSR_SysRegRead32_1d9d4e5a379e315c"
+
+[dependencies.ICH_HCR_SysRegRead32_49d2eca523adf51c]
+path = "../ICH_HCR_SysRegRead32_49d2eca523adf51c"
+
+[dependencies.ICH_LRC_SysRegRead32_1fc599a8419d7830]
+path = "../ICH_LRC_SysRegRead32_1fc599a8419d7830"
+
+[dependencies.ICH_LRC_SysRegRead32_2d5fdc0c0df5489a]
+path = "../ICH_LRC_SysRegRead32_2d5fdc0c0df5489a"
+
+[dependencies.ICH_LRC_SysRegRead32_2f30eacc54c36948]
+path = "../ICH_LRC_SysRegRead32_2f30eacc54c36948"
+
+[dependencies.ICH_LRC_SysRegRead32_376ab6d5a4721697]
+path = "../ICH_LRC_SysRegRead32_376ab6d5a4721697"
+
+[dependencies.ICH_LRC_SysRegRead32_5e3a0d745c54eaf7]
+path = "../ICH_LRC_SysRegRead32_5e3a0d745c54eaf7"
+
+[dependencies.ICH_LRC_SysRegRead32_604585b24b60fdae]
+path = "../ICH_LRC_SysRegRead32_604585b24b60fdae"
+
+[dependencies.ICH_LRC_SysRegRead32_7819c0333582e456]
+path = "../ICH_LRC_SysRegRead32_7819c0333582e456"
+
+[dependencies.ICH_LRC_SysRegRead32_792ff81aa718ff76]
+path = "../ICH_LRC_SysRegRead32_792ff81aa718ff76"
+
+[dependencies.ICH_LRC_SysRegRead32_9d34a1da3a3d8af6]
+path = "../ICH_LRC_SysRegRead32_9d34a1da3a3d8af6"
+
+[dependencies.ICH_LRC_SysRegRead32_a29c320b6a841a2d]
+path = "../ICH_LRC_SysRegRead32_a29c320b6a841a2d"
+
+[dependencies.ICH_LRC_SysRegRead32_c7c19edd6493b5c7]
+path = "../ICH_LRC_SysRegRead32_c7c19edd6493b5c7"
+
+[dependencies.ICH_LRC_SysRegRead32_ce80e380eb49f8f4]
+path = "../ICH_LRC_SysRegRead32_ce80e380eb49f8f4"
+
+[dependencies.ICH_LRC_SysRegRead32_ebf1ecd69e0bcfb2]
+path = "../ICH_LRC_SysRegRead32_ebf1ecd69e0bcfb2"
+
+[dependencies.ICH_LRC_SysRegRead32_ede8f5720388c87c]
+path = "../ICH_LRC_SysRegRead32_ede8f5720388c87c"
+
+[dependencies.ICH_LRC_SysRegRead32_fa7f4e2cc52b6a12]
+path = "../ICH_LRC_SysRegRead32_fa7f4e2cc52b6a12"
+
+[dependencies.ICH_LRC_SysRegRead32_ff6694005f1d0b3b]
+path = "../ICH_LRC_SysRegRead32_ff6694005f1d0b3b"
+
+[dependencies.ICH_LR_SysRegRead32_074065db8610395b]
+path = "../ICH_LR_SysRegRead32_074065db8610395b"
+
+[dependencies.ICH_LR_SysRegRead32_1acb03f084987252]
+path = "../ICH_LR_SysRegRead32_1acb03f084987252"
+
+[dependencies.ICH_LR_SysRegRead32_1d190d8da488b71c]
+path = "../ICH_LR_SysRegRead32_1d190d8da488b71c"
+
+[dependencies.ICH_LR_SysRegRead32_1d761f8769ecc810]
+path = "../ICH_LR_SysRegRead32_1d761f8769ecc810"
+
+[dependencies.ICH_LR_SysRegRead32_223cf2e0fdc1ff05]
+path = "../ICH_LR_SysRegRead32_223cf2e0fdc1ff05"
+
+[dependencies.ICH_LR_SysRegRead32_3bf5b46e983d4c12]
+path = "../ICH_LR_SysRegRead32_3bf5b46e983d4c12"
+
+[dependencies.ICH_LR_SysRegRead32_3d583fbb8aa5513b]
+path = "../ICH_LR_SysRegRead32_3d583fbb8aa5513b"
+
+[dependencies.ICH_LR_SysRegRead32_3dfad36dd01cdeec]
+path = "../ICH_LR_SysRegRead32_3dfad36dd01cdeec"
+
+[dependencies.ICH_LR_SysRegRead32_45c00df4516639fa]
+path = "../ICH_LR_SysRegRead32_45c00df4516639fa"
+
+[dependencies.ICH_LR_SysRegRead32_7cf030ba66b1e3f5]
+path = "../ICH_LR_SysRegRead32_7cf030ba66b1e3f5"
+
+[dependencies.ICH_LR_SysRegRead32_8e77adbc9c8c8d7d]
+path = "../ICH_LR_SysRegRead32_8e77adbc9c8c8d7d"
+
+[dependencies.ICH_LR_SysRegRead32_91b224d16fef9888]
+path = "../ICH_LR_SysRegRead32_91b224d16fef9888"
+
+[dependencies.ICH_LR_SysRegRead32_9b173de940ca1870]
+path = "../ICH_LR_SysRegRead32_9b173de940ca1870"
+
+[dependencies.ICH_LR_SysRegRead32_aff6b82779d5a019]
+path = "../ICH_LR_SysRegRead32_aff6b82779d5a019"
+
+[dependencies.ICH_LR_SysRegRead32_b53ec5837b358bc1]
+path = "../ICH_LR_SysRegRead32_b53ec5837b358bc1"
+
+[dependencies.ICH_LR_SysRegRead32_ca0e018c3a31cc4a]
+path = "../ICH_LR_SysRegRead32_ca0e018c3a31cc4a"
+
+[dependencies.ICH_MISR_SysRegRead32_b1b3df82fdb149c6]
+path = "../ICH_MISR_SysRegRead32_b1b3df82fdb149c6"
+
+[dependencies.ICH_VMCR_SysRegRead32_c4afb8cb8e0d0a5d]
+path = "../ICH_VMCR_SysRegRead32_c4afb8cb8e0d0a5d"
+
+[dependencies.ICH_VTR_SysRegRead32_1187208e70ad69e9]
+path = "../ICH_VTR_SysRegRead32_1187208e70ad69e9"
+
+[dependencies.ICV_AP0R_SysRegRead32_30ba9fd61ae1e604]
+path = "../ICV_AP0R_SysRegRead32_30ba9fd61ae1e604"
+
+[dependencies.ICV_AP0R_SysRegRead32_72af30ac5c792211]
+path = "../ICV_AP0R_SysRegRead32_72af30ac5c792211"
+
+[dependencies.ICV_AP0R_SysRegRead32_c3c1719656dd9c14]
+path = "../ICV_AP0R_SysRegRead32_c3c1719656dd9c14"
+
+[dependencies.ICV_AP0R_SysRegRead32_dc4d5081c52e9718]
+path = "../ICV_AP0R_SysRegRead32_dc4d5081c52e9718"
+
+[dependencies.ICV_AP1R_SysRegRead32_06c655ca9c8e2c1e]
+path = "../ICV_AP1R_SysRegRead32_06c655ca9c8e2c1e"
+
+[dependencies.ICV_AP1R_SysRegRead32_97b8eb46fd54eb2b]
+path = "../ICV_AP1R_SysRegRead32_97b8eb46fd54eb2b"
+
+[dependencies.ICV_AP1R_SysRegRead32_c631f0bb4000bb22]
+path = "../ICV_AP1R_SysRegRead32_c631f0bb4000bb22"
+
+[dependencies.ICV_AP1R_SysRegRead32_f50b3adcd6cb4d7f]
+path = "../ICV_AP1R_SysRegRead32_f50b3adcd6cb4d7f"
+
+[dependencies.ICV_CTLR_SysRegRead32_084685ae7c38b87e]
+path = "../ICV_CTLR_SysRegRead32_084685ae7c38b87e"
+
+[dependencies.ICV_HPPIR1_SysRegRead32_b45bf9d6297cda27]
+path = "../ICV_HPPIR1_SysRegRead32_b45bf9d6297cda27"
+
+[dependencies.ICV_IGRPEN0_SysRegRead32_762db4bb97023cca]
+path = "../ICV_IGRPEN0_SysRegRead32_762db4bb97023cca"
+
+[dependencies.ICV_IGRPEN1_SysRegRead32_9335bbfc906f43aa]
+path = "../ICV_IGRPEN1_SysRegRead32_9335bbfc906f43aa"
+
+[dependencies.ICV_RPR_SysRegRead32_ce7e7d8c013c544d]
+path = "../ICV_RPR_SysRegRead32_ce7e7d8c013c544d"
+
+[dependencies.ID_AFR0_SysRegRead32_49547d26babbff09]
+path = "../ID_AFR0_SysRegRead32_49547d26babbff09"
+
+[dependencies.ID_DFR0_SysRegRead32_cc2c637f50f14510]
+path = "../ID_DFR0_SysRegRead32_cc2c637f50f14510"
+
+[dependencies.ID_DFR1_SysRegRead32_a7aac5df14f5281e]
+path = "../ID_DFR1_SysRegRead32_a7aac5df14f5281e"
+
+[dependencies.ID_ISAR0_SysRegRead32_bb26ec35196a236d]
+path = "../ID_ISAR0_SysRegRead32_bb26ec35196a236d"
+
+[dependencies.ID_ISAR1_SysRegRead32_2151a78ccf12fa49]
+path = "../ID_ISAR1_SysRegRead32_2151a78ccf12fa49"
+
+[dependencies.ID_ISAR2_SysRegRead32_24153ecb491475a1]
+path = "../ID_ISAR2_SysRegRead32_24153ecb491475a1"
+
+[dependencies.ID_ISAR3_SysRegRead32_417ae56f4d3a61c8]
+path = "../ID_ISAR3_SysRegRead32_417ae56f4d3a61c8"
+
+[dependencies.ID_ISAR4_SysRegRead32_851598e56793628d]
+path = "../ID_ISAR4_SysRegRead32_851598e56793628d"
+
+[dependencies.ID_ISAR5_SysRegRead32_32e7eeb4ddf57791]
+path = "../ID_ISAR5_SysRegRead32_32e7eeb4ddf57791"
+
+[dependencies.ID_ISAR6_SysRegRead32_b87615d75481dd47]
+path = "../ID_ISAR6_SysRegRead32_b87615d75481dd47"
+
+[dependencies.ID_MMFR0_SysRegRead32_80f3ab2fd79cbbab]
+path = "../ID_MMFR0_SysRegRead32_80f3ab2fd79cbbab"
+
+[dependencies.ID_MMFR1_SysRegRead32_1bde596fb100a5b5]
+path = "../ID_MMFR1_SysRegRead32_1bde596fb100a5b5"
+
+[dependencies.ID_MMFR2_SysRegRead32_9a2dcb4cb3946cb0]
+path = "../ID_MMFR2_SysRegRead32_9a2dcb4cb3946cb0"
+
+[dependencies.ID_MMFR3_SysRegRead32_e386d40c006b0b90]
+path = "../ID_MMFR3_SysRegRead32_e386d40c006b0b90"
+
+[dependencies.ID_MMFR4_SysRegRead32_8caa2bb66e738b87]
+path = "../ID_MMFR4_SysRegRead32_8caa2bb66e738b87"
+
+[dependencies.ID_MMFR5_SysRegRead32_e1f37b0c1fecac4d]
+path = "../ID_MMFR5_SysRegRead32_e1f37b0c1fecac4d"
+
+[dependencies.ID_PFR0_SysRegRead32_aa91a2f0748f31d4]
+path = "../ID_PFR0_SysRegRead32_aa91a2f0748f31d4"
+
+[dependencies.ID_PFR1_SysRegRead32_699454254ae0abbb]
+path = "../ID_PFR1_SysRegRead32_699454254ae0abbb"
+
+[dependencies.ID_PFR2_SysRegRead32_d658419137606f13]
+path = "../ID_PFR2_SysRegRead32_d658419137606f13"
+
+[dependencies.IFAR_SysRegRead32_22cba1cec07771af]
+path = "../IFAR_SysRegRead32_22cba1cec07771af"
+
+[dependencies.IFSR_SysRegRead32_20bacf70303447cc]
+path = "../IFSR_SysRegRead32_20bacf70303447cc"
+
+[dependencies.ISR_SysRegRead32_6db4255755bcf0b1]
+path = "../ISR_SysRegRead32_6db4255755bcf0b1"
+
+[dependencies.JIDR_SysRegRead32_f362dc25ffe4f377]
+path = "../JIDR_SysRegRead32_f362dc25ffe4f377"
+
+[dependencies.JMCR_SysRegRead32_f5fe518171c35ee0]
+path = "../JMCR_SysRegRead32_f5fe518171c35ee0"
+
+[dependencies.JOSCR_SysRegRead32_64dbf044d539336d]
+path = "../JOSCR_SysRegRead32_64dbf044d539336d"
+
+[dependencies.MIDR_SysRegRead32_54aebb004f1db6c9]
+path = "../MIDR_SysRegRead32_54aebb004f1db6c9"
+
+[dependencies.MVBAR_SysRegRead32_248e7559e6798c99]
+path = "../MVBAR_SysRegRead32_248e7559e6798c99"
+
+[dependencies.NMRR_SysRegRead32_f8e132fd5a9e9c17]
+path = "../NMRR_SysRegRead32_f8e132fd5a9e9c17"
+
+[dependencies.NSACR_SysRegRead32_a9b2f143c1a6ce93]
+path = "../NSACR_SysRegRead32_a9b2f143c1a6ce93"
+
+[dependencies.PAR_SysRegRead32_6e09f827d9ae2cf7]
+path = "../PAR_SysRegRead32_6e09f827d9ae2cf7"
+
+[dependencies.PMCCFILTR_SysRegRead32_1da10de344b09eac]
+path = "../PMCCFILTR_SysRegRead32_1da10de344b09eac"
+
+[dependencies.PMCCNTR_SysRegRead32_5914763424cd4baf]
+path = "../PMCCNTR_SysRegRead32_5914763424cd4baf"
+
+[dependencies.PMCEID0_SysRegRead32_827b64f588d9ff2d]
+path = "../PMCEID0_SysRegRead32_827b64f588d9ff2d"
+
+[dependencies.PMCEID1_SysRegRead32_dc9c0fe15ac731b4]
+path = "../PMCEID1_SysRegRead32_dc9c0fe15ac731b4"
+
+[dependencies.PMCEID2_SysRegRead32_68a39928b2956924]
+path = "../PMCEID2_SysRegRead32_68a39928b2956924"
+
+[dependencies.PMCEID3_SysRegRead32_2032ab5473c7b6ab]
+path = "../PMCEID3_SysRegRead32_2032ab5473c7b6ab"
+
+[dependencies.PMCNTENCLR_SysRegRead32_fae3650c5f5d677d]
+path = "../PMCNTENCLR_SysRegRead32_fae3650c5f5d677d"
+
+[dependencies.PMCNTENSET_SysRegRead32_2d54f3b38c0729f6]
+path = "../PMCNTENSET_SysRegRead32_2d54f3b38c0729f6"
+
+[dependencies.PMCR_SysRegRead32_fb694f2a3eabe8b5]
+path = "../PMCR_SysRegRead32_fb694f2a3eabe8b5"
+
+[dependencies.PMEVCNTR_SysRegRead32_009022738d54bbb6]
+path = "../PMEVCNTR_SysRegRead32_009022738d54bbb6"
+
+[dependencies.PMEVCNTR_SysRegRead32_01bab0512200ef97]
+path = "../PMEVCNTR_SysRegRead32_01bab0512200ef97"
+
+[dependencies.PMEVCNTR_SysRegRead32_029a264e693ebe08]
+path = "../PMEVCNTR_SysRegRead32_029a264e693ebe08"
+
+[dependencies.PMEVCNTR_SysRegRead32_039d4c0d22de13a2]
+path = "../PMEVCNTR_SysRegRead32_039d4c0d22de13a2"
+
+[dependencies.PMEVCNTR_SysRegRead32_07d83a1ba6647217]
+path = "../PMEVCNTR_SysRegRead32_07d83a1ba6647217"
+
+[dependencies.PMEVCNTR_SysRegRead32_138cd582631ad0fb]
+path = "../PMEVCNTR_SysRegRead32_138cd582631ad0fb"
+
+[dependencies.PMEVCNTR_SysRegRead32_1560b599f2aebd5f]
+path = "../PMEVCNTR_SysRegRead32_1560b599f2aebd5f"
+
+[dependencies.PMEVCNTR_SysRegRead32_1774c818fab12807]
+path = "../PMEVCNTR_SysRegRead32_1774c818fab12807"
+
+[dependencies.PMEVCNTR_SysRegRead32_396f7b80977acfd5]
+path = "../PMEVCNTR_SysRegRead32_396f7b80977acfd5"
+
+[dependencies.PMEVCNTR_SysRegRead32_3cff703cf4dc4c8d]
+path = "../PMEVCNTR_SysRegRead32_3cff703cf4dc4c8d"
+
+[dependencies.PMEVCNTR_SysRegRead32_42630578733f5de1]
+path = "../PMEVCNTR_SysRegRead32_42630578733f5de1"
+
+[dependencies.PMEVCNTR_SysRegRead32_45099baba0e3c6c8]
+path = "../PMEVCNTR_SysRegRead32_45099baba0e3c6c8"
+
+[dependencies.PMEVCNTR_SysRegRead32_4e38caf85e50badb]
+path = "../PMEVCNTR_SysRegRead32_4e38caf85e50badb"
+
+[dependencies.PMEVCNTR_SysRegRead32_567f48afcd553f0b]
+path = "../PMEVCNTR_SysRegRead32_567f48afcd553f0b"
+
+[dependencies.PMEVCNTR_SysRegRead32_63ff5bc2709c8d46]
+path = "../PMEVCNTR_SysRegRead32_63ff5bc2709c8d46"
+
+[dependencies.PMEVCNTR_SysRegRead32_6a5d074d2473e341]
+path = "../PMEVCNTR_SysRegRead32_6a5d074d2473e341"
+
+[dependencies.PMEVCNTR_SysRegRead32_6b342829d2da8112]
+path = "../PMEVCNTR_SysRegRead32_6b342829d2da8112"
+
+[dependencies.PMEVCNTR_SysRegRead32_707b33e723e1c43a]
+path = "../PMEVCNTR_SysRegRead32_707b33e723e1c43a"
+
+[dependencies.PMEVCNTR_SysRegRead32_70f084c8c157c7b4]
+path = "../PMEVCNTR_SysRegRead32_70f084c8c157c7b4"
+
+[dependencies.PMEVCNTR_SysRegRead32_7153d356d6a0fa3b]
+path = "../PMEVCNTR_SysRegRead32_7153d356d6a0fa3b"
+
+[dependencies.PMEVCNTR_SysRegRead32_7f423837889a1eb7]
+path = "../PMEVCNTR_SysRegRead32_7f423837889a1eb7"
+
+[dependencies.PMEVCNTR_SysRegRead32_83a06d357cd23a85]
+path = "../PMEVCNTR_SysRegRead32_83a06d357cd23a85"
+
+[dependencies.PMEVCNTR_SysRegRead32_896d408c19840560]
+path = "../PMEVCNTR_SysRegRead32_896d408c19840560"
+
+[dependencies.PMEVCNTR_SysRegRead32_a0e4f3bc8390131d]
+path = "../PMEVCNTR_SysRegRead32_a0e4f3bc8390131d"
+
+[dependencies.PMEVCNTR_SysRegRead32_a6f4d7c9818fe27f]
+path = "../PMEVCNTR_SysRegRead32_a6f4d7c9818fe27f"
+
+[dependencies.PMEVCNTR_SysRegRead32_ab42fc938eac6b81]
+path = "../PMEVCNTR_SysRegRead32_ab42fc938eac6b81"
+
+[dependencies.PMEVCNTR_SysRegRead32_acccf1406f935146]
+path = "../PMEVCNTR_SysRegRead32_acccf1406f935146"
+
+[dependencies.PMEVCNTR_SysRegRead32_ae92cdab2a8b2c18]
+path = "../PMEVCNTR_SysRegRead32_ae92cdab2a8b2c18"
+
+[dependencies.PMEVCNTR_SysRegRead32_d5dc3b561b7d1a1d]
+path = "../PMEVCNTR_SysRegRead32_d5dc3b561b7d1a1d"
+
+[dependencies.PMEVCNTR_SysRegRead32_e863a7e57380d153]
+path = "../PMEVCNTR_SysRegRead32_e863a7e57380d153"
+
+[dependencies.PMEVCNTR_SysRegRead32_f577cb392ba87833]
+path = "../PMEVCNTR_SysRegRead32_f577cb392ba87833"
+
+[dependencies.PMEVTYPER_SysRegRead32_011983e256b06e5a]
+path = "../PMEVTYPER_SysRegRead32_011983e256b06e5a"
+
+[dependencies.PMEVTYPER_SysRegRead32_019fd9c590c5493b]
+path = "../PMEVTYPER_SysRegRead32_019fd9c590c5493b"
+
+[dependencies.PMEVTYPER_SysRegRead32_0ba0c427729d1f96]
+path = "../PMEVTYPER_SysRegRead32_0ba0c427729d1f96"
+
+[dependencies.PMEVTYPER_SysRegRead32_2680120d4a51efdc]
+path = "../PMEVTYPER_SysRegRead32_2680120d4a51efdc"
+
+[dependencies.PMEVTYPER_SysRegRead32_2a2c31ce2d7ed27e]
+path = "../PMEVTYPER_SysRegRead32_2a2c31ce2d7ed27e"
+
+[dependencies.PMEVTYPER_SysRegRead32_2d5128aa6d782f92]
+path = "../PMEVTYPER_SysRegRead32_2d5128aa6d782f92"
+
+[dependencies.PMEVTYPER_SysRegRead32_33e8370847f18109]
+path = "../PMEVTYPER_SysRegRead32_33e8370847f18109"
+
+[dependencies.PMEVTYPER_SysRegRead32_345e68f734e8d287]
+path = "../PMEVTYPER_SysRegRead32_345e68f734e8d287"
+
+[dependencies.PMEVTYPER_SysRegRead32_34d3c9683f50305a]
+path = "../PMEVTYPER_SysRegRead32_34d3c9683f50305a"
+
+[dependencies.PMEVTYPER_SysRegRead32_3dc043fab8866695]
+path = "../PMEVTYPER_SysRegRead32_3dc043fab8866695"
+
+[dependencies.PMEVTYPER_SysRegRead32_45af701dced58b54]
+path = "../PMEVTYPER_SysRegRead32_45af701dced58b54"
+
+[dependencies.PMEVTYPER_SysRegRead32_4afbf88ec8f5d079]
+path = "../PMEVTYPER_SysRegRead32_4afbf88ec8f5d079"
+
+[dependencies.PMEVTYPER_SysRegRead32_5a6097f662a615bc]
+path = "../PMEVTYPER_SysRegRead32_5a6097f662a615bc"
+
+[dependencies.PMEVTYPER_SysRegRead32_70d9e1901968a9f9]
+path = "../PMEVTYPER_SysRegRead32_70d9e1901968a9f9"
+
+[dependencies.PMEVTYPER_SysRegRead32_787de500d1f2ae74]
+path = "../PMEVTYPER_SysRegRead32_787de500d1f2ae74"
+
+[dependencies.PMEVTYPER_SysRegRead32_8e1055d5eee8d8d8]
+path = "../PMEVTYPER_SysRegRead32_8e1055d5eee8d8d8"
+
+[dependencies.PMEVTYPER_SysRegRead32_9a798dcf0daf95cb]
+path = "../PMEVTYPER_SysRegRead32_9a798dcf0daf95cb"
+
+[dependencies.PMEVTYPER_SysRegRead32_a724b3fb2f78856f]
+path = "../PMEVTYPER_SysRegRead32_a724b3fb2f78856f"
+
+[dependencies.PMEVTYPER_SysRegRead32_ade15d0dc858c933]
+path = "../PMEVTYPER_SysRegRead32_ade15d0dc858c933"
+
+[dependencies.PMEVTYPER_SysRegRead32_b14a395988483b96]
+path = "../PMEVTYPER_SysRegRead32_b14a395988483b96"
+
+[dependencies.PMEVTYPER_SysRegRead32_b52dcbee696e133d]
+path = "../PMEVTYPER_SysRegRead32_b52dcbee696e133d"
+
+[dependencies.PMEVTYPER_SysRegRead32_b68c85bd6c592527]
+path = "../PMEVTYPER_SysRegRead32_b68c85bd6c592527"
+
+[dependencies.PMEVTYPER_SysRegRead32_b74d04d561403857]
+path = "../PMEVTYPER_SysRegRead32_b74d04d561403857"
+
+[dependencies.PMEVTYPER_SysRegRead32_b777a7113ecfbff9]
+path = "../PMEVTYPER_SysRegRead32_b777a7113ecfbff9"
+
+[dependencies.PMEVTYPER_SysRegRead32_bfb617825f6df35a]
+path = "../PMEVTYPER_SysRegRead32_bfb617825f6df35a"
+
+[dependencies.PMEVTYPER_SysRegRead32_cad120e9f2cb9ca7]
+path = "../PMEVTYPER_SysRegRead32_cad120e9f2cb9ca7"
+
+[dependencies.PMEVTYPER_SysRegRead32_cee8110828f1d34e]
+path = "../PMEVTYPER_SysRegRead32_cee8110828f1d34e"
+
+[dependencies.PMEVTYPER_SysRegRead32_d18be2a53d09e4e3]
+path = "../PMEVTYPER_SysRegRead32_d18be2a53d09e4e3"
+
+[dependencies.PMEVTYPER_SysRegRead32_e8227d66c6f9da2f]
+path = "../PMEVTYPER_SysRegRead32_e8227d66c6f9da2f"
+
+[dependencies.PMEVTYPER_SysRegRead32_e8862be86d9568ea]
+path = "../PMEVTYPER_SysRegRead32_e8862be86d9568ea"
+
+[dependencies.PMEVTYPER_SysRegRead32_ee465be2d00a40c6]
+path = "../PMEVTYPER_SysRegRead32_ee465be2d00a40c6"
+
+[dependencies.PMINTENCLR_SysRegRead32_f6b2fae1205a00f6]
+path = "../PMINTENCLR_SysRegRead32_f6b2fae1205a00f6"
+
+[dependencies.PMINTENSET_SysRegRead32_44a5f589c4b56eb5]
+path = "../PMINTENSET_SysRegRead32_44a5f589c4b56eb5"
+
+[dependencies.PMMIR_SysRegRead32_39e2ebac78343651]
+path = "../PMMIR_SysRegRead32_39e2ebac78343651"
+
+[dependencies.PMOVSR_SysRegRead32_3a98253be39f82fc]
+path = "../PMOVSR_SysRegRead32_3a98253be39f82fc"
+
+[dependencies.PMOVSSET_SysRegRead32_c13d421fe8504cc2]
+path = "../PMOVSSET_SysRegRead32_c13d421fe8504cc2"
+
+[dependencies.PMSELR_SysRegRead32_cbb0200049a096ed]
+path = "../PMSELR_SysRegRead32_cbb0200049a096ed"
+
+[dependencies.PMUSERENR_SysRegRead32_a6257daec876c857]
+path = "../PMUSERENR_SysRegRead32_a6257daec876c857"
+
+[dependencies.PMXEVCNTR_SysRegRead32_3357c1d37107c40d]
+path = "../PMXEVCNTR_SysRegRead32_3357c1d37107c40d"
+
+[dependencies.PMXEVTYPER_SysRegRead32_7d423ea169145383]
+path = "../PMXEVTYPER_SysRegRead32_7d423ea169145383"
+
+[dependencies.PRRR_SysRegRead32_4a556a683141be75]
+path = "../PRRR_SysRegRead32_4a556a683141be75"
+
+[dependencies.REVIDR_SysRegRead32_423676c78008247b]
+path = "../REVIDR_SysRegRead32_423676c78008247b"
+
+[dependencies.RMR_SysRegRead32_43cf65be6b4153a2]
+path = "../RMR_SysRegRead32_43cf65be6b4153a2"
+
+[dependencies.SCR_SysRegRead32_7742164cbe24da83]
+path = "../SCR_SysRegRead32_7742164cbe24da83"
+
+[dependencies.SCTLR_SysRegRead32_e01eef2d08d9809d]
+path = "../SCTLR_SysRegRead32_e01eef2d08d9809d"
+
+[dependencies.SDCR_SysRegRead32_c381e11131eb8dc4]
+path = "../SDCR_SysRegRead32_c381e11131eb8dc4"
+
+[dependencies.SDER_SysRegRead32_0b9374021ce6ef0e]
+path = "../SDER_SysRegRead32_0b9374021ce6ef0e"
+
+[dependencies.TCMTR_SysRegRead32_88195aa504d1c43a]
+path = "../TCMTR_SysRegRead32_88195aa504d1c43a"
+
+[dependencies.TLBTR_SysRegRead32_2cb899c86cc4ff56]
+path = "../TLBTR_SysRegRead32_2cb899c86cc4ff56"
+
+[dependencies.TPIDRPRW_SysRegRead32_2042d633efa21064]
+path = "../TPIDRPRW_SysRegRead32_2042d633efa21064"
+
+[dependencies.TPIDRURO_SysRegRead32_331a0b9503da6305]
+path = "../TPIDRURO_SysRegRead32_331a0b9503da6305"
+
+[dependencies.TPIDRURW_SysRegRead32_844b54dbacb876a1]
+path = "../TPIDRURW_SysRegRead32_844b54dbacb876a1"
+
+[dependencies.TRFCR_SysRegRead32_4539d9acce538415]
+path = "../TRFCR_SysRegRead32_4539d9acce538415"
+
+[dependencies.TTBCR2_SysRegRead32_9005164b21d17bb0]
+path = "../TTBCR2_SysRegRead32_9005164b21d17bb0"
+
+[dependencies.TTBCR_SysRegRead32_254407681da2385f]
+path = "../TTBCR_SysRegRead32_254407681da2385f"
+
+[dependencies.TTBR0_SysRegRead32_ba6eb6544c3c44a1]
+path = "../TTBR0_SysRegRead32_ba6eb6544c3c44a1"
+
+[dependencies.TTBR1_SysRegRead32_bbb7c8fdac68a224]
+path = "../TTBR1_SysRegRead32_bbb7c8fdac68a224"
+
+[dependencies.VBAR_SysRegRead32_cbb282dd5c9d55ce]
+path = "../VBAR_SysRegRead32_cbb282dd5c9d55ce"
+
+[dependencies.VDFSR_SysRegRead32_0530b84beb618cd2]
+path = "../VDFSR_SysRegRead32_0530b84beb618cd2"
+
+[dependencies.VDISR_SysRegRead32_1bd7b149463ed2f1]
+path = "../VDISR_SysRegRead32_1bd7b149463ed2f1"
+
+[dependencies.VMPIDR_SysRegRead32_2f5b95225c646973]
+path = "../VMPIDR_SysRegRead32_2f5b95225c646973"
+
+[dependencies.VMPIDR_SysRegRead32_e5aa49e29a7b94ba]
+path = "../VMPIDR_SysRegRead32_e5aa49e29a7b94ba"
+
+[dependencies.VPIDR_SysRegRead32_4e4cbaa7ba154382]
+path = "../VPIDR_SysRegRead32_4e4cbaa7ba154382"
+
+[dependencies.VTCR_SysRegRead32_23b906196b602c93]
+path = "../VTCR_SysRegRead32_23b906196b602c93"
+
+[dependencies.common]
+path = "../common"

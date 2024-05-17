@@ -1,0 +1,61 @@
+[package]
+edition = "2021"
+name = "AArch32_IncrementEventCounter"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_IncrementEventCounter]
+path = "../AArch64_IncrementEventCounter"
+
+[dependencies.GetNumEventCounters]
+path = "../GetNumEventCounters"
+
+[dependencies.HaveAArch64]
+path = "../HaveAArch64"
+
+[dependencies.Mk_PMOVSR_Type]
+path = "../Mk_PMOVSR_Type"
+
+[dependencies.Mk_PMOVSSET_Type]
+path = "../Mk_PMOVSSET_Type"
+
+[dependencies.PMEVCNTR_read]
+path = "../PMEVCNTR_read"
+
+[dependencies.PMEVCNTR_set]
+path = "../PMEVCNTR_set"
+
+[dependencies.PMOVSR_read]
+path = "../PMOVSR_read"
+
+[dependencies.PMOVSR_write]
+path = "../PMOVSR_write"
+
+[dependencies.PMOVSSET_read]
+path = "../PMOVSSET_read"
+
+[dependencies.PMOVSSET_write]
+path = "../PMOVSSET_write"
+
+[dependencies.PMUCountValue]
+path = "../PMUCountValue"
+
+[dependencies.PMUEvent__2]
+path = "../PMUEvent__2"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_access]
+path = "../integer_access"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.subrange_subrange_eq]
+path = "../subrange_subrange_eq"
+
+[dependencies.u__id]
+path = "../u__id"

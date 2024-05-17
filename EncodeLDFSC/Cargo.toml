@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "EncodeLDFSC"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Have52BitIPAAndPASpaceExt]
+path = "../Have52BitIPAAndPASpaceExt"
+
+[dependencies.Have56BitPAExt]
+path = "../Have56BitPAExt"
+
+[dependencies.HaveMTE2Ext]
+path = "../HaveMTE2Ext"
+
+[dependencies.HaveRASExt]
+path = "../HaveRASExt"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"

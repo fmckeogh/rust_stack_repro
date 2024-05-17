@@ -1,0 +1,55 @@
+[package]
+edition = "2021"
+name = "BRBINF_EL1_SysRegRead_ecdadc5359d94302"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__get_BRBINF_EL1]
+path = "../u__get_BRBINF_EL1"
+
+[dependencies.u_get_BRBFCR_EL1_Type_BANK]
+path = "../u_get_BRBFCR_EL1_Type_BANK"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_HDFGRTR_EL2_Type_nBRBDATA]
+path = "../u_get_HDFGRTR_EL2_Type_nBRBDATA"
+
+[dependencies.u_get_MDCR_EL3_Type_SBRBE]
+path = "../u_get_MDCR_EL3_Type_SBRBE"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"
+
+[dependencies.u_get_SCR_EL3_Type_NS]
+path = "../u_get_SCR_EL3_Type_NS"

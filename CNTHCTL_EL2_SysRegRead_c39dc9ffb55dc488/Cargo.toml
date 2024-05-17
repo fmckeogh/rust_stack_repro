@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "CNTHCTL_EL2_SysRegRead_c39dc9ffb55dc488"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_CNTHCTL_EL2]
+path = "../u__get_CNTHCTL_EL2"
+
+[dependencies.u__get_CNTKCTL_EL1]
+path = "../u__get_CNTKCTL_EL1"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"

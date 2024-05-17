@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "decode_fmaxv_advsimd_aarch64_instrs_vector_reduce_fp_max_simd"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_vector_reduce_fp16_max_simd]
+path = "../execute_aarch64_instrs_vector_reduce_fp16_max_simd"

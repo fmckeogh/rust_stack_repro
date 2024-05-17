@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "VMID_read"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.Have16bitVMID]
+path = "../Have16bitVMID"
+
+[dependencies.HaveSecureEL2Ext]
+path = "../HaveSecureEL2Ext"
+
+[dependencies.VTTBR_EL2_read]
+path = "../VTTBR_EL2_read"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_VTCR_EL2_Type_VS]
+path = "../u_get_VTCR_EL2_Type_VS"
+
+[dependencies.u_get_VTTBR_EL2_Type_VMID]
+path = "../u_get_VTTBR_EL2_Type_VMID"
+
+[dependencies.u_get_VTTBR_Type_VMID]
+path = "../u_get_VTTBR_Type_VMID"

@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "UsePACIMP"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HavePACIMPAuth]
+path = "../HavePACIMPAuth"
+
+[dependencies.HavePACIMPGeneric]
+path = "../HavePACIMPGeneric"
+
+[dependencies.common]
+path = "../common"

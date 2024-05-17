@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "PFAR_set"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HavePFAR]
+path = "../HavePFAR"
+
+[dependencies.HaveRME]
+path = "../HaveRME"
+
+[dependencies.Mk_MFAR_EL3_Type]
+path = "../Mk_MFAR_EL3_Type"
+
+[dependencies.Mk_PFAR_EL1_Type]
+path = "../Mk_PFAR_EL1_Type"
+
+[dependencies.Mk_PFAR_EL2_Type]
+path = "../Mk_PFAR_EL2_Type"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.common]
+path = "../common"

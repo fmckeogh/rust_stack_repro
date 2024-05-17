@@ -1,0 +1,46 @@
+[package]
+edition = "2021"
+name = "AArch64_TakeVirtualSErrorException"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_TakeException]
+path = "../AArch64_TakeException"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.ClearPendingVirtualSError]
+path = "../ClearPendingVirtualSError"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ExceptionSyndrome]
+path = "../ExceptionSyndrome"
+
+[dependencies.HaveRASExt]
+path = "../HaveRASExt"
+
+[dependencies.ThisInstrAddr]
+path = "../ThisInstrAddr"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_bits]
+path = "../u__IMPDEF_bits"
+
+[dependencies.u_get_HCR_EL2_Type_AMO]
+path = "../u_get_HCR_EL2_Type_AMO"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_VSESR_EL2_Type_IDS]
+path = "../u_get_VSESR_EL2_Type_IDS"
+
+[dependencies.u_get_VSESR_EL2_Type_ISS]
+path = "../u_get_VSESR_EL2_Type_ISS"

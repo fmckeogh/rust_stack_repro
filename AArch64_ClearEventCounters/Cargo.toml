@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "AArch64_ClearEventCounters"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_GetNumEventCountersAccessible]
+path = "../AArch64_GetNumEventCountersAccessible"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.neq_int]
+path = "../neq_int"
+
+[dependencies.u__id]
+path = "../u__id"

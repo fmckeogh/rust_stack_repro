@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "u__get_ICC_SRE_EL1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Mk_ICC_SRE_EL1_Type]
+path = "../Mk_ICC_SRE_EL1_Type"
+
+[dependencies.common]
+path = "../common"

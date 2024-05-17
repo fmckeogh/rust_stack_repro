@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "TLBIP_VAE3_SysOpsWrite128_46537a58be020b54"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_TLBIP_VA]
+path = "../AArch64_TLBIP_VA"
+
+[dependencies.SecurityStateAtEL]
+path = "../SecurityStateAtEL"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

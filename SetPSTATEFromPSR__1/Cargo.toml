@@ -1,0 +1,61 @@
+[package]
+edition = "2021"
+name = "SetPSTATEFromPSR__1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_WriteMode]
+path = "../AArch32_WriteMode"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.DebugExceptionReturnSS]
+path = "../DebugExceptionReturnSS"
+
+[dependencies.HaveBTIExt]
+path = "../HaveBTIExt"
+
+[dependencies.HaveDITExt]
+path = "../HaveDITExt"
+
+[dependencies.HaveFeatNMI]
+path = "../HaveFeatNMI"
+
+[dependencies.HaveGCS]
+path = "../HaveGCS"
+
+[dependencies.HaveMTEExt]
+path = "../HaveMTEExt"
+
+[dependencies.HavePANExt]
+path = "../HavePANExt"
+
+[dependencies.HaveSSBSExt]
+path = "../HaveSSBSExt"
+
+[dependencies.HaveUAOExt]
+path = "../HaveUAOExt"
+
+[dependencies.Restarting]
+path = "../Restarting"
+
+[dependencies.RestoredITBits]
+path = "../RestoredITBits"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bit]
+path = "../u__UNKNOWN_bit"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"

@@ -1,0 +1,130 @@
+[package]
+edition = "2021"
+name = "AArch64_S1Translate"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_GetS1TTWParams]
+path = "../AArch64_GetS1TTWParams"
+
+[dependencies.AArch64_GetVARange]
+path = "../AArch64_GetVARange"
+
+[dependencies.AArch64_MaxTxSZ]
+path = "../AArch64_MaxTxSZ"
+
+[dependencies.AArch64_MemSwapTableDesc]
+path = "../AArch64_MemSwapTableDesc"
+
+[dependencies.AArch64_S1CheckPermissions]
+path = "../AArch64_S1CheckPermissions"
+
+[dependencies.AArch64_S1DCacheEnabled]
+path = "../AArch64_S1DCacheEnabled"
+
+[dependencies.AArch64_S1DisabledOutput]
+path = "../AArch64_S1DisabledOutput"
+
+[dependencies.AArch64_S1Enabled]
+path = "../AArch64_S1Enabled"
+
+[dependencies.AArch64_S1HasAlignmentFault]
+path = "../AArch64_S1HasAlignmentFault"
+
+[dependencies.AArch64_S1ICacheEnabled]
+path = "../AArch64_S1ICacheEnabled"
+
+[dependencies.AArch64_S1MinTxSZ]
+path = "../AArch64_S1MinTxSZ"
+
+[dependencies.AArch64_S1OutputMECID]
+path = "../AArch64_S1OutputMECID"
+
+[dependencies.AArch64_S1TxSZFaults]
+path = "../AArch64_S1TxSZFaults"
+
+[dependencies.AArch64_S1Walk]
+path = "../AArch64_S1Walk"
+
+[dependencies.AArch64_S2Translate]
+path = "../AArch64_S2Translate"
+
+[dependencies.AArch64_SettingAccessFlagPermitted]
+path = "../AArch64_SettingAccessFlagPermitted"
+
+[dependencies.AArch64_SettingDirtyStatePermitted]
+path = "../AArch64_SettingDirtyStatePermitted"
+
+[dependencies.AArch64_VAIsOutOfRange]
+path = "../AArch64_VAIsOutOfRange"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.ContiguousSize]
+path = "../ContiguousSize"
+
+[dependencies.CreateAccDescTTEUpdate]
+path = "../CreateAccDescTTEUpdate"
+
+[dependencies.CreateAddressDescriptor]
+path = "../CreateAddressDescriptor"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.EffectiveShareability]
+path = "../EffectiveShareability"
+
+[dependencies.HaveMTE2Ext]
+path = "../HaveMTE2Ext"
+
+[dependencies.HaveSVE]
+path = "../HaveSVE"
+
+[dependencies.HaveTME]
+path = "../HaveTME"
+
+[dependencies.NormalNCMemAttr]
+path = "../NormalNCMemAttr"
+
+[dependencies.S1TLBCache]
+path = "../S1TLBCache"
+
+[dependencies.S1TLBLookup]
+path = "../S1TLBLookup"
+
+[dependencies.SetInGuardedPage]
+path = "../SetInGuardedPage"
+
+[dependencies.StageOA]
+path = "../StageOA"
+
+[dependencies.TranslationSize]
+path = "../TranslationSize"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.set_subrange_zeros]
+path = "../set_subrange_zeros"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__UNKNOWN_AddressDescriptor]
+path = "../u__UNKNOWN_AddressDescriptor"
+
+[dependencies.u_get_HCR_EL2_Type_VM]
+path = "../u_get_HCR_EL2_Type_VM"

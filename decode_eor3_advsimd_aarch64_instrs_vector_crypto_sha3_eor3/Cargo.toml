@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_eor3_advsimd_aarch64_instrs_vector_crypto_sha3_eor3"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveSHA3Ext]
+path = "../HaveSHA3Ext"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_vector_crypto_sha3_eor3]
+path = "../execute_aarch64_instrs_vector_crypto_sha3_eor3"

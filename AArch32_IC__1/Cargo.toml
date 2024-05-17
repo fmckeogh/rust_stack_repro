@@ -1,0 +1,49 @@
+[package]
+edition = "2021"
+name = "AArch32_IC__1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_Abort]
+path = "../AArch32_Abort"
+
+[dependencies.AArch32_TranslateAddress]
+path = "../AArch32_TranslateAddress"
+
+[dependencies.ASID_read]
+path = "../ASID_read"
+
+[dependencies.CACHE_OP]
+path = "../CACHE_OP"
+
+[dependencies.CreateAccDescIC]
+path = "../CreateAccDescIC"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.ICInstNeedsTranslation]
+path = "../ICInstNeedsTranslation"
+
+[dependencies.IsFault]
+path = "../IsFault"
+
+[dependencies.SecurityStateAtEL]
+path = "../SecurityStateAtEL"
+
+[dependencies.VMID_read]
+path = "../VMID_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_FullAddress]
+path = "../u__UNKNOWN_FullAddress"
+
+[dependencies.u_get_HCR_Type_FB]
+path = "../u_get_HCR_Type_FB"

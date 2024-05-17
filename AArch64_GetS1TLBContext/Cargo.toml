@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "AArch64_GetS1TLBContext"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_TLBContextEL10]
+path = "../AArch64_TLBContextEL10"
+
+[dependencies.AArch64_TLBContextEL2]
+path = "../AArch64_TLBContextEL2"
+
+[dependencies.AArch64_TLBContextEL20]
+path = "../AArch64_TLBContextEL20"
+
+[dependencies.AArch64_TLBContextEL3]
+path = "../AArch64_TLBContextEL3"
+
+[dependencies.common]
+path = "../common"

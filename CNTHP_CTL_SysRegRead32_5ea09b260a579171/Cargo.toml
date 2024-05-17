@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "CNTHP_CTL_SysRegRead32_5ea09b260a579171"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CNTHP_CTL_read]
+path = "../CNTHP_CTL_read"
+
+[dependencies.R_set]
+path = "../R_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_CNTHP_CTL]
+path = "../u__get_CNTHP_CTL"
+
+[dependencies.u_get_SCR_Type_NS]
+path = "../u_get_SCR_Type_NS"

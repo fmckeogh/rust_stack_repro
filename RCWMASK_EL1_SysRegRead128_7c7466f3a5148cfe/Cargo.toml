@@ -1,0 +1,52 @@
+[package]
+edition = "2021"
+name = "RCWMASK_EL1_SysRegRead128_7c7466f3a5148cfe"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.IsHCRXEL2Enabled]
+path = "../IsHCRXEL2Enabled"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_HCRX_EL2_Type_D128En]
+path = "../u_get_HCRX_EL2_Type_D128En"
+
+[dependencies.u_get_HFGRTR_EL2_Type_nRCWMASK_EL1]
+path = "../u_get_HFGRTR_EL2_Type_nRCWMASK_EL1"
+
+[dependencies.u_get_SCR_EL3_Type_D128En]
+path = "../u_get_SCR_EL3_Type_D128En"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"
+
+[dependencies.u_get_SCR_EL3_Type_RCWMASKEn]
+path = "../u_get_SCR_EL3_Type_RCWMASKEn"

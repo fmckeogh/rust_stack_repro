@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "execute_INSR_Z_V__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckSVEEnabled]
+path = "../CheckSVEEnabled"
+
+[dependencies.V_read]
+path = "../V_read"
+
+[dependencies.Z_read]
+path = "../Z_read"
+
+[dependencies.Z_set]
+path = "../Z_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.subrange_subrange_concat]
+path = "../subrange_subrange_concat"
+
+[dependencies.u__id]
+path = "../u__id"

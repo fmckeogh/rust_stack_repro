@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_subs_addsub_ext_aarch64_instrs_integer_arithmetic_add_sub_extendedreg"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.DecodeRegExtend]
+path = "../DecodeRegExtend"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_integer_arithmetic_add_sub_extendedreg]
+path = "../execute_aarch64_instrs_integer_arithmetic_add_sub_extendedreg"

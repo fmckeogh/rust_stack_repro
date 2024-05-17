@@ -1,0 +1,43 @@
+[package]
+edition = "2021"
+name = "AArch32_TLBContextEL30"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_GetVARange]
+path = "../AArch32_GetVARange"
+
+[dependencies.HaveCommonNotPrivateTransExt]
+path = "../HaveCommonNotPrivateTransExt"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_CONTEXTIDR_Type_ASID]
+path = "../u_get_CONTEXTIDR_Type_ASID"
+
+[dependencies.u_get_TTBCR_Type_A1]
+path = "../u_get_TTBCR_Type_A1"
+
+[dependencies.u_get_TTBCR_Type_EAE]
+path = "../u_get_TTBCR_Type_EAE"
+
+[dependencies.u_get_TTBCR_Type_T0SZ]
+path = "../u_get_TTBCR_Type_T0SZ"
+
+[dependencies.u_get_TTBCR_Type_T1SZ]
+path = "../u_get_TTBCR_Type_T1SZ"
+
+[dependencies.u_get_TTBR0_Type_ASID]
+path = "../u_get_TTBR0_Type_ASID"
+
+[dependencies.u_get_TTBR0_Type_CnP]
+path = "../u_get_TTBR0_Type_CnP"
+
+[dependencies.u_get_TTBR1_Type_ASID]
+path = "../u_get_TTBR1_Type_ASID"
+
+[dependencies.u_get_TTBR1_Type_CnP]
+path = "../u_get_TTBR1_Type_CnP"

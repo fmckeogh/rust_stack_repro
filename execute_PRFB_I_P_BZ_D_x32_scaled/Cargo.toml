@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "execute_PRFB_I_P_BZ_D_x32_scaled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ActivePredicateElement]
+path = "../ActivePredicateElement"
+
+[dependencies.AnyActiveElement]
+path = "../AnyActiveElement"
+
+[dependencies.CheckNonStreamingSVEEnabled]
+path = "../CheckNonStreamingSVEEnabled"
+
+[dependencies.Elem_read]
+path = "../Elem_read"
+
+[dependencies.Hint_Prefetch]
+path = "../Hint_Prefetch"
+
+[dependencies.P_read]
+path = "../P_read"
+
+[dependencies.SP_read]
+path = "../SP_read"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.Z_read]
+path = "../Z_read"
+
+[dependencies.asl_Int]
+path = "../asl_Int"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,49 @@
+[package]
+edition = "2021"
+name = "AddPACIA"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AddPAC]
+path = "../AddPAC"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.EL3SDDUndef]
+path = "../EL3SDDUndef"
+
+[dependencies.EL3SDDUndefPriority]
+path = "../EL3SDDUndefPriority"
+
+[dependencies.S1TranslationRegime__1]
+path = "../S1TranslationRegime__1"
+
+[dependencies.TrapPACUse]
+path = "../TrapPACUse"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_API]
+path = "../u_get_HCR_EL2_Type_API"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_SCR_EL3_Type_API]
+path = "../u_get_SCR_EL3_Type_API"
+
+[dependencies.u_get_SCTLR_EL1_Type_EnIA]
+path = "../u_get_SCTLR_EL1_Type_EnIA"
+
+[dependencies.u_get_SCTLR_EL2_Type_EnIA]
+path = "../u_get_SCTLR_EL2_Type_EnIA"
+
+[dependencies.u_get_SCTLR_EL3_Type_EnIA]
+path = "../u_get_SCTLR_EL3_Type_EnIA"

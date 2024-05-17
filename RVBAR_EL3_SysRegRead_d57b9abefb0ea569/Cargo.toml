@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "RVBAR_EL3_SysRegRead_d57b9abefb0ea569"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.IsHighestEL]
+path = "../IsHighestEL"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"

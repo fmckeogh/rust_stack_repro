@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "SPSR_read"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.SPSR_hyp_read]
+path = "../SPSR_hyp_read"
+
+[dependencies.SPSR_svc_read]
+path = "../SPSR_svc_read"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"

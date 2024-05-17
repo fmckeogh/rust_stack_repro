@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "CheckResetCatch"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Halt]
+path = "../Halt"
+
+[dependencies.HaltingAllowed]
+path = "../HaltingAllowed"
+
+[dependencies.HaveDoPD]
+path = "../HaveDoPD"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_CTIDEVCTL_Type_RCE]
+path = "../u_get_CTIDEVCTL_Type_RCE"
+
+[dependencies.u_get_EDECR_Type_RCE]
+path = "../u_get_EDECR_Type_RCE"

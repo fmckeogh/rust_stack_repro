@@ -1,0 +1,43 @@
+[package]
+edition = "2021"
+name = "DRPSInstruction"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.DebugRestorePSR]
+path = "../DebugRestorePSR"
+
+[dependencies.EffectiveEA]
+path = "../EffectiveEA"
+
+[dependencies.HaveDoubleFaultExt]
+path = "../HaveDoubleFaultExt"
+
+[dependencies.HaveIESB]
+path = "../HaveIESB"
+
+[dependencies.SCTLR_read__1]
+path = "../SCTLR_read__1"
+
+[dependencies.SynchronizeContext]
+path = "../SynchronizeContext"
+
+[dependencies.SynchronizeErrors]
+path = "../SynchronizeErrors"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_SCR_EL3_Type_NMEA]
+path = "../u_get_SCR_EL3_Type_NMEA"
+
+[dependencies.u_get_SCTLRType_IESB]
+path = "../u_get_SCTLRType_IESB"

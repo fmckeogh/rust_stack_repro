@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "AArch64_CallSupervisor"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_ITAdvance]
+path = "../AArch32_ITAdvance"
+
+[dependencies.AArch64_TakeException]
+path = "../AArch64_TakeException"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ExceptionSyndrome]
+path = "../ExceptionSyndrome"
+
+[dependencies.NextInstrAddr]
+path = "../NextInstrAddr"
+
+[dependencies.SSAdvance]
+path = "../SSAdvance"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"

@@ -1,0 +1,64 @@
+[package]
+edition = "2021"
+name = "AArch32_TakeReset"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_ResetControlRegisters]
+path = "../AArch32_ResetControlRegisters"
+
+[dependencies.AArch32_ResetGeneralRegisters]
+path = "../AArch32_ResetGeneralRegisters"
+
+[dependencies.AArch32_ResetSIMDFPRegisters]
+path = "../AArch32_ResetSIMDFPRegisters"
+
+[dependencies.AArch32_ResetSpecialRegisters]
+path = "../AArch32_ResetSpecialRegisters"
+
+[dependencies.AArch32_WriteMode]
+path = "../AArch32_WriteMode"
+
+[dependencies.BranchTo]
+path = "../BranchTo"
+
+[dependencies.FPEXC_read]
+path = "../FPEXC_read"
+
+[dependencies.FPEXC_write]
+path = "../FPEXC_write"
+
+[dependencies.HSCTLR_read]
+path = "../HSCTLR_read"
+
+[dependencies.HaveAArch64]
+path = "../HaveAArch64"
+
+[dependencies.ResetExternalDebugRegisters]
+path = "../ResetExternalDebugRegisters"
+
+[dependencies.SCTLR_read__2]
+path = "../SCTLR_read__2"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_bits]
+path = "../u__IMPDEF_bits"
+
+[dependencies.u_get_HSCTLR_Type_EE]
+path = "../u_get_HSCTLR_Type_EE"
+
+[dependencies.u_get_HSCTLR_Type_TE]
+path = "../u_get_HSCTLR_Type_TE"
+
+[dependencies.u_get_SCTLR_Type_EE]
+path = "../u_get_SCTLR_Type_EE"
+
+[dependencies.u_get_SCTLR_Type_TE]
+path = "../u_get_SCTLR_Type_TE"
+
+[dependencies.u_update_FPEXC_Type_EN]
+path = "../u_update_FPEXC_Type_EN"

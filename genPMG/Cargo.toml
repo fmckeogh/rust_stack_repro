@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "genPMG"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.getMPAM_PMG]
+path = "../getMPAM_PMG"
+
+[dependencies.u_get_MPAMIDR_EL1_Type_PMG_MAX]
+path = "../u_get_MPAMIDR_EL1_Type_PMG_MAX"

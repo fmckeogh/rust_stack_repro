@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "AArch64_S1OutputMECID"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_MECID_A0_EL2_Type_MECID]
+path = "../u_get_MECID_A0_EL2_Type_MECID"
+
+[dependencies.u_get_MECID_A1_EL2_Type_MECID]
+path = "../u_get_MECID_A1_EL2_Type_MECID"
+
+[dependencies.u_get_MECID_P0_EL2_Type_MECID]
+path = "../u_get_MECID_P0_EL2_Type_MECID"
+
+[dependencies.u_get_MECID_P1_EL2_Type_MECID]
+path = "../u_get_MECID_P1_EL2_Type_MECID"
+
+[dependencies.u_get_MECID_RL_A_EL3_Type_MECID]
+path = "../u_get_MECID_RL_A_EL3_Type_MECID"
+
+[dependencies.u_get_VMECID_P_EL2_Type_MECID]
+path = "../u_get_VMECID_P_EL2_Type_MECID"

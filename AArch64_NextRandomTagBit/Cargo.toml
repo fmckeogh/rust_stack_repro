@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "AArch64_NextRandomTagBit"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_GCR_EL1_Type_RRND]
+path = "../u_get_GCR_EL1_Type_RRND"
+
+[dependencies.u_get_RGSR_EL1_Type_SEED]
+path = "../u_get_RGSR_EL1_Type_SEED"

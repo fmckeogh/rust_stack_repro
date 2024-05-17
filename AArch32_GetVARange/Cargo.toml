@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "AArch32_GetVARange"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_S1IASize]
+path = "../AArch32_S1IASize"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.is_ones_subrange]
+path = "../is_ones_subrange"
+
+[dependencies.is_zero_subrange]
+path = "../is_zero_subrange"
+
+[dependencies.u__UNKNOWN_VARange]
+path = "../u__UNKNOWN_VARange"

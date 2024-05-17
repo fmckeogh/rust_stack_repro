@@ -1,0 +1,46 @@
+[package]
+edition = "2021"
+name = "AArch64_AutoGen_SysRegRead128"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_UnallocatedSysRegAccess]
+path = "../AArch64_UnallocatedSysRegAccess"
+
+[dependencies.PAR_EL1_SysRegRead128_8206ac7c9b0eef57]
+path = "../PAR_EL1_SysRegRead128_8206ac7c9b0eef57"
+
+[dependencies.RCWMASK_EL1_SysRegRead128_7c7466f3a5148cfe]
+path = "../RCWMASK_EL1_SysRegRead128_7c7466f3a5148cfe"
+
+[dependencies.RCWSMASK_EL1_SysRegRead128_7cac5e35b1fae5f9]
+path = "../RCWSMASK_EL1_SysRegRead128_7cac5e35b1fae5f9"
+
+[dependencies.S3_op1_Cn_Cm_op2_SysRegRead128_6403c05d5d1898d5]
+path = "../S3_op1_Cn_Cm_op2_SysRegRead128_6403c05d5d1898d5"
+
+[dependencies.TTBR0_EL1_SysRegRead128_e74a87d5451e7769]
+path = "../TTBR0_EL1_SysRegRead128_e74a87d5451e7769"
+
+[dependencies.TTBR0_EL1_SysRegRead128_ef7a13f49fb9674d]
+path = "../TTBR0_EL1_SysRegRead128_ef7a13f49fb9674d"
+
+[dependencies.TTBR0_EL2_SysRegRead128_05dc18b820cc86b7]
+path = "../TTBR0_EL2_SysRegRead128_05dc18b820cc86b7"
+
+[dependencies.TTBR1_EL1_SysRegRead128_16388106e031d578]
+path = "../TTBR1_EL1_SysRegRead128_16388106e031d578"
+
+[dependencies.TTBR1_EL2_SysRegRead128_712360e50061655a]
+path = "../TTBR1_EL2_SysRegRead128_712360e50061655a"
+
+[dependencies.TTBR1_EL2_SysRegRead128_ae708511fcb38e92]
+path = "../TTBR1_EL2_SysRegRead128_ae708511fcb38e92"
+
+[dependencies.VTTBR_EL2_SysRegRead128_a9b3226c12a0e07e]
+path = "../VTTBR_EL2_SysRegRead128_a9b3226c12a0e07e"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "AArch64_PhysicalSErrorSyndrome"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_EncodeAsyncErrorSyndrome]
+path = "../AArch64_EncodeAsyncErrorSyndrome"
+
+[dependencies.AArch64_PEErrorState]
+path = "../AArch64_PEErrorState"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.GetPendingPhysicalSError]
+path = "../GetPendingPhysicalSError"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_bits]
+path = "../u__IMPDEF_bits"

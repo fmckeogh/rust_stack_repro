@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "AArch64_IncrementCycleCounter"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CountPMUEvents]
+path = "../CountPMUEvents"
+
+[dependencies.HasElapsed64Cycles]
+path = "../HasElapsed64Cycles"
+
+[dependencies.HaveAArch32]
+path = "../HaveAArch32"
+
+[dependencies.Mk_PMCCNTR_EL0_Type]
+path = "../Mk_PMCCNTR_EL0_Type"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.subrange_subrange_eq]
+path = "../subrange_subrange_eq"
+
+[dependencies.u_get_PMCR_EL0_Type_D]
+path = "../u_get_PMCR_EL0_Type_D"
+
+[dependencies.u_get_PMCR_EL0_Type_LC]
+path = "../u_get_PMCR_EL0_Type_LC"

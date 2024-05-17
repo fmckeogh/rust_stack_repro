@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "EL3SDDUndefPriority"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"

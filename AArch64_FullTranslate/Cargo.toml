@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "AArch64_FullTranslate"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_S1Translate]
+path = "../AArch64_S1Translate"
+
+[dependencies.AArch64_S2Translate]
+path = "../AArch64_S2Translate"
+
+[dependencies.CreateFaultyAddressDescriptor]
+path = "../CreateFaultyAddressDescriptor"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.NoFault__1]
+path = "../NoFault__1"
+
+[dependencies.TranslationRegime]
+path = "../TranslationRegime"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.implies]
+path = "../implies"

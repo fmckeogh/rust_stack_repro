@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "CNTHCTL_SysRegRead32_36df328680cb805f"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CNTHCTL_read]
+path = "../CNTHCTL_read"
+
+[dependencies.R_set]
+path = "../R_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_CNTHCTL]
+path = "../u__get_CNTHCTL"
+
+[dependencies.u_get_SCR_Type_NS]
+path = "../u_get_SCR_Type_NS"

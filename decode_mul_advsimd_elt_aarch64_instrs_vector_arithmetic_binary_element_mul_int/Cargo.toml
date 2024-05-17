@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "decode_mul_advsimd_elt_aarch64_instrs_vector_arithmetic_binary_element_mul_int"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_vector_arithmetic_binary_element_mul_int]
+path = "../execute_aarch64_instrs_vector_arithmetic_binary_element_mul_int"

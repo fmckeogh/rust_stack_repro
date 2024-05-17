@@ -1,0 +1,49 @@
+[package]
+edition = "2021"
+name = "AArch64_PMUCycle"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_IncrementCycleCounter]
+path = "../AArch64_IncrementCycleCounter"
+
+[dependencies.AArch64_IncrementEventCounter]
+path = "../AArch64_IncrementEventCounter"
+
+[dependencies.BRBEFreeze]
+path = "../BRBEFreeze"
+
+[dependencies.CheckForPMUOverflow]
+path = "../CheckForPMUOverflow"
+
+[dependencies.CountPMUEvents]
+path = "../CountPMUEvents"
+
+[dependencies.GetNumEventCounters]
+path = "../GetNumEventCounters"
+
+[dependencies.HavePMUv3]
+path = "../HavePMUv3"
+
+[dependencies.PMUEvent]
+path = "../PMUEvent"
+
+[dependencies.ShouldBRBEFreeze]
+path = "../ShouldBRBEFreeze"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.neq_int]
+path = "../neq_int"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.u_get_MDCR_EL2_Type_HPME]
+path = "../u_get_MDCR_EL2_Type_HPME"
+
+[dependencies.u_get_PMCR_EL0_Type_E]
+path = "../u_get_PMCR_EL0_Type_E"

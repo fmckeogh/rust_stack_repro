@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "AArch64_CheckForSMCUndefOrTrap"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_TakeException]
+path = "../AArch64_TakeException"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ExceptionSyndrome]
+path = "../ExceptionSyndrome"
+
+[dependencies.HaveNVExt]
+path = "../HaveNVExt"
+
+[dependencies.ThisInstrAddr]
+path = "../ThisInstrAddr"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_NV]
+path = "../u_get_HCR_EL2_Type_NV"
+
+[dependencies.u_get_HCR_EL2_Type_TSC]
+path = "../u_get_HCR_EL2_Type_TSC"
+
+[dependencies.u_get_SCR_EL3_Type_SMD]
+path = "../u_get_SCR_EL3_Type_SMD"

@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "CNTFRQ_EL0_SysRegWrite_f59bce36e5e3ca32"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.IsHighestEL]
+path = "../IsHighestEL"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

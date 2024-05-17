@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "u__get_DBGVCR"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Mk_DBGVCR_Type]
+path = "../Mk_DBGVCR_Type"
+
+[dependencies.common]
+path = "../common"

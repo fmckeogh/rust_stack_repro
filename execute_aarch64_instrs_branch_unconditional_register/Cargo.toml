@@ -1,0 +1,49 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_branch_unconditional_register"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AddGCSRecord]
+path = "../AddGCSRecord"
+
+[dependencies.AuthIA]
+path = "../AuthIA"
+
+[dependencies.AuthIB]
+path = "../AuthIB"
+
+[dependencies.BranchTo]
+path = "../BranchTo"
+
+[dependencies.GCSPCREnabled]
+path = "../GCSPCREnabled"
+
+[dependencies.GetCurrentGCSPointer]
+path = "../GetCurrentGCSPointer"
+
+[dependencies.HaveGCS]
+path = "../HaveGCS"
+
+[dependencies.LoadCheckGCSRecord]
+path = "../LoadCheckGCSRecord"
+
+[dependencies.PC_read]
+path = "../PC_read"
+
+[dependencies.SP_read]
+path = "../SP_read"
+
+[dependencies.SetCurrentGCSPointer]
+path = "../SetCurrentGCSPointer"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"

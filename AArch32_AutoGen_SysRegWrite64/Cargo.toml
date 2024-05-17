@@ -1,0 +1,109 @@
+[package]
+edition = "2021"
+name = "AArch32_AutoGen_SysRegWrite64"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AMEVCNTR0_SysRegWrite64_00363288e0ffc481]
+path = "../AMEVCNTR0_SysRegWrite64_00363288e0ffc481"
+
+[dependencies.AMEVCNTR0_SysRegWrite64_125e5d1a241e0a34]
+path = "../AMEVCNTR0_SysRegWrite64_125e5d1a241e0a34"
+
+[dependencies.AMEVCNTR0_SysRegWrite64_a509b10e64184e5e]
+path = "../AMEVCNTR0_SysRegWrite64_a509b10e64184e5e"
+
+[dependencies.AMEVCNTR0_SysRegWrite64_ffac5e218d5b074d]
+path = "../AMEVCNTR0_SysRegWrite64_ffac5e218d5b074d"
+
+[dependencies.AMEVCNTR1_SysRegWrite64_06329c412b3ab5ff]
+path = "../AMEVCNTR1_SysRegWrite64_06329c412b3ab5ff"
+
+[dependencies.AMEVCNTR1_SysRegWrite64_1415f513493b61c8]
+path = "../AMEVCNTR1_SysRegWrite64_1415f513493b61c8"
+
+[dependencies.AMEVCNTR1_SysRegWrite64_18488936f5130285]
+path = "../AMEVCNTR1_SysRegWrite64_18488936f5130285"
+
+[dependencies.AMEVCNTR1_SysRegWrite64_3cf44094d12f6f9a]
+path = "../AMEVCNTR1_SysRegWrite64_3cf44094d12f6f9a"
+
+[dependencies.AMEVCNTR1_SysRegWrite64_469c861805be726d]
+path = "../AMEVCNTR1_SysRegWrite64_469c861805be726d"
+
+[dependencies.AMEVCNTR1_SysRegWrite64_4a0c18bf00eccda4]
+path = "../AMEVCNTR1_SysRegWrite64_4a0c18bf00eccda4"
+
+[dependencies.AMEVCNTR1_SysRegWrite64_683d5eccd985c418]
+path = "../AMEVCNTR1_SysRegWrite64_683d5eccd985c418"
+
+[dependencies.AMEVCNTR1_SysRegWrite64_6aa1c0a95da044bc]
+path = "../AMEVCNTR1_SysRegWrite64_6aa1c0a95da044bc"
+
+[dependencies.AMEVCNTR1_SysRegWrite64_80489a0c42f5990f]
+path = "../AMEVCNTR1_SysRegWrite64_80489a0c42f5990f"
+
+[dependencies.AMEVCNTR1_SysRegWrite64_8a065d943b8f719e]
+path = "../AMEVCNTR1_SysRegWrite64_8a065d943b8f719e"
+
+[dependencies.AMEVCNTR1_SysRegWrite64_8df7cb996ace4301]
+path = "../AMEVCNTR1_SysRegWrite64_8df7cb996ace4301"
+
+[dependencies.AMEVCNTR1_SysRegWrite64_8ea485840df13e8b]
+path = "../AMEVCNTR1_SysRegWrite64_8ea485840df13e8b"
+
+[dependencies.AMEVCNTR1_SysRegWrite64_9589f0d5bbc35480]
+path = "../AMEVCNTR1_SysRegWrite64_9589f0d5bbc35480"
+
+[dependencies.AMEVCNTR1_SysRegWrite64_a0a98205a8cc86f4]
+path = "../AMEVCNTR1_SysRegWrite64_a0a98205a8cc86f4"
+
+[dependencies.AMEVCNTR1_SysRegWrite64_caa18a28b827223b]
+path = "../AMEVCNTR1_SysRegWrite64_caa18a28b827223b"
+
+[dependencies.AMEVCNTR1_SysRegWrite64_ec5133758c2bd694]
+path = "../AMEVCNTR1_SysRegWrite64_ec5133758c2bd694"
+
+[dependencies.CNTHPS_CVAL_SysRegWrite64_34fa93164860ce59]
+path = "../CNTHPS_CVAL_SysRegWrite64_34fa93164860ce59"
+
+[dependencies.CNTHP_CVAL_SysRegWrite64_558ce8493f8ab75e]
+path = "../CNTHP_CVAL_SysRegWrite64_558ce8493f8ab75e"
+
+[dependencies.CNTHV_CVAL_SysRegWrite64_e72c3c45ec57bc51]
+path = "../CNTHV_CVAL_SysRegWrite64_e72c3c45ec57bc51"
+
+[dependencies.CNTVOFF_SysRegWrite64_772809c07f941c73]
+path = "../CNTVOFF_SysRegWrite64_772809c07f941c73"
+
+[dependencies.HTTBR_SysRegWrite64_3e34efab7aaa3ec6]
+path = "../HTTBR_SysRegWrite64_3e34efab7aaa3ec6"
+
+[dependencies.ICC_ASGI1R_SysRegWrite64_29140bc551f7529b]
+path = "../ICC_ASGI1R_SysRegWrite64_29140bc551f7529b"
+
+[dependencies.ICC_SGI0R_SysRegWrite64_3055f033253258da]
+path = "../ICC_SGI0R_SysRegWrite64_3055f033253258da"
+
+[dependencies.ICC_SGI1R_SysRegWrite64_e5d73969c7266f22]
+path = "../ICC_SGI1R_SysRegWrite64_e5d73969c7266f22"
+
+[dependencies.PAR_SysRegWrite64_867d7cbf8d644296]
+path = "../PAR_SysRegWrite64_867d7cbf8d644296"
+
+[dependencies.PMCCNTR_SysRegWrite64_51a4ab1690d771a1]
+path = "../PMCCNTR_SysRegWrite64_51a4ab1690d771a1"
+
+[dependencies.TTBR0_SysRegWrite64_c1a707eccbf8dd96]
+path = "../TTBR0_SysRegWrite64_c1a707eccbf8dd96"
+
+[dependencies.TTBR1_SysRegWrite64_7d88e184b6073f76]
+path = "../TTBR1_SysRegWrite64_7d88e184b6073f76"
+
+[dependencies.VTTBR_SysRegWrite64_ab86e13c6c48344f]
+path = "../VTTBR_SysRegWrite64_ab86e13c6c48344f"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,49 @@
+[package]
+edition = "2021"
+name = "AArch32_FaultSyndrome"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_EncodeAsyncErrorSyndrome]
+path = "../AArch32_EncodeAsyncErrorSyndrome"
+
+[dependencies.AArch32_PEErrorState]
+path = "../AArch32_PEErrorState"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.EncodeLDFSC]
+path = "../EncodeLDFSC"
+
+[dependencies.HaveRASExt]
+path = "../HaveRASExt"
+
+[dependencies.IsAsyncAbort__1]
+path = "../IsAsyncAbort__1"
+
+[dependencies.IsExternalAbort__1]
+path = "../IsExternalAbort__1"
+
+[dependencies.IsExternalSyncAbort__1]
+path = "../IsExternalSyncAbort__1"
+
+[dependencies.IsSecondStage]
+path = "../IsSecondStage"
+
+[dependencies.LSInstructionSyndrome]
+path = "../LSInstructionSyndrome"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__UNKNOWN_bit]
+path = "../u__UNKNOWN_bit"

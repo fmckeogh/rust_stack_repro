@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "CurrentEL_SysRegRead_94be544516d41cc8"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_NV]
+path = "../u_get_HCR_EL2_Type_NV"

@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "CSSELR_EL1_SysRegWrite_cd9c3d82f382498a"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.Mk_CSSELR_EL1_Type]
+path = "../Mk_CSSELR_EL1_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_TID2]
+path = "../u_get_HCR_EL2_Type_TID2"
+
+[dependencies.u_get_HCR_EL2_Type_TID4]
+path = "../u_get_HCR_EL2_Type_TID4"
+
+[dependencies.u_get_HFGWTR_EL2_Type_CSSELR_EL1]
+path = "../u_get_HFGWTR_EL2_Type_CSSELR_EL1"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"

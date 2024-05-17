@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "decode_SUNPK_MZ_Z_4"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.HaveSME2]
+path = "../HaveSME2"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_SUNPK_MZ_Z_4]
+path = "../execute_SUNPK_MZ_Z_4"

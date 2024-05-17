@@ -1,0 +1,58 @@
+[package]
+edition = "2021"
+name = "AArch32_S2Translate"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_GetS2TTWParams]
+path = "../AArch32_GetS2TTWParams"
+
+[dependencies.AArch32_IPAIsOutOfRange]
+path = "../AArch32_IPAIsOutOfRange"
+
+[dependencies.AArch32_S2HasAlignmentFault]
+path = "../AArch32_S2HasAlignmentFault"
+
+[dependencies.AArch32_S2HasPermissionsFault]
+path = "../AArch32_S2HasPermissionsFault"
+
+[dependencies.AArch32_S2Walk]
+path = "../AArch32_S2Walk"
+
+[dependencies.AArch64_S2Translate]
+path = "../AArch64_S2Translate"
+
+[dependencies.CreateAddressDescriptor]
+path = "../CreateAddressDescriptor"
+
+[dependencies.ELStateUsingAArch32]
+path = "../ELStateUsingAArch32"
+
+[dependencies.HCR2_read]
+path = "../HCR2_read"
+
+[dependencies.IsZero]
+path = "../IsZero"
+
+[dependencies.NormalNCMemAttr]
+path = "../NormalNCMemAttr"
+
+[dependencies.S2CombineS1MemAttrs]
+path = "../S2CombineS1MemAttrs"
+
+[dependencies.StageOA]
+path = "../StageOA"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_AddressDescriptor]
+path = "../u__UNKNOWN_AddressDescriptor"
+
+[dependencies.u_get_HCR2_Type_CD]
+path = "../u_get_HCR2_Type_CD"
+
+[dependencies.u_get_HCR2_Type_ID]
+path = "../u_get_HCR2_Type_ID"

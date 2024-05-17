@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "HandleExternalAbort"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_Abort]
+path = "../AArch32_Abort"
+
+[dependencies.AArch64_Abort]
+path = "../AArch64_Abort"
+
+[dependencies.HaveRASExt]
+path = "../HaveRASExt"
+
+[dependencies.IsExternalAbortTakenSynchronously]
+path = "../IsExternalAbortTakenSynchronously"
+
+[dependencies.IsExternalSyncAbort__1]
+path = "../IsExternalSyncAbort__1"
+
+[dependencies.NoFault__1]
+path = "../NoFault__1"
+
+[dependencies.PendSErrorInterrupt]
+path = "../PendSErrorInterrupt"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"

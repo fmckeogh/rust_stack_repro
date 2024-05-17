@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "execute_PMOV_Z_PI_S"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.CheckSVEEnabled]
+path = "../CheckSVEEnabled"
+
+[dependencies.P_read]
+path = "../P_read"
+
+[dependencies.PredicateElement]
+path = "../PredicateElement"
+
+[dependencies.Z_read]
+path = "../Z_read"
+
+[dependencies.Z_set]
+path = "../Z_set"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"

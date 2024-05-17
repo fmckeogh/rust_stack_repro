@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "EL2Enabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.IsSecureEL2Enabled]
+path = "../IsSecureEL2Enabled"
+
+[dependencies.SCR_GEN_read]
+path = "../SCR_GEN_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_SCRType_NS]
+path = "../u_get_SCRType_NS"

@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "SPE_PMBIDR_P_Read"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.ProfilingBufferOwner]
+path = "../ProfilingBufferOwner"
+
+[dependencies.common]
+path = "../common"

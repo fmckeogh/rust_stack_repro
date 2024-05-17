@@ -1,0 +1,49 @@
+[package]
+edition = "2021"
+name = "Mem_set__2"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_Abort]
+path = "../AArch64_Abort"
+
+[dependencies.AArch64_MemSingle_set]
+path = "../AArch64_MemSingle_set"
+
+[dependencies.AArch64_MemSingle_set__1]
+path = "../AArch64_MemSingle_set__1"
+
+[dependencies.AArch64_UnalignedAccessFaults]
+path = "../AArch64_UnalignedAccessFaults"
+
+[dependencies.AlignmentFault]
+path = "../AlignmentFault"
+
+[dependencies.AllInAlignedQuantity]
+path = "../AllInAlignedQuantity"
+
+[dependencies.BigEndian]
+path = "../BigEndian"
+
+[dependencies.ConstrainUnpredictable]
+path = "../ConstrainUnpredictable"
+
+[dependencies.HaveLRCPC3Ext]
+path = "../HaveLRCPC3Ext"
+
+[dependencies.HaveLSE2Ext]
+path = "../HaveLSE2Ext"
+
+[dependencies.IsAligned__1]
+path = "../IsAligned__1"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.reverse_endianness]
+path = "../reverse_endianness"
+
+[dependencies.u__id]
+path = "../u__id"

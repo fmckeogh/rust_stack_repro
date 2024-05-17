@@ -1,0 +1,67 @@
+[package]
+edition = "2021"
+name = "AMEVCNTR1_EL0_SysRegRead_fb04d104547be6cf"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.IsG1ActivityMonitorImplemented]
+path = "../IsG1ActivityMonitorImplemented"
+
+[dependencies.IsHighestEL]
+path = "../IsHighestEL"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u_get_AMCR_EL0_Type_CG1RZ]
+path = "../u_get_AMCR_EL0_Type_CG1RZ"
+
+[dependencies.u_get_AMUSERENR_EL0_Type_EN]
+path = "../u_get_AMUSERENR_EL0_Type_EN"
+
+[dependencies.u_get_CPTR_EL2_Type_TAM]
+path = "../u_get_CPTR_EL2_Type_TAM"
+
+[dependencies.u_get_CPTR_EL3_Type_TAM]
+path = "../u_get_CPTR_EL3_Type_TAM"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_HAFGRTR_EL2_Type_AMEVCNTR17_EL0]
+path = "../u_get_HAFGRTR_EL2_Type_AMEVCNTR17_EL0"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"

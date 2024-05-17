@@ -1,0 +1,73 @@
+[package]
+edition = "2021"
+name = "AArch32_ESBOperation"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_PhysicalSErrorSyndrome]
+path = "../AArch32_PhysicalSErrorSyndrome"
+
+[dependencies.AArch64_ESBOperation]
+path = "../AArch64_ESBOperation"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.ClearPendingPhysicalSError]
+path = "../ClearPendingPhysicalSError"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.DISR_write]
+path = "../DISR_write"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELFromM32]
+path = "../ELFromM32"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.EffectiveEA]
+path = "../EffectiveEA"
+
+[dependencies.ExternalDebugInterruptsDisabled]
+path = "../ExternalDebugInterruptsDisabled"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.IsSynchronizablePhysicalSErrorPending]
+path = "../IsSynchronizablePhysicalSErrorPending"
+
+[dependencies.Mk_DISR_Type]
+path = "../Mk_DISR_Type"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_AMO]
+path = "../u_get_HCR_EL2_Type_AMO"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HCR_Type_AMO]
+path = "../u_get_HCR_Type_AMO"
+
+[dependencies.u_get_HCR_Type_TGE]
+path = "../u_get_HCR_Type_TGE"
+
+[dependencies.u_get_SCR_Type_AW]
+path = "../u_get_SCR_Type_AW"

@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "AArch64_RandomTag"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_NextRandomTagBit]
+path = "../AArch64_NextRandomTagBit"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.common]
+path = "../common"

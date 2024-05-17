@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "DecodeGPTContiguous"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.GPIValid]
+path = "../GPIValid"
+
+[dependencies.IsZero]
+path = "../IsZero"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_GPTEntry]
+path = "../u__UNKNOWN_GPTEntry"

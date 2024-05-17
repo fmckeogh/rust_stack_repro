@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "ConditionSyndrome"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_CurrentCond]
+path = "../AArch32_CurrentCond"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.ConditionHolds]
+path = "../ConditionHolds"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"

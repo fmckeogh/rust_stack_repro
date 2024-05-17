@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_UABALT_Z_ZZZ__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.HaveSME]
+path = "../HaveSME"
+
+[dependencies.HaveSVE2]
+path = "../HaveSVE2"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_UABALT_Z_ZZZ__]
+path = "../execute_UABALT_Z_ZZZ__"

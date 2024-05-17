@@ -1,0 +1,79 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_system_hints"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_ChkFeat]
+path = "../AArch64_ChkFeat"
+
+[dependencies.AArch64_ESBOperation]
+path = "../AArch64_ESBOperation"
+
+[dependencies.AArch64_vESBOperation]
+path = "../AArch64_vESBOperation"
+
+[dependencies.ConsumptionOfSpeculativeDataBarrier]
+path = "../ConsumptionOfSpeculativeDataBarrier"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.FailTransaction]
+path = "../FailTransaction"
+
+[dependencies.GCSSynchronizationBarrier]
+path = "../GCSSynchronizationBarrier"
+
+[dependencies.HaveTME]
+path = "../HaveTME"
+
+[dependencies.Hint_CLRBHB]
+path = "../Hint_CLRBHB"
+
+[dependencies.Hint_DGH]
+path = "../Hint_DGH"
+
+[dependencies.Hint_WFE]
+path = "../Hint_WFE"
+
+[dependencies.Hint_WFI]
+path = "../Hint_WFI"
+
+[dependencies.Hint_Yield]
+path = "../Hint_Yield"
+
+[dependencies.ProfilingSynchronizationBarrier]
+path = "../ProfilingSynchronizationBarrier"
+
+[dependencies.SendEvent]
+path = "../SendEvent"
+
+[dependencies.SendEventLocal]
+path = "../SendEventLocal"
+
+[dependencies.SetBTypeNext]
+path = "../SetBTypeNext"
+
+[dependencies.SynchronizeErrors]
+path = "../SynchronizeErrors"
+
+[dependencies.TakeUnmaskedSErrorInterrupts]
+path = "../TakeUnmaskedSErrorInterrupts"
+
+[dependencies.TraceSynchronizationBarrier]
+path = "../TraceSynchronizationBarrier"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"

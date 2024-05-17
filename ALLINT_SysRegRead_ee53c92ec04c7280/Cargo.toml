@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "ALLINT_SysRegRead_ee53c92ec04c7280"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"

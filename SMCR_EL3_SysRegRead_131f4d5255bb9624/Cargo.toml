@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "SMCR_EL3_SysRegRead_131f4d5255bb9624"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_SMCR_EL3]
+path = "../u__get_SMCR_EL3"
+
+[dependencies.u_get_CPTR_EL3_Type_ESM]
+path = "../u_get_CPTR_EL3_Type_ESM"

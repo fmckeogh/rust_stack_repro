@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "DSPSR_EL0_SysRegWrite_2829d14e4c67df55"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.Mk_DSPSR_EL0_Type]
+path = "../Mk_DSPSR_EL0_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "u__DecodeA32_LoadStoreImmLit"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.decode_aarch32_instrs_LDRBT_A1enc_A_txt]
+path = "../decode_aarch32_instrs_LDRBT_A1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRB_i_A1enc_A_txt]
+path = "../decode_aarch32_instrs_LDRB_i_A1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRB_l_A1enc_A_txt]
+path = "../decode_aarch32_instrs_LDRB_l_A1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRT_A1enc_A_txt]
+path = "../decode_aarch32_instrs_LDRT_A1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDR_i_A1enc_A_txt]
+path = "../decode_aarch32_instrs_LDR_i_A1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDR_l_A1enc_A_txt]
+path = "../decode_aarch32_instrs_LDR_l_A1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STRBT_A1enc_A_txt]
+path = "../decode_aarch32_instrs_STRBT_A1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STRB_i_A1enc_A_txt]
+path = "../decode_aarch32_instrs_STRB_i_A1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STRT_A1enc_A_txt]
+path = "../decode_aarch32_instrs_STRT_A1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STR_i_A1enc_A_txt]
+path = "../decode_aarch32_instrs_STR_i_A1enc_A_txt"

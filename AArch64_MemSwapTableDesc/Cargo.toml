@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "AArch64_MemSwapTableDesc"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.GranuleProtectionCheck]
+path = "../GranuleProtectionCheck"
+
+[dependencies.HandleExternalTTWAbort]
+path = "../HandleExternalTTWAbort"
+
+[dependencies.HaveRME]
+path = "../HaveRME"
+
+[dependencies.IsFault__1]
+path = "../IsFault__1"
+
+[dependencies.IsFault__2]
+path = "../IsFault__2"
+
+[dependencies.PhysMemRead]
+path = "../PhysMemRead"
+
+[dependencies.PhysMemWrite]
+path = "../PhysMemWrite"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.reverse_endianness]
+path = "../reverse_endianness"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"

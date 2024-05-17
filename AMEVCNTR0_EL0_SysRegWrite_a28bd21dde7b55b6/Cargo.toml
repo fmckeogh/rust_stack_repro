@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "AMEVCNTR0_EL0_SysRegWrite_a28bd21dde7b55b6"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AMEVCNTR0_EL0_set]
+path = "../AMEVCNTR0_EL0_set"
+
+[dependencies.IsHighestEL]
+path = "../IsHighestEL"
+
+[dependencies.Mk_AMEVCNTR0_EL0_Type]
+path = "../Mk_AMEVCNTR0_EL0_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

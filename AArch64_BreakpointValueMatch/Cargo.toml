@@ -1,0 +1,82 @@
+[package]
+edition = "2021"
+name = "AArch64_BreakpointValueMatch"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_ReservedBreakpointType]
+path = "../AArch64_ReservedBreakpointType"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.ConstrainUnpredictableInteger]
+path = "../ConstrainUnpredictableInteger"
+
+[dependencies.DebugAddrTop]
+path = "../DebugAddrTop"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Have16bitVMID]
+path = "../Have16bitVMID"
+
+[dependencies.HaveAArch32]
+path = "../HaveAArch32"
+
+[dependencies.HaveFeatABLE]
+path = "../HaveFeatABLE"
+
+[dependencies.IsBreakpointEnabled]
+path = "../IsBreakpointEnabled"
+
+[dependencies.IsInHost]
+path = "../IsInHost"
+
+[dependencies.NumBreakpointsImplemented]
+path = "../NumBreakpointsImplemented"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.VTTBR_EL2_read]
+path = "../VTTBR_EL2_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.is_ones_subrange]
+path = "../is_ones_subrange"
+
+[dependencies.is_zero_subrange]
+path = "../is_zero_subrange"
+
+[dependencies.neq_int]
+path = "../neq_int"
+
+[dependencies.subrange_subrange_eq]
+path = "../subrange_subrange_eq"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.u_get_DBGBCR_EL1_Type_BAS]
+path = "../u_get_DBGBCR_EL1_Type_BAS"
+
+[dependencies.u_get_DBGBCR_EL1_Type_BT]
+path = "../u_get_DBGBCR_EL1_Type_BT"
+
+[dependencies.u_get_DBGBCR_EL1_Type_BT2]
+path = "../u_get_DBGBCR_EL1_Type_BT2"
+
+[dependencies.u_get_DBGBCR_EL1_Type_MASK]
+path = "../u_get_DBGBCR_EL1_Type_MASK"
+
+[dependencies.u_get_VTCR_EL2_Type_VS]
+path = "../u_get_VTCR_EL2_Type_VS"
+
+[dependencies.u_get_VTTBR_EL2_Type_VMID]
+path = "../u_get_VTTBR_EL2_Type_VMID"

@@ -1,0 +1,10 @@
+[package]
+edition = "2021"
+name = "Mk_HPFAR_Type"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"

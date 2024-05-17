@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "ResetExternalDebugRegisters"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EDSCR_write]
+path = "../EDSCR_write"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_update_EDSCR_Type_RW]
+path = "../u_update_EDSCR_Type_RW"
+
+[dependencies.u_update_EDSCR_Type_STATUS]
+path = "../u_update_EDSCR_Type_STATUS"

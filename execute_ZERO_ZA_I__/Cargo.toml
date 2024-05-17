@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "execute_ZERO_ZA_I__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckSMEAndZAEnabled]
+path = "../CheckSMEAndZAEnabled"
+
+[dependencies.FailTransaction]
+path = "../FailTransaction"
+
+[dependencies.HaveTME]
+path = "../HaveTME"
+
+[dependencies.ZAtile_set]
+path = "../ZAtile_set"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"

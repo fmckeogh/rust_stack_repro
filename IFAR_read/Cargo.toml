@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "IFAR_read"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.IFAR_NS_read]
+path = "../IFAR_NS_read"
+
+[dependencies.IFAR_S_read]
+path = "../IFAR_S_read"
+
+[dependencies.common]
+path = "../common"

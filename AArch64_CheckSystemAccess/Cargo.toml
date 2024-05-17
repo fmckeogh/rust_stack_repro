@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "AArch64_CheckSystemAccess"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.BranchTargetCheck]
+path = "../BranchTargetCheck"
+
+[dependencies.CheckTransactionalSystemAccess]
+path = "../CheckTransactionalSystemAccess"
+
+[dependencies.FailTransaction]
+path = "../FailTransaction"
+
+[dependencies.HaveBTIExt]
+path = "../HaveBTIExt"
+
+[dependencies.HaveTME]
+path = "../HaveTME"
+
+[dependencies.common]
+path = "../common"

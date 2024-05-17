@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "execute_INCW_R_RS__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckSVEEnabled]
+path = "../CheckSVEEnabled"
+
+[dependencies.DecodePredCount]
+path = "../DecodePredCount"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,58 @@
+[package]
+edition = "2021"
+name = "AArch32_IncrementCycleCounter"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CountPMUEvents]
+path = "../CountPMUEvents"
+
+[dependencies.HasElapsed64Cycles]
+path = "../HasElapsed64Cycles"
+
+[dependencies.Mk_PMCCNTR_Type]
+path = "../Mk_PMCCNTR_Type"
+
+[dependencies.PMCCNTR_read]
+path = "../PMCCNTR_read"
+
+[dependencies.PMCCNTR_write]
+path = "../PMCCNTR_write"
+
+[dependencies.PMCR_read]
+path = "../PMCR_read"
+
+[dependencies.PMOVSR_read]
+path = "../PMOVSR_read"
+
+[dependencies.PMOVSR_write]
+path = "../PMOVSR_write"
+
+[dependencies.PMOVSSET_read]
+path = "../PMOVSSET_read"
+
+[dependencies.PMOVSSET_write]
+path = "../PMOVSSET_write"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.subrange_subrange_eq]
+path = "../subrange_subrange_eq"
+
+[dependencies.u_get_PMCR_Type_D]
+path = "../u_get_PMCR_Type_D"
+
+[dependencies.u_get_PMCR_Type_LC]
+path = "../u_get_PMCR_Type_LC"
+
+[dependencies.u_update_PMOVSR_Type_C]
+path = "../u_update_PMOVSR_Type_C"
+
+[dependencies.u_update_PMOVSSET_Type_C]
+path = "../u_update_PMOVSSET_Type_C"

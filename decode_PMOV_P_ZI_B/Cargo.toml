@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_PMOV_P_ZI_B"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.HaveSME2p1]
+path = "../HaveSME2p1"
+
+[dependencies.HaveSVE2p1]
+path = "../HaveSVE2p1"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_PMOV_P_ZI_B]
+path = "../execute_PMOV_P_ZI_B"

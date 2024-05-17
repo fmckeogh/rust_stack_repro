@@ -1,0 +1,103 @@
+[package]
+edition = "2021"
+name = "AArch64_S2Walk"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_BlocknTFaults]
+path = "../AArch64_BlocknTFaults"
+
+[dependencies.AArch64_ContiguousBitFaults]
+path = "../AArch64_ContiguousBitFaults"
+
+[dependencies.AArch64_DecodeDescriptorType]
+path = "../AArch64_DecodeDescriptorType"
+
+[dependencies.AArch64_GetS2TLBContext]
+path = "../AArch64_GetS2TLBContext"
+
+[dependencies.AArch64_MemSwapTableDesc]
+path = "../AArch64_MemSwapTableDesc"
+
+[dependencies.AArch64_OAOutOfRange]
+path = "../AArch64_OAOutOfRange"
+
+[dependencies.AArch64_S2ApplyFWBMemAttrs]
+path = "../AArch64_S2ApplyFWBMemAttrs"
+
+[dependencies.AArch64_S2InitialTTWState]
+path = "../AArch64_S2InitialTTWState"
+
+[dependencies.AArch64_S2NextWalkStateLeaf]
+path = "../AArch64_S2NextWalkStateLeaf"
+
+[dependencies.AArch64_S2NextWalkStateTable]
+path = "../AArch64_S2NextWalkStateTable"
+
+[dependencies.AArch64_S2SLTTEntryAddress]
+path = "../AArch64_S2SLTTEntryAddress"
+
+[dependencies.AArch64_SS2InitialTTWState]
+path = "../AArch64_SS2InitialTTWState"
+
+[dependencies.AArch64_TTEntryAddress]
+path = "../AArch64_TTEntryAddress"
+
+[dependencies.AArch64_TTWalkMECID]
+path = "../AArch64_TTWalkMECID"
+
+[dependencies.ContiguousSize]
+path = "../ContiguousSize"
+
+[dependencies.CreateAccDescS2TTW]
+path = "../CreateAccDescS2TTW"
+
+[dependencies.CreateAccDescTTEUpdate]
+path = "../CreateAccDescTTEUpdate"
+
+[dependencies.EffectiveShareability]
+path = "../EffectiveShareability"
+
+[dependencies.FetchDescriptor]
+path = "../FetchDescriptor"
+
+[dependencies.NormalNCMemAttr]
+path = "../NormalNCMemAttr"
+
+[dependencies.S2TLBCache]
+path = "../S2TLBCache"
+
+[dependencies.S2TLBLookup]
+path = "../S2TLBLookup"
+
+[dependencies.StageOA]
+path = "../StageOA"
+
+[dependencies.TranslationSize]
+path = "../TranslationSize"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.VMID_read]
+path = "../VMID_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_AddressDescriptor]
+path = "../u__UNKNOWN_AddressDescriptor"
+
+[dependencies.u__UNKNOWN_TTWState]
+path = "../u__UNKNOWN_TTWState"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.u_get_HCR_EL2_Type_CD]
+path = "../u_get_HCR_EL2_Type_CD"

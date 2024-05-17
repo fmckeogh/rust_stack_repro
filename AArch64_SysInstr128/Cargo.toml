@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "AArch64_SysInstr128"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_AutoGen_SysOpsWrite128]
+path = "../AArch64_AutoGen_SysOpsWrite128"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"

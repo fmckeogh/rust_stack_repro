@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "AArch64_Abort"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_BreakpointException]
+path = "../AArch64_BreakpointException"
+
+[dependencies.AArch64_DataAbort]
+path = "../AArch64_DataAbort"
+
+[dependencies.AArch64_InstructionAbort]
+path = "../AArch64_InstructionAbort"
+
+[dependencies.AArch64_VectorCatchException]
+path = "../AArch64_VectorCatchException"
+
+[dependencies.AArch64_WatchpointException]
+path = "../AArch64_WatchpointException"
+
+[dependencies.IsDebugException]
+path = "../IsDebugException"
+
+[dependencies.ReportAsGPCException]
+path = "../ReportAsGPCException"
+
+[dependencies.TakeGPCException]
+path = "../TakeGPCException"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"

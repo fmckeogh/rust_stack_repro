@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_ldr_imm_fpsimd_aarch64_instrs_memory_single_simdfp_immediate_signed_pre_idx"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_memory_single_simdfp_immediate_signed_post_idx]
+path = "../execute_aarch64_instrs_memory_single_simdfp_immediate_signed_post_idx"
+
+[dependencies.u__id]
+path = "../u__id"

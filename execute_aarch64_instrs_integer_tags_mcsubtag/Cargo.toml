@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_integer_tags_mcsubtag"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_AddressWithAllocationTag]
+path = "../AArch64_AddressWithAllocationTag"
+
+[dependencies.AArch64_AllocationTagAccessIsEnabled]
+path = "../AArch64_AllocationTagAccessIsEnabled"
+
+[dependencies.AArch64_AllocationTagFromAddress]
+path = "../AArch64_AllocationTagFromAddress"
+
+[dependencies.AArch64_ChooseNonExcludedTag]
+path = "../AArch64_ChooseNonExcludedTag"
+
+[dependencies.AddWithCarry]
+path = "../AddWithCarry"
+
+[dependencies.SP_read]
+path = "../SP_read"
+
+[dependencies.SP_set]
+path = "../SP_set"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_GCR_EL1_Type_Exclude]
+path = "../u_get_GCR_EL1_Type_Exclude"

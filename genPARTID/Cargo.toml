@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "genPARTID"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.MAP_vPARTID]
+path = "../MAP_vPARTID"
+
+[dependencies.MPAMisVirtual]
+path = "../MPAMisVirtual"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.getMPAM_PARTID]
+path = "../getMPAM_PARTID"
+
+[dependencies.u_get_MPAMIDR_EL1_Type_PARTID_MAX]
+path = "../u_get_MPAMIDR_EL1_Type_PARTID_MAX"

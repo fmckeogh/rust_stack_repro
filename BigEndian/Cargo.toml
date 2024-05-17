@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "BigEndian"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveNV2Ext]
+path = "../HaveNV2Ext"
+
+[dependencies.SCTLR_read__1]
+path = "../SCTLR_read__1"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_SCTLRType_E0E]
+path = "../u_get_SCTLRType_E0E"
+
+[dependencies.u_get_SCTLRType_EE]
+path = "../u_get_SCTLRType_EE"
+
+[dependencies.u_get_SCTLR_EL2_Type_EE]
+path = "../u_get_SCTLR_EL2_Type_EE"

@@ -1,0 +1,10 @@
+[package]
+edition = "2021"
+name = "u_get_HFGRTR_EL2_Type_LORID_EL1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"

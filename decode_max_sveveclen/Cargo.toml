@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_max_sveveclen"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.FloorPow2]
+path = "../FloorPow2"
+
+[dependencies.IsPow2]
+path = "../IsPow2"
+
+[dependencies.common]
+path = "../common"

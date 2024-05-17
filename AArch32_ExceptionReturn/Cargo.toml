@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "AArch32_ExceptionReturn"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_CurrentCond]
+path = "../AArch32_CurrentCond"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.BranchTo]
+path = "../BranchTo"
+
+[dependencies.CheckExceptionCatch]
+path = "../CheckExceptionCatch"
+
+[dependencies.ClearExclusiveLocal]
+path = "../ClearExclusiveLocal"
+
+[dependencies.ProcessorID]
+path = "../ProcessorID"
+
+[dependencies.SendEventLocal]
+path = "../SendEventLocal"
+
+[dependencies.SetPSTATEFromPSR]
+path = "../SetPSTATEFromPSR"
+
+[dependencies.SynchronizeContext]
+path = "../SynchronizeContext"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"

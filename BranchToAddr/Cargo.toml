@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "BranchToAddr"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Hint_Branch]
+path = "../Hint_Branch"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.ZeroExtend1]
+path = "../ZeroExtend1"
+
+[dependencies.common]
+path = "../common"

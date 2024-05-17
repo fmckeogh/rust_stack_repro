@@ -1,0 +1,58 @@
+[package]
+edition = "2021"
+name = "AArch32_TakePhysicalIRQException"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_EnterHypMode]
+path = "../AArch32_EnterHypMode"
+
+[dependencies.AArch32_EnterMode]
+path = "../AArch32_EnterMode"
+
+[dependencies.AArch32_EnterMonitorMode]
+path = "../AArch32_EnterMonitorMode"
+
+[dependencies.AArch64_TakePhysicalIRQException]
+path = "../AArch64_TakePhysicalIRQException"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.ExceptionSyndrome]
+path = "../ExceptionSyndrome"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.IsInHost]
+path = "../IsInHost"
+
+[dependencies.ThisInstrAddr]
+path = "../ThisInstrAddr"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_IMO]
+path = "../u_get_HCR_EL2_Type_IMO"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HCR_Type_IMO]
+path = "../u_get_HCR_Type_IMO"
+
+[dependencies.u_get_HCR_Type_TGE]
+path = "../u_get_HCR_Type_TGE"
+
+[dependencies.u_get_SCR_EL3_Type_IRQ]
+path = "../u_get_SCR_EL3_Type_IRQ"
+
+[dependencies.u_get_SCR_Type_IRQ]
+path = "../u_get_SCR_Type_IRQ"

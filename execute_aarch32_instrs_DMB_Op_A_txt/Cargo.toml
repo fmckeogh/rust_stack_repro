@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_DMB_Op_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.DataMemoryBarrier]
+path = "../DataMemoryBarrier"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_Type_BSU]
+path = "../u_get_HCR_Type_BSU"

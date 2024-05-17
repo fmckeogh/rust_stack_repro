@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "AArch32_TakeHypTrapException"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_SystemAccessTrapSyndrome]
+path = "../AArch32_SystemAccessTrapSyndrome"
+
+[dependencies.AArch32_TakeHypTrapException__1]
+path = "../AArch32_TakeHypTrapException__1"
+
+[dependencies.ThisInstr]
+path = "../ThisInstr"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "IsWatchpointEnabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EDSCR2_read]
+path = "../EDSCR2_read"
+
+[dependencies.HaltOnBreakpointOrWatchpoint]
+path = "../HaltOnBreakpointOrWatchpoint"
+
+[dependencies.SelfHostedExtendedBPWPEnabled]
+path = "../SelfHostedExtendedBPWPEnabled"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_DBGWCR_EL1_Type_E]
+path = "../u_get_DBGWCR_EL1_Type_E"
+
+[dependencies.u_get_EDSCR2_Type_EHBWE]
+path = "../u_get_EDSCR2_Type_EHBWE"

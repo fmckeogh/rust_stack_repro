@@ -1,0 +1,58 @@
+[package]
+edition = "2021"
+name = "execute_LD1H_MZ_P_BR_4"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ActivePredicateElement]
+path = "../ActivePredicateElement"
+
+[dependencies.AnyActiveElement]
+path = "../AnyActiveElement"
+
+[dependencies.CheckSPAlignment]
+path = "../CheckSPAlignment"
+
+[dependencies.CheckSVEEnabled]
+path = "../CheckSVEEnabled"
+
+[dependencies.CheckStreamingSVEEnabled]
+path = "../CheckStreamingSVEEnabled"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.CounterToPredicate]
+path = "../CounterToPredicate"
+
+[dependencies.CreateAccDescSVE]
+path = "../CreateAccDescSVE"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.HaveSVE2p1]
+path = "../HaveSVE2p1"
+
+[dependencies.Mem_read]
+path = "../Mem_read"
+
+[dependencies.P_read]
+path = "../P_read"
+
+[dependencies.SP_read]
+path = "../SP_read"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.Z_set]
+path = "../Z_set"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "execute_MOVA_ZA2_Z_W1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckStreamingSVEAndZAEnabled]
+path = "../CheckStreamingSVEAndZAEnabled"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.ZAslice_set]
+path = "../ZAslice_set"
+
+[dependencies.Z_read]
+path = "../Z_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.fmod_int]
+path = "../fmod_int"

@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "TPIDR_EL3_SysRegRead_165fa3219105298e"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"

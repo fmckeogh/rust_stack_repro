@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "execute_TRN1_P_PP__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckSVEEnabled]
+path = "../CheckSVEEnabled"
+
+[dependencies.Elem_read]
+path = "../Elem_read"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.P_read]
+path = "../P_read"
+
+[dependencies.P_set]
+path = "../P_set"
+
+[dependencies.common]
+path = "../common"

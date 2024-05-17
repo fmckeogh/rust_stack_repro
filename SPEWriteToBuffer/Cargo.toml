@@ -1,0 +1,58 @@
+[package]
+edition = "2021"
+name = "SPEWriteToBuffer"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CreateAccDescSPE]
+path = "../CreateAccDescSPE"
+
+[dependencies.DebugMemWrite]
+path = "../DebugMemWrite"
+
+[dependencies.DebugWriteExternalAbort]
+path = "../DebugWriteExternalAbort"
+
+[dependencies.DebugWriteFault]
+path = "../DebugWriteFault"
+
+[dependencies.IsFault__1]
+path = "../IsFault__1"
+
+[dependencies.IsFault__2]
+path = "../IsFault__2"
+
+[dependencies.IsZero]
+path = "../IsZero"
+
+[dependencies.Mk_PMBPTR_EL1_Type]
+path = "../Mk_PMBPTR_EL1_Type"
+
+[dependencies.ProfilingBufferEnabled]
+path = "../ProfilingBufferEnabled"
+
+[dependencies.ProfilingBufferOwner]
+path = "../ProfilingBufferOwner"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.is_zero_subrange]
+path = "../is_zero_subrange"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.u_get_PMBIDR_EL1_Type_Align]
+path = "../u_get_PMBIDR_EL1_Type_Align"
+
+[dependencies.u_get_PMBPTR_EL1_Type_PTR]
+path = "../u_get_PMBPTR_EL1_Type_PTR"
+
+[dependencies.u_get_PMBSR_EL1_Type_S]
+path = "../u_get_PMBSR_EL1_Type_S"

@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "DC_CIGDPAPA_SysOpsWrite_04c6858387bf2414"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.DC_CIGDPAPA]
+path = "../DC_CIGDPAPA"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

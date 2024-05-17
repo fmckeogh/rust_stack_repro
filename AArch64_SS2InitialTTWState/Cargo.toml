@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "AArch64_SS2InitialTTWState"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_S2StartLevel]
+path = "../AArch64_S2StartLevel"
+
+[dependencies.AArch64_S2TTBaseAddress]
+path = "../AArch64_S2TTBaseAddress"
+
+[dependencies.VTTBR_EL2_read]
+path = "../VTTBR_EL2_read"
+
+[dependencies.WalkMemAttrs]
+path = "../WalkMemAttrs"
+
+[dependencies.common]
+path = "../common"

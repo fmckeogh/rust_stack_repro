@@ -1,0 +1,70 @@
+[package]
+edition = "2021"
+name = "AArch32_CheckTimerConditions"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CNTHP_CTL_read]
+path = "../CNTHP_CTL_read"
+
+[dependencies.CNTHP_CTL_write]
+path = "../CNTHP_CTL_write"
+
+[dependencies.CNTHP_CVAL_read]
+path = "../CNTHP_CVAL_read"
+
+[dependencies.CNTP_CTL_NS_read]
+path = "../CNTP_CTL_NS_read"
+
+[dependencies.CNTP_CTL_NS_write]
+path = "../CNTP_CTL_NS_write"
+
+[dependencies.CNTP_CTL_read]
+path = "../CNTP_CTL_read"
+
+[dependencies.CNTP_CTL_write]
+path = "../CNTP_CTL_write"
+
+[dependencies.CNTP_CVAL_NS_read]
+path = "../CNTP_CVAL_NS_read"
+
+[dependencies.CNTP_CVAL_read]
+path = "../CNTP_CVAL_read"
+
+[dependencies.HaveAArch64]
+path = "../HaveAArch64"
+
+[dependencies.IsTimerConditionMet]
+path = "../IsTimerConditionMet"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_CNTHP_CTL_Type_ENABLE]
+path = "../u_get_CNTHP_CTL_Type_ENABLE"
+
+[dependencies.u_get_CNTHP_CTL_Type_IMASK]
+path = "../u_get_CNTHP_CTL_Type_IMASK"
+
+[dependencies.u_get_CNTP_CTL_Type_ENABLE]
+path = "../u_get_CNTP_CTL_Type_ENABLE"
+
+[dependencies.u_get_CNTP_CTL_Type_IMASK]
+path = "../u_get_CNTP_CTL_Type_IMASK"
+
+[dependencies.u_get_CNTV_CTL_EL0_Type_ENABLE]
+path = "../u_get_CNTV_CTL_EL0_Type_ENABLE"
+
+[dependencies.u_get_CNTV_CTL_EL0_Type_IMASK]
+path = "../u_get_CNTV_CTL_EL0_Type_IMASK"
+
+[dependencies.u_update_CNTHP_CTL_Type_ISTATUS]
+path = "../u_update_CNTHP_CTL_Type_ISTATUS"
+
+[dependencies.u_update_CNTP_CTL_Type_ISTATUS]
+path = "../u_update_CNTP_CTL_Type_ISTATUS"

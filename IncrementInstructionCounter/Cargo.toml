@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "IncrementInstructionCounter"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CountPMUEvents]
+path = "../CountPMUEvents"
+
+[dependencies.Mk_PMICNTR_EL0_Type]
+path = "../Mk_PMICNTR_EL0_Type"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_access]
+path = "../integer_access"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"

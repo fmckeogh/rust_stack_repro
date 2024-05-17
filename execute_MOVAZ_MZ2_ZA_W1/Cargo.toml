@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "execute_MOVAZ_MZ2_ZA_W1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckStreamingSVEAndZAEnabled]
+path = "../CheckStreamingSVEAndZAEnabled"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.ZAslice_read]
+path = "../ZAslice_read"
+
+[dependencies.ZAslice_set]
+path = "../ZAslice_set"
+
+[dependencies.Z_set]
+path = "../Z_set"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.fmod_int]
+path = "../fmod_int"

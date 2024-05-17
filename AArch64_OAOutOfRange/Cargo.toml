@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "AArch64_OAOutOfRange"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_PhysicalAddressSize]
+path = "../AArch64_PhysicalAddressSize"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.is_zero_subrange]
+path = "../is_zero_subrange"

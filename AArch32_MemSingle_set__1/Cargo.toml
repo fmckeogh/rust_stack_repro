@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "AArch32_MemSingle_set__1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_Abort]
+path = "../AArch32_Abort"
+
+[dependencies.AArch32_TranslateAddress]
+path = "../AArch32_TranslateAddress"
+
+[dependencies.ClearExclusiveByAddress]
+path = "../ClearExclusiveByAddress"
+
+[dependencies.HandleExternalWriteAbort]
+path = "../HandleExternalWriteAbort"
+
+[dependencies.IsAligned__1]
+path = "../IsAligned__1"
+
+[dependencies.IsFault]
+path = "../IsFault"
+
+[dependencies.IsFault__2]
+path = "../IsFault__2"
+
+[dependencies.PhysMemWrite]
+path = "../PhysMemWrite"
+
+[dependencies.ProcessorID]
+path = "../ProcessorID"
+
+[dependencies.SPESampleLoadStore]
+path = "../SPESampleLoadStore"
+
+[dependencies.common]
+path = "../common"

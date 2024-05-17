@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "AArch32_CheckDebug"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_CheckBreakpoint]
+path = "../AArch32_CheckBreakpoint"
+
+[dependencies.AArch32_CheckVectorCatch]
+path = "../AArch32_CheckVectorCatch"
+
+[dependencies.AArch32_CheckWatchpoint]
+path = "../AArch32_CheckWatchpoint"
+
+[dependencies.AArch32_GenerateDebugExceptions]
+path = "../AArch32_GenerateDebugExceptions"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.DBGDSCRext_read]
+path = "../DBGDSCRext_read"
+
+[dependencies.HaltOnBreakpointOrWatchpoint]
+path = "../HaltOnBreakpointOrWatchpoint"
+
+[dependencies.IsDataAccess]
+path = "../IsDataAccess"
+
+[dependencies.NoFault__1]
+path = "../NoFault__1"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_DBGDSCRext_Type_MDBGen]
+path = "../u_get_DBGDSCRext_Type_MDBGen"

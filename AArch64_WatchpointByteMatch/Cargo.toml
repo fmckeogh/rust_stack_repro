@@ -1,0 +1,46 @@
+[package]
+edition = "2021"
+name = "AArch64_WatchpointByteMatch"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.ConstrainUnpredictableInteger]
+path = "../ConstrainUnpredictableInteger"
+
+[dependencies.DebugAddrTop]
+path = "../DebugAddrTop"
+
+[dependencies.IsOnes]
+path = "../IsOnes"
+
+[dependencies.IsZero]
+path = "../IsZero"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.is_ones_subrange]
+path = "../is_ones_subrange"
+
+[dependencies.is_zero_subrange]
+path = "../is_zero_subrange"
+
+[dependencies.subrange_subrange_eq]
+path = "../subrange_subrange_eq"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.u_get_DBGWCR_EL1_Type_BAS]
+path = "../u_get_DBGWCR_EL1_Type_BAS"
+
+[dependencies.u_get_DBGWCR_EL1_Type_MASK]
+path = "../u_get_DBGWCR_EL1_Type_MASK"
+
+[dependencies.unsigned_subrange]
+path = "../unsigned_subrange"

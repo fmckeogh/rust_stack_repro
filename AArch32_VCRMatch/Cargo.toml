@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "AArch32_VCRMatch"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.DBGVCR_read]
+path = "../DBGVCR_read"
+
+[dependencies.DebugTarget]
+path = "../DebugTarget"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.ExcVectorBase]
+path = "../ExcVectorBase"
+
+[dependencies.IsZero]
+path = "../IsZero"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"

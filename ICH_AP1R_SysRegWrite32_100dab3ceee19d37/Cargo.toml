@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "ICH_AP1R_SysRegWrite32_100dab3ceee19d37"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HSTR_read]
+path = "../HSTR_read"
+
+[dependencies.ICC_HSRE_read]
+path = "../ICC_HSRE_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HSTR_EL2_Type_T12]
+path = "../u_get_HSTR_EL2_Type_T12"
+
+[dependencies.u_get_HSTR_Type_T12]
+path = "../u_get_HSTR_Type_T12"
+
+[dependencies.u_get_ICC_HSRE_Type_SRE]
+path = "../u_get_ICC_HSRE_Type_SRE"
+
+[dependencies.u_get_ICC_MSRE_Type_SRE]
+path = "../u_get_ICC_MSRE_Type_SRE"

@@ -1,0 +1,52 @@
+[package]
+edition = "2021"
+name = "AArch32_GenerateDebugExceptionsFrom"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_SelfHostedSecurePrivilegedInvasiveDebugEnabled]
+path = "../AArch32_SelfHostedSecurePrivilegedInvasiveDebugEnabled"
+
+[dependencies.AArch64_GenerateDebugExceptionsFrom]
+path = "../AArch64_GenerateDebugExceptionsFrom"
+
+[dependencies.DBGOSLSR_read]
+path = "../DBGOSLSR_read"
+
+[dependencies.DebugTargetFrom]
+path = "../DebugTargetFrom"
+
+[dependencies.DoubleLockStatus]
+path = "../DoubleLockStatus"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.IsSecureEL2Enabled]
+path = "../IsSecureEL2Enabled"
+
+[dependencies.SDER_read]
+path = "../SDER_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_DBGOSLSR_Type_OSLK]
+path = "../u_get_DBGOSLSR_Type_OSLK"
+
+[dependencies.u_get_MDCR_EL3_Type_SDD]
+path = "../u_get_MDCR_EL3_Type_SDD"
+
+[dependencies.u_get_MDCR_EL3_Type_SPD32]
+path = "../u_get_MDCR_EL3_Type_SPD32"
+
+[dependencies.u_get_SDCR_Type_SPD]
+path = "../u_get_SDCR_Type_SPD"
+
+[dependencies.u_get_SDER_Type_SUIDEN]
+path = "../u_get_SDER_Type_SUIDEN"

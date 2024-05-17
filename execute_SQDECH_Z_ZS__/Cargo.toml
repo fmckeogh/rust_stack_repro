@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "execute_SQDECH_Z_ZS__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckSVEEnabled]
+path = "../CheckSVEEnabled"
+
+[dependencies.DecodePredCount]
+path = "../DecodePredCount"
+
+[dependencies.Elem_read]
+path = "../Elem_read"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.SatQ]
+path = "../SatQ"
+
+[dependencies.Z_read]
+path = "../Z_read"
+
+[dependencies.Z_set]
+path = "../Z_set"
+
+[dependencies.asl_Int]
+path = "../asl_Int"
+
+[dependencies.common]
+path = "../common"

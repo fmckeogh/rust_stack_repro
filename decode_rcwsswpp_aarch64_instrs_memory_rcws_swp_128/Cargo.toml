@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_rcwsswpp_aarch64_instrs_memory_rcws_swp_128"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Have128BitDescriptorExt]
+path = "../Have128BitDescriptorExt"
+
+[dependencies.HaveTHExt]
+path = "../HaveTHExt"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_memory_rcws_swp_128]
+path = "../execute_aarch64_instrs_memory_rcws_swp_128"
+
+[dependencies.neq_int]
+path = "../neq_int"

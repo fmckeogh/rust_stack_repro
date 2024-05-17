@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "GPTBR_EL3_SysRegWrite_6f7a8066a1cb6176"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Mk_GPTBR_EL3_Type]
+path = "../Mk_GPTBR_EL3_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

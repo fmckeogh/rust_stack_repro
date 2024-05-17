@@ -1,0 +1,61 @@
+[package]
+edition = "2021"
+name = "TTBR1_EL1_SysRegWrite128_d20c29029eb4ed94"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.Mk_TTBR1_EL1_Type]
+path = "../Mk_TTBR1_EL1_Type"
+
+[dependencies.NVMem_set__1]
+path = "../NVMem_set__1"
+
+[dependencies.TTBR1_EL1_read]
+path = "../TTBR1_EL1_read"
+
+[dependencies.TTBR1_EL1_write]
+path = "../TTBR1_EL1_write"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_NV]
+path = "../u_get_HCR_EL2_Type_NV"
+
+[dependencies.u_get_HCR_EL2_Type_NV1]
+path = "../u_get_HCR_EL2_Type_NV1"
+
+[dependencies.u_get_HCR_EL2_Type_NV2]
+path = "../u_get_HCR_EL2_Type_NV2"
+
+[dependencies.u_get_SCR_EL3_Type_D128En]
+path = "../u_get_SCR_EL3_Type_D128En"

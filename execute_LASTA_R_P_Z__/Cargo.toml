@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "execute_LASTA_R_P_Z__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckSVEEnabled]
+path = "../CheckSVEEnabled"
+
+[dependencies.Elem_read]
+path = "../Elem_read"
+
+[dependencies.LastActiveElement]
+path = "../LastActiveElement"
+
+[dependencies.P_read]
+path = "../P_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.Z_read]
+path = "../Z_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__id]
+path = "../u__id"

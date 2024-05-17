@@ -1,0 +1,46 @@
+[package]
+edition = "2021"
+name = "GCSPUSHM_SysOpsWrite_7d31b427953fb1be"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.GCSPUSHM]
+path = "../GCSPUSHM"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_GCSCRE0_EL1_Type_PUSHMEn]
+path = "../u_get_GCSCRE0_EL1_Type_PUSHMEn"
+
+[dependencies.u_get_GCSCR_EL1_Type_PUSHMEn]
+path = "../u_get_GCSCR_EL1_Type_PUSHMEn"
+
+[dependencies.u_get_GCSCR_EL2_Type_PUSHMEn]
+path = "../u_get_GCSCR_EL2_Type_PUSHMEn"
+
+[dependencies.u_get_GCSCR_EL3_Type_PUSHMEn]
+path = "../u_get_GCSCR_EL3_Type_PUSHMEn"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HFGITR_EL2_Type_nGCSPUSHM_EL1]
+path = "../u_get_HFGITR_EL2_Type_nGCSPUSHM_EL1"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"

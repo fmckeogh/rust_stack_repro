@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "UsePrimarySpaceEL10"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.MPAM3_EL3_read]
+path = "../MPAM3_EL3_read"
+
+[dependencies.MPAMisEnabled]
+path = "../MPAMisEnabled"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_MPAM2_EL2_Type_ALTSP_HFC]
+path = "../u_get_MPAM2_EL2_Type_ALTSP_HFC"
+
+[dependencies.u_get_MPAM3_EL3_Type_ALTSP_HEN]
+path = "../u_get_MPAM3_EL3_Type_ALTSP_HEN"
+
+[dependencies.u_get_MPAM3_EL3_Type_ALTSP_HFC]
+path = "../u_get_MPAM3_EL3_Type_ALTSP_HFC"

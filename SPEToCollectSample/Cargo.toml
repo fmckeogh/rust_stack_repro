@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "SPEToCollectSample"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.IsZero]
+path = "../IsZero"
+
+[dependencies.SPEGetRandomInterval]
+path = "../SPEGetRandomInterval"
+
+[dependencies.SPEResetSampleCounter]
+path = "../SPEResetSampleCounter"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.neq_int]
+path = "../neq_int"
+
+[dependencies.u_get_PMSICR_EL1_Type_COUNT]
+path = "../u_get_PMSICR_EL1_Type_COUNT"
+
+[dependencies.u_get_PMSICR_EL1_Type_ECOUNT]
+path = "../u_get_PMSICR_EL1_Type_ECOUNT"
+
+[dependencies.u_get_PMSIDR_EL1_Type_ERnd]
+path = "../u_get_PMSIDR_EL1_Type_ERnd"
+
+[dependencies.u_get_PMSIRR_EL1_Type_RND]
+path = "../u_get_PMSIRR_EL1_Type_RND"

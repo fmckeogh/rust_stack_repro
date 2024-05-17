@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "FPCR_read"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Mk_FPCRType]
+path = "../Mk_FPCRType"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_FPCR]
+path = "../u__get_FPCR"

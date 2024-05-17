@@ -1,0 +1,55 @@
+[package]
+edition = "2021"
+name = "AArch32_ReportDataAbort"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_CommonFaultStatus]
+path = "../AArch32_CommonFaultStatus"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.DFAR_S_write]
+path = "../DFAR_S_write"
+
+[dependencies.DFAR_write]
+path = "../DFAR_write"
+
+[dependencies.DFSR_write]
+path = "../DFSR_write"
+
+[dependencies.EncodeSDFSC]
+path = "../EncodeSDFSC"
+
+[dependencies.IFSR_write]
+path = "../IFSR_write"
+
+[dependencies.IsExternalSyncAbort__1]
+path = "../IsExternalSyncAbort__1"
+
+[dependencies.Mk_DFSR_Type]
+path = "../Mk_DFSR_Type"
+
+[dependencies.Mk_IFSR_Type]
+path = "../Mk_IFSR_Type"
+
+[dependencies.TTBCR_read]
+path = "../TTBCR_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"
+
+[dependencies.u_get_TTBCR_Type_EAE]
+path = "../u_get_TTBCR_Type_EAE"

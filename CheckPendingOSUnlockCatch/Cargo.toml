@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "CheckPendingOSUnlockCatch"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Halt__1]
+path = "../Halt__1"
+
+[dependencies.HaltingAllowed]
+path = "../HaltingAllowed"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_EDESR_Type_OSUC]
+path = "../u_get_EDESR_Type_OSUC"

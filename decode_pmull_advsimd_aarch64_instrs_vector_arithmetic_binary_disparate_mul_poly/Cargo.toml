@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_pmull_advsimd_aarch64_instrs_vector_arithmetic_binary_disparate_mul_poly"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveBit128PMULLExt]
+path = "../HaveBit128PMULLExt"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_vector_arithmetic_binary_disparate_mul_poly]
+path = "../execute_aarch64_instrs_vector_arithmetic_binary_disparate_mul_poly"

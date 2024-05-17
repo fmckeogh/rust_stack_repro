@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "SCTLR2_EL3_SysRegWrite_78fc138b1a53fb7d"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Mk_SCTLR2_EL3_Type]
+path = "../Mk_SCTLR2_EL3_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

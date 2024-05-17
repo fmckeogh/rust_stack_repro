@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "PMUEvent__2"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HavePMUv3]
+path = "../HavePMUv3"
+
+[dependencies.PMEVTYPER_read]
+path = "../PMEVTYPER_read"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.u_get_PMEVTYPER_EL0_Type_evtCount]
+path = "../u_get_PMEVTYPER_EL0_Type_evtCount"
+
+[dependencies.u_get_PMEVTYPER_Type_evtCount]
+path = "../u_get_PMEVTYPER_Type_evtCount"

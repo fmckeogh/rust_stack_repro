@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "SPSel_SysRegRead_40cc9773567bb9cf"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "decode_tbx_advsimd_aarch64_instrs_vector_transfer_vector_table"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_vector_transfer_vector_table]
+path = "../execute_aarch64_instrs_vector_transfer_vector_table"

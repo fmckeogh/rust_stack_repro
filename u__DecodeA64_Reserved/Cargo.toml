@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "u__DecodeA64_Reserved"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.decode_udf_perm_undef_aarch64_instrs_udf]
+path = "../decode_udf_perm_undef_aarch64_instrs_udf"

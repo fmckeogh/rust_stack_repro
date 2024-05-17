@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "SecurityStateAtEL"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.EffectiveSCR_EL3_NS]
+path = "../EffectiveSCR_EL3_NS"
+
+[dependencies.HaveRME]
+path = "../HaveRME"
+
+[dependencies.HaveSecureEL2Ext]
+path = "../HaveSecureEL2Ext"
+
+[dependencies.SecureOnlyImplementation]
+path = "../SecureOnlyImplementation"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_SCR_EL3_Type_NS]
+path = "../u_get_SCR_EL3_Type_NS"
+
+[dependencies.u_get_SCR_EL3_Type_NSE]
+path = "../u_get_SCR_EL3_Type_NSE"
+
+[dependencies.u_get_SCR_Type_NS]
+path = "../u_get_SCR_Type_NS"

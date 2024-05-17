@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "MECID_P1_EL2_SysRegRead_7875ab7fe28cd25b"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.IsCurrentSecurityState]
+path = "../IsCurrentSecurityState"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__get_MECID_P1_EL2]
+path = "../u__get_MECID_P1_EL2"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_SCR_EL3_Type_MECEn]
+path = "../u_get_SCR_EL3_Type_MECEn"

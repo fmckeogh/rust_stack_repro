@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "GetCurrentEXLOCKEN"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_GCSCR_EL1_Type_EXLOCKEN]
+path = "../u_get_GCSCR_EL1_Type_EXLOCKEN"
+
+[dependencies.u_get_GCSCR_EL2_Type_EXLOCKEN]
+path = "../u_get_GCSCR_EL2_Type_EXLOCKEN"
+
+[dependencies.u_get_GCSCR_EL3_Type_EXLOCKEN]
+path = "../u_get_GCSCR_EL3_Type_EXLOCKEN"

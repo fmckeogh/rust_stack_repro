@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "TTBR0_EL1_write"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Mk_TTBR0_Type]
+path = "../Mk_TTBR0_Type"
+
+[dependencies.TTBR0_read]
+path = "../TTBR0_read"
+
+[dependencies.TTBR0_write]
+path = "../TTBR0_write"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,220 @@
+[package]
+edition = "2021"
+name = "AArch64_IMPDEFResets"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.EncodePARange]
+path = "../EncodePARange"
+
+[dependencies.EncodeVARange]
+path = "../EncodeVARange"
+
+[dependencies.HasArchVersion]
+path = "../HasArchVersion"
+
+[dependencies.Have52BitIPAAndPASpaceExt]
+path = "../Have52BitIPAAndPASpaceExt"
+
+[dependencies.HaveCNTSCExt]
+path = "../HaveCNTSCExt"
+
+[dependencies.HaveDoPD]
+path = "../HaveDoPD"
+
+[dependencies.HaveDoubleFault2Ext]
+path = "../HaveDoubleFault2Ext"
+
+[dependencies.HaveFeatEBEP]
+path = "../HaveFeatEBEP"
+
+[dependencies.HaveFeatLS64]
+path = "../HaveFeatLS64"
+
+[dependencies.HaveFeatLS64_ACCDATA]
+path = "../HaveFeatLS64_ACCDATA"
+
+[dependencies.HaveFeatLS64_V]
+path = "../HaveFeatLS64_V"
+
+[dependencies.HaveGCS]
+path = "../HaveGCS"
+
+[dependencies.HaveLSE128]
+path = "../HaveLSE128"
+
+[dependencies.HaveMPAMExt]
+path = "../HaveMPAMExt"
+
+[dependencies.HaveMTE2Ext]
+path = "../HaveMTE2Ext"
+
+[dependencies.HaveMTE4Ext]
+path = "../HaveMTE4Ext"
+
+[dependencies.HaveMTEPermExt]
+path = "../HaveMTEPermExt"
+
+[dependencies.HavePFAR]
+path = "../HavePFAR"
+
+[dependencies.HavePMUv3TH]
+path = "../HavePMUv3TH"
+
+[dependencies.HavePMUv3p4]
+path = "../HavePMUv3p4"
+
+[dependencies.HaveRASv2Ext]
+path = "../HaveRASv2Ext"
+
+[dependencies.HaveRME]
+path = "../HaveRME"
+
+[dependencies.HaveSME2p1]
+path = "../HaveSME2p1"
+
+[dependencies.HaveSVE2p1]
+path = "../HaveSVE2p1"
+
+[dependencies.HaveStatisticalProfiling]
+path = "../HaveStatisticalProfiling"
+
+[dependencies.HaveTHExt]
+path = "../HaveTHExt"
+
+[dependencies.ICC_CTLR_EL1_read]
+path = "../ICC_CTLR_EL1_read"
+
+[dependencies.ICC_CTLR_EL1_write]
+path = "../ICC_CTLR_EL1_write"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.IsG1ActivityMonitorImplemented]
+path = "../IsG1ActivityMonitorImplemented"
+
+[dependencies.IsG1ActivityMonitorOffsetImplemented]
+path = "../IsG1ActivityMonitorOffsetImplemented"
+
+[dependencies.IsZero]
+path = "../IsZero"
+
+[dependencies.Mk_CCSIDR_EL1_Type]
+path = "../Mk_CCSIDR_EL1_Type"
+
+[dependencies.Mk_CNTFID0_Type]
+path = "../Mk_CNTFID0_Type"
+
+[dependencies.Mk_HCRX_EL2_Type]
+path = "../Mk_HCRX_EL2_Type"
+
+[dependencies.Mk_PMCEID0_EL0_Type]
+path = "../Mk_PMCEID0_EL0_Type"
+
+[dependencies.Mk_PMCEID1_EL0_Type]
+path = "../Mk_PMCEID1_EL0_Type"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.VMPIDR_read]
+path = "../VMPIDR_read"
+
+[dependencies.VMPIDR_write]
+path = "../VMPIDR_write"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.u_get_ERRIDR_EL1_Type_NUM]
+path = "../u_get_ERRIDR_EL1_Type_NUM"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_ID_AA64DFR0_EL1_Type_BRPs]
+path = "../u_get_ID_AA64DFR0_EL1_Type_BRPs"
+
+[dependencies.u_get_ID_AA64DFR0_EL1_Type_CTX_CMPs]
+path = "../u_get_ID_AA64DFR0_EL1_Type_CTX_CMPs"
+
+[dependencies.u_get_ID_AA64DFR0_EL1_Type_PMUVer]
+path = "../u_get_ID_AA64DFR0_EL1_Type_PMUVer"
+
+[dependencies.u_get_ID_AA64DFR0_EL1_Type_TraceFilt]
+path = "../u_get_ID_AA64DFR0_EL1_Type_TraceFilt"
+
+[dependencies.u_get_ID_AA64DFR0_EL1_Type_TraceVer]
+path = "../u_get_ID_AA64DFR0_EL1_Type_TraceVer"
+
+[dependencies.u_get_ID_AA64DFR0_EL1_Type_WRPs]
+path = "../u_get_ID_AA64DFR0_EL1_Type_WRPs"
+
+[dependencies.u_get_ID_AA64PFR0_EL1_Type_AdvSIMD]
+path = "../u_get_ID_AA64PFR0_EL1_Type_AdvSIMD"
+
+[dependencies.u_get_ID_AA64PFR0_EL1_Type_EL0]
+path = "../u_get_ID_AA64PFR0_EL1_Type_EL0"
+
+[dependencies.u_get_ID_AA64PFR0_EL1_Type_EL1]
+path = "../u_get_ID_AA64PFR0_EL1_Type_EL1"
+
+[dependencies.u_get_ID_AA64PFR0_EL1_Type_EL2]
+path = "../u_get_ID_AA64PFR0_EL1_Type_EL2"
+
+[dependencies.u_get_ID_AA64PFR0_EL1_Type_EL3]
+path = "../u_get_ID_AA64PFR0_EL1_Type_EL3"
+
+[dependencies.u_get_ID_AA64PFR0_EL1_Type_GIC]
+path = "../u_get_ID_AA64PFR0_EL1_Type_GIC"
+
+[dependencies.u_get_ID_AA64PFR0_EL1_Type_MPAM]
+path = "../u_get_ID_AA64PFR0_EL1_Type_MPAM"
+
+[dependencies.u_get_ID_AA64PFR1_EL1_Type_MPAM_frac]
+path = "../u_get_ID_AA64PFR1_EL1_Type_MPAM_frac"
+
+[dependencies.u_get_ID_DFR0_EL1_Type_CopDbg]
+path = "../u_get_ID_DFR0_EL1_Type_CopDbg"
+
+[dependencies.u_get_PMCR_EL0_Type_IMP]
+path = "../u_get_PMCR_EL0_Type_IMP"
+
+[dependencies.u_get_PMCR_EL0_Type_N]
+path = "../u_get_PMCR_EL0_Type_N"
+
+[dependencies.u_get_SCR_Type_NS]
+path = "../u_get_SCR_Type_NS"
+
+[dependencies.u_update_ICC_CTLR_EL1_Type_A3V]
+path = "../u_update_ICC_CTLR_EL1_Type_A3V"
+
+[dependencies.u_update_ICC_CTLR_EL1_Type_ExtRange]
+path = "../u_update_ICC_CTLR_EL1_Type_ExtRange"
+
+[dependencies.u_update_ICC_CTLR_EL1_Type_IDbits]
+path = "../u_update_ICC_CTLR_EL1_Type_IDbits"
+
+[dependencies.u_update_ICC_CTLR_EL1_Type_PRIbits]
+path = "../u_update_ICC_CTLR_EL1_Type_PRIbits"
+
+[dependencies.u_update_VMPIDR_Type_M]
+path = "../u_update_VMPIDR_Type_M"

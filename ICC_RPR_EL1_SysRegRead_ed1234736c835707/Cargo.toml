@@ -1,0 +1,64 @@
+[package]
+edition = "2021"
+name = "ICC_RPR_EL1_SysRegRead_ed1234736c835707"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.ICC_SRE_EL1_read]
+path = "../ICC_SRE_EL1_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__get_ICC_RPR_EL1]
+path = "../u__get_ICC_RPR_EL1"
+
+[dependencies.u__get_ICV_RPR_EL1]
+path = "../u__get_ICV_RPR_EL1"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_HCR_EL2_Type_FMO]
+path = "../u_get_HCR_EL2_Type_FMO"
+
+[dependencies.u_get_HCR_EL2_Type_IMO]
+path = "../u_get_HCR_EL2_Type_IMO"
+
+[dependencies.u_get_ICC_SRE_EL1_Type_SRE]
+path = "../u_get_ICC_SRE_EL1_Type_SRE"
+
+[dependencies.u_get_ICC_SRE_EL2_Type_SRE]
+path = "../u_get_ICC_SRE_EL2_Type_SRE"
+
+[dependencies.u_get_ICC_SRE_EL3_Type_SRE]
+path = "../u_get_ICC_SRE_EL3_Type_SRE"
+
+[dependencies.u_get_ICH_HCR_EL2_Type_TC]
+path = "../u_get_ICH_HCR_EL2_Type_TC"
+
+[dependencies.u_get_SCR_EL3_Type_FIQ]
+path = "../u_get_SCR_EL3_Type_FIQ"
+
+[dependencies.u_get_SCR_EL3_Type_IRQ]
+path = "../u_get_SCR_EL3_Type_IRQ"

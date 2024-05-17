@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "AltPIdSecure"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELIsInHost]
+path = "../ELIsInHost"
+
+[dependencies.MPAM3_EL3_read]
+path = "../MPAM3_EL3_read"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.UsePrimarySpaceEL10]
+path = "../UsePrimarySpaceEL10"
+
+[dependencies.UsePrimarySpaceEL2]
+path = "../UsePrimarySpaceEL2"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_MPAM3_EL3_Type_ALTSP_HEN]
+path = "../u_get_MPAM3_EL3_Type_ALTSP_HEN"
+
+[dependencies.u_get_MPAM3_EL3_Type_ALTSP_HFC]
+path = "../u_get_MPAM3_EL3_Type_ALTSP_HFC"

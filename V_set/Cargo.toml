@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "V_set"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.IsSVEEnabled]
+path = "../IsSVEEnabled"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.set_subrange_zeros]
+path = "../set_subrange_zeros"

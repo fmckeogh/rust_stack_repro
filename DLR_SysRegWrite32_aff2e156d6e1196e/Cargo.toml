@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "DLR_SysRegWrite32_aff2e156d6e1196e"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.DLR_write]
+path = "../DLR_write"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.R_read]
+path = "../R_read"
+
+[dependencies.common]
+path = "../common"

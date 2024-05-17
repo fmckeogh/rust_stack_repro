@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "BranchNotTaken"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveStatisticalProfiling]
+path = "../HaveStatisticalProfiling"
+
+[dependencies.SPEBranch]
+path = "../SPEBranch"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"

@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "ZAhslice_set"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentSVL_read]
+path = "../CurrentSVL_read"
+
+[dependencies.ZAvector_set]
+path = "../ZAvector_set"
+
+[dependencies.common]
+path = "../common"

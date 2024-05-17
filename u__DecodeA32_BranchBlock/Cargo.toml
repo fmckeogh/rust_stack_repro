@@ -1,0 +1,58 @@
+[package]
+edition = "2021"
+name = "u__DecodeA32_BranchBlock"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.decode_aarch32_instrs_BL_i_A1enc_A_txt]
+path = "../decode_aarch32_instrs_BL_i_A1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_BL_i_A2enc_A_txt]
+path = "../decode_aarch32_instrs_BL_i_A2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_B_A1enc_A_txt]
+path = "../decode_aarch32_instrs_B_A1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDMDA_A1enc_A_txt]
+path = "../decode_aarch32_instrs_LDMDA_A1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDMDB_A1enc_A_txt]
+path = "../decode_aarch32_instrs_LDMDB_A1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDMIB_A1enc_A_txt]
+path = "../decode_aarch32_instrs_LDMIB_A1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDM_A1enc_A_txt]
+path = "../decode_aarch32_instrs_LDM_A1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDM_e_A1enc_AS_txt]
+path = "../decode_aarch32_instrs_LDM_e_A1enc_AS_txt"
+
+[dependencies.decode_aarch32_instrs_LDM_u_A1enc_AS_txt]
+path = "../decode_aarch32_instrs_LDM_u_A1enc_AS_txt"
+
+[dependencies.decode_aarch32_instrs_RFE_A1enc_AS_txt]
+path = "../decode_aarch32_instrs_RFE_A1enc_AS_txt"
+
+[dependencies.decode_aarch32_instrs_SRS_A1enc_AS_txt]
+path = "../decode_aarch32_instrs_SRS_A1enc_AS_txt"
+
+[dependencies.decode_aarch32_instrs_STMDA_A1enc_A_txt]
+path = "../decode_aarch32_instrs_STMDA_A1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STMDB_A1enc_A_txt]
+path = "../decode_aarch32_instrs_STMDB_A1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STMIB_A1enc_A_txt]
+path = "../decode_aarch32_instrs_STMIB_A1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STM_A1enc_A_txt]
+path = "../decode_aarch32_instrs_STM_A1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STM_u_A1enc_AS_txt]
+path = "../decode_aarch32_instrs_STM_u_A1enc_AS_txt"

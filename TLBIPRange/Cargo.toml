@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "TLBIPRange"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Ones]
+path = "../Ones"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.replicate_bits_borealis_internal]
+path = "../replicate_bits_borealis_internal"

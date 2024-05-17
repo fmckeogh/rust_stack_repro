@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "MPAM3_EL3_SysRegRead_2770962b9f8f46c1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.MPAM3_EL3_read]
+path = "../MPAM3_EL3_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_MPAM3_EL3]
+path = "../u__get_MPAM3_EL3"

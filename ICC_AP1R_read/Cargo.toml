@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "ICC_AP1R_read"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.ICC_AP1R_NS_read]
+path = "../ICC_AP1R_NS_read"
+
+[dependencies.ICC_AP1R_S_read]
+path = "../ICC_AP1R_S_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__id]
+path = "../u__id"

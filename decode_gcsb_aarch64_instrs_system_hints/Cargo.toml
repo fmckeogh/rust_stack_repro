@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "decode_gcsb_aarch64_instrs_system_hints"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.BTypeCompatible_BTI]
+path = "../BTypeCompatible_BTI"
+
+[dependencies.EndOfInstruction]
+path = "../EndOfInstruction"
+
+[dependencies.HaveDGHExt]
+path = "../HaveDGHExt"
+
+[dependencies.HaveFeatCLRBHB]
+path = "../HaveFeatCLRBHB"
+
+[dependencies.HaveRASExt]
+path = "../HaveRASExt"
+
+[dependencies.HaveSelfHostedTrace]
+path = "../HaveSelfHostedTrace"
+
+[dependencies.HaveStatisticalProfiling]
+path = "../HaveStatisticalProfiling"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.SetBTypeCompatible]
+path = "../SetBTypeCompatible"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_system_hints]
+path = "../execute_aarch64_instrs_system_hints"

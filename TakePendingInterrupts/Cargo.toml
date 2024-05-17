@@ -1,0 +1,70 @@
+[package]
+edition = "2021"
+name = "TakePendingInterrupts"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_PendingUnmaskedPhysicalInterrupts]
+path = "../AArch32_PendingUnmaskedPhysicalInterrupts"
+
+[dependencies.AArch32_PendingUnmaskedVirtualInterrupts]
+path = "../AArch32_PendingUnmaskedVirtualInterrupts"
+
+[dependencies.AArch32_TakePhysicalFIQException]
+path = "../AArch32_TakePhysicalFIQException"
+
+[dependencies.AArch32_TakePhysicalIRQException]
+path = "../AArch32_TakePhysicalIRQException"
+
+[dependencies.AArch32_TakePhysicalSErrorException]
+path = "../AArch32_TakePhysicalSErrorException"
+
+[dependencies.AArch32_TakeVirtualFIQException]
+path = "../AArch32_TakeVirtualFIQException"
+
+[dependencies.AArch32_TakeVirtualIRQException]
+path = "../AArch32_TakeVirtualIRQException"
+
+[dependencies.AArch32_TakeVirtualSErrorException]
+path = "../AArch32_TakeVirtualSErrorException"
+
+[dependencies.AArch64_PendingUnmaskedPhysicalInterrupts]
+path = "../AArch64_PendingUnmaskedPhysicalInterrupts"
+
+[dependencies.AArch64_PendingUnmaskedVirtualInterrupts]
+path = "../AArch64_PendingUnmaskedVirtualInterrupts"
+
+[dependencies.AArch64_TakePhysicalFIQException]
+path = "../AArch64_TakePhysicalFIQException"
+
+[dependencies.AArch64_TakePhysicalIRQException]
+path = "../AArch64_TakePhysicalIRQException"
+
+[dependencies.AArch64_TakePhysicalSErrorException]
+path = "../AArch64_TakePhysicalSErrorException"
+
+[dependencies.AArch64_TakeVirtualFIQException]
+path = "../AArch64_TakeVirtualFIQException"
+
+[dependencies.AArch64_TakeVirtualIRQException]
+path = "../AArch64_TakeVirtualIRQException"
+
+[dependencies.AArch64_TakeVirtualSErrorException]
+path = "../AArch64_TakeVirtualSErrorException"
+
+[dependencies.FailTransaction__1]
+path = "../FailTransaction__1"
+
+[dependencies.HaveTME]
+path = "../HaveTME"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"

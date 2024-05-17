@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_VJCVT_Op_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckVFPEnabled]
+path = "../CheckVFPEnabled"
+
+[dependencies.D_read]
+path = "../D_read"
+
+[dependencies.FPSCR_read]
+path = "../FPSCR_read"
+
+[dependencies.FPSCR_read__1]
+path = "../FPSCR_read__1"
+
+[dependencies.FPSCR_write]
+path = "../FPSCR_write"
+
+[dependencies.FPToFixedJS]
+path = "../FPToFixedJS"
+
+[dependencies.Mk_FPSCR_Type]
+path = "../Mk_FPSCR_Type"
+
+[dependencies.S_set]
+path = "../S_set"
+
+[dependencies.common]
+path = "../common"

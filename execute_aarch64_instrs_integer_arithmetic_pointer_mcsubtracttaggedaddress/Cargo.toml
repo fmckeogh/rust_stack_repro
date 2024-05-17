@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_integer_arithmetic_pointer_mcsubtracttaggedaddress"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AddWithCarry]
+path = "../AddWithCarry"
+
+[dependencies.SP_read]
+path = "../SP_read"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"

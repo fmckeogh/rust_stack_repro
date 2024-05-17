@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "AArch32_SystemAccessTrapSyndrome"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.ConditionSyndrome]
+path = "../ConditionSyndrome"
+
+[dependencies.ExceptionSyndrome]
+path = "../ExceptionSyndrome"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"

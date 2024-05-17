@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_ZERO_ZT_I__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveSME2]
+path = "../HaveSME2"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_ZERO_ZT_I__]
+path = "../execute_ZERO_ZT_I__"

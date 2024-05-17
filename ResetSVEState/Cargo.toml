@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "ResetSVEState"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Mk_FPSR_Type]
+path = "../Mk_FPSR_Type"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"

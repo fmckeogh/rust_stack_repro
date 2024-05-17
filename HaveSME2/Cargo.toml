@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "HaveSME2"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "RestoredITBits"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.HSCTLR_read]
+path = "../HSCTLR_read"
+
+[dependencies.IsZero]
+path = "../IsZero"
+
+[dependencies.SCTLR_read__2]
+path = "../SCTLR_read__2"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HSCTLR_Type_ITD]
+path = "../u_get_HSCTLR_Type_ITD"
+
+[dependencies.u_get_SCTLR_Type_ITD]
+path = "../u_get_SCTLR_Type_ITD"

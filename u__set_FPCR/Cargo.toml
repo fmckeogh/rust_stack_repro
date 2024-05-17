@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "u__set_FPCR"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u_get_FPCR_Type_DZE]
+path = "../u_get_FPCR_Type_DZE"
+
+[dependencies.u_get_FPCR_Type_IDE]
+path = "../u_get_FPCR_Type_IDE"
+
+[dependencies.u_get_FPCR_Type_IOE]
+path = "../u_get_FPCR_Type_IOE"
+
+[dependencies.u_get_FPCR_Type_IXE]
+path = "../u_get_FPCR_Type_IXE"
+
+[dependencies.u_get_FPCR_Type_OFE]
+path = "../u_get_FPCR_Type_OFE"
+
+[dependencies.u_get_FPCR_Type_Stride]
+path = "../u_get_FPCR_Type_Stride"
+
+[dependencies.u_get_FPCR_Type_UFE]
+path = "../u_get_FPCR_Type_UFE"
+
+[dependencies.u_get_FPCR_Type_length]
+path = "../u_get_FPCR_Type_length"

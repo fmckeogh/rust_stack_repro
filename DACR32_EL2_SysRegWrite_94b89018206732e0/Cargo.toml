@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "DACR32_EL2_SysRegWrite_94b89018206732e0"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.HaveAArch32EL]
+path = "../HaveAArch32EL"
+
+[dependencies.Mk_DACR32_EL2_Type]
+path = "../Mk_DACR32_EL2_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_NV]
+path = "../u_get_HCR_EL2_Type_NV"

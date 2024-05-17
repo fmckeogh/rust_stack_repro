@@ -1,0 +1,43 @@
+[package]
+edition = "2021"
+name = "AMCNTENSET0_SysRegWrite32_e19916620d98350a"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_TakeHypTrapException]
+path = "../AArch32_TakeHypTrapException"
+
+[dependencies.AArch64_AArch32SystemAccessTrap]
+path = "../AArch64_AArch32SystemAccessTrap"
+
+[dependencies.AMCNTENSET0_write]
+path = "../AMCNTENSET0_write"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HSTR_read]
+path = "../HSTR_read"
+
+[dependencies.IsHighestEL]
+path = "../IsHighestEL"
+
+[dependencies.Mk_AMCNTENSET0_Type]
+path = "../Mk_AMCNTENSET0_Type"
+
+[dependencies.R_read]
+path = "../R_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HSTR_EL2_Type_T13]
+path = "../u_get_HSTR_EL2_Type_T13"
+
+[dependencies.u_get_HSTR_Type_T13]
+path = "../u_get_HSTR_Type_T13"

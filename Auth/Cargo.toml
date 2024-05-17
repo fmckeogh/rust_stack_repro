@@ -1,0 +1,49 @@
+[package]
+edition = "2021"
+name = "Auth"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_PACFailException]
+path = "../AArch64_PACFailException"
+
+[dependencies.CalculateBottomPACBit]
+path = "../CalculateBottomPACBit"
+
+[dependencies.ComputePAC]
+path = "../ComputePAC"
+
+[dependencies.EffectiveMTX]
+path = "../EffectiveMTX"
+
+[dependencies.EffectiveTBI]
+path = "../EffectiveTBI"
+
+[dependencies.HaveEnhancedPAC2]
+path = "../HaveEnhancedPAC2"
+
+[dependencies.HaveFPAC]
+path = "../HaveFPAC"
+
+[dependencies.HaveFPACCombined]
+path = "../HaveFPACCombined"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.replicate_bits_borealis_internal]
+path = "../replicate_bits_borealis_internal"
+
+[dependencies.subrange_subrange_concat]
+path = "../subrange_subrange_concat"
+
+[dependencies.subrange_subrange_eq]
+path = "../subrange_subrange_eq"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.vector_update_subrange_from_subrange]
+path = "../vector_update_subrange_from_subrange"

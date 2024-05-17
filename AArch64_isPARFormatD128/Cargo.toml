@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "AArch64_isPARFormatD128"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Have128BitDescriptorExt]
+path = "../Have128BitDescriptorExt"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_DC]
+path = "../u_get_HCR_EL2_Type_DC"
+
+[dependencies.u_get_HCR_EL2_Type_VM]
+path = "../u_get_HCR_EL2_Type_VM"
+
+[dependencies.u_get_TCR2_EL1_Type_D128]
+path = "../u_get_TCR2_EL1_Type_D128"
+
+[dependencies.u_get_TCR2_EL2_Type_D128]
+path = "../u_get_TCR2_EL2_Type_D128"
+
+[dependencies.u_get_TCR_EL3_Type_D128]
+path = "../u_get_TCR_EL3_Type_D128"
+
+[dependencies.u_get_VTCR_EL2_Type_D128]
+path = "../u_get_VTCR_EL2_Type_D128"

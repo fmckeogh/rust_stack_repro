@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "SPEResetSampleStorage"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.set_subrange_zeros]
+path = "../set_subrange_zeros"
+
+[dependencies.u__IMPDEF_bits]
+path = "../u__IMPDEF_bits"

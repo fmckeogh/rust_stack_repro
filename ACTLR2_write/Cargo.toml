@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "ACTLR2_write"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ACTLR2_NS_write]
+path = "../ACTLR2_NS_write"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.common]
+path = "../common"

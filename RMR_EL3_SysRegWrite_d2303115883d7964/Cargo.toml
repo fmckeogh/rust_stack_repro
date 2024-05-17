@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "RMR_EL3_SysRegWrite_d2303115883d7964"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.IsHighestEL]
+path = "../IsHighestEL"
+
+[dependencies.Mk_RMR_EL3_Type]
+path = "../Mk_RMR_EL3_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

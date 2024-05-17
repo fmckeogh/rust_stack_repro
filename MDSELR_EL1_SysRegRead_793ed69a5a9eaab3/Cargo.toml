@@ -1,0 +1,55 @@
+[package]
+edition = "2021"
+name = "MDSELR_EL1_SysRegRead_793ed69a5a9eaab3"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__get_MDSELR_EL1]
+path = "../u__get_MDSELR_EL1"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_HDFGRTR2_EL2_Type_nMDSELR_EL1]
+path = "../u_get_HDFGRTR2_EL2_Type_nMDSELR_EL1"
+
+[dependencies.u_get_MDCR_EL2_Type_TDA]
+path = "../u_get_MDCR_EL2_Type_TDA"
+
+[dependencies.u_get_MDCR_EL2_Type_TDE]
+path = "../u_get_MDCR_EL2_Type_TDE"
+
+[dependencies.u_get_MDCR_EL3_Type_EBWE]
+path = "../u_get_MDCR_EL3_Type_EBWE"
+
+[dependencies.u_get_MDCR_EL3_Type_TDA]
+path = "../u_get_MDCR_EL3_Type_TDA"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn2]
+path = "../u_get_SCR_EL3_Type_FGTEn2"

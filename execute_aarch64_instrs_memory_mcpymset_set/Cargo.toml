@@ -1,0 +1,64 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_memory_mcpymset_set"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_IsUnprivAccessPriv]
+path = "../AArch64_IsUnprivAccessPriv"
+
+[dependencies.CreateAccDescMOPS]
+path = "../CreateAccDescMOPS"
+
+[dependencies.MemSetParametersIllformedE]
+path = "../MemSetParametersIllformedE"
+
+[dependencies.MemSetParametersIllformedM]
+path = "../MemSetParametersIllformedM"
+
+[dependencies.MemSetZeroSizeCheck]
+path = "../MemSetZeroSizeCheck"
+
+[dependencies.Mem_set]
+path = "../Mem_set"
+
+[dependencies.MismatchedMemSetException]
+path = "../MismatchedMemSetException"
+
+[dependencies.SETOptionA]
+path = "../SETOptionA"
+
+[dependencies.SETPostSizeChoice]
+path = "../SETPostSizeChoice"
+
+[dependencies.SETPreSizeChoice]
+path = "../SETPreSizeChoice"
+
+[dependencies.SETSizeChoice]
+path = "../SETSizeChoice"
+
+[dependencies.SPESampleMemSet]
+path = "../SPESampleMemSet"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.neq_int]
+path = "../neq_int"
+
+[dependencies.replicate_bits_borealis_internal]
+path = "../replicate_bits_borealis_internal"
+
+[dependencies.u__id]
+path = "../u__id"

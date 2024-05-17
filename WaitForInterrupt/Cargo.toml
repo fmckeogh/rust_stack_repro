@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "WaitForInterrupt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EnterLowPowerState]
+path = "../EnterLowPowerState"
+
+[dependencies.HaveFeatWFxT]
+path = "../HaveFeatWFxT"
+
+[dependencies.LocalTimeoutEvent]
+path = "../LocalTimeoutEvent"
+
+[dependencies.common]
+path = "../common"

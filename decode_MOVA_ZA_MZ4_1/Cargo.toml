@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "decode_MOVA_ZA_MZ4_1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.HaveSME2]
+path = "../HaveSME2"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_MOVA_ZA_MZ4_1]
+path = "../execute_MOVA_ZA_MZ4_1"

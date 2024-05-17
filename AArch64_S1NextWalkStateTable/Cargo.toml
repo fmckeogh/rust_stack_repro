@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "AArch64_S1NextWalkStateTable"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_NextTableBase]
+path = "../AArch64_NextTableBase"
+
+[dependencies.AArch64_S1ApplyTablePerms]
+path = "../AArch64_S1ApplyTablePerms"
+
+[dependencies.common]
+path = "../common"

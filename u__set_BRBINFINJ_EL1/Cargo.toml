@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "u__set_BRBINFINJ_EL1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_BRBINFINJ_EL1_Type_CC]
+path = "../u_get_BRBINFINJ_EL1_Type_CC"
+
+[dependencies.u_get_BRBINFINJ_EL1_Type_CCU]
+path = "../u_get_BRBINFINJ_EL1_Type_CCU"
+
+[dependencies.u_get_BRBINFINJ_EL1_Type_EL]
+path = "../u_get_BRBINFINJ_EL1_Type_EL"
+
+[dependencies.u_get_BRBINFINJ_EL1_Type_LASTFAILED]
+path = "../u_get_BRBINFINJ_EL1_Type_LASTFAILED"
+
+[dependencies.u_get_BRBINFINJ_EL1_Type_MPRED]
+path = "../u_get_BRBINFINJ_EL1_Type_MPRED"
+
+[dependencies.u_get_BRBINFINJ_EL1_Type_T]
+path = "../u_get_BRBINFINJ_EL1_Type_T"
+
+[dependencies.u_get_BRBINFINJ_EL1_Type_TYPE]
+path = "../u_get_BRBINFINJ_EL1_Type_TYPE"
+
+[dependencies.u_get_BRBINFINJ_EL1_Type_VALID]
+path = "../u_get_BRBINFINJ_EL1_Type_VALID"

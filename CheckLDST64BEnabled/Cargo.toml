@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "CheckLDST64BEnabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.IsHCRXEL2Enabled]
+path = "../IsHCRXEL2Enabled"
+
+[dependencies.IsInHost]
+path = "../IsInHost"
+
+[dependencies.LDST64BTrap]
+path = "../LDST64BTrap"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCRX_EL2_Type_EnALS]
+path = "../u_get_HCRX_EL2_Type_EnALS"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_SCTLR_EL1_Type_EnALS]
+path = "../u_get_SCTLR_EL1_Type_EnALS"
+
+[dependencies.u_get_SCTLR_EL2_Type_EnALS]
+path = "../u_get_SCTLR_EL2_Type_EnALS"

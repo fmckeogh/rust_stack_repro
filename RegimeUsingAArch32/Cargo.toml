@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "RegimeUsingAArch32"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.common]
+path = "../common"

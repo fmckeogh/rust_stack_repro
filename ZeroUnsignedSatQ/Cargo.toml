@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "ZeroUnsignedSatQ"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.vector_update_subrange_from_integer_subrange]
+path = "../vector_update_subrange_from_integer_subrange"

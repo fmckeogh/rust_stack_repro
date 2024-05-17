@@ -1,0 +1,52 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_memory_ordered_pair_stilp"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.BigEndian]
+path = "../BigEndian"
+
+[dependencies.CheckSPAlignment]
+path = "../CheckSPAlignment"
+
+[dependencies.CreateAccDescAcqRel]
+path = "../CreateAccDescAcqRel"
+
+[dependencies.HaveLSE2Ext]
+path = "../HaveLSE2Ext"
+
+[dependencies.Mem_read]
+path = "../Mem_read"
+
+[dependencies.Mem_read__1]
+path = "../Mem_read__1"
+
+[dependencies.Mem_set]
+path = "../Mem_set"
+
+[dependencies.Mem_set__2]
+path = "../Mem_set__2"
+
+[dependencies.SPESampleGeneralPurposeLoadStore]
+path = "../SPESampleGeneralPurposeLoadStore"
+
+[dependencies.SP_read]
+path = "../SP_read"
+
+[dependencies.SP_set]
+path = "../SP_set"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"

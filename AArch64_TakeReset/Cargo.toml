@@ -1,0 +1,43 @@
+[package]
+edition = "2021"
+name = "AArch64_TakeReset"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_PAMax]
+path = "../AArch64_PAMax"
+
+[dependencies.AArch64_ResetControlRegisters]
+path = "../AArch64_ResetControlRegisters"
+
+[dependencies.AArch64_ResetGeneralRegisters]
+path = "../AArch64_ResetGeneralRegisters"
+
+[dependencies.AArch64_ResetSIMDFPRegisters]
+path = "../AArch64_ResetSIMDFPRegisters"
+
+[dependencies.AArch64_ResetSpecialRegisters]
+path = "../AArch64_ResetSpecialRegisters"
+
+[dependencies.BranchTo]
+path = "../BranchTo"
+
+[dependencies.HaveAArch64]
+path = "../HaveAArch64"
+
+[dependencies.HaveTME]
+path = "../HaveTME"
+
+[dependencies.IsZero]
+path = "../IsZero"
+
+[dependencies.ResetExternalDebugRegisters]
+path = "../ResetExternalDebugRegisters"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.is_zero_subrange]
+path = "../is_zero_subrange"

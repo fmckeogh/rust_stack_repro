@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "ProfilingBufferEnabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.EffectiveSCR_EL3_NS]
+path = "../EffectiveSCR_EL3_NS"
+
+[dependencies.HaveRME]
+path = "../HaveRME"
+
+[dependencies.HaveStatisticalProfiling]
+path = "../HaveStatisticalProfiling"
+
+[dependencies.ProfilingBufferOwner]
+path = "../ProfilingBufferOwner"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_PMBLIMITR_EL1_Type_E]
+path = "../u_get_PMBLIMITR_EL1_Type_E"
+
+[dependencies.u_get_PMBSR_EL1_Type_S]
+path = "../u_get_PMBSR_EL1_Type_S"
+
+[dependencies.u_get_SCR_EL3_Type_NS]
+path = "../u_get_SCR_EL3_Type_NS"
+
+[dependencies.u_get_SCR_EL3_Type_NSE]
+path = "../u_get_SCR_EL3_Type_NSE"

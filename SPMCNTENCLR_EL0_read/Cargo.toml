@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "SPMCNTENCLR_EL0_read"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "AT_S1E0R_SysOpsWrite_40187a824e445931"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_AT]
+path = "../AArch64_AT"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_AT]
+path = "../u_get_HCR_EL2_Type_AT"
+
+[dependencies.u_get_HFGITR_EL2_Type_ATS1E0R]
+path = "../u_get_HFGITR_EL2_Type_ATS1E0R"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"

@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "AArch64_BranchAddr"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AddrTop]
+path = "../AddrTop"
+
+[dependencies.IsInHost]
+path = "../IsInHost"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.sext_subrange]
+path = "../sext_subrange"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.zext_subrange]
+path = "../zext_subrange"

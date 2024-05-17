@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_UMINP_Z_P_ZZ__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.HaveSME]
+path = "../HaveSME"
+
+[dependencies.HaveSVE2]
+path = "../HaveSVE2"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_UMINP_Z_P_ZZ__]
+path = "../execute_UMINP_Z_P_ZZ__"

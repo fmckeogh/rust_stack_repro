@@ -1,0 +1,43 @@
+[package]
+edition = "2021"
+name = "CheckST64BV0Enabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.EL3SDDUndef]
+path = "../EL3SDDUndef"
+
+[dependencies.EL3SDDUndefPriority]
+path = "../EL3SDDUndefPriority"
+
+[dependencies.IsHCRXEL2Enabled]
+path = "../IsHCRXEL2Enabled"
+
+[dependencies.IsInHost]
+path = "../IsInHost"
+
+[dependencies.LDST64BTrap]
+path = "../LDST64BTrap"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCRX_EL2_Type_EnAS0]
+path = "../u_get_HCRX_EL2_Type_EnAS0"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_SCR_EL3_Type_EnAS0]
+path = "../u_get_SCR_EL3_Type_EnAS0"
+
+[dependencies.u_get_SCTLR_EL1_Type_EnAS0]
+path = "../u_get_SCTLR_EL1_Type_EnAS0"
+
+[dependencies.u_get_SCTLR_EL2_Type_EnAS0]
+path = "../u_get_SCTLR_EL2_Type_EnAS0"

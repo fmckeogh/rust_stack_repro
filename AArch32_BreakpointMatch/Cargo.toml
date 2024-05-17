@@ -1,0 +1,52 @@
+[package]
+edition = "2021"
+name = "AArch32_BreakpointMatch"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_BreakpointValueMatch]
+path = "../AArch32_BreakpointValueMatch"
+
+[dependencies.AArch32_StateMatch]
+path = "../AArch32_StateMatch"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.DBGBCR_read]
+path = "../DBGBCR_read"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.NumBreakpointsImplemented]
+path = "../NumBreakpointsImplemented"
+
+[dependencies.S1TranslationRegime__1]
+path = "../S1TranslationRegime__1"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_DBGBCR_Type_BAS]
+path = "../u_get_DBGBCR_Type_BAS"
+
+[dependencies.u_get_DBGBCR_Type_BT]
+path = "../u_get_DBGBCR_Type_BT"
+
+[dependencies.u_get_DBGBCR_Type_E]
+path = "../u_get_DBGBCR_Type_E"
+
+[dependencies.u_get_DBGBCR_Type_HMC]
+path = "../u_get_DBGBCR_Type_HMC"
+
+[dependencies.u_get_DBGBCR_Type_LBN]
+path = "../u_get_DBGBCR_Type_LBN"
+
+[dependencies.u_get_DBGBCR_Type_PMC]
+path = "../u_get_DBGBCR_Type_PMC"
+
+[dependencies.u_get_DBGBCR_Type_SSC]
+path = "../u_get_DBGBCR_Type_SSC"

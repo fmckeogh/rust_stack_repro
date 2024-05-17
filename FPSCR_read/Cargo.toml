@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "FPSCR_read"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.FPSCR_read__1]
+path = "../FPSCR_read__1"
+
+[dependencies.Mk_FPCRType]
+path = "../Mk_FPCRType"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_FPSCR]
+path = "../u__get_FPSCR"

@@ -1,0 +1,163 @@
+[package]
+edition = "2021"
+name = "AArch32_S1WalkSD"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_DecodeDescriptorTypeSD]
+path = "../AArch32_DecodeDescriptorTypeSD"
+
+[dependencies.AArch32_DefaultTEXDecode]
+path = "../AArch32_DefaultTEXDecode"
+
+[dependencies.AArch32_EL2Enabled]
+path = "../AArch32_EL2Enabled"
+
+[dependencies.AArch32_GetS1TLBContext]
+path = "../AArch32_GetS1TLBContext"
+
+[dependencies.AArch32_RemappedTEXDecode]
+path = "../AArch32_RemappedTEXDecode"
+
+[dependencies.AArch32_S1DCacheEnabled]
+path = "../AArch32_S1DCacheEnabled"
+
+[dependencies.AArch32_S2Translate]
+path = "../AArch32_S2Translate"
+
+[dependencies.AArch32_TranslationSizeSD]
+path = "../AArch32_TranslationSizeSD"
+
+[dependencies.CreateAccDescS1TTW]
+path = "../CreateAccDescS1TTW"
+
+[dependencies.ELStateUsingAArch32]
+path = "../ELStateUsingAArch32"
+
+[dependencies.EffectiveShareability]
+path = "../EffectiveShareability"
+
+[dependencies.FetchDescriptor]
+path = "../FetchDescriptor"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.HaveAArch32EL]
+path = "../HaveAArch32EL"
+
+[dependencies.NormalNCMemAttr]
+path = "../NormalNCMemAttr"
+
+[dependencies.RemapRegsHaveResetValues]
+path = "../RemapRegsHaveResetValues"
+
+[dependencies.S1TLBCache]
+path = "../S1TLBCache"
+
+[dependencies.S1TLBLookup]
+path = "../S1TLBLookup"
+
+[dependencies.SCTLR_NS_read]
+path = "../SCTLR_NS_read"
+
+[dependencies.SCTLR_read__2]
+path = "../SCTLR_read__2"
+
+[dependencies.TTBCR_NS_read]
+path = "../TTBCR_NS_read"
+
+[dependencies.TTBCR_read]
+path = "../TTBCR_read"
+
+[dependencies.TTBR0_read]
+path = "../TTBR0_read"
+
+[dependencies.TTBR1_read]
+path = "../TTBR1_read"
+
+[dependencies.WalkMemAttrs]
+path = "../WalkMemAttrs"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.is_zero_subrange]
+path = "../is_zero_subrange"
+
+[dependencies.place_slice]
+path = "../place_slice"
+
+[dependencies.place_subrange]
+path = "../place_subrange"
+
+[dependencies.u__IMPDEF_MemoryAttributes]
+path = "../u__IMPDEF_MemoryAttributes"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__UNKNOWN_TTWState]
+path = "../u__UNKNOWN_TTWState"
+
+[dependencies.u_get_HCR_EL2_Type_VM]
+path = "../u_get_HCR_EL2_Type_VM"
+
+[dependencies.u_get_HCR_Type_VM]
+path = "../u_get_HCR_Type_VM"
+
+[dependencies.u_get_SCTLR_Type_AFE]
+path = "../u_get_SCTLR_Type_AFE"
+
+[dependencies.u_get_SCTLR_Type_EE]
+path = "../u_get_SCTLR_Type_EE"
+
+[dependencies.u_get_SCTLR_Type_TRE]
+path = "../u_get_SCTLR_Type_TRE"
+
+[dependencies.u_get_TTBCR_Type_EAE]
+path = "../u_get_TTBCR_Type_EAE"
+
+[dependencies.u_get_TTBCR_Type_N]
+path = "../u_get_TTBCR_Type_N"
+
+[dependencies.u_get_TTBCR_Type_PD0]
+path = "../u_get_TTBCR_Type_PD0"
+
+[dependencies.u_get_TTBCR_Type_PD1]
+path = "../u_get_TTBCR_Type_PD1"
+
+[dependencies.u_get_TTBR0_Type_IRGN]
+path = "../u_get_TTBR0_Type_IRGN"
+
+[dependencies.u_get_TTBR0_Type_NOS]
+path = "../u_get_TTBR0_Type_NOS"
+
+[dependencies.u_get_TTBR0_Type_RGN]
+path = "../u_get_TTBR0_Type_RGN"
+
+[dependencies.u_get_TTBR0_Type_S]
+path = "../u_get_TTBR0_Type_S"
+
+[dependencies.u_get_TTBR0_Type_TTB0]
+path = "../u_get_TTBR0_Type_TTB0"
+
+[dependencies.u_get_TTBR1_Type_IRGN]
+path = "../u_get_TTBR1_Type_IRGN"
+
+[dependencies.u_get_TTBR1_Type_NOS]
+path = "../u_get_TTBR1_Type_NOS"
+
+[dependencies.u_get_TTBR1_Type_RGN]
+path = "../u_get_TTBR1_Type_RGN"
+
+[dependencies.u_get_TTBR1_Type_S]
+path = "../u_get_TTBR1_Type_S"
+
+[dependencies.u_get_TTBR1_Type_TTB1]
+path = "../u_get_TTBR1_Type_TTB1"

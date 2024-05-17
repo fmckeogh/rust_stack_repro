@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "AArch32_TLBContextEL2"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveCommonNotPrivateTransExt]
+path = "../HaveCommonNotPrivateTransExt"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HTTBR_Type_CnP]
+path = "../u_get_HTTBR_Type_CnP"

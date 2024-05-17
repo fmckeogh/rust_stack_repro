@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "AT_S1E3W_SysOpsWrite_6d38ab8c7cb15a2d"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_AT]
+path = "../AArch64_AT"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

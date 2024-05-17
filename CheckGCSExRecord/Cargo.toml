@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "CheckGCSExRecord"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CreateAccDescGCS]
+path = "../CreateAccDescGCS"
+
+[dependencies.GCSDataCheckException]
+path = "../GCSDataCheckException"
+
+[dependencies.GetCurrentGCSPointer]
+path = "../GetCurrentGCSPointer"
+
+[dependencies.Mem_read]
+path = "../Mem_read"
+
+[dependencies.SetCurrentGCSPointer]
+path = "../SetCurrentGCSPointer"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"

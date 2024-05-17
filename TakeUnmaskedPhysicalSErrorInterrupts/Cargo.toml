@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "TakeUnmaskedPhysicalSErrorInterrupts"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_PendingUnmaskedPhysicalInterrupts]
+path = "../AArch32_PendingUnmaskedPhysicalInterrupts"
+
+[dependencies.AArch64_PendingUnmaskedPhysicalInterrupts]
+path = "../AArch64_PendingUnmaskedPhysicalInterrupts"
+
+[dependencies.ThrowSError]
+path = "../ThrowSError"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"

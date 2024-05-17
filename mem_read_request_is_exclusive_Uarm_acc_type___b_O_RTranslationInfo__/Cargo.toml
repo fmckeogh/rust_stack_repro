@@ -1,0 +1,10 @@
+[package]
+edition = "2021"
+name = "mem_read_request_is_exclusive_Uarm_acc_type___b_O_RTranslationInfo__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"

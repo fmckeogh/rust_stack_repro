@@ -1,0 +1,91 @@
+[package]
+edition = "2021"
+name = "AArch64_ExceptionReturn"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_BranchAddr]
+path = "../AArch64_BranchAddr"
+
+[dependencies.BRBEExceptionReturn]
+path = "../BRBEExceptionReturn"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.BranchTo]
+path = "../BranchTo"
+
+[dependencies.BranchToAddr]
+path = "../BranchToAddr"
+
+[dependencies.CheckExceptionCatch]
+path = "../CheckExceptionCatch"
+
+[dependencies.ClearExclusiveLocal]
+path = "../ClearExclusiveLocal"
+
+[dependencies.FailTransaction]
+path = "../FailTransaction"
+
+[dependencies.HaveBRBExt]
+path = "../HaveBRBExt"
+
+[dependencies.HaveDoubleFaultExt]
+path = "../HaveDoubleFaultExt"
+
+[dependencies.HaveIESB]
+path = "../HaveIESB"
+
+[dependencies.HaveSME]
+path = "../HaveSME"
+
+[dependencies.HaveTME]
+path = "../HaveTME"
+
+[dependencies.IllegalExceptionReturn]
+path = "../IllegalExceptionReturn"
+
+[dependencies.ProcessorID]
+path = "../ProcessorID"
+
+[dependencies.ResetSVEState]
+path = "../ResetSVEState"
+
+[dependencies.SCTLR_read__1]
+path = "../SCTLR_read__1"
+
+[dependencies.SendEventLocal]
+path = "../SendEventLocal"
+
+[dependencies.SetPSTATEFromPSR__1]
+path = "../SetPSTATEFromPSR__1"
+
+[dependencies.SynchronizeContext]
+path = "../SynchronizeContext"
+
+[dependencies.SynchronizeErrors]
+path = "../SynchronizeErrors"
+
+[dependencies.TakeUnmaskedPhysicalSErrorInterrupts]
+path = "../TakeUnmaskedPhysicalSErrorInterrupts"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"
+
+[dependencies.u_get_SCR_EL3_Type_EA]
+path = "../u_get_SCR_EL3_Type_EA"
+
+[dependencies.u_get_SCR_EL3_Type_NMEA]
+path = "../u_get_SCR_EL3_Type_NMEA"
+
+[dependencies.u_get_SCTLRType_IESB]
+path = "../u_get_SCTLRType_IESB"

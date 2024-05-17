@@ -1,0 +1,46 @@
+[package]
+edition = "2021"
+name = "AArch32_S1SDHasPermissionsFault"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ConstrainUnpredictable]
+path = "../ConstrainUnpredictable"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HaveAArch32EL]
+path = "../HaveAArch32EL"
+
+[dependencies.HavePANExt]
+path = "../HavePANExt"
+
+[dependencies.SCTLR_NS_read]
+path = "../SCTLR_NS_read"
+
+[dependencies.SCTLR_read__2]
+path = "../SCTLR_read__2"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_bits]
+path = "../u__IMPDEF_bits"
+
+[dependencies.u_get_SCR_EL3_Type_SIF]
+path = "../u_get_SCR_EL3_Type_SIF"
+
+[dependencies.u_get_SCR_Type_SIF]
+path = "../u_get_SCR_Type_SIF"
+
+[dependencies.u_get_SCTLR_Type_AFE]
+path = "../u_get_SCTLR_Type_AFE"
+
+[dependencies.u_get_SCTLR_Type_UWXN]
+path = "../u_get_SCTLR_Type_UWXN"
+
+[dependencies.u_get_SCTLR_Type_WXN]
+path = "../u_get_SCTLR_Type_WXN"

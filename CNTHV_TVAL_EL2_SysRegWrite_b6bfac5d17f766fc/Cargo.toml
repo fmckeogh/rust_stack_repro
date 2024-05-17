@@ -1,0 +1,58 @@
+[package]
+edition = "2021"
+name = "CNTHV_TVAL_EL2_SysRegWrite_b6bfac5d17f766fc"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.CNTVOFF_read]
+path = "../CNTVOFF_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.Mk_CNTHVS_CVAL_EL2_Type]
+path = "../Mk_CNTHVS_CVAL_EL2_Type"
+
+[dependencies.Mk_CNTHV_CVAL_EL2_Type]
+path = "../Mk_CNTHV_CVAL_EL2_Type"
+
+[dependencies.Mk_CNTV_CVAL_EL0_Type]
+path = "../Mk_CNTV_CVAL_EL0_Type"
+
+[dependencies.PhysicalCountInt]
+path = "../PhysicalCountInt"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_CNTHCTL_EL2_Type_EL0VTEN]
+path = "../u_get_CNTHCTL_EL2_Type_EL0VTEN"
+
+[dependencies.u_get_CNTHCTL_EL2_Type_EL1TVT]
+path = "../u_get_CNTHCTL_EL2_Type_EL1TVT"
+
+[dependencies.u_get_CNTKCTL_EL1_Type_EL0VTEN]
+path = "../u_get_CNTKCTL_EL1_Type_EL0VTEN"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_SCR_EL3_Type_NS]
+path = "../u_get_SCR_EL3_Type_NS"

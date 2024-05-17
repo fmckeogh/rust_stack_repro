@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "DebugWriteExternalAbort"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.EncodeLDFSC]
+path = "../EncodeLDFSC"
+
+[dependencies.HaveRASExt]
+path = "../HaveRASExt"
+
+[dependencies.HaveRME]
+path = "../HaveRME"
+
+[dependencies.IsZero]
+path = "../IsZero"
+
+[dependencies.NoFault]
+path = "../NoFault"
+
+[dependencies.PendSErrorInterrupt]
+path = "../PendSErrorInterrupt"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"

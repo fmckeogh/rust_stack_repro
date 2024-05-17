@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "SPEBufferIsFull"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_PMBLIMITR_EL1_Type_LIMIT]
+path = "../u_get_PMBLIMITR_EL1_Type_LIMIT"
+
+[dependencies.u_get_PMSIDR_EL1_Type_MaxSize]
+path = "../u_get_PMSIDR_EL1_Type_MaxSize"

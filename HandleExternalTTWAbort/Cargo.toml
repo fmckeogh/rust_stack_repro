@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "HandleExternalTTWAbort"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveRASExt]
+path = "../HaveRASExt"
+
+[dependencies.IsExternalAbortTakenSynchronously]
+path = "../IsExternalAbortTakenSynchronously"
+
+[dependencies.IsExternalSyncAbort__1]
+path = "../IsExternalSyncAbort__1"
+
+[dependencies.PendSErrorInterrupt]
+path = "../PendSErrorInterrupt"
+
+[dependencies.common]
+path = "../common"

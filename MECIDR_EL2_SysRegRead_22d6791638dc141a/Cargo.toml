@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "MECIDR_EL2_SysRegRead_22d6791638dc141a"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_MECIDR_EL2]
+path = "../u__get_MECIDR_EL2"

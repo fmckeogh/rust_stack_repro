@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "DBGDSCRext_read"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.DBGDSCRint_read]
+path = "../DBGDSCRint_read"
+
+[dependencies.common]
+path = "../common"

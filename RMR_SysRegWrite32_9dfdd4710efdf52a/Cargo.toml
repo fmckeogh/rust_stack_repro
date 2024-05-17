@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "RMR_SysRegWrite32_9dfdd4710efdf52a"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.IsHighestEL]
+path = "../IsHighestEL"
+
+[dependencies.Mk_RMR_Type]
+path = "../Mk_RMR_Type"
+
+[dependencies.RMR_write]
+path = "../RMR_write"
+
+[dependencies.R_read]
+path = "../R_read"
+
+[dependencies.common]
+path = "../common"

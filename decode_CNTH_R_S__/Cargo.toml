@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "decode_CNTH_R_S__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveSME]
+path = "../HaveSME"
+
+[dependencies.HaveSVE]
+path = "../HaveSVE"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_CNTH_R_S__]
+path = "../execute_CNTH_R_S__"

@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "VSTCR_EL2_SysRegWrite_9398e11d9c39d020"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.IsCurrentSecurityState]
+path = "../IsCurrentSecurityState"
+
+[dependencies.Mk_VSTCR_EL2_Type]
+path = "../Mk_VSTCR_EL2_Type"
+
+[dependencies.NVMem_set]
+path = "../NVMem_set"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_NV]
+path = "../u_get_HCR_EL2_Type_NV"
+
+[dependencies.u_get_HCR_EL2_Type_NV2]
+path = "../u_get_HCR_EL2_Type_NV2"
+
+[dependencies.u_get_SCR_EL3_Type_EEL2]
+path = "../u_get_SCR_EL3_Type_EEL2"

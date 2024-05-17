@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "SPSR_EL3_SysRegWrite_456470f5b76b34d3"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EXLOCKException]
+path = "../EXLOCKException"
+
+[dependencies.GetCurrentEXLOCKEN]
+path = "../GetCurrentEXLOCKEN"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.Mk_SPSR_EL3_Type]
+path = "../Mk_SPSR_EL3_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

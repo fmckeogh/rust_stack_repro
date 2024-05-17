@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "CNTVOFF_SysRegWrite64_772809c07f941c73"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CNTVOFF_write]
+path = "../CNTVOFF_write"
+
+[dependencies.R_read]
+path = "../R_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_SCR_Type_NS]
+path = "../u_get_SCR_Type_NS"

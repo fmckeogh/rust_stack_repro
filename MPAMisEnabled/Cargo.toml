@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "MPAMisEnabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HighestEL]
+path = "../HighestEL"
+
+[dependencies.MPAM1_EL1_read]
+path = "../MPAM1_EL1_read"
+
+[dependencies.MPAM3_EL3_read]
+path = "../MPAM3_EL3_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_MPAM1_EL1_Type_MPAMEN]
+path = "../u_get_MPAM1_EL1_Type_MPAMEN"
+
+[dependencies.u_get_MPAM2_EL2_Type_MPAMEN]
+path = "../u_get_MPAM2_EL2_Type_MPAMEN"
+
+[dependencies.u_get_MPAM3_EL3_Type_MPAMEN]
+path = "../u_get_MPAM3_EL3_Type_MPAMEN"

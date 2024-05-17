@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "Strip"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CalculateBottomPACBit]
+path = "../CalculateBottomPACBit"
+
+[dependencies.EffectiveMTX]
+path = "../EffectiveMTX"
+
+[dependencies.EffectiveTBI]
+path = "../EffectiveTBI"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.replicate_bits_borealis_internal]
+path = "../replicate_bits_borealis_internal"
+
+[dependencies.subrange_subrange_concat]
+path = "../subrange_subrange_concat"
+
+[dependencies.u__id]
+path = "../u__id"

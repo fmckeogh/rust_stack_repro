@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "ProtectionEnabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.IsD128Enabled]
+path = "../IsD128Enabled"
+
+[dependencies.IsTCR2EL1Enabled]
+path = "../IsTCR2EL1Enabled"
+
+[dependencies.IsTCR2EL2Enabled]
+path = "../IsTCR2EL2Enabled"
+
+[dependencies.S1TranslationRegime]
+path = "../S1TranslationRegime"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_TCR2_EL1_Type_PnCH]
+path = "../u_get_TCR2_EL1_Type_PnCH"
+
+[dependencies.u_get_TCR2_EL2_Type_PnCH]
+path = "../u_get_TCR2_EL2_Type_PnCH"
+
+[dependencies.u_get_TCR_EL3_Type_PnCH]
+path = "../u_get_TCR_EL3_Type_PnCH"

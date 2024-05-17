@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_branch_conditional_cond"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.BranchNotTaken]
+path = "../BranchNotTaken"
+
+[dependencies.BranchTo]
+path = "../BranchTo"
+
+[dependencies.ConditionHolds]
+path = "../ConditionHolds"
+
+[dependencies.PC_read]
+path = "../PC_read"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "CNTHVS_CVAL_EL2_SysRegRead_e87d470dc26af07a"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.IsCurrentSecurityState]
+path = "../IsCurrentSecurityState"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_NV]
+path = "../u_get_HCR_EL2_Type_NV"
+
+[dependencies.u_get_SCR_EL3_Type_EEL2]
+path = "../u_get_SCR_EL3_Type_EEL2"

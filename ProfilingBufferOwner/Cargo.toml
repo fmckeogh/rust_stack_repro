@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "ProfilingBufferOwner"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ConstrainUnpredictableBits]
+path = "../ConstrainUnpredictableBits"
+
+[dependencies.HaveRME]
+path = "../HaveRME"
+
+[dependencies.HaveSecureEL2Ext]
+path = "../HaveSecureEL2Ext"
+
+[dependencies.IsSecureEL2Enabled]
+path = "../IsSecureEL2Enabled"
+
+[dependencies.SecureOnlyImplementation]
+path = "../SecureOnlyImplementation"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_MDCR_EL2_Type_E2PB]
+path = "../u_get_MDCR_EL2_Type_E2PB"
+
+[dependencies.u_get_MDCR_EL3_Type_NSPB]
+path = "../u_get_MDCR_EL3_Type_NSPB"
+
+[dependencies.u_get_MDCR_EL3_Type_NSPBE]
+path = "../u_get_MDCR_EL3_Type_NSPBE"

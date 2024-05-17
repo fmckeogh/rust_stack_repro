@@ -1,0 +1,85 @@
+[package]
+edition = "2021"
+name = "u__set_DBGDSCRext"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.DBGDSCRext_read]
+path = "../DBGDSCRext_read"
+
+[dependencies.DBGDSCRext_write]
+path = "../DBGDSCRext_write"
+
+[dependencies.DBGOSLSR_read]
+path = "../DBGOSLSR_read"
+
+[dependencies.Mk_DBGDSCRext_Type]
+path = "../Mk_DBGDSCRext_Type"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_DBGDSCRext_Type_ERR]
+path = "../u_get_DBGDSCRext_Type_ERR"
+
+[dependencies.u_get_DBGDSCRext_Type_HDE]
+path = "../u_get_DBGDSCRext_Type_HDE"
+
+[dependencies.u_get_DBGDSCRext_Type_INTdis]
+path = "../u_get_DBGDSCRext_Type_INTdis"
+
+[dependencies.u_get_DBGDSCRext_Type_RXO]
+path = "../u_get_DBGDSCRext_Type_RXO"
+
+[dependencies.u_get_DBGDSCRext_Type_RXfull]
+path = "../u_get_DBGDSCRext_Type_RXfull"
+
+[dependencies.u_get_DBGDSCRext_Type_SC2]
+path = "../u_get_DBGDSCRext_Type_SC2"
+
+[dependencies.u_get_DBGDSCRext_Type_TDA]
+path = "../u_get_DBGDSCRext_Type_TDA"
+
+[dependencies.u_get_DBGDSCRext_Type_TFO]
+path = "../u_get_DBGDSCRext_Type_TFO"
+
+[dependencies.u_get_DBGDSCRext_Type_TXU]
+path = "../u_get_DBGDSCRext_Type_TXU"
+
+[dependencies.u_get_DBGDSCRext_Type_TXfull]
+path = "../u_get_DBGDSCRext_Type_TXfull"
+
+[dependencies.u_get_DBGOSLSR_Type_OSLK]
+path = "../u_get_DBGOSLSR_Type_OSLK"
+
+[dependencies.u_update_DBGDSCRext_Type_ERR]
+path = "../u_update_DBGDSCRext_Type_ERR"
+
+[dependencies.u_update_DBGDSCRext_Type_HDE]
+path = "../u_update_DBGDSCRext_Type_HDE"
+
+[dependencies.u_update_DBGDSCRext_Type_INTdis]
+path = "../u_update_DBGDSCRext_Type_INTdis"
+
+[dependencies.u_update_DBGDSCRext_Type_RXO]
+path = "../u_update_DBGDSCRext_Type_RXO"
+
+[dependencies.u_update_DBGDSCRext_Type_RXfull]
+path = "../u_update_DBGDSCRext_Type_RXfull"
+
+[dependencies.u_update_DBGDSCRext_Type_SC2]
+path = "../u_update_DBGDSCRext_Type_SC2"
+
+[dependencies.u_update_DBGDSCRext_Type_TDA]
+path = "../u_update_DBGDSCRext_Type_TDA"
+
+[dependencies.u_update_DBGDSCRext_Type_TFO]
+path = "../u_update_DBGDSCRext_Type_TFO"
+
+[dependencies.u_update_DBGDSCRext_Type_TXU]
+path = "../u_update_DBGDSCRext_Type_TXU"
+
+[dependencies.u_update_DBGDSCRext_Type_TXfull]
+path = "../u_update_DBGDSCRext_Type_TXfull"

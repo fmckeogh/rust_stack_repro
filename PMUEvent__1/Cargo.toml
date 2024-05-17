@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "PMUEvent__1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.GetNumEventCounters]
+path = "../GetNumEventCounters"
+
+[dependencies.HaveAArch64]
+path = "../HaveAArch64"
+
+[dependencies.HavePMUv3ICNTR]
+path = "../HavePMUv3ICNTR"
+
+[dependencies.IncrementInstructionCounter]
+path = "../IncrementInstructionCounter"
+
+[dependencies.PMUEvent__2]
+path = "../PMUEvent__2"
+
+[dependencies.SPEEvent]
+path = "../SPEEvent"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.neq_int]
+path = "../neq_int"
+
+[dependencies.u_get_MDCR_EL2_Type_HPME]
+path = "../u_get_MDCR_EL2_Type_HPME"
+
+[dependencies.u_get_PMCR_EL0_Type_E]
+path = "../u_get_PMCR_EL0_Type_E"

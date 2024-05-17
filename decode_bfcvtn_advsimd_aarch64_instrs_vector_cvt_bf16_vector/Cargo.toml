@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_bfcvtn_advsimd_aarch64_instrs_vector_cvt_bf16_vector"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveBF16Ext]
+path = "../HaveBF16Ext"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_vector_cvt_bf16_vector]
+path = "../execute_aarch64_instrs_vector_cvt_bf16_vector"

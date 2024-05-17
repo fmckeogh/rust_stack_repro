@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "AArch32_WriteModeByInstr"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_WriteMode]
+path = "../AArch32_WriteMode"
+
+[dependencies.ELFromM32]
+path = "../ELFromM32"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_Type_TGE]
+path = "../u_get_HCR_Type_TGE"
+
+[dependencies.u_get_SCR_Type_NS]
+path = "../u_get_SCR_Type_NS"

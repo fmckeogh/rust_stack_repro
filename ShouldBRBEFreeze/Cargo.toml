@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "ShouldBRBEFreeze"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.BranchRecordAllowed]
+path = "../BranchRecordAllowed"
+
+[dependencies.PMUOverflowCondition]
+path = "../PMUOverflowCondition"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_BRBCR_EL1_Type_FZP]
+path = "../u_get_BRBCR_EL1_Type_FZP"
+
+[dependencies.u_get_BRBCR_EL2_Type_FZP]
+path = "../u_get_BRBCR_EL2_Type_FZP"

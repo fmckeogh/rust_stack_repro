@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "decode_ins_advsimd_gen_aarch64_instrs_vector_transfer_integer_insert"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.LowestSetBit]
+path = "../LowestSetBit"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_vector_transfer_integer_insert]
+path = "../execute_aarch64_instrs_vector_transfer_integer_insert"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.u_shl_int_general]
+path = "../u_shl_int_general"
+
+[dependencies.unsigned_subrange]
+path = "../unsigned_subrange"

@@ -1,0 +1,46 @@
+[package]
+edition = "2021"
+name = "AFSR0_EL1_SysRegRead_859cbb0383226d9f"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.NVMem_read]
+path = "../NVMem_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_NV]
+path = "../u_get_HCR_EL2_Type_NV"
+
+[dependencies.u_get_HCR_EL2_Type_NV1]
+path = "../u_get_HCR_EL2_Type_NV1"
+
+[dependencies.u_get_HCR_EL2_Type_NV2]
+path = "../u_get_HCR_EL2_Type_NV2"
+
+[dependencies.u_get_HCR_EL2_Type_TRVM]
+path = "../u_get_HCR_EL2_Type_TRVM"
+
+[dependencies.u_get_HFGRTR_EL2_Type_AFSR0_EL1]
+path = "../u_get_HFGRTR_EL2_Type_AFSR0_EL1"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"

@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "mapvpmw"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.fdiv_int]
+path = "../fdiv_int"
+
+[dependencies.fmod_int]
+path = "../fmod_int"

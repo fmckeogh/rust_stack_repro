@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "decode_ldrsw_lit_aarch64_instrs_memory_literal_general"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_memory_literal_general]
+path = "../execute_aarch64_instrs_memory_literal_general"

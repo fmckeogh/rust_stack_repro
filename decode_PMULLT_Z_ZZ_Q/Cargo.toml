@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "decode_PMULLT_Z_ZZ_Q"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.HaveSVE2PMULL128]
+path = "../HaveSVE2PMULL128"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_PMULLT_Z_ZZ_Q]
+path = "../execute_PMULLT_Z_ZZ_Q"

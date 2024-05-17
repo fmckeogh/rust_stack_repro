@@ -1,0 +1,67 @@
+[package]
+edition = "2021"
+name = "AArch64_PendingUnmaskedPhysicalInterrupts"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.FIQPending]
+path = "../FIQPending"
+
+[dependencies.HaveFeatNMI]
+path = "../HaveFeatNMI"
+
+[dependencies.HaveVirtHostExt]
+path = "../HaveVirtHostExt"
+
+[dependencies.IRQPending]
+path = "../IRQPending"
+
+[dependencies.IsPhysicalSErrorPending]
+path = "../IsPhysicalSErrorPending"
+
+[dependencies.SCTLR_read__1]
+path = "../SCTLR_read__1"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_AMO]
+path = "../u_get_HCR_EL2_Type_AMO"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_FMO]
+path = "../u_get_HCR_EL2_Type_FMO"
+
+[dependencies.u_get_HCR_EL2_Type_IMO]
+path = "../u_get_HCR_EL2_Type_IMO"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_SCR_EL3_Type_EA]
+path = "../u_get_SCR_EL3_Type_EA"
+
+[dependencies.u_get_SCR_EL3_Type_FIQ]
+path = "../u_get_SCR_EL3_Type_FIQ"
+
+[dependencies.u_get_SCR_EL3_Type_IRQ]
+path = "../u_get_SCR_EL3_Type_IRQ"
+
+[dependencies.u_get_SCTLRType_NMI]
+path = "../u_get_SCTLRType_NMI"
+
+[dependencies.u_get_SCTLRType_SPINTMASK]
+path = "../u_get_SCTLRType_SPINTMASK"

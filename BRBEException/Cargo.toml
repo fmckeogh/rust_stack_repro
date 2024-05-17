@@ -1,0 +1,52 @@
+[package]
+edition = "2021"
+name = "BRBEException"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_BranchAddr]
+path = "../AArch64_BranchAddr"
+
+[dependencies.BranchEncCycleCount]
+path = "../BranchEncCycleCount"
+
+[dependencies.BranchRecordAllowed]
+path = "../BranchRecordAllowed"
+
+[dependencies.HaveBRBEv1p1]
+path = "../HaveBRBEv1p1"
+
+[dependencies.HaveTME]
+path = "../HaveTME"
+
+[dependencies.PMUEvent]
+path = "../PMUEvent"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.UpdateBranchRecordBuffer]
+path = "../UpdateBranchRecordBuffer"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_BRBCR_EL1_Type_EXCEPTION]
+path = "../u_get_BRBCR_EL1_Type_EXCEPTION"
+
+[dependencies.u_get_BRBCR_EL2_Type_EXCEPTION]
+path = "../u_get_BRBCR_EL2_Type_EXCEPTION"
+
+[dependencies.u_get_BRBFCR_EL1_Type_LASTFAILED]
+path = "../u_get_BRBFCR_EL1_Type_LASTFAILED"
+
+[dependencies.u_get_MDCR_EL3_Type_E3BREC]
+path = "../u_get_MDCR_EL3_Type_E3BREC"
+
+[dependencies.u_get_MDCR_EL3_Type_E3BREW]
+path = "../u_get_MDCR_EL3_Type_E3BREW"

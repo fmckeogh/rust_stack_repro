@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "TweakInvShuffle"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.TweakCellInvRot]
+path = "../TweakCellInvRot"
+
+[dependencies.common]
+path = "../common"

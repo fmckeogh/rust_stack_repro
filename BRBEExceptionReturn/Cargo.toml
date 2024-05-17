@@ -1,0 +1,55 @@
+[package]
+edition = "2021"
+name = "BRBEExceptionReturn"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.BRBEMispredictAllowed]
+path = "../BRBEMispredictAllowed"
+
+[dependencies.BranchEncCycleCount]
+path = "../BranchEncCycleCount"
+
+[dependencies.BranchMispredict]
+path = "../BranchMispredict"
+
+[dependencies.BranchRecordAllowed]
+path = "../BranchRecordAllowed"
+
+[dependencies.HaveBRBEv1p1]
+path = "../HaveBRBEv1p1"
+
+[dependencies.HaveTME]
+path = "../HaveTME"
+
+[dependencies.PC_read]
+path = "../PC_read"
+
+[dependencies.PMUEvent]
+path = "../PMUEvent"
+
+[dependencies.UpdateBranchRecordBuffer]
+path = "../UpdateBranchRecordBuffer"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_BRBCR_EL1_Type_ERTN]
+path = "../u_get_BRBCR_EL1_Type_ERTN"
+
+[dependencies.u_get_BRBCR_EL2_Type_ERTN]
+path = "../u_get_BRBCR_EL2_Type_ERTN"
+
+[dependencies.u_get_BRBFCR_EL1_Type_LASTFAILED]
+path = "../u_get_BRBFCR_EL1_Type_LASTFAILED"
+
+[dependencies.u_get_MDCR_EL3_Type_E3BREC]
+path = "../u_get_MDCR_EL3_Type_E3BREC"
+
+[dependencies.u_get_MDCR_EL3_Type_E3BREW]
+path = "../u_get_MDCR_EL3_Type_E3BREW"

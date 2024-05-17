@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "ICC_AP0R_EL1_SysRegRead_c718785136d493b9"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.ICC_SRE_EL1_read]
+path = "../ICC_SRE_EL1_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_HCR_EL2_Type_FMO]
+path = "../u_get_HCR_EL2_Type_FMO"
+
+[dependencies.u_get_ICC_SRE_EL1_Type_SRE]
+path = "../u_get_ICC_SRE_EL1_Type_SRE"
+
+[dependencies.u_get_ICC_SRE_EL2_Type_SRE]
+path = "../u_get_ICC_SRE_EL2_Type_SRE"
+
+[dependencies.u_get_ICC_SRE_EL3_Type_SRE]
+path = "../u_get_ICC_SRE_EL3_Type_SRE"
+
+[dependencies.u_get_ICH_HCR_EL2_Type_TALL0]
+path = "../u_get_ICH_HCR_EL2_Type_TALL0"
+
+[dependencies.u_get_SCR_EL3_Type_FIQ]
+path = "../u_get_SCR_EL3_Type_FIQ"

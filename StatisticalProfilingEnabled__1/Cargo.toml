@@ -1,0 +1,46 @@
+[package]
+edition = "2021"
+name = "StatisticalProfilingEnabled__1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.HaveStatisticalProfiling]
+path = "../HaveStatisticalProfiling"
+
+[dependencies.ProfilingBufferEnabled]
+path = "../ProfilingBufferEnabled"
+
+[dependencies.ProfilingBufferOwner]
+path = "../ProfilingBufferOwner"
+
+[dependencies.SecurityStateAtEL]
+path = "../SecurityStateAtEL"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_PMSCR_EL1_Type_E0SPE]
+path = "../u_get_PMSCR_EL1_Type_E0SPE"
+
+[dependencies.u_get_PMSCR_EL1_Type_E1SPE]
+path = "../u_get_PMSCR_EL1_Type_E1SPE"
+
+[dependencies.u_get_PMSCR_EL2_Type_E0HSPE]
+path = "../u_get_PMSCR_EL2_Type_E0HSPE"
+
+[dependencies.u_get_PMSCR_EL2_Type_E2SPE]
+path = "../u_get_PMSCR_EL2_Type_E2SPE"

@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "AArch64_SystemAccessTrapSyndrome"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.ConditionSyndrome]
+path = "../ConditionSyndrome"
+
+[dependencies.ExceptionSyndrome]
+path = "../ExceptionSyndrome"
+
+[dependencies.ThisInstr]
+path = "../ThisInstr"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.common]
+path = "../common"

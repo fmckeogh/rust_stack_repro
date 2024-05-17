@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_SM4EKEY_Z_ZZ__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.HaveSVE]
+path = "../HaveSVE"
+
+[dependencies.HaveSVE2SM4]
+path = "../HaveSVE2SM4"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_SM4EKEY_Z_ZZ__]
+path = "../execute_SM4EKEY_Z_ZZ__"

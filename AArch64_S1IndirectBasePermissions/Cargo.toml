@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "AArch64_S1IndirectBasePermissions"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HasUnprivileged]
+path = "../HasUnprivileged"
+
+[dependencies.HavePANExt]
+path = "../HavePANExt"
+
+[dependencies.common]
+path = "../common"

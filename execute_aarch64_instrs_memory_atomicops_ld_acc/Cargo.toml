@@ -1,0 +1,46 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_memory_atomicops_ld_acc"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SetLSInstructionSyndrome]
+path = "../AArch64_SetLSInstructionSyndrome"
+
+[dependencies.BigEndian]
+path = "../BigEndian"
+
+[dependencies.CheckLDST64BEnabled]
+path = "../CheckLDST64BEnabled"
+
+[dependencies.CheckSPAlignment]
+path = "../CheckSPAlignment"
+
+[dependencies.CreateAccDescLS64]
+path = "../CreateAccDescLS64"
+
+[dependencies.MemLoad64B]
+path = "../MemLoad64B"
+
+[dependencies.SPESampleGeneralPurposeLoadStore]
+path = "../SPESampleGeneralPurposeLoadStore"
+
+[dependencies.SP_read]
+path = "../SP_read"
+
+[dependencies.SetLoadStoreType]
+path = "../SetLoadStoreType"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.reverse_endianness]
+path = "../reverse_endianness"

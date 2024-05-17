@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "AArch32_CheckSETENDEnabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HSCTLR_read]
+path = "../HSCTLR_read"
+
+[dependencies.SCTLR_read__1]
+path = "../SCTLR_read__1"
+
+[dependencies.SCTLR_read__2]
+path = "../SCTLR_read__2"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HSCTLR_Type_SED]
+path = "../u_get_HSCTLR_Type_SED"
+
+[dependencies.u_get_SCTLRType_SED]
+path = "../u_get_SCTLRType_SED"
+
+[dependencies.u_get_SCTLR_Type_SED]
+path = "../u_get_SCTLR_Type_SED"

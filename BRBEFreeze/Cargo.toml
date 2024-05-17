@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "BRBEFreeze"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.BRBETimeStamp]
+path = "../BRBETimeStamp"
+
+[dependencies.GetTimestamp]
+path = "../GetTimestamp"
+
+[dependencies.Mk_BRBTS_EL1_Type]
+path = "../Mk_BRBTS_EL1_Type"
+
+[dependencies.common]
+path = "../common"

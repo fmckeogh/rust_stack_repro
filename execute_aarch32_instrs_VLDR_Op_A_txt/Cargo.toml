@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_VLDR_Op_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Align_bits]
+path = "../Align_bits"
+
+[dependencies.BigEndian]
+path = "../BigEndian"
+
+[dependencies.CheckVFPEnabled]
+path = "../CheckVFPEnabled"
+
+[dependencies.D_set]
+path = "../D_set"
+
+[dependencies.MemA_read]
+path = "../MemA_read"
+
+[dependencies.PC_read__1]
+path = "../PC_read__1"
+
+[dependencies.R_read]
+path = "../R_read"
+
+[dependencies.S_set]
+path = "../S_set"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"

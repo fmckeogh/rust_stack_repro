@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "decode_msrr_aarch64_instrs_system_register_system_128"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_CheckSystemAccess]
+path = "../AArch64_CheckSystemAccess"
+
+[dependencies.HaveSysReg128]
+path = "../HaveSysReg128"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_system_register_system_128]
+path = "../execute_aarch64_instrs_system_register_system_128"

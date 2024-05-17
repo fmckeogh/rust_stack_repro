@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "BranchTargetCheck"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_BranchTargetException]
+path = "../AArch64_BranchTargetException"
+
+[dependencies.AArch64_ExecutingBROrBLROrRetInstr]
+path = "../AArch64_ExecutingBROrBLROrRetInstr"
+
+[dependencies.AArch64_ExecutingBTIInstr]
+path = "../AArch64_ExecutingBTIInstr"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.HaveBTIExt]
+path = "../HaveBTIExt"
+
+[dependencies.ThisInstrAddr]
+path = "../ThisInstrAddr"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"

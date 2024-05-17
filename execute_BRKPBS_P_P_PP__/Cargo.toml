@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "execute_BRKPBS_P_P_PP__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ActivePredicateElement]
+path = "../ActivePredicateElement"
+
+[dependencies.CheckSVEEnabled]
+path = "../CheckSVEEnabled"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.LastActive]
+path = "../LastActive"
+
+[dependencies.P_read]
+path = "../P_read"
+
+[dependencies.P_set]
+path = "../P_set"
+
+[dependencies.PredTest]
+path = "../PredTest"
+
+[dependencies.common]
+path = "../common"

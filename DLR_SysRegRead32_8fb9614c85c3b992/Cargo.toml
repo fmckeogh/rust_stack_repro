@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "DLR_SysRegRead32_8fb9614c85c3b992"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.DLR_read]
+path = "../DLR_read"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.R_set]
+path = "../R_set"
+
+[dependencies.common]
+path = "../common"

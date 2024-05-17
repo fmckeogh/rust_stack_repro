@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "AArch32_CallSupervisor"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_CurrentCond]
+path = "../AArch32_CurrentCond"
+
+[dependencies.AArch32_GeneralExceptionsToAArch64]
+path = "../AArch32_GeneralExceptionsToAArch64"
+
+[dependencies.AArch32_TakeSVCException]
+path = "../AArch32_TakeSVCException"
+
+[dependencies.AArch64_CallSupervisor]
+path = "../AArch64_CallSupervisor"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"

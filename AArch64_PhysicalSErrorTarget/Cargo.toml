@@ -1,0 +1,58 @@
+[package]
+edition = "2021"
+name = "AArch64_PhysicalSErrorTarget"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.EffectiveEA]
+path = "../EffectiveEA"
+
+[dependencies.HaveDoubleFault2Ext]
+path = "../HaveDoubleFault2Ext"
+
+[dependencies.HaveDoubleFaultExt]
+path = "../HaveDoubleFaultExt"
+
+[dependencies.IsHCRXEL2Enabled]
+path = "../IsHCRXEL2Enabled"
+
+[dependencies.IsInHost]
+path = "../IsInHost"
+
+[dependencies.IsSCTLR2EL1Enabled]
+path = "../IsSCTLR2EL1Enabled"
+
+[dependencies.IsSCTLR2EL2Enabled]
+path = "../IsSCTLR2EL2Enabled"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"
+
+[dependencies.u_get_HCRX_EL2_Type_TMEA]
+path = "../u_get_HCRX_EL2_Type_TMEA"
+
+[dependencies.u_get_HCR_EL2_Type_AMO]
+path = "../u_get_HCR_EL2_Type_AMO"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_SCR_EL3_Type_NMEA]
+path = "../u_get_SCR_EL3_Type_NMEA"
+
+[dependencies.u_get_SCR_EL3_Type_TMEA]
+path = "../u_get_SCR_EL3_Type_TMEA"
+
+[dependencies.u_get_SCTLR2_EL1_Type_NMEA]
+path = "../u_get_SCTLR2_EL1_Type_NMEA"
+
+[dependencies.u_get_SCTLR2_EL2_Type_NMEA]
+path = "../u_get_SCTLR2_EL2_Type_NMEA"

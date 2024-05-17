@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_sysp_aarch64_instrs_system_sysops_128"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_CheckSystemAccess]
+path = "../AArch64_CheckSystemAccess"
+
+[dependencies.HaveSysInstr128]
+path = "../HaveSysInstr128"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_system_sysops_128]
+path = "../execute_aarch64_instrs_system_sysops_128"
+
+[dependencies.u__id]
+path = "../u__id"

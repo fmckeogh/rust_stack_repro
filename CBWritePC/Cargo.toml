@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "CBWritePC"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.BranchTo]
+path = "../BranchTo"
+
+[dependencies.CurrentInstrSet]
+path = "../CurrentInstrSet"
+
+[dependencies.common]
+path = "../common"

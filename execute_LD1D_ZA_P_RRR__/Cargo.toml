@@ -1,0 +1,49 @@
+[package]
+edition = "2021"
+name = "execute_LD1D_ZA_P_RRR__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ActivePredicateElement]
+path = "../ActivePredicateElement"
+
+[dependencies.AnyActiveElement]
+path = "../AnyActiveElement"
+
+[dependencies.CheckSPAlignment]
+path = "../CheckSPAlignment"
+
+[dependencies.CheckStreamingSVEAndZAEnabled]
+path = "../CheckStreamingSVEAndZAEnabled"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.CreateAccDescSME]
+path = "../CreateAccDescSME"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.Mem_read]
+path = "../Mem_read"
+
+[dependencies.P_read]
+path = "../P_read"
+
+[dependencies.SP_read]
+path = "../SP_read"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.ZAslice_set]
+path = "../ZAslice_set"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"

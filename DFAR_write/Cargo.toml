@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "DFAR_write"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.DFAR_NS_write]
+path = "../DFAR_NS_write"
+
+[dependencies.DFAR_S_write]
+path = "../DFAR_S_write"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.common]
+path = "../common"

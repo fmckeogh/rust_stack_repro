@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "u__set_MPAM3_EL3"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.MPAM3_EL3_read]
+path = "../MPAM3_EL3_read"
+
+[dependencies.MPAM3_EL3_write]
+path = "../MPAM3_EL3_write"
+
+[dependencies.Mk_MPAM3_EL3_Type]
+path = "../Mk_MPAM3_EL3_Type"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_MPAM3_EL3_Type_MPAMEN]
+path = "../u_get_MPAM3_EL3_Type_MPAMEN"
+
+[dependencies.u_update_MPAM3_EL3_Type_MPAMEN]
+path = "../u_update_MPAM3_EL3_Type_MPAMEN"

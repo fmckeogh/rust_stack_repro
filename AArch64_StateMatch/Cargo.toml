@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "AArch64_StateMatch"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_BreakpointValueMatch]
+path = "../AArch64_BreakpointValueMatch"
+
+[dependencies.CheckValidStateMatch]
+path = "../CheckValidStateMatch"
+
+[dependencies.ConstrainUnpredictableInteger]
+path = "../ConstrainUnpredictableInteger"
+
+[dependencies.ContextMatchingBreakpointRange]
+path = "../ContextMatchingBreakpointRange"
+
+[dependencies.HaveRME]
+path = "../HaveRME"
+
+[dependencies.IsContextMatchingBreakpoint]
+path = "../IsContextMatchingBreakpoint"
+
+[dependencies.common]
+path = "../common"

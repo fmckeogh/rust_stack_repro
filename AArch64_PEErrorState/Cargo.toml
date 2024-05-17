@@ -1,0 +1,46 @@
+[package]
+edition = "2021"
+name = "AArch64_PEErrorState"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ActionRequired]
+path = "../ActionRequired"
+
+[dependencies.ErrorIsContained]
+path = "../ErrorIsContained"
+
+[dependencies.ErrorIsSynchronized]
+path = "../ErrorIsSynchronized"
+
+[dependencies.ExtAbortToA64]
+path = "../ExtAbortToA64"
+
+[dependencies.FaultIsCorrected]
+path = "../FaultIsCorrected"
+
+[dependencies.IsExternalSyncAbort__1]
+path = "../IsExternalSyncAbort__1"
+
+[dependencies.ReportErrorAsIMPDEF]
+path = "../ReportErrorAsIMPDEF"
+
+[dependencies.ReportErrorAsUC]
+path = "../ReportErrorAsUC"
+
+[dependencies.ReportErrorAsUER]
+path = "../ReportErrorAsUER"
+
+[dependencies.ReportErrorAsUEU]
+path = "../ReportErrorAsUEU"
+
+[dependencies.ReportErrorAsUncategorized]
+path = "../ReportErrorAsUncategorized"
+
+[dependencies.StateIsRecoverable]
+path = "../StateIsRecoverable"
+
+[dependencies.common]
+path = "../common"

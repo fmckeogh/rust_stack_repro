@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "AArch32_TakeHypTrapException__1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_EnterHypMode]
+path = "../AArch32_EnterHypMode"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.ThisInstrAddr]
+path = "../ThisInstrAddr"
+
+[dependencies.common]
+path = "../common"

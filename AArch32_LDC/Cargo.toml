@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "AArch32_LDC"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.DBGDTRTXint_LDC_da4baa792b999a1f]
+path = "../DBGDTRTXint_LDC_da4baa792b999a1f"
+
+[dependencies.common]
+path = "../common"

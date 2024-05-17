@@ -1,0 +1,70 @@
+[package]
+edition = "2021"
+name = "AArch64_BreakpointMatch"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_BreakpointValueMatch]
+path = "../AArch64_BreakpointValueMatch"
+
+[dependencies.AArch64_StateMatch]
+path = "../AArch64_StateMatch"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HaveAArch32]
+path = "../HaveAArch32"
+
+[dependencies.HaveFeatABLE]
+path = "../HaveFeatABLE"
+
+[dependencies.HaveRME]
+path = "../HaveRME"
+
+[dependencies.Havev8p9Debug]
+path = "../Havev8p9Debug"
+
+[dependencies.IsBreakpointEnabled]
+path = "../IsBreakpointEnabled"
+
+[dependencies.NumBreakpointsImplemented]
+path = "../NumBreakpointsImplemented"
+
+[dependencies.S1TranslationRegime__1]
+path = "../S1TranslationRegime__1"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_DBGBCR_EL1_Type_BAS]
+path = "../u_get_DBGBCR_EL1_Type_BAS"
+
+[dependencies.u_get_DBGBCR_EL1_Type_BT]
+path = "../u_get_DBGBCR_EL1_Type_BT"
+
+[dependencies.u_get_DBGBCR_EL1_Type_BT2]
+path = "../u_get_DBGBCR_EL1_Type_BT2"
+
+[dependencies.u_get_DBGBCR_EL1_Type_HMC]
+path = "../u_get_DBGBCR_EL1_Type_HMC"
+
+[dependencies.u_get_DBGBCR_EL1_Type_LBN]
+path = "../u_get_DBGBCR_EL1_Type_LBN"
+
+[dependencies.u_get_DBGBCR_EL1_Type_LBNX]
+path = "../u_get_DBGBCR_EL1_Type_LBNX"
+
+[dependencies.u_get_DBGBCR_EL1_Type_PMC]
+path = "../u_get_DBGBCR_EL1_Type_PMC"
+
+[dependencies.u_get_DBGBCR_EL1_Type_SSC]
+path = "../u_get_DBGBCR_EL1_Type_SSC"
+
+[dependencies.u_get_DBGBCR_EL1_Type_SSCE]
+path = "../u_get_DBGBCR_EL1_Type_SSCE"

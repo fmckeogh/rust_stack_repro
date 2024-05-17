@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_STC_Op_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_SysRegRead]
+path = "../AArch32_SysRegRead"
+
+[dependencies.R_read]
+path = "../R_read"
+
+[dependencies.R_set]
+path = "../R_set"
+
+[dependencies.ThisInstr]
+path = "../ThisInstr"
+
+[dependencies.common]
+path = "../common"

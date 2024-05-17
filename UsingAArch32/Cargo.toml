@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "UsingAArch32"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveAArch32]
+path = "../HaveAArch32"
+
+[dependencies.HaveAArch64]
+path = "../HaveAArch64"
+
+[dependencies.common]
+path = "../common"

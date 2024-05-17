@@ -1,0 +1,49 @@
+[package]
+edition = "2021"
+name = "AArch64_DataAbort"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_AbortSyndrome]
+path = "../AArch64_AbortSyndrome"
+
+[dependencies.AArch64_RouteToSErrorOffset]
+path = "../AArch64_RouteToSErrorOffset"
+
+[dependencies.AArch64_SyncExternalAbortTarget]
+path = "../AArch64_SyncExternalAbortTarget"
+
+[dependencies.AArch64_TakeException]
+path = "../AArch64_TakeException"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.HaveNV2Ext]
+path = "../HaveNV2Ext"
+
+[dependencies.HaveRME]
+path = "../HaveRME"
+
+[dependencies.IsExternalAbort__1]
+path = "../IsExternalAbort__1"
+
+[dependencies.IsSecondStage]
+path = "../IsSecondStage"
+
+[dependencies.ThisInstrAddr]
+path = "../ThisInstrAddr"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.take_exception]
+path = "../take_exception"
+
+[dependencies.u_get_HCR_EL2_Type_GPF]
+path = "../u_get_HCR_EL2_Type_GPF"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"

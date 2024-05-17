@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "CPTR_EL3_SysRegRead_7b3995450955fa38"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_CPTR_EL3]
+path = "../u__get_CPTR_EL3"

@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "AArch64_S2ComputePermissions"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_S2DirectBasePermissions]
+path = "../AArch64_S2DirectBasePermissions"
+
+[dependencies.AArch64_S2IndirectBasePermissions]
+path = "../AArch64_S2IndirectBasePermissions"
+
+[dependencies.AArch64_S2OverlayPermissions]
+path = "../AArch64_S2OverlayPermissions"
+
+[dependencies.HaveS2POExt]
+path = "../HaveS2POExt"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_VTCR_EL2_Type_S2POE]
+path = "../u_get_VTCR_EL2_Type_S2POE"

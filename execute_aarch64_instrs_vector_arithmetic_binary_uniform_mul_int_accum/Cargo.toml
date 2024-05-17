@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_vector_arithmetic_binary_uniform_mul_int_accum"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckFPAdvSIMDEnabled64]
+path = "../CheckFPAdvSIMDEnabled64"
+
+[dependencies.Elem_read]
+path = "../Elem_read"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.V_read]
+path = "../V_read"
+
+[dependencies.V_set]
+path = "../V_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"

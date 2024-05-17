@@ -1,0 +1,220 @@
+[package]
+edition = "2021"
+name = "AArch32_SysRegWrite"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_AutoGen_SysRegWrite32]
+path = "../AArch32_AutoGen_SysRegWrite32"
+
+[dependencies.AArch32_ClearEventCounters]
+path = "../AArch32_ClearEventCounters"
+
+[dependencies.AArch32_GetNumEventCountersAccessible]
+path = "../AArch32_GetNumEventCountersAccessible"
+
+[dependencies.AArch32_PMUSwIncrement]
+path = "../AArch32_PMUSwIncrement"
+
+[dependencies.AArch32_TakeHypTrapException]
+path = "../AArch32_TakeHypTrapException"
+
+[dependencies.AArch64_AArch32SystemAccessTrap]
+path = "../AArch64_AArch32SystemAccessTrap"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.CPACR_read__1]
+path = "../CPACR_read__1"
+
+[dependencies.CheckOSUnlockCatch]
+path = "../CheckOSUnlockCatch"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.DBGCLAIMCLR_read]
+path = "../DBGCLAIMCLR_read"
+
+[dependencies.DBGCLAIMCLR_write]
+path = "../DBGCLAIMCLR_write"
+
+[dependencies.DBGDSCRext_read]
+path = "../DBGDSCRext_read"
+
+[dependencies.DBGDSCRext_write]
+path = "../DBGDSCRext_write"
+
+[dependencies.DBGDSCRint_read]
+path = "../DBGDSCRint_read"
+
+[dependencies.DBGDSCRint_write]
+path = "../DBGDSCRint_write"
+
+[dependencies.DBGOSLSR_read]
+path = "../DBGOSLSR_read"
+
+[dependencies.DBGOSLSR_write]
+path = "../DBGOSLSR_write"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EDSCR_write]
+path = "../EDSCR_write"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELFromM32]
+path = "../ELFromM32"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.GetNumEventCounters]
+path = "../GetNumEventCounters"
+
+[dependencies.MIDR_write]
+path = "../MIDR_write"
+
+[dependencies.Mk_DBGCLAIMCLR_Type]
+path = "../Mk_DBGCLAIMCLR_Type"
+
+[dependencies.Mk_MIDR_Type]
+path = "../Mk_MIDR_Type"
+
+[dependencies.Mk_PMCCFILTR_Type]
+path = "../Mk_PMCCFILTR_Type"
+
+[dependencies.Mk_PMCCNTR_Type]
+path = "../Mk_PMCCNTR_Type"
+
+[dependencies.Mk_PMCNTENCLR_Type]
+path = "../Mk_PMCNTENCLR_Type"
+
+[dependencies.Mk_PMCNTENSET_Type]
+path = "../Mk_PMCNTENSET_Type"
+
+[dependencies.Mk_PMEVTYPER_Type]
+path = "../Mk_PMEVTYPER_Type"
+
+[dependencies.Mk_PMINTENCLR_Type]
+path = "../Mk_PMINTENCLR_Type"
+
+[dependencies.Mk_PMINTENSET_Type]
+path = "../Mk_PMINTENSET_Type"
+
+[dependencies.Mk_PMOVSR_Type]
+path = "../Mk_PMOVSR_Type"
+
+[dependencies.Mk_PMOVSSET_Type]
+path = "../Mk_PMOVSSET_Type"
+
+[dependencies.PMCCFILTR_write]
+path = "../PMCCFILTR_write"
+
+[dependencies.PMCCNTR_write]
+path = "../PMCCNTR_write"
+
+[dependencies.PMCNTENCLR_write]
+path = "../PMCNTENCLR_write"
+
+[dependencies.PMCNTENSET_read]
+path = "../PMCNTENSET_read"
+
+[dependencies.PMCNTENSET_write]
+path = "../PMCNTENSET_write"
+
+[dependencies.PMCR_read]
+path = "../PMCR_read"
+
+[dependencies.PMEVCNTR_set]
+path = "../PMEVCNTR_set"
+
+[dependencies.PMEVTYPER_set]
+path = "../PMEVTYPER_set"
+
+[dependencies.PMINTENCLR_write]
+path = "../PMINTENCLR_write"
+
+[dependencies.PMINTENSET_read]
+path = "../PMINTENSET_read"
+
+[dependencies.PMINTENSET_write]
+path = "../PMINTENSET_write"
+
+[dependencies.PMOVSR_write]
+path = "../PMOVSR_write"
+
+[dependencies.PMOVSSET_read]
+path = "../PMOVSSET_read"
+
+[dependencies.PMOVSSET_write]
+path = "../PMOVSSET_write"
+
+[dependencies.PMSELR_read]
+path = "../PMSELR_read"
+
+[dependencies.PMUCounterMask]
+path = "../PMUCounterMask"
+
+[dependencies.R_read]
+path = "../R_read"
+
+[dependencies.R_set]
+path = "../R_set"
+
+[dependencies.TakeReset]
+path = "../TakeReset"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.u__get_PMCCFILTR]
+path = "../u__get_PMCCFILTR"
+
+[dependencies.u__get_PMEVTYPER]
+path = "../u__get_PMEVTYPER"
+
+[dependencies.u_get_CPACR_Type_cp10]
+path = "../u_get_CPACR_Type_cp10"
+
+[dependencies.u_get_CPACR_Type_cp11]
+path = "../u_get_CPACR_Type_cp11"
+
+[dependencies.u_get_DBGOSLSR_Type_OSLK]
+path = "../u_get_DBGOSLSR_Type_OSLK"
+
+[dependencies.u_get_NSACR_Type_cp10]
+path = "../u_get_NSACR_Type_cp10"
+
+[dependencies.u_get_PMCR_Type_D]
+path = "../u_get_PMCR_Type_D"
+
+[dependencies.u_get_PMSELR_Type_SEL]
+path = "../u_get_PMSELR_Type_SEL"
+
+[dependencies.u_get_PMUSERENR_EL0_Type_EN]
+path = "../u_get_PMUSERENR_EL0_Type_EN"
+
+[dependencies.u_update_DBGDSCRext_Type_TXfull]
+path = "../u_update_DBGDSCRext_Type_TXfull"
+
+[dependencies.u_update_DBGDSCRint_Type_TXfull]
+path = "../u_update_DBGDSCRint_Type_TXfull"
+
+[dependencies.u_update_DBGOSLSR_Type_OSLK]
+path = "../u_update_DBGOSLSR_Type_OSLK"
+
+[dependencies.u_update_EDSCR_Type_TXfull]
+path = "../u_update_EDSCR_Type_TXfull"

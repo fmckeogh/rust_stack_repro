@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "ACTLR_EL3_SysRegWrite_32865ae0e6068940"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

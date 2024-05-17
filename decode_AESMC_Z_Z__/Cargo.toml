@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_AESMC_Z_Z__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.HaveSVE]
+path = "../HaveSVE"
+
+[dependencies.HaveSVE2AES]
+path = "../HaveSVE2AES"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_AESMC_Z_Z__]
+path = "../execute_AESMC_Z_Z__"

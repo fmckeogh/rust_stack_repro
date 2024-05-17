@@ -1,0 +1,85 @@
+[package]
+edition = "2021"
+name = "AArch32_DC"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_Abort]
+path = "../AArch32_Abort"
+
+[dependencies.AArch32_TranslateAddress]
+path = "../AArch32_TranslateAddress"
+
+[dependencies.ASID_read]
+path = "../ASID_read"
+
+[dependencies.Align_bits]
+path = "../Align_bits"
+
+[dependencies.CACHE_OP]
+path = "../CACHE_OP"
+
+[dependencies.CreateAccDescDC]
+path = "../CreateAccDescDC"
+
+[dependencies.DCInstNeedsTranslation]
+path = "../DCInstNeedsTranslation"
+
+[dependencies.DecodeSW]
+path = "../DecodeSW"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.IsFault]
+path = "../IsFault"
+
+[dependencies.SecurityStateAtEL]
+path = "../SecurityStateAtEL"
+
+[dependencies.VMID_read]
+path = "../VMID_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.u__IMPDEF_integer]
+path = "../u__IMPDEF_integer"
+
+[dependencies.u__UNKNOWN_FullAddress]
+path = "../u__UNKNOWN_FullAddress"
+
+[dependencies.u__UNKNOWN_Shareability]
+path = "../u__UNKNOWN_Shareability"
+
+[dependencies.u_get_CTR_EL0_Type_DminLine]
+path = "../u_get_CTR_EL0_Type_DminLine"
+
+[dependencies.u_get_HCR_EL2_Type_DC]
+path = "../u_get_HCR_EL2_Type_DC"
+
+[dependencies.u_get_HCR_EL2_Type_SWIO]
+path = "../u_get_HCR_EL2_Type_SWIO"
+
+[dependencies.u_get_HCR_EL2_Type_VM]
+path = "../u_get_HCR_EL2_Type_VM"
+
+[dependencies.u_get_HCR_Type_DC]
+path = "../u_get_HCR_Type_DC"
+
+[dependencies.u_get_HCR_Type_SWIO]
+path = "../u_get_HCR_Type_SWIO"
+
+[dependencies.u_get_HCR_Type_VM]
+path = "../u_get_HCR_Type_VM"

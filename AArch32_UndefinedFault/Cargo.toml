@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "AArch32_UndefinedFault"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_GeneralExceptionsToAArch64]
+path = "../AArch32_GeneralExceptionsToAArch64"
+
+[dependencies.AArch32_TakeUndefInstrException]
+path = "../AArch32_TakeUndefInstrException"
+
+[dependencies.AArch64_UndefinedFault]
+path = "../AArch64_UndefinedFault"
+
+[dependencies.common]
+path = "../common"

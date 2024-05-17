@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "u__get_selected_PMEVTYPER"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.PMEVTYPER_read]
+path = "../PMEVTYPER_read"
+
+[dependencies.PMSELR_read]
+path = "../PMSELR_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_PMSELR_Type_SEL]
+path = "../u_get_PMSELR_Type_SEL"

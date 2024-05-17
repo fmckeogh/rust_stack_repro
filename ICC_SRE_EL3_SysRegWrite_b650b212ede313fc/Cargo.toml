@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "ICC_SRE_EL3_SysRegWrite_b650b212ede313fc"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Mk_ICC_SRE_EL3_Type]
+path = "../Mk_ICC_SRE_EL3_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

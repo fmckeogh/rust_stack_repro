@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "genMPAM"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.genPARTID]
+path = "../genPARTID"
+
+[dependencies.genPMG]
+path = "../genPMG"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_MPAMHCR_EL2_Type_GSTAPP_PLK]
+path = "../u_get_MPAMHCR_EL2_Type_GSTAPP_PLK"

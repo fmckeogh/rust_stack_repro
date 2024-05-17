@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "AArch64_CheckWatchpoint"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_WatchpointMatch]
+path = "../AArch64_WatchpointMatch"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.Halt]
+path = "../Halt"
+
+[dependencies.HaltOnBreakpointOrWatchpoint]
+path = "../HaltOnBreakpointOrWatchpoint"
+
+[dependencies.IsDataAccess]
+path = "../IsDataAccess"
+
+[dependencies.NumWatchpointsImplemented]
+path = "../NumWatchpointsImplemented"
+
+[dependencies.S1TranslationRegime__1]
+path = "../S1TranslationRegime__1"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.u_get_DBGWCR_EL1_Type_LSC]
+path = "../u_get_DBGWCR_EL1_Type_LSC"

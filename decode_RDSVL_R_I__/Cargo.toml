@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "decode_RDSVL_R_I__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentSVL_read]
+path = "../CurrentSVL_read"
+
+[dependencies.HaveSME]
+path = "../HaveSME"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_RDSVL_R_I__]
+path = "../execute_RDSVL_R_I__"

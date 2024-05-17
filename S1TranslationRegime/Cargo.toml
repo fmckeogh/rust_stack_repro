@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "S1TranslationRegime"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELIsInHost]
+path = "../ELIsInHost"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HaveVirtHostExt]
+path = "../HaveVirtHostExt"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_SCR_Type_NS]
+path = "../u_get_SCR_Type_NS"

@@ -1,0 +1,58 @@
+[package]
+edition = "2021"
+name = "TRFCR_EL2_SysRegRead_3507a58ffe771821"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.NVMem_read]
+path = "../NVMem_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__get_TRFCR_EL1]
+path = "../u__get_TRFCR_EL1"
+
+[dependencies.u__get_TRFCR_EL2]
+path = "../u__get_TRFCR_EL2"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_NV]
+path = "../u_get_HCR_EL2_Type_NV"
+
+[dependencies.u_get_HCR_EL2_Type_NV1]
+path = "../u_get_HCR_EL2_Type_NV1"
+
+[dependencies.u_get_HCR_EL2_Type_NV2]
+path = "../u_get_HCR_EL2_Type_NV2"
+
+[dependencies.u_get_MDCR_EL2_Type_TTRF]
+path = "../u_get_MDCR_EL2_Type_TTRF"
+
+[dependencies.u_get_MDCR_EL3_Type_TTRF]
+path = "../u_get_MDCR_EL3_Type_TTRF"

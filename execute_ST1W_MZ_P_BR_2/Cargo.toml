@@ -1,0 +1,55 @@
+[package]
+edition = "2021"
+name = "execute_ST1W_MZ_P_BR_2"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ActivePredicateElement]
+path = "../ActivePredicateElement"
+
+[dependencies.AnyActiveElement]
+path = "../AnyActiveElement"
+
+[dependencies.CheckSPAlignment]
+path = "../CheckSPAlignment"
+
+[dependencies.CheckSVEEnabled]
+path = "../CheckSVEEnabled"
+
+[dependencies.CheckStreamingSVEEnabled]
+path = "../CheckStreamingSVEEnabled"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.CounterToPredicate]
+path = "../CounterToPredicate"
+
+[dependencies.CreateAccDescSVE]
+path = "../CreateAccDescSVE"
+
+[dependencies.Elem_read]
+path = "../Elem_read"
+
+[dependencies.HaveSVE2p1]
+path = "../HaveSVE2p1"
+
+[dependencies.Mem_set]
+path = "../Mem_set"
+
+[dependencies.P_read]
+path = "../P_read"
+
+[dependencies.SP_read]
+path = "../SP_read"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.Z_read]
+path = "../Z_read"
+
+[dependencies.common]
+path = "../common"

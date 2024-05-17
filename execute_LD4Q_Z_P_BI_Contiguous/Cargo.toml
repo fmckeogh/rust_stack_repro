@@ -1,0 +1,52 @@
+[package]
+edition = "2021"
+name = "execute_LD4Q_Z_P_BI_Contiguous"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ActivePredicateElement]
+path = "../ActivePredicateElement"
+
+[dependencies.AnyActiveElement]
+path = "../AnyActiveElement"
+
+[dependencies.CheckSPAlignment]
+path = "../CheckSPAlignment"
+
+[dependencies.CheckSVEEnabled]
+path = "../CheckSVEEnabled"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.CreateAccDescSVE]
+path = "../CreateAccDescSVE"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.Mem_read]
+path = "../Mem_read"
+
+[dependencies.P_read]
+path = "../P_read"
+
+[dependencies.SP_read]
+path = "../SP_read"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.Z_set]
+path = "../Z_set"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.neq_int]
+path = "../neq_int"

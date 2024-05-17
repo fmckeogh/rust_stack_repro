@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "AltPIdRealm"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELIsInHost]
+path = "../ELIsInHost"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.UsePrimarySpaceEL10]
+path = "../UsePrimarySpaceEL10"
+
+[dependencies.UsePrimarySpaceEL2]
+path = "../UsePrimarySpaceEL2"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,43 @@
+[package]
+edition = "2021"
+name = "DC_CVAC_SysOpsWrite_a3e7839db596aa73"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HCR_EL2_Type_TPCP]
+path = "../u_get_HCR_EL2_Type_TPCP"
+
+[dependencies.u_get_HFGITR_EL2_Type_DCCVAC]
+path = "../u_get_HFGITR_EL2_Type_DCCVAC"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"
+
+[dependencies.u_get_SCTLR_EL1_Type_UCI]
+path = "../u_get_SCTLR_EL1_Type_UCI"
+
+[dependencies.u_get_SCTLR_EL2_Type_UCI]
+path = "../u_get_SCTLR_EL2_Type_UCI"

@@ -1,0 +1,58 @@
+[package]
+edition = "2021"
+name = "CP15DMB_SysRegWrite32_d17f32fecbb5fdad"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_TakeHypTrapException]
+path = "../AArch32_TakeHypTrapException"
+
+[dependencies.AArch64_AArch32SystemAccessTrap]
+path = "../AArch64_AArch32SystemAccessTrap"
+
+[dependencies.CP15DMB]
+path = "../CP15DMB"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HSCTLR_read]
+path = "../HSCTLR_read"
+
+[dependencies.HSTR_read]
+path = "../HSTR_read"
+
+[dependencies.SCTLR_read__2]
+path = "../SCTLR_read__2"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HSCTLR_Type_CP15BEN]
+path = "../u_get_HSCTLR_Type_CP15BEN"
+
+[dependencies.u_get_HSTR_EL2_Type_T7]
+path = "../u_get_HSTR_EL2_Type_T7"
+
+[dependencies.u_get_HSTR_Type_T7]
+path = "../u_get_HSTR_Type_T7"
+
+[dependencies.u_get_SCTLR_EL1_Type_CP15BEN]
+path = "../u_get_SCTLR_EL1_Type_CP15BEN"
+
+[dependencies.u_get_SCTLR_EL2_Type_CP15BEN]
+path = "../u_get_SCTLR_EL2_Type_CP15BEN"
+
+[dependencies.u_get_SCTLR_Type_CP15BEN]
+path = "../u_get_SCTLR_Type_CP15BEN"

@@ -1,0 +1,58 @@
+[package]
+edition = "2021"
+name = "ICV_AP0R_SysRegRead32_c3c1719656dd9c14"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.HSTR_read]
+path = "../HSTR_read"
+
+[dependencies.ICC_HSRE_read]
+path = "../ICC_HSRE_read"
+
+[dependencies.ICC_SRE_read]
+path = "../ICC_SRE_read"
+
+[dependencies.ICH_HCR_read]
+path = "../ICH_HCR_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_FMO]
+path = "../u_get_HCR_EL2_Type_FMO"
+
+[dependencies.u_get_HCR_Type_FMO]
+path = "../u_get_HCR_Type_FMO"
+
+[dependencies.u_get_HSTR_EL2_Type_T12]
+path = "../u_get_HSTR_EL2_Type_T12"
+
+[dependencies.u_get_HSTR_Type_T12]
+path = "../u_get_HSTR_Type_T12"
+
+[dependencies.u_get_ICC_HSRE_Type_SRE]
+path = "../u_get_ICC_HSRE_Type_SRE"
+
+[dependencies.u_get_ICC_MSRE_Type_SRE]
+path = "../u_get_ICC_MSRE_Type_SRE"
+
+[dependencies.u_get_ICC_SRE_Type_SRE]
+path = "../u_get_ICC_SRE_Type_SRE"
+
+[dependencies.u_get_ICH_HCR_EL2_Type_TALL0]
+path = "../u_get_ICH_HCR_EL2_Type_TALL0"
+
+[dependencies.u_get_ICH_HCR_Type_TALL0]
+path = "../u_get_ICH_HCR_Type_TALL0"
+
+[dependencies.u_get_SCR_EL3_Type_FIQ]
+path = "../u_get_SCR_EL3_Type_FIQ"
+
+[dependencies.u_get_SCR_Type_FIQ]
+path = "../u_get_SCR_Type_FIQ"

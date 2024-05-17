@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "AMEVTYPER1_EL0_SysRegWrite_ed2615d4120abbd7"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.IsG1ActivityMonitorImplemented]
+path = "../IsG1ActivityMonitorImplemented"
+
+[dependencies.IsHighestEL]
+path = "../IsHighestEL"
+
+[dependencies.Mk_AMEVTYPER1_EL0_Type]
+path = "../Mk_AMEVTYPER1_EL0_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"

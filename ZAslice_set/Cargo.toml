@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "ZAslice_set"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ZAhslice_set]
+path = "../ZAhslice_set"
+
+[dependencies.ZAvslice_set]
+path = "../ZAvslice_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__id]
+path = "../u__id"

@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "AArch32_CommonFaultStatus"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_EncodeAsyncErrorSyndrome]
+path = "../AArch32_EncodeAsyncErrorSyndrome"
+
+[dependencies.AArch32_PEErrorState]
+path = "../AArch32_PEErrorState"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.EncodeLDFSC]
+path = "../EncodeLDFSC"
+
+[dependencies.EncodeSDFSC]
+path = "../EncodeSDFSC"
+
+[dependencies.HaveRASExt]
+path = "../HaveRASExt"
+
+[dependencies.IsAsyncAbort__1]
+path = "../IsAsyncAbort__1"
+
+[dependencies.IsExternalAbort__1]
+path = "../IsExternalAbort__1"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"

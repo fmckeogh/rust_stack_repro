@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "AArch64_CheckFPAdvSIMDEnabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_CheckFPEnabled]
+path = "../AArch64_CheckFPEnabled"
+
+[dependencies.HaveSME]
+path = "../HaveSME"
+
+[dependencies.IsFullA64Enabled]
+path = "../IsFullA64Enabled"
+
+[dependencies.SMEAccessTrap]
+path = "../SMEAccessTrap"
+
+[dependencies.common]
+path = "../common"

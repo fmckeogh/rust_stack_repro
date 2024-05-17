@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_aarch32_instrs_SHA256SU1_T1enc_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ConditionPassed]
+path = "../ConditionPassed"
+
+[dependencies.HaveSHA256Ext]
+path = "../HaveSHA256Ext"
+
+[dependencies.InITBlock]
+path = "../InITBlock"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch32_instrs_SHA256SU1_Op_A_txt]
+path = "../execute_aarch32_instrs_SHA256SU1_Op_A_txt"

@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "TLBI_PAALLOS_SysOpsWrite_b02935bd045e4472"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_TLBI_PAALL]
+path = "../AArch64_TLBI_PAALL"
+
+[dependencies.common]
+path = "../common"

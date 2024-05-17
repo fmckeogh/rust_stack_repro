@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "decode_BFMOPA_ZA32_PP_ZZ__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.HaveSME]
+path = "../HaveSME"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_BFMOPA_ZA32_PP_ZZ__]
+path = "../execute_BFMOPA_ZA32_PP_ZZ__"

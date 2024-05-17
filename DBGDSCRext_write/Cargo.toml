@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "DBGDSCRext_write"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.DBGDSCRint_read]
+path = "../DBGDSCRint_read"
+
+[dependencies.DBGDSCRint_write]
+path = "../DBGDSCRint_write"
+
+[dependencies.Mk_DBGDSCRint_Type]
+path = "../Mk_DBGDSCRint_Type"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,55 @@
+[package]
+edition = "2021"
+name = "AArch64_IC__1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_Abort]
+path = "../AArch64_Abort"
+
+[dependencies.AArch64_TranslateAddress]
+path = "../AArch64_TranslateAddress"
+
+[dependencies.ASID_read]
+path = "../ASID_read"
+
+[dependencies.CACHE_OP]
+path = "../CACHE_OP"
+
+[dependencies.CPASAtPAS]
+path = "../CPASAtPAS"
+
+[dependencies.CPASAtSecurityState]
+path = "../CPASAtSecurityState"
+
+[dependencies.CreateAccDescIC]
+path = "../CreateAccDescIC"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ICInstNeedsTranslation]
+path = "../ICInstNeedsTranslation"
+
+[dependencies.IsFault]
+path = "../IsFault"
+
+[dependencies.IsInHost]
+path = "../IsInHost"
+
+[dependencies.SecurityStateAtEL]
+path = "../SecurityStateAtEL"
+
+[dependencies.VMID_read]
+path = "../VMID_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_FullAddress]
+path = "../u__UNKNOWN_FullAddress"
+
+[dependencies.u_get_HCR_EL2_Type_FB]
+path = "../u_get_HCR_EL2_Type_FB"

@@ -1,0 +1,235 @@
+[package]
+edition = "2021"
+name = "AArch64_SysRegWrite"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_AutoGen_SysRegWrite]
+path = "../AArch64_AutoGen_SysRegWrite"
+
+[dependencies.AArch64_ClearEventCounters]
+path = "../AArch64_ClearEventCounters"
+
+[dependencies.AArch64_GetNumEventCountersAccessible]
+path = "../AArch64_GetNumEventCountersAccessible"
+
+[dependencies.AArch64_PMUSwIncrement]
+path = "../AArch64_PMUSwIncrement"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.CheckOSUnlockCatch]
+path = "../CheckOSUnlockCatch"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.DBGDSCRext_read]
+path = "../DBGDSCRext_read"
+
+[dependencies.DBGDSCRext_write]
+path = "../DBGDSCRext_write"
+
+[dependencies.DBGDSCRint_read]
+path = "../DBGDSCRint_read"
+
+[dependencies.DBGDSCRint_write]
+path = "../DBGDSCRint_write"
+
+[dependencies.DBGDTR_EL0_read__1]
+path = "../DBGDTR_EL0_read__1"
+
+[dependencies.DBGOSLSR_read]
+path = "../DBGOSLSR_read"
+
+[dependencies.DBGOSLSR_write]
+path = "../DBGOSLSR_write"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EDSCR_write]
+path = "../EDSCR_write"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.GetNumEventCounters]
+path = "../GetNumEventCounters"
+
+[dependencies.Mk_PMCCFILTR_EL0_Type]
+path = "../Mk_PMCCFILTR_EL0_Type"
+
+[dependencies.Mk_PMCCNTR_EL0_Type]
+path = "../Mk_PMCCNTR_EL0_Type"
+
+[dependencies.Mk_PMCNTENCLR_EL0_Type]
+path = "../Mk_PMCNTENCLR_EL0_Type"
+
+[dependencies.Mk_PMCNTENSET_EL0_Type]
+path = "../Mk_PMCNTENSET_EL0_Type"
+
+[dependencies.Mk_PMEVTYPER_EL0_Type]
+path = "../Mk_PMEVTYPER_EL0_Type"
+
+[dependencies.Mk_PMINTENCLR_EL1_Type]
+path = "../Mk_PMINTENCLR_EL1_Type"
+
+[dependencies.Mk_PMINTENSET_EL1_Type]
+path = "../Mk_PMINTENSET_EL1_Type"
+
+[dependencies.Mk_PMOVSCLR_EL0_Type]
+path = "../Mk_PMOVSCLR_EL0_Type"
+
+[dependencies.Mk_PMOVSSET_EL0_Type]
+path = "../Mk_PMOVSSET_EL0_Type"
+
+[dependencies.PMUCounterMask]
+path = "../PMUCounterMask"
+
+[dependencies.TakeReset]
+path = "../TakeReset"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_access]
+path = "../integer_access"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.u__get_PMCCFILTR_EL0]
+path = "../u__get_PMCCFILTR_EL0"
+
+[dependencies.u__get_PMEVTYPER_EL0]
+path = "../u__get_PMEVTYPER_EL0"
+
+[dependencies.u_get_AMCGCR_EL0_Type_CG0NC]
+path = "../u_get_AMCGCR_EL0_Type_CG0NC"
+
+[dependencies.u_get_AMCGCR_EL0_Type_CG1NC]
+path = "../u_get_AMCGCR_EL0_Type_CG1NC"
+
+[dependencies.u_get_ICC_CTLR_EL3_Type_A3V]
+path = "../u_get_ICC_CTLR_EL3_Type_A3V"
+
+[dependencies.u_get_ICC_CTLR_EL3_Type_ExtRange]
+path = "../u_get_ICC_CTLR_EL3_Type_ExtRange"
+
+[dependencies.u_get_ICC_CTLR_EL3_Type_IDbits]
+path = "../u_get_ICC_CTLR_EL3_Type_IDbits"
+
+[dependencies.u_get_ICC_CTLR_EL3_Type_PRIbits]
+path = "../u_get_ICC_CTLR_EL3_Type_PRIbits"
+
+[dependencies.u_get_ICC_CTLR_EL3_Type_SEIS]
+path = "../u_get_ICC_CTLR_EL3_Type_SEIS"
+
+[dependencies.u_get_ICC_CTLR_EL3_Type_nDS]
+path = "../u_get_ICC_CTLR_EL3_Type_nDS"
+
+[dependencies.u_get_ICC_SRE_EL1_Type_SRE]
+path = "../u_get_ICC_SRE_EL1_Type_SRE"
+
+[dependencies.u_get_ICH_VMCR_EL2_Type_VBPR0]
+path = "../u_get_ICH_VMCR_EL2_Type_VBPR0"
+
+[dependencies.u_get_ICH_VMCR_EL2_Type_VBPR1]
+path = "../u_get_ICH_VMCR_EL2_Type_VBPR1"
+
+[dependencies.u_get_ICH_VMCR_EL2_Type_VCBPR]
+path = "../u_get_ICH_VMCR_EL2_Type_VCBPR"
+
+[dependencies.u_get_ICH_VMCR_EL2_Type_VENG0]
+path = "../u_get_ICH_VMCR_EL2_Type_VENG0"
+
+[dependencies.u_get_ICH_VMCR_EL2_Type_VENG1]
+path = "../u_get_ICH_VMCR_EL2_Type_VENG1"
+
+[dependencies.u_get_ICH_VMCR_EL2_Type_VEOIM]
+path = "../u_get_ICH_VMCR_EL2_Type_VEOIM"
+
+[dependencies.u_get_ICH_VMCR_EL2_Type_VPMR]
+path = "../u_get_ICH_VMCR_EL2_Type_VPMR"
+
+[dependencies.u_get_ICH_VTR_EL2_Type_PREbits]
+path = "../u_get_ICH_VTR_EL2_Type_PREbits"
+
+[dependencies.u_get_ICV_BPR0_EL1_Type_BinaryPoint]
+path = "../u_get_ICV_BPR0_EL1_Type_BinaryPoint"
+
+[dependencies.u_get_ICV_BPR1_EL1_Type_BinaryPoint]
+path = "../u_get_ICV_BPR1_EL1_Type_BinaryPoint"
+
+[dependencies.u_get_ICV_CTLR_EL1_Type_A3V]
+path = "../u_get_ICV_CTLR_EL1_Type_A3V"
+
+[dependencies.u_get_ICV_CTLR_EL1_Type_CBPR]
+path = "../u_get_ICV_CTLR_EL1_Type_CBPR"
+
+[dependencies.u_get_ICV_CTLR_EL1_Type_EOImode]
+path = "../u_get_ICV_CTLR_EL1_Type_EOImode"
+
+[dependencies.u_get_ICV_CTLR_EL1_Type_ExtRange]
+path = "../u_get_ICV_CTLR_EL1_Type_ExtRange"
+
+[dependencies.u_get_ICV_CTLR_EL1_Type_IDbits]
+path = "../u_get_ICV_CTLR_EL1_Type_IDbits"
+
+[dependencies.u_get_ICV_CTLR_EL1_Type_PRIbits]
+path = "../u_get_ICV_CTLR_EL1_Type_PRIbits"
+
+[dependencies.u_get_ICV_CTLR_EL1_Type_SEIS]
+path = "../u_get_ICV_CTLR_EL1_Type_SEIS"
+
+[dependencies.u_get_ICV_IGRPEN0_EL1_Type_Enable]
+path = "../u_get_ICV_IGRPEN0_EL1_Type_Enable"
+
+[dependencies.u_get_ICV_IGRPEN1_EL1_Type_Enable]
+path = "../u_get_ICV_IGRPEN1_EL1_Type_Enable"
+
+[dependencies.u_get_ICV_PMR_EL1_Type_Priority]
+path = "../u_get_ICV_PMR_EL1_Type_Priority"
+
+[dependencies.u_get_OSLAR_EL1_Type_OSLK]
+path = "../u_get_OSLAR_EL1_Type_OSLK"
+
+[dependencies.u_get_OSLSR_EL1_Type_OSLK]
+path = "../u_get_OSLSR_EL1_Type_OSLK"
+
+[dependencies.u_get_PMCR_EL0_Type_D]
+path = "../u_get_PMCR_EL0_Type_D"
+
+[dependencies.u_get_PMSELR_EL0_Type_SEL]
+path = "../u_get_PMSELR_EL0_Type_SEL"
+
+[dependencies.u_get_PMUSERENR_EL0_Type_EN]
+path = "../u_get_PMUSERENR_EL0_Type_EN"
+
+[dependencies.u_update_DBGDSCRext_Type_TXfull]
+path = "../u_update_DBGDSCRext_Type_TXfull"
+
+[dependencies.u_update_DBGDSCRint_Type_TXfull]
+path = "../u_update_DBGDSCRint_Type_TXfull"
+
+[dependencies.u_update_DBGOSLSR_Type_OSLK]
+path = "../u_update_DBGOSLSR_Type_OSLK"
+
+[dependencies.u_update_EDSCR_Type_TXfull]
+path = "../u_update_EDSCR_Type_TXfull"

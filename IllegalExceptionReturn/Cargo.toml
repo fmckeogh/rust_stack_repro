@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "IllegalExceptionReturn"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELFromSPSR]
+path = "../ELFromSPSR"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.ELUsingAArch32K]
+path = "../ELUsingAArch32K"
+
+[dependencies.GetCurrentEXLOCKEN]
+path = "../GetCurrentEXLOCKEN"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.HaveGCS]
+path = "../HaveGCS"
+
+[dependencies.IsSecureBelowEL3]
+path = "../IsSecureBelowEL3"
+
+[dependencies.IsSecureEL2Enabled]
+path = "../IsSecureEL2Enabled"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"

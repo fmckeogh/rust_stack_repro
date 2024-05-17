@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_CLREX_Op_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ClearExclusiveLocal]
+path = "../ClearExclusiveLocal"
+
+[dependencies.ProcessorID]
+path = "../ProcessorID"
+
+[dependencies.common]
+path = "../common"

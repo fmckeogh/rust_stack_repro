@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "slice_mask"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.sail_mask]
+path = "../sail_mask"
+
+[dependencies.sail_ones]
+path = "../sail_ones"

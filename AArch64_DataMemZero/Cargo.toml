@@ -1,0 +1,64 @@
+[package]
+edition = "2021"
+name = "AArch64_DataMemZero"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_Abort]
+path = "../AArch64_Abort"
+
+[dependencies.AArch64_AccessIsTagChecked]
+path = "../AArch64_AccessIsTagChecked"
+
+[dependencies.AArch64_AllocationTagAccessIsEnabled]
+path = "../AArch64_AllocationTagAccessIsEnabled"
+
+[dependencies.AArch64_CheckTag]
+path = "../AArch64_CheckTag"
+
+[dependencies.AArch64_PhysicalTag]
+path = "../AArch64_PhysicalTag"
+
+[dependencies.AArch64_TagCheckFault]
+path = "../AArch64_TagCheckFault"
+
+[dependencies.AArch64_TranslateAddress]
+path = "../AArch64_TranslateAddress"
+
+[dependencies.FailTransaction]
+path = "../FailTransaction"
+
+[dependencies.HandleExternalWriteAbort]
+path = "../HandleExternalWriteAbort"
+
+[dependencies.HaveMTE2Ext]
+path = "../HaveMTE2Ext"
+
+[dependencies.HaveTME]
+path = "../HaveTME"
+
+[dependencies.IsDebugException]
+path = "../IsDebugException"
+
+[dependencies.IsFault]
+path = "../IsFault"
+
+[dependencies.IsFault__2]
+path = "../IsFault__2"
+
+[dependencies.MemHasTransactionalAccess]
+path = "../MemHasTransactionalAccess"
+
+[dependencies.PhysMemWrite]
+path = "../PhysMemWrite"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"

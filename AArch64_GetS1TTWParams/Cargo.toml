@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "AArch64_GetS1TTWParams"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_GetVARange]
+path = "../AArch64_GetVARange"
+
+[dependencies.AArch64_S1TTWParamsEL10]
+path = "../AArch64_S1TTWParamsEL10"
+
+[dependencies.AArch64_S1TTWParamsEL2]
+path = "../AArch64_S1TTWParamsEL2"
+
+[dependencies.AArch64_S1TTWParamsEL20]
+path = "../AArch64_S1TTWParamsEL20"
+
+[dependencies.AArch64_S1TTWParamsEL3]
+path = "../AArch64_S1TTWParamsEL3"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,107 @@
+#![no_std]
+#![allow(non_snake_case)]
+#![allow(unused_assignments)]
+#![allow(unused_mut)]
+#![allow(unused_parens)]
+#![allow(unused_variables)]
+#![allow(dead_code)]
+#![allow(unreachable_code)]
+#![allow(unused_doc_comments)]
+#![allow(non_upper_case_globals)]
+//! BOREALIS GENERATED FILE
+extern crate alloc;
+use ZT0_set::*;
+use CheckSMEEnabled::*;
+use CheckSMEZT0Enabled::*;
+use X_read::*;
+use Elem_set::*;
+use ZT0_read::*;
+use common::*;
+pub fn execute_MOVT_ZT_R__<T: Tracer>(
+    state: &mut State,
+    tracer: &T,
+    offset: i64,
+    t: i64,
+) -> () {
+    #[derive(Default)]
+    struct FunctionState {
+        offset: i64,
+        t: i64,
+    }
+    let fn_state = FunctionState {
+        offset,
+        t,
+        ..Default::default()
+    };
+    return block_0(state, tracer, fn_state);
+    fn block_0<T: Tracer>(
+        state: &mut State,
+        tracer: &T,
+        mut fn_state: FunctionState,
+    ) -> () {
+        // C s_0_0: const #() : ()
+        let s_0_0: () = ();
+        // S s_0_1: call CheckSMEEnabled(s_0_0)
+        let s_0_1: () = CheckSMEEnabled(state, tracer, s_0_0);
+        // N s_0_2: jump b1
+        return block_1(state, tracer, fn_state);
+    }
+    fn block_1<T: Tracer>(
+        state: &mut State,
+        tracer: &T,
+        mut fn_state: FunctionState,
+    ) -> () {
+        // C s_1_0: const #() : ()
+        let s_1_0: () = ();
+        // S s_1_1: call CheckSMEZT0Enabled(s_1_0)
+        let s_1_1: () = CheckSMEZT0Enabled(state, tracer, s_1_0);
+        // N s_1_2: jump b2
+        return block_2(state, tracer, fn_state);
+    }
+    fn block_2<T: Tracer>(
+        state: &mut State,
+        tracer: &T,
+        mut fn_state: FunctionState,
+    ) -> () {
+        // C s_2_0: const #512s : i64
+        let s_2_0: i64 = 512;
+        // S s_2_1: call ZT0_read(s_2_0)
+        let s_2_1: Bits = ZT0_read(state, tracer, s_2_0);
+        // S s_2_2: cast reint s_2_1 -> u512
+        let s_2_2: u64 = (s_2_1.value() as u64);
+        // C s_2_3: const #64s : i64
+        let s_2_3: i64 = 64;
+        // C s_2_4: const #64s : i64
+        let s_2_4: i64 = 64;
+        // D s_2_5: read-var t:i64
+        let s_2_5: i64 = fn_state.t;
+        // D s_2_6: cast zx s_2_5 -> i
+        let s_2_6: i128 = (i128::try_from(s_2_5).unwrap());
+        // D s_2_7: call X_read(s_2_6, s_2_4)
+        let s_2_7: Bits = X_read(state, tracer, s_2_6, s_2_4);
+        // D s_2_8: cast reint s_2_7 -> u64
+        let s_2_8: u64 = (s_2_7.value() as u64);
+        // S s_2_9: cast zx s_2_2 -> bv
+        let s_2_9: Bits = Bits::new(s_2_2 as u128, 512u16);
+        // D s_2_10: read-var offset:i64
+        let s_2_10: i64 = fn_state.offset;
+        // D s_2_11: cast zx s_2_10 -> i
+        let s_2_11: i128 = (i128::try_from(s_2_10).unwrap());
+        // C s_2_12: cast zx s_2_3 -> i
+        let s_2_12: i128 = (i128::try_from(s_2_3).unwrap());
+        // D s_2_13: cast zx s_2_8 -> bv
+        let s_2_13: Bits = Bits::new(s_2_8 as u128, 64u16);
+        // D s_2_14: call Elem_set(s_2_9, s_2_11, s_2_12, s_2_13)
+        let s_2_14: Bits = Elem_set(state, tracer, s_2_9, s_2_11, s_2_12, s_2_13);
+        // D s_2_15: cast reint s_2_14 -> u512
+        let s_2_15: u64 = (s_2_14.value() as u64);
+        // C s_2_16: const #512s : i64
+        let s_2_16: i64 = 512;
+        // D s_2_17: cast zx s_2_15 -> bv
+        let s_2_17: Bits = Bits::new(s_2_15 as u128, 512u16);
+        // D s_2_18: call ZT0_set(s_2_16, s_2_17)
+        let s_2_18: () = ZT0_set(state, tracer, s_2_16, s_2_17);
+        // N s_2_19: return
+        return;
+    }
+}

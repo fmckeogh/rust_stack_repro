@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "CounterToPredicate"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CeilPow2]
+path = "../CeilPow2"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.HighestSetBit]
+path = "../HighestSetBit"
+
+[dependencies.IsZero]
+path = "../IsZero"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.unsigned_subrange]
+path = "../unsigned_subrange"

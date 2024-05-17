@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "DSPSR_SysRegWrite32_eb89215986db3057"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.DSPSR_write]
+path = "../DSPSR_write"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.Mk_DSPSR_Type]
+path = "../Mk_DSPSR_Type"
+
+[dependencies.R_read]
+path = "../R_read"
+
+[dependencies.common]
+path = "../common"

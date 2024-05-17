@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "CNTHP_CVAL_SysRegRead64_bedb5ea1dc82962f"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CNTHP_CVAL_read]
+path = "../CNTHP_CVAL_read"
+
+[dependencies.R_set]
+path = "../R_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_SCR_Type_NS]
+path = "../u_get_SCR_Type_NS"

@@ -1,0 +1,76 @@
+[package]
+edition = "2021"
+name = "AArch32_TakePhysicalSErrorException"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_AbortSyndrome]
+path = "../AArch32_AbortSyndrome"
+
+[dependencies.AArch32_EnterHypMode]
+path = "../AArch32_EnterHypMode"
+
+[dependencies.AArch32_EnterMode]
+path = "../AArch32_EnterMode"
+
+[dependencies.AArch32_EnterMonitorMode]
+path = "../AArch32_EnterMonitorMode"
+
+[dependencies.AArch32_ReportDataAbort]
+path = "../AArch32_ReportDataAbort"
+
+[dependencies.AArch64_TakePhysicalSErrorException]
+path = "../AArch64_TakePhysicalSErrorException"
+
+[dependencies.ClearPendingPhysicalSError]
+path = "../ClearPendingPhysicalSError"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.EffectiveEA]
+path = "../EffectiveEA"
+
+[dependencies.GetPendingPhysicalSError]
+path = "../GetPendingPhysicalSError"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.IsInHost]
+path = "../IsInHost"
+
+[dependencies.IsSErrorEdgeTriggered]
+path = "../IsSErrorEdgeTriggered"
+
+[dependencies.ThisInstrAddr]
+path = "../ThisInstrAddr"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"
+
+[dependencies.u_get_HCR_EL2_Type_AMO]
+path = "../u_get_HCR_EL2_Type_AMO"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HCR_Type_AMO]
+path = "../u_get_HCR_Type_AMO"
+
+[dependencies.u_get_HCR_Type_TGE]
+path = "../u_get_HCR_Type_TGE"
+
+[dependencies.u_get_SCR_Type_EA]
+path = "../u_get_SCR_Type_EA"

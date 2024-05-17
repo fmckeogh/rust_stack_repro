@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "TakeTransactionCheckpoint"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.FFR_read]
+path = "../FFR_read"
+
+[dependencies.HaveGCS]
+path = "../HaveGCS"
+
+[dependencies.IsFPEnabled]
+path = "../IsFPEnabled"
+
+[dependencies.IsSVEEnabled]
+path = "../IsSVEEnabled"
+
+[dependencies.P_read]
+path = "../P_read"
+
+[dependencies.SP_read]
+path = "../SP_read"
+
+[dependencies.V_read]
+path = "../V_read"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.Z_read]
+path = "../Z_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__id]
+path = "../u__id"

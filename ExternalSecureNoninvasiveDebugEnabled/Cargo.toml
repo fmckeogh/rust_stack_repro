@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "ExternalSecureNoninvasiveDebugEnabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ExternalNoninvasiveDebugEnabled]
+path = "../ExternalNoninvasiveDebugEnabled"
+
+[dependencies.ExternalSecureInvasiveDebugEnabled]
+path = "../ExternalSecureInvasiveDebugEnabled"
+
+[dependencies.HaveNoninvasiveDebugAuth]
+path = "../HaveNoninvasiveDebugAuth"
+
+[dependencies.SecureOnlyImplementation]
+path = "../SecureOnlyImplementation"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,169 @@
+[package]
+edition = "2021"
+name = "AArch64_TakeException"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_MaybeZeroRegisterUppers]
+path = "../AArch64_MaybeZeroRegisterUppers"
+
+[dependencies.AArch64_ReportException]
+path = "../AArch64_ReportException"
+
+[dependencies.AArch64_TakeExceptionInDebugState]
+path = "../AArch64_TakeExceptionInDebugState"
+
+[dependencies.BRBEException]
+path = "../BRBEException"
+
+[dependencies.BranchTo]
+path = "../BranchTo"
+
+[dependencies.CheckExceptionCatch]
+path = "../CheckExceptionCatch"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELIsInHost]
+path = "../ELIsInHost"
+
+[dependencies.ELR_set__1]
+path = "../ELR_set__1"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.EndOfInstruction]
+path = "../EndOfInstruction"
+
+[dependencies.FailTransaction]
+path = "../FailTransaction"
+
+[dependencies.GetCurrentEXLOCKEN]
+path = "../GetCurrentEXLOCKEN"
+
+[dependencies.GetPSRFromPSTATE]
+path = "../GetPSRFromPSTATE"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.HaveBRBExt]
+path = "../HaveBRBExt"
+
+[dependencies.HaveBTIExt]
+path = "../HaveBTIExt"
+
+[dependencies.HaveDoubleFaultExt]
+path = "../HaveDoubleFaultExt"
+
+[dependencies.HaveFeatNMI]
+path = "../HaveFeatNMI"
+
+[dependencies.HaveGCS]
+path = "../HaveGCS"
+
+[dependencies.HaveIESB]
+path = "../HaveIESB"
+
+[dependencies.HaveMTEExt]
+path = "../HaveMTEExt"
+
+[dependencies.HaveNV2Ext]
+path = "../HaveNV2Ext"
+
+[dependencies.HaveNVExt]
+path = "../HaveNVExt"
+
+[dependencies.HavePANExt]
+path = "../HavePANExt"
+
+[dependencies.HaveSME]
+path = "../HaveSME"
+
+[dependencies.HaveSSBSExt]
+path = "../HaveSSBSExt"
+
+[dependencies.HaveTME]
+path = "../HaveTME"
+
+[dependencies.HaveUAOExt]
+path = "../HaveUAOExt"
+
+[dependencies.InsertIESBBeforeException]
+path = "../InsertIESBBeforeException"
+
+[dependencies.IsInHost]
+path = "../IsInHost"
+
+[dependencies.MaybeZeroSVEUppers]
+path = "../MaybeZeroSVEUppers"
+
+[dependencies.ResetSVEState]
+path = "../ResetSVEState"
+
+[dependencies.SCTLR_read]
+path = "../SCTLR_read"
+
+[dependencies.SCTLR_read__1]
+path = "../SCTLR_read__1"
+
+[dependencies.SPSR_set]
+path = "../SPSR_set"
+
+[dependencies.SynchronizeContext]
+path = "../SynchronizeContext"
+
+[dependencies.SynchronizeErrors]
+path = "../SynchronizeErrors"
+
+[dependencies.TakeUnmaskedPhysicalSErrorInterrupts]
+path = "../TakeUnmaskedPhysicalSErrorInterrupts"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.VBAR_read]
+path = "../VBAR_read"
+
+[dependencies.VBAR_read__1]
+path = "../VBAR_read__1"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.u_get_HCR_EL2_Type_NV]
+path = "../u_get_HCR_EL2_Type_NV"
+
+[dependencies.u_get_HCR_EL2_Type_NV1]
+path = "../u_get_HCR_EL2_Type_NV1"
+
+[dependencies.u_get_HCR_EL2_Type_NV2]
+path = "../u_get_HCR_EL2_Type_NV2"
+
+[dependencies.u_get_SCR_EL3_Type_EA]
+path = "../u_get_SCR_EL3_Type_EA"
+
+[dependencies.u_get_SCR_EL3_Type_NMEA]
+path = "../u_get_SCR_EL3_Type_NMEA"
+
+[dependencies.u_get_SCTLRType_DSSBS]
+path = "../u_get_SCTLRType_DSSBS"
+
+[dependencies.u_get_SCTLRType_IESB]
+path = "../u_get_SCTLRType_IESB"
+
+[dependencies.u_get_SCTLRType_SPAN]
+path = "../u_get_SCTLRType_SPAN"
+
+[dependencies.u_get_SCTLRType_SPINTMASK]
+path = "../u_get_SCTLRType_SPINTMASK"

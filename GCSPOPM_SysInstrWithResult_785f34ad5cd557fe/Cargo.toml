@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "GCSPOPM_SysInstrWithResult_785f34ad5cd557fe"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.GCSPOPM]
+path = "../GCSPOPM"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"

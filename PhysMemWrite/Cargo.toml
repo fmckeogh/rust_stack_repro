@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "PhysMemWrite"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CreatePhysMemRetStatus]
+path = "../CreatePhysMemRetStatus"
+
+[dependencies.ZeroExtend1]
+path = "../ZeroExtend1"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.sail_mem_write]
+path = "../sail_mem_write"
+
+[dependencies.u__WriteGIC]
+path = "../u__WriteGIC"
+
+[dependencies.u__WriteUART]
+path = "../u__WriteUART"
+
+[dependencies.write_request]
+path = "../write_request"

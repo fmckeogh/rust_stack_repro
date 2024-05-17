@@ -1,0 +1,67 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_system_tme_tstart"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.FailTransaction]
+path = "../FailTransaction"
+
+[dependencies.HaveSME]
+path = "../HaveSME"
+
+[dependencies.IsTMEEnabled]
+path = "../IsTMEEnabled"
+
+[dependencies.NextInstrAddr]
+path = "../NextInstrAddr"
+
+[dependencies.S1TranslationRegime__1]
+path = "../S1TranslationRegime__1"
+
+[dependencies.TakeTransactionCheckpoint]
+path = "../TakeTransactionCheckpoint"
+
+[dependencies.TransactionStartTrap]
+path = "../TransactionStartTrap"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_SCTLR_EL1_Type_TME]
+path = "../u_get_SCTLR_EL1_Type_TME"
+
+[dependencies.u_get_SCTLR_EL1_Type_TME0]
+path = "../u_get_SCTLR_EL1_Type_TME0"
+
+[dependencies.u_get_SCTLR_EL1_Type_TMT]
+path = "../u_get_SCTLR_EL1_Type_TMT"
+
+[dependencies.u_get_SCTLR_EL1_Type_TMT0]
+path = "../u_get_SCTLR_EL1_Type_TMT0"
+
+[dependencies.u_get_SCTLR_EL2_Type_TME]
+path = "../u_get_SCTLR_EL2_Type_TME"
+
+[dependencies.u_get_SCTLR_EL2_Type_TME0]
+path = "../u_get_SCTLR_EL2_Type_TME0"
+
+[dependencies.u_get_SCTLR_EL2_Type_TMT]
+path = "../u_get_SCTLR_EL2_Type_TMT"
+
+[dependencies.u_get_SCTLR_EL2_Type_TMT0]
+path = "../u_get_SCTLR_EL2_Type_TMT0"
+
+[dependencies.u_get_SCTLR_EL3_Type_TME]
+path = "../u_get_SCTLR_EL3_Type_TME"
+
+[dependencies.u_get_SCTLR_EL3_Type_TMT]
+path = "../u_get_SCTLR_EL3_Type_TMT"

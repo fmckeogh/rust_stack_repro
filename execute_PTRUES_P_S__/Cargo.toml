@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "execute_PTRUES_P_S__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckSVEEnabled]
+path = "../CheckSVEEnabled"
+
+[dependencies.DecodePredCount]
+path = "../DecodePredCount"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.P_set]
+path = "../P_set"
+
+[dependencies.PredTest]
+path = "../PredTest"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,52 @@
+[package]
+edition = "2021"
+name = "AArch64_ESBOperation"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_PhysicalSErrorSyndrome]
+path = "../AArch32_PhysicalSErrorSyndrome"
+
+[dependencies.AArch64_PhysicalSErrorSyndrome]
+path = "../AArch64_PhysicalSErrorSyndrome"
+
+[dependencies.AArch64_PhysicalSErrorTarget]
+path = "../AArch64_PhysicalSErrorTarget"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.ClearPendingPhysicalSError]
+path = "../ClearPendingPhysicalSError"
+
+[dependencies.DISR_write]
+path = "../DISR_write"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.ExternalDebugInterruptsDisabled]
+path = "../ExternalDebugInterruptsDisabled"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.IsSynchronizablePhysicalSErrorPending]
+path = "../IsSynchronizablePhysicalSErrorPending"
+
+[dependencies.Mk_DISR_EL1_Type]
+path = "../Mk_DISR_EL1_Type"
+
+[dependencies.Mk_DISR_Type]
+path = "../Mk_DISR_Type"
+
+[dependencies.S1TranslationRegime__1]
+path = "../S1TranslationRegime__1"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"

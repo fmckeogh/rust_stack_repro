@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "AArch64_CheckFPAdvSIMDTrap"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_AdvSIMDFPAccessTrap]
+path = "../AArch64_AdvSIMDFPAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.EL3SDDUndef]
+path = "../EL3SDDUndef"
+
+[dependencies.EL3SDDUndefPriority]
+path = "../EL3SDDUndefPriority"
+
+[dependencies.HaveVirtHostExt]
+path = "../HaveVirtHostExt"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_CPTR_EL2_Type_FPEN]
+path = "../u_get_CPTR_EL2_Type_FPEN"
+
+[dependencies.u_get_CPTR_EL2_Type_TFP]
+path = "../u_get_CPTR_EL2_Type_TFP"
+
+[dependencies.u_get_CPTR_EL3_Type_TFP]
+path = "../u_get_CPTR_EL3_Type_TFP"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"

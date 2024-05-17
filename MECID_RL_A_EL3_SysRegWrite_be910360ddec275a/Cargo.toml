@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "MECID_RL_A_EL3_SysRegWrite_be910360ddec275a"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Mk_MECID_RL_A_EL3_Type]
+path = "../Mk_MECID_RL_A_EL3_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

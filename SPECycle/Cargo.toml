@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "SPECycle"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveStatisticalProfiling]
+path = "../HaveStatisticalProfiling"
+
+[dependencies.SetInterruptRequestLevel]
+path = "../SetInterruptRequestLevel"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_PMBSR_EL1_Type_S]
+path = "../u_get_PMBSR_EL1_Type_S"

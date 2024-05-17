@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_system_barriers_dsb"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.DataSynchronizationBarrier]
+path = "../DataSynchronizationBarrier"
+
+[dependencies.FailTransaction]
+path = "../FailTransaction"
+
+[dependencies.HaveFeatXS]
+path = "../HaveFeatXS"
+
+[dependencies.HaveTME]
+path = "../HaveTME"
+
+[dependencies.IsHCRXEL2Enabled]
+path = "../IsHCRXEL2Enabled"
+
+[dependencies.SpeculativeStoreBypassBarrierToPA]
+path = "../SpeculativeStoreBypassBarrierToPA"
+
+[dependencies.SpeculativeStoreBypassBarrierToVA]
+path = "../SpeculativeStoreBypassBarrierToVA"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCRX_EL2_Type_FnXS]
+path = "../u_get_HCRX_EL2_Type_FnXS"

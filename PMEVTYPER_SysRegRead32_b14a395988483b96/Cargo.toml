@@ -1,0 +1,94 @@
+[package]
+edition = "2021"
+name = "PMEVTYPER_SysRegRead32_b14a395988483b96"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_GetNumEventCountersAccessible]
+path = "../AArch32_GetNumEventCountersAccessible"
+
+[dependencies.AArch32_TakeHypTrapException]
+path = "../AArch32_TakeHypTrapException"
+
+[dependencies.AArch64_AArch32SystemAccessTrap]
+path = "../AArch64_AArch32SystemAccessTrap"
+
+[dependencies.ConstrainUnpredictableProcedure]
+path = "../ConstrainUnpredictableProcedure"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.HDCR_read]
+path = "../HDCR_read"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.PMEVTYPER_read]
+path = "../PMEVTYPER_read"
+
+[dependencies.PMUSERENR_read]
+path = "../PMUSERENR_read"
+
+[dependencies.R_set]
+path = "../R_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__get_PMEVTYPER]
+path = "../u__get_PMEVTYPER"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HCR_Type_TGE]
+path = "../u_get_HCR_Type_TGE"
+
+[dependencies.u_get_HDCR_Type_TPM]
+path = "../u_get_HDCR_Type_TPM"
+
+[dependencies.u_get_HDFGRTR_EL2_Type_PMEVTYPERn_EL0]
+path = "../u_get_HDFGRTR_EL2_Type_PMEVTYPERn_EL0"
+
+[dependencies.u_get_MDCR_EL2_Type_TPM]
+path = "../u_get_MDCR_EL2_Type_TPM"
+
+[dependencies.u_get_MDCR_EL3_Type_TPM]
+path = "../u_get_MDCR_EL3_Type_TPM"
+
+[dependencies.u_get_PMUSERENR_EL0_Type_EN]
+path = "../u_get_PMUSERENR_EL0_Type_EN"
+
+[dependencies.u_get_PMUSERENR_EL0_Type_UEN]
+path = "../u_get_PMUSERENR_EL0_Type_UEN"
+
+[dependencies.u_get_PMUSERENR_Type_EN]
+path = "../u_get_PMUSERENR_Type_EN"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"

@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_SQADD_Z_ZZ__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.HaveSME]
+path = "../HaveSME"
+
+[dependencies.HaveSVE]
+path = "../HaveSVE"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_SQADD_Z_ZZ__]
+path = "../execute_SQADD_Z_ZZ__"

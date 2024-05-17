@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "u__get_FPSCR"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Mk_FPSCR_Type]
+path = "../Mk_FPSCR_Type"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"

@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "u__set_CNTP_CTL"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__set_CNTP_CTL_NS]
+path = "../u__set_CNTP_CTL_NS"
+
+[dependencies.u__set_CNTP_CTL_S]
+path = "../u__set_CNTP_CTL_S"

@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_MRS_br_Op_AS_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_MonitorModeTrap]
+path = "../AArch64_MonitorModeTrap"
+
+[dependencies.BankedRegisterAccessValid]
+path = "../BankedRegisterAccessValid"
+
+[dependencies.ELR_hyp_read]
+path = "../ELR_hyp_read"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.R_set]
+path = "../R_set"
+
+[dependencies.Rmode_read]
+path = "../Rmode_read"
+
+[dependencies.SPSR_hyp_read]
+path = "../SPSR_hyp_read"
+
+[dependencies.SPSR_svc_read]
+path = "../SPSR_svc_read"
+
+[dependencies.SPSRaccessValid]
+path = "../SPSRaccessValid"
+
+[dependencies.common]
+path = "../common"

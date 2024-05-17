@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "AArch64_UnalignedAccessFaults"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AlignmentEnforced]
+path = "../AlignmentEnforced"
+
+[dependencies.AllInAlignedQuantity]
+path = "../AllInAlignedQuantity"
+
+[dependencies.HaveLSE2Ext]
+path = "../HaveLSE2Ext"
+
+[dependencies.SCTLR_read__1]
+path = "../SCTLR_read__1"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_SCTLRType_nAA]
+path = "../u_get_SCTLRType_nAA"

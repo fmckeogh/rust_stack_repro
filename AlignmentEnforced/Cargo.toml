@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "AlignmentEnforced"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HSCTLR_read]
+path = "../HSCTLR_read"
+
+[dependencies.SCTLR_read__2]
+path = "../SCTLR_read__2"
+
+[dependencies.TranslationRegime]
+path = "../TranslationRegime"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HSCTLR_Type_A]
+path = "../u_get_HSCTLR_Type_A"
+
+[dependencies.u_get_SCTLR_EL1_Type_A]
+path = "../u_get_SCTLR_EL1_Type_A"
+
+[dependencies.u_get_SCTLR_EL2_Type_A]
+path = "../u_get_SCTLR_EL2_Type_A"
+
+[dependencies.u_get_SCTLR_EL3_Type_A]
+path = "../u_get_SCTLR_EL3_Type_A"
+
+[dependencies.u_get_SCTLR_Type_A]
+path = "../u_get_SCTLR_Type_A"

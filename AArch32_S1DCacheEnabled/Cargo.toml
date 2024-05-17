@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "AArch32_S1DCacheEnabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HSCTLR_read]
+path = "../HSCTLR_read"
+
+[dependencies.HaveAArch32EL]
+path = "../HaveAArch32EL"
+
+[dependencies.SCTLR_NS_read]
+path = "../SCTLR_NS_read"
+
+[dependencies.SCTLR_read__2]
+path = "../SCTLR_read__2"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HSCTLR_Type_C]
+path = "../u_get_HSCTLR_Type_C"
+
+[dependencies.u_get_SCTLR_Type_C]
+path = "../u_get_SCTLR_Type_C"

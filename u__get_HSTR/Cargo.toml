@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "u__get_HSTR"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Mk_HSTR_Type]
+path = "../Mk_HSTR_Type"
+
+[dependencies.common]
+path = "../common"

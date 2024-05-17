@@ -1,0 +1,82 @@
+[package]
+edition = "2021"
+name = "AArch32_EnterHypMode"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_EnterHypModeInDebugState]
+path = "../AArch32_EnterHypModeInDebugState"
+
+[dependencies.AArch32_ReportHypEntry]
+path = "../AArch32_ReportHypEntry"
+
+[dependencies.AArch32_WriteMode]
+path = "../AArch32_WriteMode"
+
+[dependencies.BranchTo]
+path = "../BranchTo"
+
+[dependencies.CheckExceptionCatch]
+path = "../CheckExceptionCatch"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.ELR_hyp_write]
+path = "../ELR_hyp_write"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.EndOfInstruction]
+path = "../EndOfInstruction"
+
+[dependencies.GetPSRFromPSTATE]
+path = "../GetPSRFromPSTATE"
+
+[dependencies.HSCTLR_read]
+path = "../HSCTLR_read"
+
+[dependencies.HVBAR_read]
+path = "../HVBAR_read"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.HaveSSBSExt]
+path = "../HaveSSBSExt"
+
+[dependencies.SCR_GEN_read]
+path = "../SCR_GEN_read"
+
+[dependencies.SPSR_set]
+path = "../SPSR_set"
+
+[dependencies.SynchronizeContext]
+path = "../SynchronizeContext"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.u_get_HSCTLR_Type_DSSBS]
+path = "../u_get_HSCTLR_Type_DSSBS"
+
+[dependencies.u_get_HSCTLR_Type_EE]
+path = "../u_get_HSCTLR_Type_EE"
+
+[dependencies.u_get_HSCTLR_Type_TE]
+path = "../u_get_HSCTLR_Type_TE"
+
+[dependencies.u_get_SCRType_EA]
+path = "../u_get_SCRType_EA"
+
+[dependencies.u_get_SCRType_FIQ]
+path = "../u_get_SCRType_FIQ"
+
+[dependencies.u_get_SCRType_IRQ]
+path = "../u_get_SCRType_IRQ"

@@ -1,0 +1,151 @@
+[package]
+edition = "2021"
+name = "AArch64_AutoGen_ArchitectureReset"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.HaveAArch32]
+path = "../HaveAArch32"
+
+[dependencies.ICC_BPR1_EL1_read]
+path = "../ICC_BPR1_EL1_read"
+
+[dependencies.ICC_BPR1_EL1_write]
+path = "../ICC_BPR1_EL1_write"
+
+[dependencies.ICC_CTLR_EL1_read]
+path = "../ICC_CTLR_EL1_read"
+
+[dependencies.ICC_CTLR_EL1_write]
+path = "../ICC_CTLR_EL1_write"
+
+[dependencies.ICC_IGRPEN1_EL1_read]
+path = "../ICC_IGRPEN1_EL1_read"
+
+[dependencies.ICC_IGRPEN1_EL1_write]
+path = "../ICC_IGRPEN1_EL1_write"
+
+[dependencies.ICC_SRE_EL1_read]
+path = "../ICC_SRE_EL1_read"
+
+[dependencies.ICC_SRE_EL1_write]
+path = "../ICC_SRE_EL1_write"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.MPAM1_EL1_read]
+path = "../MPAM1_EL1_read"
+
+[dependencies.MPAM1_EL1_write]
+path = "../MPAM1_EL1_write"
+
+[dependencies.MPAM3_EL3_read]
+path = "../MPAM3_EL3_read"
+
+[dependencies.MPAM3_EL3_write]
+path = "../MPAM3_EL3_write"
+
+[dependencies.Mk_ICC_BPR1_EL1_Type]
+path = "../Mk_ICC_BPR1_EL1_Type"
+
+[dependencies.Mk_ICC_CTLR_EL1_Type]
+path = "../Mk_ICC_CTLR_EL1_Type"
+
+[dependencies.Mk_ICC_IGRPEN1_EL1_Type]
+path = "../Mk_ICC_IGRPEN1_EL1_Type"
+
+[dependencies.Mk_ICC_SRE_EL1_Type]
+path = "../Mk_ICC_SRE_EL1_Type"
+
+[dependencies.Mk_MPAM1_EL1_Type]
+path = "../Mk_MPAM1_EL1_Type"
+
+[dependencies.Mk_MPAM3_EL3_Type]
+path = "../Mk_MPAM3_EL3_Type"
+
+[dependencies.Mk_PAR_EL1_Type]
+path = "../Mk_PAR_EL1_Type"
+
+[dependencies.Mk_SDER32_EL3_Type]
+path = "../Mk_SDER32_EL3_Type"
+
+[dependencies.Mk_TTBR0_EL1_Type]
+path = "../Mk_TTBR0_EL1_Type"
+
+[dependencies.Mk_TTBR0_EL2_Type]
+path = "../Mk_TTBR0_EL2_Type"
+
+[dependencies.Mk_TTBR1_EL1_Type]
+path = "../Mk_TTBR1_EL1_Type"
+
+[dependencies.Mk_VTTBR_EL2_Type]
+path = "../Mk_VTTBR_EL2_Type"
+
+[dependencies.PAR_EL1_read]
+path = "../PAR_EL1_read"
+
+[dependencies.PAR_EL1_write]
+path = "../PAR_EL1_write"
+
+[dependencies.SDER32_EL3_read]
+path = "../SDER32_EL3_read"
+
+[dependencies.SDER32_EL3_write]
+path = "../SDER32_EL3_write"
+
+[dependencies.TTBR0_EL1_read]
+path = "../TTBR0_EL1_read"
+
+[dependencies.TTBR0_EL1_write]
+path = "../TTBR0_EL1_write"
+
+[dependencies.TTBR0_EL2_read]
+path = "../TTBR0_EL2_read"
+
+[dependencies.TTBR0_EL2_write]
+path = "../TTBR0_EL2_write"
+
+[dependencies.TTBR1_EL1_read]
+path = "../TTBR1_EL1_read"
+
+[dependencies.TTBR1_EL1_write]
+path = "../TTBR1_EL1_write"
+
+[dependencies.VTTBR_EL2_read]
+path = "../VTTBR_EL2_read"
+
+[dependencies.VTTBR_EL2_write]
+path = "../VTTBR_EL2_write"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"
+
+[dependencies.u_update_ICC_IGRPEN1_EL1_Type_Enable]
+path = "../u_update_ICC_IGRPEN1_EL1_Type_Enable"
+
+[dependencies.u_update_ICC_SRE_EL1_Type_DFB]
+path = "../u_update_ICC_SRE_EL1_Type_DFB"
+
+[dependencies.u_update_ICC_SRE_EL1_Type_DIB]
+path = "../u_update_ICC_SRE_EL1_Type_DIB"
+
+[dependencies.u_update_ICC_SRE_EL1_Type_SRE]
+path = "../u_update_ICC_SRE_EL1_Type_SRE"
+
+[dependencies.u_update_MPAM1_EL1_Type_MPAMEN]
+path = "../u_update_MPAM1_EL1_Type_MPAMEN"
+
+[dependencies.u_update_MPAM3_EL3_Type_MPAMEN]
+path = "../u_update_MPAM3_EL3_Type_MPAMEN"
+
+[dependencies.u_update_MPAM3_EL3_Type_TRAPLOWER]
+path = "../u_update_MPAM3_EL3_Type_TRAPLOWER"

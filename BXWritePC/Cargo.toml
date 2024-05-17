@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "BXWritePC"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_CurrentCond]
+path = "../AArch32_CurrentCond"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.BranchTo]
+path = "../BranchTo"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.SelectInstrSet]
+path = "../SelectInstrSet"
+
+[dependencies.common]
+path = "../common"

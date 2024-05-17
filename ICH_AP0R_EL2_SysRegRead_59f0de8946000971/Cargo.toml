@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "ICH_AP0R_EL2_SysRegRead_59f0de8946000971"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_NV]
+path = "../u_get_HCR_EL2_Type_NV"
+
+[dependencies.u_get_ICC_SRE_EL2_Type_SRE]
+path = "../u_get_ICC_SRE_EL2_Type_SRE"
+
+[dependencies.u_get_ICC_SRE_EL3_Type_SRE]
+path = "../u_get_ICC_SRE_EL3_Type_SRE"

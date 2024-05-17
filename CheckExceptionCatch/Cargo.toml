@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "CheckExceptionCatch"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EDECCR_read]
+path = "../EDECCR_read"
+
+[dependencies.Halt]
+path = "../Halt"
+
+[dependencies.HaltingAllowed]
+path = "../HaltingAllowed"
+
+[dependencies.HaveExtendedECDebugEvents]
+path = "../HaveExtendedECDebugEvents"
+
+[dependencies.Havev8p8Debug]
+path = "../Havev8p8Debug"
+
+[dependencies.SecurityStateAtEL]
+path = "../SecurityStateAtEL"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "u__set_SCTLR_S"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u_get_SCTLR_Type_CP15BEN]
+path = "../u_get_SCTLR_Type_CP15BEN"
+
+[dependencies.u_get_SCTLR_Type_ITD]
+path = "../u_get_SCTLR_Type_ITD"

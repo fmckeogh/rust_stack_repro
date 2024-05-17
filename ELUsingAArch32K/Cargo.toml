@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "ELUsingAArch32K"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELStateUsingAArch32K]
+path = "../ELStateUsingAArch32K"
+
+[dependencies.IsSecureBelowEL3]
+path = "../IsSecureBelowEL3"
+
+[dependencies.common]
+path = "../common"

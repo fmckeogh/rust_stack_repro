@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_smmla_advsimd_vec_aarch64_instrs_vector_arithmetic_binary_uniform_mat_mul_int_mla"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveInt8MatMulExt]
+path = "../HaveInt8MatMulExt"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_vector_arithmetic_binary_uniform_mat_mul_int_mla]
+path = "../execute_aarch64_instrs_vector_arithmetic_binary_uniform_mat_mul_int_mla"

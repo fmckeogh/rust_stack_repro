@@ -1,0 +1,82 @@
+[package]
+edition = "2021"
+name = "AddPAC"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.CalculateBottomPACBit]
+path = "../CalculateBottomPACBit"
+
+[dependencies.ComputePAC]
+path = "../ComputePAC"
+
+[dependencies.ConstPACField]
+path = "../ConstPACField"
+
+[dependencies.EffectiveMTX]
+path = "../EffectiveMTX"
+
+[dependencies.EffectiveTBI]
+path = "../EffectiveTBI"
+
+[dependencies.HaveEnhancedPAC]
+path = "../HaveEnhancedPAC"
+
+[dependencies.HaveEnhancedPAC2]
+path = "../HaveEnhancedPAC2"
+
+[dependencies.IsZero]
+path = "../IsZero"
+
+[dependencies.Ones]
+path = "../Ones"
+
+[dependencies.PtrHasUpperAndLowerAddRanges]
+path = "../PtrHasUpperAndLowerAddRanges"
+
+[dependencies.S1TranslationRegime__1]
+path = "../S1TranslationRegime__1"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.replicate_bits_borealis_internal]
+path = "../replicate_bits_borealis_internal"
+
+[dependencies.subrange_subrange_concat]
+path = "../subrange_subrange_concat"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.u_get_TCR_EL1_Type_TBI0]
+path = "../u_get_TCR_EL1_Type_TBI0"
+
+[dependencies.u_get_TCR_EL1_Type_TBI1]
+path = "../u_get_TCR_EL1_Type_TBI1"
+
+[dependencies.u_get_TCR_EL1_Type_TBID0]
+path = "../u_get_TCR_EL1_Type_TBID0"
+
+[dependencies.u_get_TCR_EL1_Type_TBID1]
+path = "../u_get_TCR_EL1_Type_TBID1"
+
+[dependencies.u_get_TCR_EL2_Type_TBI0]
+path = "../u_get_TCR_EL2_Type_TBI0"
+
+[dependencies.u_get_TCR_EL2_Type_TBI1]
+path = "../u_get_TCR_EL2_Type_TBI1"
+
+[dependencies.u_get_TCR_EL2_Type_TBID0]
+path = "../u_get_TCR_EL2_Type_TBID0"
+
+[dependencies.u_get_TCR_EL2_Type_TBID1]
+path = "../u_get_TCR_EL2_Type_TBID1"

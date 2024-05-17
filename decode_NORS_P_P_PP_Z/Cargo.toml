@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_NORS_P_P_PP_Z"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.HaveSME]
+path = "../HaveSME"
+
+[dependencies.HaveSVE]
+path = "../HaveSVE"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_NORS_P_P_PP_Z]
+path = "../execute_NORS_P_P_PP_Z"

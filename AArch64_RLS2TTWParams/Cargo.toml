@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "AArch64_RLS2TTWParams"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_NSS2TTWParams]
+path = "../AArch64_NSS2TTWParams"
+
+[dependencies.HaveFeatMEC]
+path = "../HaveFeatMEC"
+
+[dependencies.IsSCTLR2EL2Enabled]
+path = "../IsSCTLR2EL2Enabled"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_SCTLR2_EL2_Type_EMEC]
+path = "../u_get_SCTLR2_EL2_Type_EMEC"

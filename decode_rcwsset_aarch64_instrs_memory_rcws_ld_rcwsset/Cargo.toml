@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "decode_rcwsset_aarch64_instrs_memory_rcws_ld_rcwsset"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveTHExt]
+path = "../HaveTHExt"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_memory_rcws_ld_rcwsset]
+path = "../execute_aarch64_instrs_memory_rcws_ld_rcwsset"
+
+[dependencies.neq_int]
+path = "../neq_int"

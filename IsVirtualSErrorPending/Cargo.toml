@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "IsVirtualSErrorPending"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_VSE]
+path = "../u_get_HCR_EL2_Type_VSE"
+
+[dependencies.u_get_HCR_Type_VA]
+path = "../u_get_HCR_Type_VA"

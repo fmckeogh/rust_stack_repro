@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "HaltingAllowed"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.DoubleLockStatus]
+path = "../DoubleLockStatus"
+
+[dependencies.ExternalInvasiveDebugEnabled]
+path = "../ExternalInvasiveDebugEnabled"
+
+[dependencies.ExternalRealmInvasiveDebugEnabled]
+path = "../ExternalRealmInvasiveDebugEnabled"
+
+[dependencies.ExternalRootInvasiveDebugEnabled]
+path = "../ExternalRootInvasiveDebugEnabled"
+
+[dependencies.ExternalSecureInvasiveDebugEnabled]
+path = "../ExternalSecureInvasiveDebugEnabled"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.common]
+path = "../common"

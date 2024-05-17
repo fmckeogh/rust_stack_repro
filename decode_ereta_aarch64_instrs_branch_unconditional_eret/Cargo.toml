@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_ereta_aarch64_instrs_branch_unconditional_eret"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HavePACExt]
+path = "../HavePACExt"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_branch_unconditional_eret]
+path = "../execute_aarch64_instrs_branch_unconditional_eret"

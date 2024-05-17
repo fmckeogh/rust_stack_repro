@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "GCSPCRSelected"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_GCSCRE0_EL1_Type_PCRSEL]
+path = "../u_get_GCSCRE0_EL1_Type_PCRSEL"
+
+[dependencies.u_get_GCSCR_EL1_Type_PCRSEL]
+path = "../u_get_GCSCR_EL1_Type_PCRSEL"
+
+[dependencies.u_get_GCSCR_EL2_Type_PCRSEL]
+path = "../u_get_GCSCR_EL2_Type_PCRSEL"
+
+[dependencies.u_get_GCSCR_EL3_Type_PCRSEL]
+path = "../u_get_GCSCR_EL3_Type_PCRSEL"

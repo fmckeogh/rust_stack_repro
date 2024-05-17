@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_sm3partw2_advsimd_aarch64_instrs_vector_crypto_sm3_sm3partw2"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveSM3Ext]
+path = "../HaveSM3Ext"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_vector_crypto_sm3_sm3partw2]
+path = "../execute_aarch64_instrs_vector_crypto_sm3_sm3partw2"

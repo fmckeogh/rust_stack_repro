@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "u__DecodeA64"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__DecodeA64_BranchExcSys]
+path = "../u__DecodeA64_BranchExcSys"
+
+[dependencies.u__DecodeA64_DataProcFPSIMD]
+path = "../u__DecodeA64_DataProcFPSIMD"
+
+[dependencies.u__DecodeA64_DataProcImm]
+path = "../u__DecodeA64_DataProcImm"
+
+[dependencies.u__DecodeA64_DataProcReg]
+path = "../u__DecodeA64_DataProcReg"
+
+[dependencies.u__DecodeA64_LoadStore]
+path = "../u__DecodeA64_LoadStore"
+
+[dependencies.u__DecodeA64_Reserved]
+path = "../u__DecodeA64_Reserved"
+
+[dependencies.u__DecodeA64_SME]
+path = "../u__DecodeA64_SME"
+
+[dependencies.u__DecodeA64_SVE]
+path = "../u__DecodeA64_SVE"
+
+[dependencies.u__DecodeA64_Unallocated1]
+path = "../u__DecodeA64_Unallocated1"
+
+[dependencies.u__DecodeA64_Unallocated2]
+path = "../u__DecodeA64_Unallocated2"

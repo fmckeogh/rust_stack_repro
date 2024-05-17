@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "AArch32_FullTranslate"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_S1TranslateLD]
+path = "../AArch32_S1TranslateLD"
+
+[dependencies.AArch32_S1TranslateSD]
+path = "../AArch32_S1TranslateSD"
+
+[dependencies.AArch32_S2Translate]
+path = "../AArch32_S2Translate"
+
+[dependencies.CreateFaultyAddressDescriptor]
+path = "../CreateFaultyAddressDescriptor"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.NoFault__1]
+path = "../NoFault__1"
+
+[dependencies.TTBCR_read]
+path = "../TTBCR_read"
+
+[dependencies.TranslationRegime]
+path = "../TranslationRegime"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_TTBCR_Type_EAE]
+path = "../u_get_TTBCR_Type_EAE"

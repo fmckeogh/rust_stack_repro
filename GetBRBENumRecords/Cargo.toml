@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "GetBRBENumRecords"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_integer]
+path = "../u__IMPDEF_integer"
+
+[dependencies.u_get_BRBIDR0_EL1_Type_NUMREC]
+path = "../u_get_BRBIDR0_EL1_Type_NUMREC"

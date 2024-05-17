@@ -1,0 +1,46 @@
+[package]
+edition = "2021"
+name = "execute_BFMOPS_ZA32_PP_ZZ__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ActivePredicateElement]
+path = "../ActivePredicateElement"
+
+[dependencies.BFDotAdd]
+path = "../BFDotAdd"
+
+[dependencies.BFNeg__1]
+path = "../BFNeg__1"
+
+[dependencies.CheckStreamingSVEAndZAEnabled]
+path = "../CheckStreamingSVEAndZAEnabled"
+
+[dependencies.Elem_read]
+path = "../Elem_read"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.FPCR_read]
+path = "../FPCR_read"
+
+[dependencies.FPZero]
+path = "../FPZero"
+
+[dependencies.P_read]
+path = "../P_read"
+
+[dependencies.ZAtile_read]
+path = "../ZAtile_read"
+
+[dependencies.ZAtile_set]
+path = "../ZAtile_set"
+
+[dependencies.Z_read]
+path = "../Z_read"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_aarch32_instrs_IT_T1enc_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.BitCount]
+path = "../BitCount"
+
+[dependencies.InITBlock]
+path = "../InITBlock"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch32_instrs_IT_Op_A_txt]
+path = "../execute_aarch32_instrs_IT_Op_A_txt"
+
+[dependencies.neq_int]
+path = "../neq_int"

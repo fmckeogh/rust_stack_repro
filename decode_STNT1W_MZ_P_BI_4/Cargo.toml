@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_STNT1W_MZ_P_BI_4"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.HaveSME2]
+path = "../HaveSME2"
+
+[dependencies.HaveSVE2p1]
+path = "../HaveSVE2p1"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_STNT1W_MZ_P_BI_4]
+path = "../execute_STNT1W_MZ_P_BI_4"

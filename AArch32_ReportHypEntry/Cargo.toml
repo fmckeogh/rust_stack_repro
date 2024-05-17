@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "AArch32_ReportHypEntry"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_ExceptionClass]
+path = "../AArch32_ExceptionClass"
+
+[dependencies.HDFAR_write]
+path = "../HDFAR_write"
+
+[dependencies.HIFAR_write]
+path = "../HIFAR_write"
+
+[dependencies.HPFAR_read]
+path = "../HPFAR_read"
+
+[dependencies.HPFAR_write]
+path = "../HPFAR_write"
+
+[dependencies.HSR_write]
+path = "../HSR_write"
+
+[dependencies.Mk_HPFAR_Type]
+path = "../Mk_HPFAR_Type"
+
+[dependencies.Mk_HSR_Type]
+path = "../Mk_HSR_Type"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"

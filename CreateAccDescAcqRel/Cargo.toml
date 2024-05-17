@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "CreateAccDescAcqRel"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveTME]
+path = "../HaveTME"
+
+[dependencies.NewAccDesc]
+path = "../NewAccDesc"
+
+[dependencies.common]
+path = "../common"

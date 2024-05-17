@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "RMR_SysRegRead32_43cf65be6b4153a2"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.IsHighestEL]
+path = "../IsHighestEL"
+
+[dependencies.RMR_read]
+path = "../RMR_read"
+
+[dependencies.R_set]
+path = "../R_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_RMR]
+path = "../u__get_RMR"

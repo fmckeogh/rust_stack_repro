@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "AArch32_CheckPCAlignment"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_Abort]
+path = "../AArch32_Abort"
+
+[dependencies.AArch32_GeneralExceptionsToAArch64]
+path = "../AArch32_GeneralExceptionsToAArch64"
+
+[dependencies.AArch64_PCAlignmentFault]
+path = "../AArch64_PCAlignmentFault"
+
+[dependencies.CreateAccDescIFetch]
+path = "../CreateAccDescIFetch"
+
+[dependencies.CurrentInstrSet]
+path = "../CurrentInstrSet"
+
+[dependencies.NoFault__1]
+path = "../NoFault__1"
+
+[dependencies.ThisInstrAddr]
+path = "../ThisInstrAddr"
+
+[dependencies.common]
+path = "../common"

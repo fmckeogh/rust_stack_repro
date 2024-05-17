@@ -1,0 +1,46 @@
+[package]
+edition = "2021"
+name = "GetPSRFromPSTATE"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.HaveBTIExt]
+path = "../HaveBTIExt"
+
+[dependencies.HaveDITExt]
+path = "../HaveDITExt"
+
+[dependencies.HaveFeatNMI]
+path = "../HaveFeatNMI"
+
+[dependencies.HaveGCS]
+path = "../HaveGCS"
+
+[dependencies.HaveMTEExt]
+path = "../HaveMTEExt"
+
+[dependencies.HavePANExt]
+path = "../HavePANExt"
+
+[dependencies.HaveSSBSExt]
+path = "../HaveSSBSExt"
+
+[dependencies.HaveUAOExt]
+path = "../HaveUAOExt"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__id]
+path = "../u__id"

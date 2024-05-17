@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "S1_op1_Cn_Cm_op2_SysOpsWrite128_8cc8b9dd1f9a8cdc"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_ImpDefSysInstr128]
+path = "../AArch64_ImpDefSysInstr128"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HCR_EL2_Type_TIDCP]
+path = "../u_get_HCR_EL2_Type_TIDCP"
+
+[dependencies.u_get_SCTLR_EL1_Type_TIDCP]
+path = "../u_get_SCTLR_EL1_Type_TIDCP"
+
+[dependencies.u_get_SCTLR_EL2_Type_TIDCP]
+path = "../u_get_SCTLR_EL2_Type_TIDCP"

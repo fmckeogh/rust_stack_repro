@@ -1,0 +1,70 @@
+[package]
+edition = "2021"
+name = "DBGWCR_EL1_SysRegWrite_f25a750222e0315f"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.EffectiveMDSELR_EL1_BANK]
+path = "../EffectiveMDSELR_EL1_BANK"
+
+[dependencies.Halt]
+path = "../Halt"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.HaltingAllowed]
+path = "../HaltingAllowed"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.Mk_DBGWCR_EL1_Type]
+path = "../Mk_DBGWCR_EL1_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_EDSCR_Type_TDA]
+path = "../u_get_EDSCR_Type_TDA"
+
+[dependencies.u_get_HDFGWTR_EL2_Type_DBGWCRn_EL1]
+path = "../u_get_HDFGWTR_EL2_Type_DBGWCRn_EL1"
+
+[dependencies.u_get_MDCR_EL2_Type_TDA]
+path = "../u_get_MDCR_EL2_Type_TDA"
+
+[dependencies.u_get_MDCR_EL2_Type_TDE]
+path = "../u_get_MDCR_EL2_Type_TDE"
+
+[dependencies.u_get_MDCR_EL3_Type_TDA]
+path = "../u_get_MDCR_EL3_Type_TDA"
+
+[dependencies.u_get_MDSELR_EL1_Type_BANK]
+path = "../u_get_MDSELR_EL1_Type_BANK"
+
+[dependencies.u_get_OSLSR_EL1_Type_OSLK]
+path = "../u_get_OSLSR_EL1_Type_OSLK"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"

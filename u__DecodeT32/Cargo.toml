@@ -1,0 +1,1549 @@
+[package]
+edition = "2021"
+name = "u__DecodeT32"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.decode_aarch32_instrs_ADC_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_ADC_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_ADC_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_ADC_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_ADD_SP_i_T3enc_A_txt]
+path = "../decode_aarch32_instrs_ADD_SP_i_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_ADD_SP_i_T4enc_A_txt]
+path = "../decode_aarch32_instrs_ADD_SP_i_T4enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_ADD_SP_r_T3enc_A_txt]
+path = "../decode_aarch32_instrs_ADD_SP_r_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_ADD_i_T3enc_A_txt]
+path = "../decode_aarch32_instrs_ADD_i_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_ADD_i_T4enc_A_txt]
+path = "../decode_aarch32_instrs_ADD_i_T4enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_ADD_r_T3enc_A_txt]
+path = "../decode_aarch32_instrs_ADD_r_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_ADR_T2enc_A_txt]
+path = "../decode_aarch32_instrs_ADR_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_ADR_T3enc_A_txt]
+path = "../decode_aarch32_instrs_ADR_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_AESD_T1enc_A_txt]
+path = "../decode_aarch32_instrs_AESD_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_AESE_T1enc_A_txt]
+path = "../decode_aarch32_instrs_AESE_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_AESIMC_T1enc_A_txt]
+path = "../decode_aarch32_instrs_AESIMC_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_AESMC_T1enc_A_txt]
+path = "../decode_aarch32_instrs_AESMC_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_AND_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_AND_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_AND_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_AND_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_BFC_T1enc_A_txt]
+path = "../decode_aarch32_instrs_BFC_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_BFI_T1enc_A_txt]
+path = "../decode_aarch32_instrs_BFI_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_BIC_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_BIC_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_BIC_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_BIC_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_BL_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_BL_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_BL_i_T2enc_A_txt]
+path = "../decode_aarch32_instrs_BL_i_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_BXJ_T1enc_A_txt]
+path = "../decode_aarch32_instrs_BXJ_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_B_T3enc_A_txt]
+path = "../decode_aarch32_instrs_B_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_B_T4enc_A_txt]
+path = "../decode_aarch32_instrs_B_T4enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_CLRBHB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_CLRBHB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_CLREX_T1enc_A_txt]
+path = "../decode_aarch32_instrs_CLREX_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_CLZ_T1enc_A_txt]
+path = "../decode_aarch32_instrs_CLZ_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_CMN_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_CMN_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_CMN_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_CMN_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_CMP_i_T2enc_A_txt]
+path = "../decode_aarch32_instrs_CMP_i_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_CMP_r_T3enc_A_txt]
+path = "../decode_aarch32_instrs_CMP_r_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_CPS_T2enc_AS_txt]
+path = "../decode_aarch32_instrs_CPS_T2enc_AS_txt"
+
+[dependencies.decode_aarch32_instrs_CRC32_T1enc_A_txt]
+path = "../decode_aarch32_instrs_CRC32_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_CSDB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_CSDB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_DBG_T1enc_A_txt]
+path = "../decode_aarch32_instrs_DBG_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_DCPS1_T1enc_A_txt]
+path = "../decode_aarch32_instrs_DCPS1_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_DCPS2_T1enc_A_txt]
+path = "../decode_aarch32_instrs_DCPS2_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_DCPS3_T1enc_A_txt]
+path = "../decode_aarch32_instrs_DCPS3_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_DMB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_DMB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_DOT_T1enc_A_txt]
+path = "../decode_aarch32_instrs_DOT_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_DSB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_DSB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_EOR_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_EOR_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_EOR_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_EOR_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_ERET_T1enc_A_txt]
+path = "../decode_aarch32_instrs_ERET_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_ESB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_ESB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_HVC_T1enc_A_txt]
+path = "../decode_aarch32_instrs_HVC_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_ISB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_ISB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDAB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDAB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDAEXB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDAEXB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDAEXD_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDAEXD_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDAEXH_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDAEXH_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDAEX_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDAEX_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDAH_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDAH_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDA_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDA_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDC_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDC_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDC_l_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDC_l_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDMDB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDMDB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDM_T2enc_A_txt]
+path = "../decode_aarch32_instrs_LDM_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRBT_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDRBT_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRB_i_T2enc_A_txt]
+path = "../decode_aarch32_instrs_LDRB_i_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRB_i_T3enc_A_txt]
+path = "../decode_aarch32_instrs_LDRB_i_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRB_l_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDRB_l_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRB_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_LDRB_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRD_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDRD_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRD_l_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDRD_l_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDREXB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDREXB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDREXD_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDREXD_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDREXH_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDREXH_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDREX_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDREX_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRHT_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDRHT_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRH_i_T2enc_A_txt]
+path = "../decode_aarch32_instrs_LDRH_i_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRH_i_T3enc_A_txt]
+path = "../decode_aarch32_instrs_LDRH_i_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRH_l_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDRH_l_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRH_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_LDRH_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRSBT_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDRSBT_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRSB_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDRSB_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRSB_i_T2enc_A_txt]
+path = "../decode_aarch32_instrs_LDRSB_i_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRSB_l_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDRSB_l_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRSB_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_LDRSB_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRSHT_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDRSHT_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRSH_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDRSH_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRSH_i_T2enc_A_txt]
+path = "../decode_aarch32_instrs_LDRSH_i_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRSH_l_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDRSH_l_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRSH_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_LDRSH_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDRT_T1enc_A_txt]
+path = "../decode_aarch32_instrs_LDRT_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDR_i_T3enc_A_txt]
+path = "../decode_aarch32_instrs_LDR_i_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDR_i_T4enc_A_txt]
+path = "../decode_aarch32_instrs_LDR_i_T4enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDR_l_T2enc_A_txt]
+path = "../decode_aarch32_instrs_LDR_l_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LDR_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_LDR_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_LSL_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_LSL_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_MCRR_T1enc_A_txt]
+path = "../decode_aarch32_instrs_MCRR_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_MCR_T1enc_A_txt]
+path = "../decode_aarch32_instrs_MCR_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_MLA_T1enc_A_txt]
+path = "../decode_aarch32_instrs_MLA_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_MLS_T1enc_A_txt]
+path = "../decode_aarch32_instrs_MLS_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_MMLA_T1enc_A_txt]
+path = "../decode_aarch32_instrs_MMLA_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_MOVT_T1enc_A_txt]
+path = "../decode_aarch32_instrs_MOVT_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_MOV_i_T2enc_A_txt]
+path = "../decode_aarch32_instrs_MOV_i_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_MOV_i_T3enc_A_txt]
+path = "../decode_aarch32_instrs_MOV_i_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_MOV_r_T3enc_A_txt]
+path = "../decode_aarch32_instrs_MOV_r_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_MOV_rr_T2enc_A_txt]
+path = "../decode_aarch32_instrs_MOV_rr_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_MRC_T1enc_A_txt]
+path = "../decode_aarch32_instrs_MRC_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_MRRC_T1enc_A_txt]
+path = "../decode_aarch32_instrs_MRRC_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_MRS_T1enc_AS_txt]
+path = "../decode_aarch32_instrs_MRS_T1enc_AS_txt"
+
+[dependencies.decode_aarch32_instrs_MRS_br_T1enc_AS_txt]
+path = "../decode_aarch32_instrs_MRS_br_T1enc_AS_txt"
+
+[dependencies.decode_aarch32_instrs_MSR_br_T1enc_AS_txt]
+path = "../decode_aarch32_instrs_MSR_br_T1enc_AS_txt"
+
+[dependencies.decode_aarch32_instrs_MSR_r_T1enc_AS_txt]
+path = "../decode_aarch32_instrs_MSR_r_T1enc_AS_txt"
+
+[dependencies.decode_aarch32_instrs_MUL_T2enc_A_txt]
+path = "../decode_aarch32_instrs_MUL_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_MVN_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_MVN_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_MVN_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_MVN_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_NOP_T2enc_A_txt]
+path = "../decode_aarch32_instrs_NOP_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_ORN_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_ORN_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_ORN_r_T1enc_A_txt]
+path = "../decode_aarch32_instrs_ORN_r_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_ORR_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_ORR_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_ORR_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_ORR_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_PKH_T1enc_A_txt]
+path = "../decode_aarch32_instrs_PKH_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_PLD_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_PLD_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_PLD_i_T2enc_A_txt]
+path = "../decode_aarch32_instrs_PLD_i_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_PLD_l_T1enc_A_txt]
+path = "../decode_aarch32_instrs_PLD_l_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_PLD_r_T1enc_A_txt]
+path = "../decode_aarch32_instrs_PLD_r_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_PLI_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_PLI_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_PLI_i_T2enc_A_txt]
+path = "../decode_aarch32_instrs_PLI_i_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_PLI_i_T3enc_A_txt]
+path = "../decode_aarch32_instrs_PLI_i_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_PLI_r_T1enc_A_txt]
+path = "../decode_aarch32_instrs_PLI_r_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_PSSBB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_PSSBB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_QADD16_T1enc_A_txt]
+path = "../decode_aarch32_instrs_QADD16_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_QADD8_T1enc_A_txt]
+path = "../decode_aarch32_instrs_QADD8_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_QADD_T1enc_A_txt]
+path = "../decode_aarch32_instrs_QADD_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_QASX_T1enc_A_txt]
+path = "../decode_aarch32_instrs_QASX_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_QDADD_T1enc_A_txt]
+path = "../decode_aarch32_instrs_QDADD_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_QDSUB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_QDSUB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_QSAX_T1enc_A_txt]
+path = "../decode_aarch32_instrs_QSAX_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_QSUB16_T1enc_A_txt]
+path = "../decode_aarch32_instrs_QSUB16_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_QSUB8_T1enc_A_txt]
+path = "../decode_aarch32_instrs_QSUB8_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_QSUB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_QSUB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_RBIT_T1enc_A_txt]
+path = "../decode_aarch32_instrs_RBIT_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_REV16_T2enc_A_txt]
+path = "../decode_aarch32_instrs_REV16_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_REVSH_T2enc_A_txt]
+path = "../decode_aarch32_instrs_REVSH_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_REV_T2enc_A_txt]
+path = "../decode_aarch32_instrs_REV_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_RFE_T1enc_AS_txt]
+path = "../decode_aarch32_instrs_RFE_T1enc_AS_txt"
+
+[dependencies.decode_aarch32_instrs_RFE_T2enc_AS_txt]
+path = "../decode_aarch32_instrs_RFE_T2enc_AS_txt"
+
+[dependencies.decode_aarch32_instrs_RSB_i_T2enc_A_txt]
+path = "../decode_aarch32_instrs_RSB_i_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_RSB_r_T1enc_A_txt]
+path = "../decode_aarch32_instrs_RSB_r_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SADD16_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SADD16_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SADD8_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SADD8_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SASX_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SASX_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SBC_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SBC_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SBC_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_SBC_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SBFX_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SBFX_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SDIV_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SDIV_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SEL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SEL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SEVL_T2enc_A_txt]
+path = "../decode_aarch32_instrs_SEVL_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SEV_T2enc_A_txt]
+path = "../decode_aarch32_instrs_SEV_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SHA1C_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SHA1C_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SHA1H_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SHA1H_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SHA1M_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SHA1M_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SHA1P_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SHA1P_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SHA1SU0_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SHA1SU0_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SHA1SU1_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SHA1SU1_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SHA256H2_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SHA256H2_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SHA256H_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SHA256H_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SHA256SU0_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SHA256SU0_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SHA256SU1_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SHA256SU1_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SHADD16_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SHADD16_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SHADD8_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SHADD8_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SHASX_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SHASX_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SHSAX_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SHSAX_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SHSUB16_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SHSUB16_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SHSUB8_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SHSUB8_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SMC_T1enc_AS_txt]
+path = "../decode_aarch32_instrs_SMC_T1enc_AS_txt"
+
+[dependencies.decode_aarch32_instrs_SMLABB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SMLABB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SMLAD_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SMLAD_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SMLALBB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SMLALBB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SMLALD_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SMLALD_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SMLAL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SMLAL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SMLAWB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SMLAWB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SMLSD_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SMLSD_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SMLSLD_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SMLSLD_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SMMLA_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SMMLA_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SMMLS_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SMMLS_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SMMUL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SMMUL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SMUAD_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SMUAD_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SMULBB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SMULBB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SMULL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SMULL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SMULWB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SMULWB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SMUSD_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SMUSD_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SRS_T1enc_AS_txt]
+path = "../decode_aarch32_instrs_SRS_T1enc_AS_txt"
+
+[dependencies.decode_aarch32_instrs_SRS_T2enc_AS_txt]
+path = "../decode_aarch32_instrs_SRS_T2enc_AS_txt"
+
+[dependencies.decode_aarch32_instrs_SSAT16_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SSAT16_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SSAT_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SSAT_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SSAX_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SSAX_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SSBB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SSBB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SSUB16_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SSUB16_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SSUB8_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SSUB8_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STC_T1enc_A_txt]
+path = "../decode_aarch32_instrs_STC_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STLB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_STLB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STLEXB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_STLEXB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STLEXD_T1enc_A_txt]
+path = "../decode_aarch32_instrs_STLEXD_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STLEXH_T1enc_A_txt]
+path = "../decode_aarch32_instrs_STLEXH_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STLEX_T1enc_A_txt]
+path = "../decode_aarch32_instrs_STLEX_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STLH_T1enc_A_txt]
+path = "../decode_aarch32_instrs_STLH_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_STL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STMDB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_STMDB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STM_T2enc_A_txt]
+path = "../decode_aarch32_instrs_STM_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STRBT_T1enc_A_txt]
+path = "../decode_aarch32_instrs_STRBT_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STRB_i_T2enc_A_txt]
+path = "../decode_aarch32_instrs_STRB_i_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STRB_i_T3enc_A_txt]
+path = "../decode_aarch32_instrs_STRB_i_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STRB_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_STRB_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STRD_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_STRD_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STREXB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_STREXB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STREXD_T1enc_A_txt]
+path = "../decode_aarch32_instrs_STREXD_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STREXH_T1enc_A_txt]
+path = "../decode_aarch32_instrs_STREXH_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STREX_T1enc_A_txt]
+path = "../decode_aarch32_instrs_STREX_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STRHT_T1enc_A_txt]
+path = "../decode_aarch32_instrs_STRHT_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STRH_i_T2enc_A_txt]
+path = "../decode_aarch32_instrs_STRH_i_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STRH_i_T3enc_A_txt]
+path = "../decode_aarch32_instrs_STRH_i_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STRH_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_STRH_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STRT_T1enc_A_txt]
+path = "../decode_aarch32_instrs_STRT_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STR_i_T3enc_A_txt]
+path = "../decode_aarch32_instrs_STR_i_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STR_i_T4enc_A_txt]
+path = "../decode_aarch32_instrs_STR_i_T4enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_STR_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_STR_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SUB_SP_i_T2enc_A_txt]
+path = "../decode_aarch32_instrs_SUB_SP_i_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SUB_SP_i_T3enc_A_txt]
+path = "../decode_aarch32_instrs_SUB_SP_i_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SUB_SP_r_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SUB_SP_r_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SUB_i_T3enc_A_txt]
+path = "../decode_aarch32_instrs_SUB_i_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SUB_i_T4enc_A_txt]
+path = "../decode_aarch32_instrs_SUB_i_T4enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SUB_i_T5enc_A_txt]
+path = "../decode_aarch32_instrs_SUB_i_T5enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SUB_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_SUB_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SXTAB16_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SXTAB16_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SXTAB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SXTAB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SXTAH_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SXTAH_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SXTB16_T1enc_A_txt]
+path = "../decode_aarch32_instrs_SXTB16_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SXTB_T2enc_A_txt]
+path = "../decode_aarch32_instrs_SXTB_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_SXTH_T2enc_A_txt]
+path = "../decode_aarch32_instrs_SXTH_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_TBB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_TBB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_TEQ_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_TEQ_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_TEQ_r_T1enc_A_txt]
+path = "../decode_aarch32_instrs_TEQ_r_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_TSB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_TSB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_TST_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_TST_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_TST_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_TST_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UADD16_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UADD16_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UADD8_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UADD8_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UASX_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UASX_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UBFX_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UBFX_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UDF_T2enc_A_txt]
+path = "../decode_aarch32_instrs_UDF_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UDIV_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UDIV_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UHADD16_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UHADD16_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UHADD8_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UHADD8_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UHASX_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UHASX_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UHSAX_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UHSAX_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UHSUB16_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UHSUB16_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UHSUB8_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UHSUB8_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UMAAL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UMAAL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UMLAL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UMLAL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UMULL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UMULL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UQADD16_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UQADD16_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UQADD8_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UQADD8_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UQASX_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UQASX_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UQSAX_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UQSAX_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UQSUB16_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UQSUB16_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UQSUB8_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UQSUB8_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_USAD8_T1enc_A_txt]
+path = "../decode_aarch32_instrs_USAD8_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_USADA8_T1enc_A_txt]
+path = "../decode_aarch32_instrs_USADA8_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_USAT16_T1enc_A_txt]
+path = "../decode_aarch32_instrs_USAT16_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_USAT_T1enc_A_txt]
+path = "../decode_aarch32_instrs_USAT_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_USAX_T1enc_A_txt]
+path = "../decode_aarch32_instrs_USAX_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_USUB16_T1enc_A_txt]
+path = "../decode_aarch32_instrs_USUB16_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_USUB8_T1enc_A_txt]
+path = "../decode_aarch32_instrs_USUB8_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UXTAB16_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UXTAB16_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UXTAB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UXTAB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UXTAH_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UXTAH_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UXTB16_T1enc_A_txt]
+path = "../decode_aarch32_instrs_UXTB16_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UXTB_T2enc_A_txt]
+path = "../decode_aarch32_instrs_UXTB_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_UXTH_T2enc_A_txt]
+path = "../decode_aarch32_instrs_UXTH_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VABA_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VABA_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VABA_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VABA_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VABD_f_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VABD_f_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VABD_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VABD_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VABD_i_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VABD_i_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VABS_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VABS_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VABS_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VABS_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VACGE_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VACGE_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VADDHN_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VADDHN_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VADDL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VADDL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VADD_f_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VADD_f_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VADD_f_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VADD_f_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VADD_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VADD_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VAND_r_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VAND_r_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VBIC_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VBIC_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VBIC_i_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VBIC_i_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VBIC_r_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VBIC_r_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VBIF_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VBIF_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCADD_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCADD_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCEQ_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCEQ_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCEQ_r_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCEQ_r_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCEQ_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VCEQ_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCGE_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCGE_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCGE_r_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCGE_r_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCGE_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VCGE_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCGT_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCGT_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCGT_r_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCGT_r_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCGT_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VCGT_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCLE_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCLE_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCLS_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCLS_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCLT_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCLT_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCLZ_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCLZ_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCMLA_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCMLA_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCMLA_idx_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCMLA_idx_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCMP_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCMP_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCMP_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VCMP_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCNT_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCNT_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCVTA_asimd_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCVTA_asimd_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCVTA_vfp_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCVTA_vfp_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCVTB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCVTB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCVTB_bf16_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCVTB_bf16_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCVTT_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCVTT_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCVT_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCVT_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCVT_ds_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCVT_ds_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCVT_hs_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCVT_hs_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCVT_is_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCVT_is_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCVT_iv_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCVT_iv_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCVT_xs_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCVT_xs_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VCVT_xv_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VCVT_xv_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VDIV_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VDIV_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VDOT_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VDOT_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VDOT_bf16_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VDOT_bf16_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VDOT_bf16_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VDOT_bf16_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VDOT_s_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VDOT_s_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VDUP_r_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VDUP_r_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VDUP_s_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VDUP_s_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VEOR_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VEOR_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VEXT_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VEXT_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VFMAL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VFMAL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VFMAL_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VFMAL_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VFMA_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VFMA_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VFMA_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VFMA_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VFMA_bf_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VFMA_bf_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VFMA_bfs_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VFMA_bfs_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VFNMA_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VFNMA_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VHADD_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VHADD_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VINS_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VINS_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VJCVT_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VJCVT_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD1_1_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VLD1_1_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD1_1_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VLD1_1_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD1_1_T3enc_A_txt]
+path = "../decode_aarch32_instrs_VLD1_1_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD1_a_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VLD1_a_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD1_m_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VLD1_m_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD1_m_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VLD1_m_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD1_m_T3enc_A_txt]
+path = "../decode_aarch32_instrs_VLD1_m_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD1_m_T4enc_A_txt]
+path = "../decode_aarch32_instrs_VLD1_m_T4enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD2_1_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VLD2_1_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD2_1_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VLD2_1_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD2_1_T3enc_A_txt]
+path = "../decode_aarch32_instrs_VLD2_1_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD2_a_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VLD2_a_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD2_m_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VLD2_m_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD2_m_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VLD2_m_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD3_1_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VLD3_1_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD3_1_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VLD3_1_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD3_1_T3enc_A_txt]
+path = "../decode_aarch32_instrs_VLD3_1_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD3_a_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VLD3_a_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD3_m_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VLD3_m_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD4_1_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VLD4_1_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD4_1_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VLD4_1_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD4_1_T3enc_A_txt]
+path = "../decode_aarch32_instrs_VLD4_1_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD4_a_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VLD4_a_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLD4_m_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VLD4_m_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLDM_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VLDM_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLDM_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VLDM_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VLDR_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VLDR_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMAXNM_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMAXNM_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMAXNM_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VMAXNM_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMAX_f_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMAX_f_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMAX_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMAX_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMLA_f_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMLA_f_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMLA_f_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VMLA_f_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMLA_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMLA_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMLA_i_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VMLA_i_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMLA_s_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMLA_s_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMLA_s_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VMLA_s_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMMLA_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMMLA_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMOVL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMOVL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMOVN_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMOVN_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMOVX_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMOVX_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMOV_d_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMOV_d_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMOV_h_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMOV_h_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMOV_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMOV_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMOV_i_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VMOV_i_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMOV_i_T3enc_A_txt]
+path = "../decode_aarch32_instrs_VMOV_i_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMOV_i_T4enc_A_txt]
+path = "../decode_aarch32_instrs_VMOV_i_T4enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMOV_i_T5enc_A_txt]
+path = "../decode_aarch32_instrs_VMOV_i_T5enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMOV_r_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VMOV_r_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMOV_rs_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMOV_rs_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMOV_s_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMOV_s_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMOV_sr_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMOV_sr_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMOV_ss_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMOV_ss_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMRS_T1enc_AS_txt]
+path = "../decode_aarch32_instrs_VMRS_T1enc_AS_txt"
+
+[dependencies.decode_aarch32_instrs_VMSR_T1enc_AS_txt]
+path = "../decode_aarch32_instrs_VMSR_T1enc_AS_txt"
+
+[dependencies.decode_aarch32_instrs_VMUL_f_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMUL_f_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMUL_f_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VMUL_f_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMUL_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMUL_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMUL_i_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VMUL_i_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMUL_s_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMUL_s_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMUL_s_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VMUL_s_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMVN_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMVN_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMVN_i_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VMVN_i_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMVN_i_T3enc_A_txt]
+path = "../decode_aarch32_instrs_VMVN_i_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VMVN_r_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VMVN_r_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VNEG_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VNEG_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VNEG_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VNEG_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VNMLA_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VNMLA_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VNMLA_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VNMLA_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VORN_r_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VORN_r_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VORR_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VORR_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VORR_i_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VORR_i_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VORR_r_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VORR_r_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VPADAL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VPADAL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VPADDL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VPADDL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VPADD_f_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VPADD_f_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VPADD_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VPADD_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VPMAX_f_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VPMAX_f_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VPMAX_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VPMAX_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQABS_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VQABS_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQADD_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VQADD_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQDMLAL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VQDMLAL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQDMLAL_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VQDMLAL_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQDMLSL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VQDMLSL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQDMLSL_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VQDMLSL_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQDMULH_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VQDMULH_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQDMULH_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VQDMULH_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQDMULL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VQDMULL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQDMULL_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VQDMULL_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQMOVN_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VQMOVN_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQNEG_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VQNEG_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQRDMLAH_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VQRDMLAH_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQRDMLAH_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VQRDMLAH_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQRDMLSH_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VQRDMLSH_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQRDMLSH_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VQRDMLSH_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQRDMULH_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VQRDMULH_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQRDMULH_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VQRDMULH_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQRSHL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VQRSHL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQRSHRN_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VQRSHRN_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQSHL_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VQSHL_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQSHL_r_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VQSHL_r_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQSHRN_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VQSHRN_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VQSUB_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VQSUB_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VRADDHN_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VRADDHN_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VRECPE_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VRECPE_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VRECPS_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VRECPS_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VREV16_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VREV16_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VRHADD_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VRHADD_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VRINTA_asimd_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VRINTA_asimd_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VRINTA_vfp_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VRINTA_vfp_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VRINTX_asimd_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VRINTX_asimd_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VRINTX_vfp_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VRINTX_vfp_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VRINTZ_asimd_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VRINTZ_asimd_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VRINTZ_vfp_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VRINTZ_vfp_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VRSHL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VRSHL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VRSHRN_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VRSHRN_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VRSHR_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VRSHR_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VRSQRTE_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VRSQRTE_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VRSQRTS_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VRSQRTS_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VRSRA_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VRSRA_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VRSUBHN_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VRSUBHN_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VSEL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VSEL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VSHLL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VSHLL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VSHLL_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VSHLL_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VSHL_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VSHL_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VSHL_r_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VSHL_r_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VSHRN_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VSHRN_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VSHR_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VSHR_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VSLI_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VSLI_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VSQRT_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VSQRT_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VSRA_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VSRA_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VSRI_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VSRI_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VST1_1_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VST1_1_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VST1_1_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VST1_1_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VST1_1_T3enc_A_txt]
+path = "../decode_aarch32_instrs_VST1_1_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VST1_m_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VST1_m_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VST1_m_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VST1_m_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VST1_m_T3enc_A_txt]
+path = "../decode_aarch32_instrs_VST1_m_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VST1_m_T4enc_A_txt]
+path = "../decode_aarch32_instrs_VST1_m_T4enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VST2_1_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VST2_1_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VST2_1_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VST2_1_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VST2_1_T3enc_A_txt]
+path = "../decode_aarch32_instrs_VST2_1_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VST2_m_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VST2_m_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VST2_m_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VST2_m_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VST3_1_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VST3_1_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VST3_1_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VST3_1_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VST3_1_T3enc_A_txt]
+path = "../decode_aarch32_instrs_VST3_1_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VST3_m_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VST3_m_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VST4_1_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VST4_1_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VST4_1_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VST4_1_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VST4_1_T3enc_A_txt]
+path = "../decode_aarch32_instrs_VST4_1_T3enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VST4_m_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VST4_m_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VSTM_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VSTM_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VSTM_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VSTM_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VSTR_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VSTR_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VSUBHN_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VSUBHN_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VSUBL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VSUBL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VSUB_f_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VSUB_f_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VSUB_f_T2enc_A_txt]
+path = "../decode_aarch32_instrs_VSUB_f_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VSUB_i_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VSUB_i_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VSWP_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VSWP_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VTBL_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VTBL_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VTRN_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VTRN_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VTST_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VTST_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VUSDOT_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VUSDOT_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VUZP_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VUZP_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_VZIP_T1enc_A_txt]
+path = "../decode_aarch32_instrs_VZIP_T1enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_WFE_T2enc_A_txt]
+path = "../decode_aarch32_instrs_WFE_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_WFI_T2enc_A_txt]
+path = "../decode_aarch32_instrs_WFI_T2enc_A_txt"
+
+[dependencies.decode_aarch32_instrs_YIELD_T2enc_A_txt]
+path = "../decode_aarch32_instrs_YIELD_T2enc_A_txt"

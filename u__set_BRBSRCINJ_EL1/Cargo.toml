@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "u__set_BRBSRCINJ_EL1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_BRBINFINJ_EL1_Type_VALID]
+path = "../u_get_BRBINFINJ_EL1_Type_VALID"
+
+[dependencies.u_get_BRBSRCINJ_EL1_Type_ADDRESS]
+path = "../u_get_BRBSRCINJ_EL1_Type_ADDRESS"

@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "ICC_BPR1_read"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.ICC_BPR1_NS_read]
+path = "../ICC_BPR1_NS_read"
+
+[dependencies.ICC_BPR1_S_read]
+path = "../ICC_BPR1_S_read"
+
+[dependencies.common]
+path = "../common"

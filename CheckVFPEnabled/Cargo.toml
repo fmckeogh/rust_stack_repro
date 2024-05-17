@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "CheckVFPEnabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_CheckAdvSIMDOrFPEnabled]
+path = "../AArch32_CheckAdvSIMDOrFPEnabled"
+
+[dependencies.common]
+path = "../common"

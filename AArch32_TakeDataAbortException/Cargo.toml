@@ -1,0 +1,73 @@
+[package]
+edition = "2021"
+name = "AArch32_TakeDataAbortException"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_AbortSyndrome]
+path = "../AArch32_AbortSyndrome"
+
+[dependencies.AArch32_EnterHypMode]
+path = "../AArch32_EnterHypMode"
+
+[dependencies.AArch32_EnterMode]
+path = "../AArch32_EnterMode"
+
+[dependencies.AArch32_EnterMonitorMode]
+path = "../AArch32_EnterMonitorMode"
+
+[dependencies.AArch32_ReportDataAbort]
+path = "../AArch32_ReportDataAbort"
+
+[dependencies.DBGDSCRext_read]
+path = "../DBGDSCRext_read"
+
+[dependencies.DBGDSCRext_write]
+path = "../DBGDSCRext_write"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.EffectiveEA]
+path = "../EffectiveEA"
+
+[dependencies.HCR2_read]
+path = "../HCR2_read"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.HDCR_read]
+path = "../HDCR_read"
+
+[dependencies.HaveRASExt]
+path = "../HaveRASExt"
+
+[dependencies.IsDebugException]
+path = "../IsDebugException"
+
+[dependencies.IsExternalAbort__1]
+path = "../IsExternalAbort__1"
+
+[dependencies.IsSecondStage]
+path = "../IsSecondStage"
+
+[dependencies.ThisInstrAddr]
+path = "../ThisInstrAddr"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR2_Type_TEA]
+path = "../u_get_HCR2_Type_TEA"
+
+[dependencies.u_get_HCR_Type_TGE]
+path = "../u_get_HCR_Type_TGE"
+
+[dependencies.u_get_HDCR_Type_TDE]
+path = "../u_get_HDCR_Type_TDE"
+
+[dependencies.u_update_DBGDSCRext_Type_MOE]
+path = "../u_update_DBGDSCRext_Type_MOE"

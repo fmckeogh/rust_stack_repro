@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "set_slice_zeros"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.slice_mask]
+path = "../slice_mask"

@@ -1,0 +1,43 @@
+[package]
+edition = "2021"
+name = "EffectiveMTX"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELIsInHost]
+path = "../ELIsInHost"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HaveMTE4Ext]
+path = "../HaveMTE4Ext"
+
+[dependencies.HaveVirtHostExt]
+path = "../HaveVirtHostExt"
+
+[dependencies.S1TranslationRegime]
+path = "../S1TranslationRegime"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_TCR_EL1_Type_MTX0]
+path = "../u_get_TCR_EL1_Type_MTX0"
+
+[dependencies.u_get_TCR_EL1_Type_MTX1]
+path = "../u_get_TCR_EL1_Type_MTX1"
+
+[dependencies.u_get_TCR_EL2_Type_MTX]
+path = "../u_get_TCR_EL2_Type_MTX"
+
+[dependencies.u_get_TCR_EL2_Type_MTX0]
+path = "../u_get_TCR_EL2_Type_MTX0"
+
+[dependencies.u_get_TCR_EL2_Type_MTX1]
+path = "../u_get_TCR_EL2_Type_MTX1"
+
+[dependencies.u_get_TCR_EL3_Type_MTX]
+path = "../u_get_TCR_EL3_Type_MTX"

@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "AArch64_CheckForWFxTrap"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_WFxTrap]
+path = "../AArch64_WFxTrap"
+
+[dependencies.SCTLR_read__1]
+path = "../SCTLR_read__1"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_TWE]
+path = "../u_get_HCR_EL2_Type_TWE"
+
+[dependencies.u_get_HCR_EL2_Type_TWI]
+path = "../u_get_HCR_EL2_Type_TWI"
+
+[dependencies.u_get_SCR_EL3_Type_TWE]
+path = "../u_get_SCR_EL3_Type_TWE"
+
+[dependencies.u_get_SCR_EL3_Type_TWI]
+path = "../u_get_SCR_EL3_Type_TWI"
+
+[dependencies.u_get_SCTLRType_nTWE]
+path = "../u_get_SCTLRType_nTWE"
+
+[dependencies.u_get_SCTLRType_nTWI]
+path = "../u_get_SCTLRType_nTWI"

@@ -1,0 +1,58 @@
+[package]
+edition = "2021"
+name = "AArch64_FaultSyndrome"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_EncodeSyncErrorSyndrome]
+path = "../AArch64_EncodeSyncErrorSyndrome"
+
+[dependencies.AArch64_PEErrorState]
+path = "../AArch64_PEErrorState"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.EncodeLDFSC]
+path = "../EncodeLDFSC"
+
+[dependencies.GetLoadStoreType]
+path = "../GetLoadStoreType"
+
+[dependencies.HaveFeatLS64]
+path = "../HaveFeatLS64"
+
+[dependencies.HaveNV2Ext]
+path = "../HaveNV2Ext"
+
+[dependencies.HaveRASExt]
+path = "../HaveRASExt"
+
+[dependencies.IsExternalAbort__1]
+path = "../IsExternalAbort__1"
+
+[dependencies.IsExternalSyncAbort__1]
+path = "../IsExternalSyncAbort__1"
+
+[dependencies.IsSecondStage]
+path = "../IsSecondStage"
+
+[dependencies.LS64InstructionSyndrome]
+path = "../LS64InstructionSyndrome"
+
+[dependencies.LSInstructionSyndrome]
+path = "../LSInstructionSyndrome"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__UNKNOWN_bit]
+path = "../u__UNKNOWN_bit"

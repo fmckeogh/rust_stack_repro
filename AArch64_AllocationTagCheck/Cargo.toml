@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "AArch64_AllocationTagCheck"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HandleExternalReadAbort]
+path = "../HandleExternalReadAbort"
+
+[dependencies.IsFault__2]
+path = "../IsFault__2"
+
+[dependencies.PhysMemTagRead]
+path = "../PhysMemTagRead"
+
+[dependencies.common]
+path = "../common"

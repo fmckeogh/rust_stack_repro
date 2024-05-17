@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_ERET_Op_AS_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_ExceptionReturn]
+path = "../AArch32_ExceptionReturn"
+
+[dependencies.DebugRestorePSR]
+path = "../DebugRestorePSR"
+
+[dependencies.ELR_hyp_read]
+path = "../ELR_hyp_read"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.R_read]
+path = "../R_read"
+
+[dependencies.SPSR_read]
+path = "../SPSR_read"
+
+[dependencies.SynchronizeContext]
+path = "../SynchronizeContext"
+
+[dependencies.common]
+path = "../common"

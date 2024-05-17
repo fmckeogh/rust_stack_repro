@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "AMCNTENCLR1_EL0_SysRegWrite_c63fb61a666d3a21"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.IsHighestEL]
+path = "../IsHighestEL"
+
+[dependencies.Mk_AMCNTENCLR1_EL0_Type]
+path = "../Mk_AMCNTENCLR1_EL0_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

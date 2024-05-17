@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_MSR_r_Op_AS_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CPSRWriteByInstr]
+path = "../CPSRWriteByInstr"
+
+[dependencies.R_read]
+path = "../R_read"
+
+[dependencies.SPSRWriteByInstr]
+path = "../SPSRWriteByInstr"
+
+[dependencies.common]
+path = "../common"

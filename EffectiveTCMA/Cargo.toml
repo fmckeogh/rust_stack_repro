@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "EffectiveTCMA"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELIsInHost]
+path = "../ELIsInHost"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HaveVirtHostExt]
+path = "../HaveVirtHostExt"
+
+[dependencies.S1TranslationRegime]
+path = "../S1TranslationRegime"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_TCR_EL1_Type_TCMA0]
+path = "../u_get_TCR_EL1_Type_TCMA0"
+
+[dependencies.u_get_TCR_EL1_Type_TCMA1]
+path = "../u_get_TCR_EL1_Type_TCMA1"
+
+[dependencies.u_get_TCR_EL2_Type_TCMA]
+path = "../u_get_TCR_EL2_Type_TCMA"
+
+[dependencies.u_get_TCR_EL2_Type_TCMA0]
+path = "../u_get_TCR_EL2_Type_TCMA0"
+
+[dependencies.u_get_TCR_EL2_Type_TCMA1]
+path = "../u_get_TCR_EL2_Type_TCMA1"
+
+[dependencies.u_get_TCR_EL3_Type_TCMA]
+path = "../u_get_TCR_EL3_Type_TCMA"

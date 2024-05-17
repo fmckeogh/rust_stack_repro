@@ -1,0 +1,109 @@
+[package]
+edition = "2021"
+name = "AArch32_S1TTWParamsEL10"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_GetVARange]
+path = "../AArch32_GetVARange"
+
+[dependencies.AArch32_HaveHPDExt]
+path = "../AArch32_HaveHPDExt"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HaveTrapLoadStoreMultipleDeviceExt]
+path = "../HaveTrapLoadStoreMultipleDeviceExt"
+
+[dependencies.MAIR0_NS_read]
+path = "../MAIR0_NS_read"
+
+[dependencies.MAIR0_read]
+path = "../MAIR0_read"
+
+[dependencies.MAIR1_NS_read]
+path = "../MAIR1_NS_read"
+
+[dependencies.MAIR1_read]
+path = "../MAIR1_read"
+
+[dependencies.Mk_MAIRType]
+path = "../Mk_MAIRType"
+
+[dependencies.SCTLR_NS_read]
+path = "../SCTLR_NS_read"
+
+[dependencies.SCTLR_read__2]
+path = "../SCTLR_read__2"
+
+[dependencies.TTBCR2_NS_read]
+path = "../TTBCR2_NS_read"
+
+[dependencies.TTBCR2_read]
+path = "../TTBCR2_read"
+
+[dependencies.TTBCR_NS_read]
+path = "../TTBCR_NS_read"
+
+[dependencies.TTBCR_read]
+path = "../TTBCR_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_SCR_EL3_Type_SIF]
+path = "../u_get_SCR_EL3_Type_SIF"
+
+[dependencies.u_get_SCR_Type_SIF]
+path = "../u_get_SCR_Type_SIF"
+
+[dependencies.u_get_SCTLR_Type_EE]
+path = "../u_get_SCTLR_Type_EE"
+
+[dependencies.u_get_SCTLR_Type_UWXN]
+path = "../u_get_SCTLR_Type_UWXN"
+
+[dependencies.u_get_SCTLR_Type_WXN]
+path = "../u_get_SCTLR_Type_WXN"
+
+[dependencies.u_get_SCTLR_Type_nTLSMD]
+path = "../u_get_SCTLR_Type_nTLSMD"
+
+[dependencies.u_get_TTBCR2_Type_HPD0]
+path = "../u_get_TTBCR2_Type_HPD0"
+
+[dependencies.u_get_TTBCR2_Type_HPD1]
+path = "../u_get_TTBCR2_Type_HPD1"
+
+[dependencies.u_get_TTBCR_Type_EAE]
+path = "../u_get_TTBCR_Type_EAE"
+
+[dependencies.u_get_TTBCR_Type_IRGN0]
+path = "../u_get_TTBCR_Type_IRGN0"
+
+[dependencies.u_get_TTBCR_Type_IRGN1]
+path = "../u_get_TTBCR_Type_IRGN1"
+
+[dependencies.u_get_TTBCR_Type_ORGN0]
+path = "../u_get_TTBCR_Type_ORGN0"
+
+[dependencies.u_get_TTBCR_Type_ORGN1]
+path = "../u_get_TTBCR_Type_ORGN1"
+
+[dependencies.u_get_TTBCR_Type_SH0]
+path = "../u_get_TTBCR_Type_SH0"
+
+[dependencies.u_get_TTBCR_Type_SH1]
+path = "../u_get_TTBCR_Type_SH1"
+
+[dependencies.u_get_TTBCR_Type_T0SZ]
+path = "../u_get_TTBCR_Type_T0SZ"
+
+[dependencies.u_get_TTBCR_Type_T1SZ]
+path = "../u_get_TTBCR_Type_T1SZ"
+
+[dependencies.u_get_TTBCR_Type_T2E]
+path = "../u_get_TTBCR_Type_T2E"

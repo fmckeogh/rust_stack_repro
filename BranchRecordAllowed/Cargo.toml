@@ -1,0 +1,49 @@
+[package]
+edition = "2021"
+name = "BranchRecordAllowed"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HaveBRBEv1p1]
+path = "../HaveBRBEv1p1"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_BRBCR_EL1_Type_E0BRE]
+path = "../u_get_BRBCR_EL1_Type_E0BRE"
+
+[dependencies.u_get_BRBCR_EL1_Type_E1BRE]
+path = "../u_get_BRBCR_EL1_Type_E1BRE"
+
+[dependencies.u_get_BRBCR_EL2_Type_E0HBRE]
+path = "../u_get_BRBCR_EL2_Type_E0HBRE"
+
+[dependencies.u_get_BRBCR_EL2_Type_E2BRE]
+path = "../u_get_BRBCR_EL2_Type_E2BRE"
+
+[dependencies.u_get_BRBFCR_EL1_Type_PAUSED]
+path = "../u_get_BRBFCR_EL1_Type_PAUSED"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_MDCR_EL3_Type_E3BREC]
+path = "../u_get_MDCR_EL3_Type_E3BREC"
+
+[dependencies.u_get_MDCR_EL3_Type_E3BREW]
+path = "../u_get_MDCR_EL3_Type_E3BREW"
+
+[dependencies.u_get_MDCR_EL3_Type_SBRBE]
+path = "../u_get_MDCR_EL3_Type_SBRBE"

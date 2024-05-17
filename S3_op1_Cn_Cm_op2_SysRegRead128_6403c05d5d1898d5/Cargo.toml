@@ -1,0 +1,67 @@
+[package]
+edition = "2021"
+name = "S3_op1_Cn_Cm_op2_SysRegRead128_6403c05d5d1898d5"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_ImpDefSysRegRead128]
+path = "../AArch64_ImpDefSysRegRead128"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.IsHCRXEL2Enabled]
+path = "../IsHCRXEL2Enabled"
+
+[dependencies.IsSCTLR2EL1Enabled]
+path = "../IsSCTLR2EL1Enabled"
+
+[dependencies.IsSCTLR2EL2Enabled]
+path = "../IsSCTLR2EL2Enabled"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_HCRX_EL2_Type_EnIDCP128]
+path = "../u_get_HCRX_EL2_Type_EnIDCP128"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HCR_EL2_Type_TIDCP]
+path = "../u_get_HCR_EL2_Type_TIDCP"
+
+[dependencies.u_get_SCR_EL3_Type_EnIDCP128]
+path = "../u_get_SCR_EL3_Type_EnIDCP128"
+
+[dependencies.u_get_SCTLR2_EL1_Type_EnIDCP128]
+path = "../u_get_SCTLR2_EL1_Type_EnIDCP128"
+
+[dependencies.u_get_SCTLR2_EL2_Type_EnIDCP128]
+path = "../u_get_SCTLR2_EL2_Type_EnIDCP128"
+
+[dependencies.u_get_SCTLR_EL1_Type_TIDCP]
+path = "../u_get_SCTLR_EL1_Type_TIDCP"
+
+[dependencies.u_get_SCTLR_EL2_Type_TIDCP]
+path = "../u_get_SCTLR_EL2_Type_TIDCP"

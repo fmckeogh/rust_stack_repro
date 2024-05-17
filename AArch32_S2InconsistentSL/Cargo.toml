@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "AArch32_S2InconsistentSL"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_S2IASize]
+path = "../AArch32_S2IASize"
+
+[dependencies.AArch32_S2StartLevel]
+path = "../AArch32_S2StartLevel"
+
+[dependencies.TGxGranuleBits]
+path = "../TGxGranuleBits"
+
+[dependencies.common]
+path = "../common"

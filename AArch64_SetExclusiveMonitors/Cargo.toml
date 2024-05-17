@@ -1,0 +1,43 @@
+[package]
+edition = "2021"
+name = "AArch64_SetExclusiveMonitors"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_Abort]
+path = "../AArch64_Abort"
+
+[dependencies.AArch64_MarkExclusiveVA]
+path = "../AArch64_MarkExclusiveVA"
+
+[dependencies.AArch64_TranslateAddress]
+path = "../AArch64_TranslateAddress"
+
+[dependencies.AArch64_UnalignedAccessFaults]
+path = "../AArch64_UnalignedAccessFaults"
+
+[dependencies.AlignmentFault]
+path = "../AlignmentFault"
+
+[dependencies.CreateAccDescExLDST]
+path = "../CreateAccDescExLDST"
+
+[dependencies.IsAligned__1]
+path = "../IsAligned__1"
+
+[dependencies.IsFault]
+path = "../IsFault"
+
+[dependencies.MarkExclusiveGlobal]
+path = "../MarkExclusiveGlobal"
+
+[dependencies.MarkExclusiveLocal]
+path = "../MarkExclusiveLocal"
+
+[dependencies.ProcessorID]
+path = "../ProcessorID"
+
+[dependencies.common]
+path = "../common"

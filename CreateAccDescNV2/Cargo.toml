@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "CreateAccDescNV2"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveTME]
+path = "../HaveTME"
+
+[dependencies.NewAccDesc]
+path = "../NewAccDesc"
+
+[dependencies.SecurityStateAtEL]
+path = "../SecurityStateAtEL"
+
+[dependencies.common]
+path = "../common"

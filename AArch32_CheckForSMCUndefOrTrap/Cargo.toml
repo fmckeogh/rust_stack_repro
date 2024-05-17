@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "AArch32_CheckForSMCUndefOrTrap"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_TakeHypTrapException__1]
+path = "../AArch32_TakeHypTrapException__1"
+
+[dependencies.AArch64_CheckForSMCUndefOrTrap]
+path = "../AArch64_CheckForSMCUndefOrTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.ExceptionSyndrome]
+path = "../ExceptionSyndrome"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_Type_TSC]
+path = "../u_get_HCR_Type_TSC"

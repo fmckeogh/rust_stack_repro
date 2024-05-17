@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "decode_svc_aarch64_instrs_system_exceptions_runtime_svc"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_system_exceptions_runtime_svc]
+path = "../execute_aarch64_instrs_system_exceptions_runtime_svc"

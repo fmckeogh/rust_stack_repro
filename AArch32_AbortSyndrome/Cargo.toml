@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "AArch32_AbortSyndrome"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_FaultSyndrome]
+path = "../AArch32_FaultSyndrome"
+
+[dependencies.ExceptionSyndrome]
+path = "../ExceptionSyndrome"
+
+[dependencies.IPAValid]
+path = "../IPAValid"
+
+[dependencies.common]
+path = "../common"

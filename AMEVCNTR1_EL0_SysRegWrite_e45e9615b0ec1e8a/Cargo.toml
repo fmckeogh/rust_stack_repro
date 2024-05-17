@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "AMEVCNTR1_EL0_SysRegWrite_e45e9615b0ec1e8a"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.IsG1ActivityMonitorImplemented]
+path = "../IsG1ActivityMonitorImplemented"
+
+[dependencies.IsHighestEL]
+path = "../IsHighestEL"
+
+[dependencies.Mk_AMEVCNTR1_EL0_Type]
+path = "../Mk_AMEVCNTR1_EL0_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

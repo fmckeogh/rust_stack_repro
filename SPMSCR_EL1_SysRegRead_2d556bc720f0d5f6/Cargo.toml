@@ -1,0 +1,61 @@
+[package]
+edition = "2021"
+name = "SPMSCR_EL1_SysRegRead_2d556bc720f0d5f6"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.IsCurrentSecurityState]
+path = "../IsCurrentSecurityState"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.SPMSCR_EL1_read]
+path = "../SPMSCR_EL1_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__get_selected_SPMACCESSR_EL2_field]
+path = "../u__get_selected_SPMACCESSR_EL2_field"
+
+[dependencies.u__get_selected_SPMACCESSR_EL3_field]
+path = "../u__get_selected_SPMACCESSR_EL3_field"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_HDFGRTR2_EL2_Type_nSPMSCR_EL1]
+path = "../u_get_HDFGRTR2_EL2_Type_nSPMSCR_EL1"
+
+[dependencies.u_get_MDCR_EL2_Type_EnSPM]
+path = "../u_get_MDCR_EL2_Type_EnSPM"
+
+[dependencies.u_get_MDCR_EL3_Type_EnPM2]
+path = "../u_get_MDCR_EL3_Type_EnPM2"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn2]
+path = "../u_get_SCR_EL3_Type_FGTEn2"
+
+[dependencies.u_get_SPMSELR_EL0_Type_SYSPMUSEL]
+path = "../u_get_SPMSELR_EL0_Type_SYSPMUSEL"

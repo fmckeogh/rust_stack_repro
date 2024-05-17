@@ -1,0 +1,124 @@
+[package]
+edition = "2021"
+name = "AArch64_TakeExceptionInDebugState"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_MaybeZeroRegisterUppers]
+path = "../AArch64_MaybeZeroRegisterUppers"
+
+[dependencies.AArch64_ReportException]
+path = "../AArch64_ReportException"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EDSCR_write]
+path = "../EDSCR_write"
+
+[dependencies.ELIsInHost]
+path = "../ELIsInHost"
+
+[dependencies.ELR_set__1]
+path = "../ELR_set__1"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.EndOfInstruction]
+path = "../EndOfInstruction"
+
+[dependencies.FailTransaction]
+path = "../FailTransaction"
+
+[dependencies.HaveBTIExt]
+path = "../HaveBTIExt"
+
+[dependencies.HaveDoubleFaultExt]
+path = "../HaveDoubleFaultExt"
+
+[dependencies.HaveGCS]
+path = "../HaveGCS"
+
+[dependencies.HaveIESB]
+path = "../HaveIESB"
+
+[dependencies.HaveMTEExt]
+path = "../HaveMTEExt"
+
+[dependencies.HavePANExt]
+path = "../HavePANExt"
+
+[dependencies.HaveSME]
+path = "../HaveSME"
+
+[dependencies.HaveSSBSExt]
+path = "../HaveSSBSExt"
+
+[dependencies.HaveTME]
+path = "../HaveTME"
+
+[dependencies.HaveUAOExt]
+path = "../HaveUAOExt"
+
+[dependencies.MaybeZeroSVEUppers]
+path = "../MaybeZeroSVEUppers"
+
+[dependencies.Mk_DSPSR_EL0_Type]
+path = "../Mk_DSPSR_EL0_Type"
+
+[dependencies.ResetSVEState]
+path = "../ResetSVEState"
+
+[dependencies.SCTLR_read]
+path = "../SCTLR_read"
+
+[dependencies.SCTLR_read__1]
+path = "../SCTLR_read__1"
+
+[dependencies.SPSR_set]
+path = "../SPSR_set"
+
+[dependencies.SynchronizeContext]
+path = "../SynchronizeContext"
+
+[dependencies.SynchronizeErrors]
+path = "../SynchronizeErrors"
+
+[dependencies.UpdateEDSCRFields]
+path = "../UpdateEDSCRFields"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bit]
+path = "../u__UNKNOWN_bit"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_SCR_EL3_Type_EA]
+path = "../u_get_SCR_EL3_Type_EA"
+
+[dependencies.u_get_SCR_EL3_Type_NMEA]
+path = "../u_get_SCR_EL3_Type_NMEA"
+
+[dependencies.u_get_SCTLRType_IESB]
+path = "../u_get_SCTLRType_IESB"
+
+[dependencies.u_get_SCTLRType_SPAN]
+path = "../u_get_SCTLRType_SPAN"
+
+[dependencies.u_update_EDSCR_Type_ERR]
+path = "../u_update_EDSCR_Type_ERR"

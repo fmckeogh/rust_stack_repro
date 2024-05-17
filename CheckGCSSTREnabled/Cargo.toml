@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "CheckGCSSTREnabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.GCSSTRTrapException]
+path = "../GCSSTRTrapException"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_GCSCRE0_EL1_Type_STREn]
+path = "../u_get_GCSCRE0_EL1_Type_STREn"
+
+[dependencies.u_get_GCSCR_EL1_Type_STREn]
+path = "../u_get_GCSCR_EL1_Type_STREn"
+
+[dependencies.u_get_GCSCR_EL2_Type_STREn]
+path = "../u_get_GCSCR_EL2_Type_STREn"
+
+[dependencies.u_get_GCSCR_EL3_Type_STREn]
+path = "../u_get_GCSCR_EL3_Type_STREn"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HFGITR_EL2_Type_nGCSSTR_EL1]
+path = "../u_get_HFGITR_EL2_Type_nGCSSTR_EL1"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"

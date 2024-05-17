@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "decode_FMOPA_ZA_PP_ZZ_64"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.HaveSMEF64F64]
+path = "../HaveSMEF64F64"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_FMOPA_ZA_PP_ZZ_64]
+path = "../execute_FMOPA_ZA_PP_ZZ_64"

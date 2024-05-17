@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "decode_fcvtns_float_aarch64_instrs_float_convert_int"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.FPCR_read]
+path = "../FPCR_read"
+
+[dependencies.FPDecodeRounding]
+path = "../FPDecodeRounding"
+
+[dependencies.FPRoundingMode]
+path = "../FPRoundingMode"
+
+[dependencies.HaveFJCVTZSExt]
+path = "../HaveFJCVTZSExt"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_float_convert_int]
+path = "../execute_aarch64_instrs_float_convert_int"
+
+[dependencies.neq_int]
+path = "../neq_int"

@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "CNTP_CTL_write"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CNTP_CTL_NS_write]
+path = "../CNTP_CTL_NS_write"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.common]
+path = "../common"

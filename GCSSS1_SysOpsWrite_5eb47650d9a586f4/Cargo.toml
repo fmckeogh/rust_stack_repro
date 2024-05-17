@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "GCSSS1_SysOpsWrite_5eb47650d9a586f4"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.GCSSS1]
+path = "../GCSSS1"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

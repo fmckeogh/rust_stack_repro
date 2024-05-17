@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "FAR_EL3_SysRegWrite_d150ecea5bb2beb8"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

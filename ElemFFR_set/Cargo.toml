@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "ElemFFR_set"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.fdiv_int]
+path = "../fdiv_int"
+
+[dependencies.set_subrange_zeros]
+path = "../set_subrange_zeros"
+
+[dependencies.u__id]
+path = "../u__id"

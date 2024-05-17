@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "MemO_set"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CreateAccDescAcqRel]
+path = "../CreateAccDescAcqRel"
+
+[dependencies.Mem_with_type_set]
+path = "../Mem_with_type_set"
+
+[dependencies.common]
+path = "../common"

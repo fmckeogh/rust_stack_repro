@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "AArch32_TakeVirtualFIQException"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_EnterMode]
+path = "../AArch32_EnterMode"
+
+[dependencies.AArch64_TakeVirtualFIQException]
+path = "../AArch64_TakeVirtualFIQException"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.ThisInstrAddr]
+path = "../ThisInstrAddr"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_FMO]
+path = "../u_get_HCR_EL2_Type_FMO"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HCR_Type_FMO]
+path = "../u_get_HCR_Type_FMO"
+
+[dependencies.u_get_HCR_Type_TGE]
+path = "../u_get_HCR_Type_TGE"

@@ -1,0 +1,67 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_memory_mcpymset_cpyf"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_IsUnprivAccessPriv]
+path = "../AArch64_IsUnprivAccessPriv"
+
+[dependencies.CPYFOptionA]
+path = "../CPYFOptionA"
+
+[dependencies.CPYPostSizeChoice]
+path = "../CPYPostSizeChoice"
+
+[dependencies.CPYPreSizeChoice]
+path = "../CPYPreSizeChoice"
+
+[dependencies.CPYSizeChoice]
+path = "../CPYSizeChoice"
+
+[dependencies.CreateAccDescMOPS]
+path = "../CreateAccDescMOPS"
+
+[dependencies.MaxBlockSizeCopiedBytes]
+path = "../MaxBlockSizeCopiedBytes"
+
+[dependencies.MemCpyParametersIllformedE]
+path = "../MemCpyParametersIllformedE"
+
+[dependencies.MemCpyParametersIllformedM]
+path = "../MemCpyParametersIllformedM"
+
+[dependencies.MemCpyZeroSizeCheck]
+path = "../MemCpyZeroSizeCheck"
+
+[dependencies.Mem_read]
+path = "../Mem_read"
+
+[dependencies.Mem_set]
+path = "../Mem_set"
+
+[dependencies.MismatchedMemCpyException]
+path = "../MismatchedMemCpyException"
+
+[dependencies.SPESampleMemCopy]
+path = "../SPESampleMemCopy"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.neq_int]
+path = "../neq_int"
+
+[dependencies.u__id]
+path = "../u__id"

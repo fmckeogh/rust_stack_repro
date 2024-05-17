@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_and_log_shift_aarch64_instrs_integer_logical_shiftedreg"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.DecodeShift]
+path = "../DecodeShift"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_integer_logical_shiftedreg]
+path = "../execute_aarch64_instrs_integer_logical_shiftedreg"

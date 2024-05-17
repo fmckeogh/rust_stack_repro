@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "u__set_MPAM1_EL1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.MPAM1_EL1_read]
+path = "../MPAM1_EL1_read"
+
+[dependencies.MPAM1_EL1_write]
+path = "../MPAM1_EL1_write"
+
+[dependencies.Mk_MPAM1_EL1_Type]
+path = "../Mk_MPAM1_EL1_Type"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_MPAM1_EL1_Type_MPAMEN]
+path = "../u_get_MPAM1_EL1_Type_MPAMEN"
+
+[dependencies.u_update_MPAM1_EL1_Type_MPAMEN]
+path = "../u_update_MPAM1_EL1_Type_MPAMEN"

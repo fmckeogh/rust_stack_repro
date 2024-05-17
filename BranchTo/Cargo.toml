@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "BranchTo"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_BranchAddr]
+path = "../AArch64_BranchAddr"
+
+[dependencies.BRBEBranch]
+path = "../BRBEBranch"
+
+[dependencies.HaveBRBExt]
+path = "../HaveBRBExt"
+
+[dependencies.HaveStatisticalProfiling]
+path = "../HaveStatisticalProfiling"
+
+[dependencies.Hint_Branch]
+path = "../Hint_Branch"
+
+[dependencies.SPEBranch]
+path = "../SPEBranch"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"

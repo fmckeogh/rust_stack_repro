@@ -1,0 +1,49 @@
+[package]
+edition = "2021"
+name = "u__set_MDSCR_EL1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_MDSCR_EL1_Type_EHBWE]
+path = "../u_get_MDSCR_EL1_Type_EHBWE"
+
+[dependencies.u_get_MDSCR_EL1_Type_ERR]
+path = "../u_get_MDSCR_EL1_Type_ERR"
+
+[dependencies.u_get_MDSCR_EL1_Type_HDE]
+path = "../u_get_MDSCR_EL1_Type_HDE"
+
+[dependencies.u_get_MDSCR_EL1_Type_INTdis]
+path = "../u_get_MDSCR_EL1_Type_INTdis"
+
+[dependencies.u_get_MDSCR_EL1_Type_RXO]
+path = "../u_get_MDSCR_EL1_Type_RXO"
+
+[dependencies.u_get_MDSCR_EL1_Type_RXfull]
+path = "../u_get_MDSCR_EL1_Type_RXfull"
+
+[dependencies.u_get_MDSCR_EL1_Type_SC2]
+path = "../u_get_MDSCR_EL1_Type_SC2"
+
+[dependencies.u_get_MDSCR_EL1_Type_TDA]
+path = "../u_get_MDSCR_EL1_Type_TDA"
+
+[dependencies.u_get_MDSCR_EL1_Type_TFO]
+path = "../u_get_MDSCR_EL1_Type_TFO"
+
+[dependencies.u_get_MDSCR_EL1_Type_TXU]
+path = "../u_get_MDSCR_EL1_Type_TXU"
+
+[dependencies.u_get_MDSCR_EL1_Type_TXfull]
+path = "../u_get_MDSCR_EL1_Type_TXfull"
+
+[dependencies.u_get_OSLSR_EL1_Type_OSLK]
+path = "../u_get_OSLSR_EL1_Type_OSLK"

@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "HasLargeAddress"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Have52BitIPAAndPASpaceExt]
+path = "../Have52BitIPAAndPASpaceExt"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.common]
+path = "../common"

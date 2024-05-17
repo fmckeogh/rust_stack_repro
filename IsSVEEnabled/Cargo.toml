@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "IsSVEEnabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveSME]
+path = "../HaveSME"
+
+[dependencies.HaveSVE]
+path = "../HaveSVE"
+
+[dependencies.IsOriginalSVEEnabled]
+path = "../IsOriginalSVEEnabled"
+
+[dependencies.IsSMEEnabled]
+path = "../IsSMEEnabled"
+
+[dependencies.common]
+path = "../common"

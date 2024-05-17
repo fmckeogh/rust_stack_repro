@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "PACMult"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.RotCell]
+path = "../RotCell"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.vector_update_subrange_from_subrange]
+path = "../vector_update_subrange_from_subrange"

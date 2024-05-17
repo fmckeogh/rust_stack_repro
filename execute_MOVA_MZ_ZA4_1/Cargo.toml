@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "execute_MOVA_MZ_ZA4_1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckStreamingSVEAndZAEnabled]
+path = "../CheckStreamingSVEAndZAEnabled"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.ZAvector_read]
+path = "../ZAvector_read"
+
+[dependencies.Z_set]
+path = "../Z_set"
+
+[dependencies.common]
+path = "../common"

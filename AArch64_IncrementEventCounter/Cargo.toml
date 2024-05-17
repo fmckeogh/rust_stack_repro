@@ -1,0 +1,43 @@
+[package]
+edition = "2021"
+name = "AArch64_IncrementEventCounter"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.GetNumEventCounters]
+path = "../GetNumEventCounters"
+
+[dependencies.HavePMUv3p5]
+path = "../HavePMUv3p5"
+
+[dependencies.PMUCountValue]
+path = "../PMUCountValue"
+
+[dependencies.PMUCounterIsHyp]
+path = "../PMUCounterIsHyp"
+
+[dependencies.PMUEvent__2]
+path = "../PMUEvent__2"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_access]
+path = "../integer_access"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.subrange_subrange_eq]
+path = "../subrange_subrange_eq"
+
+[dependencies.u_get_MDCR_EL2_Type_HLP]
+path = "../u_get_MDCR_EL2_Type_HLP"
+
+[dependencies.u_get_PMCR_EL0_Type_LP]
+path = "../u_get_PMCR_EL0_Type_LP"

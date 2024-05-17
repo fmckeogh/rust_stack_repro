@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "AArch64_TLBContextEL20"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_GetVARange]
+path = "../AArch64_GetVARange"
+
+[dependencies.HaveCommonNotPrivateTransExt]
+path = "../HaveCommonNotPrivateTransExt"
+
+[dependencies.TTBR0_EL2_read]
+path = "../TTBR0_EL2_read"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_TCR_EL2_Type_A1]
+path = "../u_get_TCR_EL2_Type_A1"
+
+[dependencies.u_get_TCR_EL2_Type_AS]
+path = "../u_get_TCR_EL2_Type_AS"
+
+[dependencies.u_get_TTBR0_EL2_Type_ASID]
+path = "../u_get_TTBR0_EL2_Type_ASID"
+
+[dependencies.u_get_TTBR0_EL2_Type_CnP]
+path = "../u_get_TTBR0_EL2_Type_CnP"
+
+[dependencies.u_get_TTBR1_EL2_Type_ASID]
+path = "../u_get_TTBR1_EL2_Type_ASID"
+
+[dependencies.u_get_TTBR1_EL2_Type_CnP]
+path = "../u_get_TTBR1_EL2_Type_CnP"

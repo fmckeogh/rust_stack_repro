@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_aarch32_instrs_UADD8_T1enc_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ConditionPassed]
+path = "../ConditionPassed"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch32_instrs_UADD8_Op_A_txt]
+path = "../execute_aarch32_instrs_UADD8_Op_A_txt"

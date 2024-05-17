@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "execute_PMOV_P_ZI_D"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckSVEEnabled]
+path = "../CheckSVEEnabled"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.P_set]
+path = "../P_set"
+
+[dependencies.Z_read]
+path = "../Z_read"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,61 @@
+[package]
+edition = "2021"
+name = "AArch32_PMUCycle"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_IncrementCycleCounter]
+path = "../AArch32_IncrementCycleCounter"
+
+[dependencies.AArch32_IncrementEventCounter]
+path = "../AArch32_IncrementEventCounter"
+
+[dependencies.AArch64_PMUCycle]
+path = "../AArch64_PMUCycle"
+
+[dependencies.BRBEFreeze]
+path = "../BRBEFreeze"
+
+[dependencies.CheckForPMUOverflow]
+path = "../CheckForPMUOverflow"
+
+[dependencies.CountPMUEvents]
+path = "../CountPMUEvents"
+
+[dependencies.GetNumEventCounters]
+path = "../GetNumEventCounters"
+
+[dependencies.HDCR_read]
+path = "../HDCR_read"
+
+[dependencies.HaveAArch64]
+path = "../HaveAArch64"
+
+[dependencies.HavePMUv3]
+path = "../HavePMUv3"
+
+[dependencies.PMCR_read]
+path = "../PMCR_read"
+
+[dependencies.PMUEvent]
+path = "../PMUEvent"
+
+[dependencies.ShouldBRBEFreeze]
+path = "../ShouldBRBEFreeze"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.neq_int]
+path = "../neq_int"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.u_get_HDCR_Type_HPME]
+path = "../u_get_HDCR_Type_HPME"
+
+[dependencies.u_get_PMCR_Type_E]
+path = "../u_get_PMCR_Type_E"

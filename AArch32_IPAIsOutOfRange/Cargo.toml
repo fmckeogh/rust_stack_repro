@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "AArch32_IPAIsOutOfRange"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_S2IASize]
+path = "../AArch32_S2IASize"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.is_zero_subrange]
+path = "../is_zero_subrange"

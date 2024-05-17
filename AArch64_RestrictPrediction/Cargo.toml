@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "AArch64_RestrictPrediction"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ASID_read]
+path = "../ASID_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELIsInHost]
+path = "../ELIsInHost"
+
+[dependencies.EndOfInstruction]
+path = "../EndOfInstruction"
+
+[dependencies.HaveRME]
+path = "../HaveRME"
+
+[dependencies.IsInHost]
+path = "../IsInHost"
+
+[dependencies.RESTRICT_PREDICTIONS]
+path = "../RESTRICT_PREDICTIONS"
+
+[dependencies.TargetSecurityState]
+path = "../TargetSecurityState"
+
+[dependencies.VMID_read]
+path = "../VMID_read"
+
+[dependencies.common]
+path = "../common"

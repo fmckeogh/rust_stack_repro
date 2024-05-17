@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_memory_gcs_general_register"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_IsUnprivAccessPriv]
+path = "../AArch64_IsUnprivAccessPriv"
+
+[dependencies.CheckGCSSTREnabled]
+path = "../CheckGCSSTREnabled"
+
+[dependencies.CheckSPAlignment]
+path = "../CheckSPAlignment"
+
+[dependencies.CreateAccDescGCS]
+path = "../CreateAccDescGCS"
+
+[dependencies.Mem_set]
+path = "../Mem_set"
+
+[dependencies.SP_read]
+path = "../SP_read"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

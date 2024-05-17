@@ -1,0 +1,91 @@
+[package]
+edition = "2021"
+name = "AArch64_AT"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_S1TranslateLD]
+path = "../AArch32_S1TranslateLD"
+
+[dependencies.AArch32_S1TranslateSD]
+path = "../AArch32_S1TranslateSD"
+
+[dependencies.AArch32_S2Translate]
+path = "../AArch32_S2Translate"
+
+[dependencies.AArch64_Abort]
+path = "../AArch64_Abort"
+
+[dependencies.AArch64_EncodePAR]
+path = "../AArch64_EncodePAR"
+
+[dependencies.AArch64_S1Translate]
+path = "../AArch64_S1Translate"
+
+[dependencies.AArch64_S2Translate]
+path = "../AArch64_S2Translate"
+
+[dependencies.CreateAccDescAT]
+path = "../CreateAccDescAT"
+
+[dependencies.CreateFaultyAddressDescriptor]
+path = "../CreateFaultyAddressDescriptor"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.EffectiveSCR_EL3_NS]
+path = "../EffectiveSCR_EL3_NS"
+
+[dependencies.EffectiveSCR_EL3_NSE]
+path = "../EffectiveSCR_EL3_NSE"
+
+[dependencies.HaveRME]
+path = "../HaveRME"
+
+[dependencies.IsExternalAbort__1]
+path = "../IsExternalAbort__1"
+
+[dependencies.Mk_PAR_EL1_Type]
+path = "../Mk_PAR_EL1_Type"
+
+[dependencies.NoFault__1]
+path = "../NoFault__1"
+
+[dependencies.PAR_EL1_write]
+path = "../PAR_EL1_write"
+
+[dependencies.ReportAsGPCException]
+path = "../ReportAsGPCException"
+
+[dependencies.SecurityStateAtEL]
+path = "../SecurityStateAtEL"
+
+[dependencies.TTBCR_read]
+path = "../TTBCR_read"
+
+[dependencies.TranslationRegime]
+path = "../TranslationRegime"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_GPF]
+path = "../u_get_HCR_EL2_Type_GPF"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_TTBCR_Type_EAE]
+path = "../u_get_TTBCR_Type_EAE"

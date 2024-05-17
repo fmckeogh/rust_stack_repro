@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "DSPSR2_SysRegRead32_6da9b04f72c6c3f2"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.DSPSR2_read]
+path = "../DSPSR2_read"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.R_set]
+path = "../R_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_DSPSR2]
+path = "../u__get_DSPSR2"

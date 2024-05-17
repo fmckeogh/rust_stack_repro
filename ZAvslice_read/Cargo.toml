@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "ZAvslice_read"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentSVL_read]
+path = "../CurrentSVL_read"
+
+[dependencies.Elem_read]
+path = "../Elem_read"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.ZAhslice_read]
+path = "../ZAhslice_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.fdiv_int]
+path = "../fdiv_int"
+
+[dependencies.u__id]
+path = "../u__id"

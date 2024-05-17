@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_CPS_OpT_AS_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_WriteModeByInstr]
+path = "../AArch32_WriteModeByInstr"
+
+[dependencies.common]
+path = "../common"

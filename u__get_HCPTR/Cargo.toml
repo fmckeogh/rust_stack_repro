@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "u__get_HCPTR"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.IsCurrentSecurityState]
+path = "../IsCurrentSecurityState"
+
+[dependencies.Mk_HCPTR_Type]
+path = "../Mk_HCPTR_Type"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_NSACR_Type_cp10]
+path = "../u_get_NSACR_Type_cp10"

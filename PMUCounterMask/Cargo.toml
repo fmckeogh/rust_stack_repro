@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "PMUCounterMask"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_GetNumEventCountersAccessible]
+path = "../AArch32_GetNumEventCountersAccessible"
+
+[dependencies.AArch64_GetNumEventCountersAccessible]
+path = "../AArch64_GetNumEventCountersAccessible"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.HaveAArch64]
+path = "../HaveAArch64"
+
+[dependencies.HavePMUv3ICNTR]
+path = "../HavePMUv3ICNTR"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.zext_ones]
+path = "../zext_ones"

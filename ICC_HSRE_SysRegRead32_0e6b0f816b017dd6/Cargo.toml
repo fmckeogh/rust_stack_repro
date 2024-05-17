@@ -1,0 +1,58 @@
+[package]
+edition = "2021"
+name = "ICC_HSRE_SysRegRead32_0e6b0f816b017dd6"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_TakeHypTrapException]
+path = "../AArch32_TakeHypTrapException"
+
+[dependencies.AArch64_AArch32SystemAccessTrap]
+path = "../AArch64_AArch32SystemAccessTrap"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HSTR_read]
+path = "../HSTR_read"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.ICC_HSRE_read]
+path = "../ICC_HSRE_read"
+
+[dependencies.R_set]
+path = "../R_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__get_ICC_HSRE]
+path = "../u__get_ICC_HSRE"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_HSTR_EL2_Type_T12]
+path = "../u_get_HSTR_EL2_Type_T12"
+
+[dependencies.u_get_HSTR_Type_T12]
+path = "../u_get_HSTR_Type_T12"
+
+[dependencies.u_get_ICC_MSRE_Type_Enable]
+path = "../u_get_ICC_MSRE_Type_Enable"
+
+[dependencies.u_get_ICC_SRE_EL3_Type_Enable]
+path = "../u_get_ICC_SRE_EL3_Type_Enable"

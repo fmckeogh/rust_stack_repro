@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "ComputePAC"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ComputePACIMPDEF]
+path = "../ComputePACIMPDEF"
+
+[dependencies.ComputePACQARMA]
+path = "../ComputePACQARMA"
+
+[dependencies.UsePACIMP]
+path = "../UsePACIMP"
+
+[dependencies.UsePACQARMA3]
+path = "../UsePACQARMA3"
+
+[dependencies.UsePACQARMA5]
+path = "../UsePACQARMA5"
+
+[dependencies.common]
+path = "../common"

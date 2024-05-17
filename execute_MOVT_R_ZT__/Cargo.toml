@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "execute_MOVT_R_ZT__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckSMEEnabled]
+path = "../CheckSMEEnabled"
+
+[dependencies.CheckSMEZT0Enabled]
+path = "../CheckSMEZT0Enabled"
+
+[dependencies.Elem_read]
+path = "../Elem_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.ZT0_read]
+path = "../ZT0_read"
+
+[dependencies.common]
+path = "../common"

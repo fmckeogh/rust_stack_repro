@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "WaitForEvent"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EnterLowPowerState]
+path = "../EnterLowPowerState"
+
+[dependencies.HaveFeatWFxT]
+path = "../HaveFeatWFxT"
+
+[dependencies.IsEventRegisterSet]
+path = "../IsEventRegisterSet"
+
+[dependencies.LocalTimeoutEvent]
+path = "../LocalTimeoutEvent"
+
+[dependencies.common]
+path = "../common"

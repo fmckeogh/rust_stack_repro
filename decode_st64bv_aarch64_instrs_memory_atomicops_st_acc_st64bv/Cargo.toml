@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "decode_st64bv_aarch64_instrs_memory_atomicops_st_acc_st64bv"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveFeatLS64_V]
+path = "../HaveFeatLS64_V"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_memory_atomicops_st_acc_st64bv]
+path = "../execute_aarch64_instrs_memory_atomicops_st_acc_st64bv"
+
+[dependencies.neq_int]
+path = "../neq_int"

@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "GetCurrentGCSPointer"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_GCSPR_EL0_Type_PTR]
+path = "../u_get_GCSPR_EL0_Type_PTR"
+
+[dependencies.u_get_GCSPR_EL1_Type_PTR]
+path = "../u_get_GCSPR_EL1_Type_PTR"
+
+[dependencies.u_get_GCSPR_EL2_Type_PTR]
+path = "../u_get_GCSPR_EL2_Type_PTR"
+
+[dependencies.u_get_GCSPR_EL3_Type_PTR]
+path = "../u_get_GCSPR_EL3_Type_PTR"

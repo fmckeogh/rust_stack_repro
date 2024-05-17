@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "IsFPEnabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_IsFPEnabled]
+path = "../AArch32_IsFPEnabled"
+
+[dependencies.AArch64_IsFPEnabled]
+path = "../AArch64_IsFPEnabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,67 @@
+[package]
+edition = "2021"
+name = "PMSICR_EL1_SysRegRead_21061f53bd37d43f"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.NVMem_read]
+path = "../NVMem_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__get_PMSICR_EL1]
+path = "../u__get_PMSICR_EL1"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_HCR_EL2_Type_NV]
+path = "../u_get_HCR_EL2_Type_NV"
+
+[dependencies.u_get_HCR_EL2_Type_NV2]
+path = "../u_get_HCR_EL2_Type_NV2"
+
+[dependencies.u_get_HDFGRTR_EL2_Type_PMSICR_EL1]
+path = "../u_get_HDFGRTR_EL2_Type_PMSICR_EL1"
+
+[dependencies.u_get_MDCR_EL2_Type_TPMS]
+path = "../u_get_MDCR_EL2_Type_TPMS"
+
+[dependencies.u_get_MDCR_EL3_Type_NSPB]
+path = "../u_get_MDCR_EL3_Type_NSPB"
+
+[dependencies.u_get_MDCR_EL3_Type_NSPBE]
+path = "../u_get_MDCR_EL3_Type_NSPBE"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"
+
+[dependencies.u_get_SCR_EL3_Type_NS]
+path = "../u_get_SCR_EL3_Type_NS"
+
+[dependencies.u_get_SCR_EL3_Type_NSE]
+path = "../u_get_SCR_EL3_Type_NSE"

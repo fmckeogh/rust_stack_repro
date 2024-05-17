@@ -1,0 +1,46 @@
+[package]
+edition = "2021"
+name = "AArch32_RemappedTEXDecode"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ConstrainUnpredictableBits]
+path = "../ConstrainUnpredictableBits"
+
+[dependencies.DecodeSDFAttr]
+path = "../DecodeSDFAttr"
+
+[dependencies.DecodeShareability]
+path = "../DecodeShareability"
+
+[dependencies.HaveAArch32EL]
+path = "../HaveAArch32EL"
+
+[dependencies.NMRR_NS_read]
+path = "../NMRR_NS_read"
+
+[dependencies.NMRR_read]
+path = "../NMRR_read"
+
+[dependencies.PRRR_NS_read]
+path = "../PRRR_NS_read"
+
+[dependencies.PRRR_read]
+path = "../PRRR_read"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_MemoryAttributes]
+path = "../u__IMPDEF_MemoryAttributes"
+
+[dependencies.u_get_PRRR_Type_NS0]
+path = "../u_get_PRRR_Type_NS0"
+
+[dependencies.u_get_PRRR_Type_NS1]
+path = "../u_get_PRRR_Type_NS1"

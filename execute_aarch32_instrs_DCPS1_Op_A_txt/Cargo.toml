@@ -1,0 +1,118 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_DCPS1_Op_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_WriteMode]
+path = "../AArch32_WriteMode"
+
+[dependencies.AArch64_MaybeZeroRegisterUppers]
+path = "../AArch64_MaybeZeroRegisterUppers"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.DLR_write]
+path = "../DLR_write"
+
+[dependencies.DSPSR_write]
+path = "../DSPSR_write"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELR_hyp_write]
+path = "../ELR_hyp_write"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.HSCTLR_read]
+path = "../HSCTLR_read"
+
+[dependencies.HSR_write]
+path = "../HSR_write"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.HaveIESB]
+path = "../HaveIESB"
+
+[dependencies.HavePANExt]
+path = "../HavePANExt"
+
+[dependencies.HaveUAOExt]
+path = "../HaveUAOExt"
+
+[dependencies.MaybeZeroSVEUppers]
+path = "../MaybeZeroSVEUppers"
+
+[dependencies.Mk_DSPSR_EL0_Type]
+path = "../Mk_DSPSR_EL0_Type"
+
+[dependencies.Mk_DSPSR_Type]
+path = "../Mk_DSPSR_Type"
+
+[dependencies.Mk_ESR_EL1_Type]
+path = "../Mk_ESR_EL1_Type"
+
+[dependencies.Mk_HSR_Type]
+path = "../Mk_HSR_Type"
+
+[dependencies.Mk_SPSR_EL1_Type]
+path = "../Mk_SPSR_EL1_Type"
+
+[dependencies.Mk_SPSR_hyp_Type]
+path = "../Mk_SPSR_hyp_Type"
+
+[dependencies.Mk_SPSR_svc_Type]
+path = "../Mk_SPSR_svc_Type"
+
+[dependencies.SCTLR_read__2]
+path = "../SCTLR_read__2"
+
+[dependencies.SPSR_hyp_write]
+path = "../SPSR_hyp_write"
+
+[dependencies.SPSR_svc_write]
+path = "../SPSR_svc_write"
+
+[dependencies.SynchronizeErrors]
+path = "../SynchronizeErrors"
+
+[dependencies.UpdateEDSCRFields]
+path = "../UpdateEDSCRFields"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HCR_Type_TGE]
+path = "../u_get_HCR_Type_TGE"
+
+[dependencies.u_get_HSCTLR_Type_EE]
+path = "../u_get_HSCTLR_Type_EE"
+
+[dependencies.u_get_SCTLR_EL1_Type_IESB]
+path = "../u_get_SCTLR_EL1_Type_IESB"
+
+[dependencies.u_get_SCTLR_EL1_Type_SPAN]
+path = "../u_get_SCTLR_EL1_Type_SPAN"
+
+[dependencies.u_get_SCTLR_Type_EE]
+path = "../u_get_SCTLR_Type_EE"
+
+[dependencies.u_get_SCTLR_Type_SPAN]
+path = "../u_get_SCTLR_Type_SPAN"

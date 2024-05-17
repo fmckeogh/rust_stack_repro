@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_VSWP_Op_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckAdvSIMDEnabled]
+path = "../CheckAdvSIMDEnabled"
+
+[dependencies.D_set]
+path = "../D_set"
+
+[dependencies.Din_read]
+path = "../Din_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"

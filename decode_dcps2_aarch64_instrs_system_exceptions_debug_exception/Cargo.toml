@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_dcps2_aarch64_instrs_system_exceptions_debug_exception"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_system_exceptions_debug_exception]
+path = "../execute_aarch64_instrs_system_exceptions_debug_exception"

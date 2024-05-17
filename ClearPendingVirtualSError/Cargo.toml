@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "ClearPendingVirtualSError"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.HCR_write]
+path = "../HCR_write"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_update_HCR_Type_VA]
+path = "../u_update_HCR_Type_VA"

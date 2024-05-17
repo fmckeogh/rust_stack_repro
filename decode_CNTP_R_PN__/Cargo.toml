@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "decode_CNTP_R_PN__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.HaveSME2]
+path = "../HaveSME2"
+
+[dependencies.HaveSVE2p1]
+path = "../HaveSVE2p1"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_CNTP_R_PN__]
+path = "../execute_CNTP_R_PN__"
+
+[dependencies.u__id]
+path = "../u__id"

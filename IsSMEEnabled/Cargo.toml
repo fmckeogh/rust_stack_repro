@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "IsSMEEnabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HaveVirtHostExt]
+path = "../HaveVirtHostExt"
+
+[dependencies.IsInHost]
+path = "../IsInHost"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_CPACR_EL1_Type_SMEN]
+path = "../u_get_CPACR_EL1_Type_SMEN"
+
+[dependencies.u_get_CPTR_EL2_Type_SMEN]
+path = "../u_get_CPTR_EL2_Type_SMEN"
+
+[dependencies.u_get_CPTR_EL2_Type_TSM]
+path = "../u_get_CPTR_EL2_Type_TSM"
+
+[dependencies.u_get_CPTR_EL3_Type_ESM]
+path = "../u_get_CPTR_EL3_Type_ESM"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"

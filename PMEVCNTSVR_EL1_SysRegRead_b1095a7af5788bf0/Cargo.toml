@@ -1,0 +1,43 @@
+[package]
+edition = "2021"
+name = "PMEVCNTSVR_EL1_SysRegRead_b1095a7af5788bf0"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_HDFGRTR2_EL2_Type_nPMSSDATA]
+path = "../u_get_HDFGRTR2_EL2_Type_nPMSSDATA"
+
+[dependencies.u_get_MDCR_EL3_Type_EnPMSS]
+path = "../u_get_MDCR_EL3_Type_EnPMSS"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn2]
+path = "../u_get_SCR_EL3_Type_FGTEn2"

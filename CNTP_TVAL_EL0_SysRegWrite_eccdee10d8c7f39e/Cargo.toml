@@ -1,0 +1,61 @@
+[package]
+edition = "2021"
+name = "CNTP_TVAL_EL0_SysRegWrite_eccdee10d8c7f39e"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.Mk_CNTHPS_CVAL_EL2_Type]
+path = "../Mk_CNTHPS_CVAL_EL2_Type"
+
+[dependencies.Mk_CNTHP_CVAL_EL2_Type]
+path = "../Mk_CNTHP_CVAL_EL2_Type"
+
+[dependencies.Mk_CNTP_CVAL_EL0_Type]
+path = "../Mk_CNTP_CVAL_EL0_Type"
+
+[dependencies.PhysicalCountInt]
+path = "../PhysicalCountInt"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_CNTHCTL_EL2_Type_ECV]
+path = "../u_get_CNTHCTL_EL2_Type_ECV"
+
+[dependencies.u_get_CNTHCTL_EL2_Type_EL0PTEN]
+path = "../u_get_CNTHCTL_EL2_Type_EL0PTEN"
+
+[dependencies.u_get_CNTHCTL_EL2_Type_EL1PCEN]
+path = "../u_get_CNTHCTL_EL2_Type_EL1PCEN"
+
+[dependencies.u_get_CNTHCTL_EL2_Type_EL1PTEN]
+path = "../u_get_CNTHCTL_EL2_Type_EL1PTEN"
+
+[dependencies.u_get_CNTKCTL_EL1_Type_EL0PTEN]
+path = "../u_get_CNTKCTL_EL1_Type_EL0PTEN"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_SCR_EL3_Type_ECVEn]
+path = "../u_get_SCR_EL3_Type_ECVEn"
+
+[dependencies.u_get_SCR_EL3_Type_NS]
+path = "../u_get_SCR_EL3_Type_NS"

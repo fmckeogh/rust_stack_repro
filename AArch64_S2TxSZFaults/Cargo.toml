@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "AArch64_S2TxSZFaults"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_MaxTxSZ]
+path = "../AArch64_MaxTxSZ"
+
+[dependencies.AArch64_S2MinTxSZ]
+path = "../AArch64_S2MinTxSZ"
+
+[dependencies.Have52BitPAExt]
+path = "../Have52BitPAExt"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"

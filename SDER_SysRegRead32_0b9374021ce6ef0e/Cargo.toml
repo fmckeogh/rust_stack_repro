@@ -1,0 +1,52 @@
+[package]
+edition = "2021"
+name = "SDER_SysRegRead32_0b9374021ce6ef0e"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_TakeHypTrapException]
+path = "../AArch32_TakeHypTrapException"
+
+[dependencies.AArch64_AArch32SystemAccessTrap]
+path = "../AArch64_AArch32SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HSTR_read]
+path = "../HSTR_read"
+
+[dependencies.IsCurrentSecurityState]
+path = "../IsCurrentSecurityState"
+
+[dependencies.R_set]
+path = "../R_set"
+
+[dependencies.SDER_read]
+path = "../SDER_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_SDER]
+path = "../u__get_SDER"
+
+[dependencies.u_get_HSTR_EL2_Type_T1]
+path = "../u_get_HSTR_EL2_Type_T1"
+
+[dependencies.u_get_HSTR_Type_T1]
+path = "../u_get_HSTR_Type_T1"
+
+[dependencies.u_get_MDCR_EL2_Type_TDA]
+path = "../u_get_MDCR_EL2_Type_TDA"
+
+[dependencies.u_get_MDCR_EL2_Type_TDE]
+path = "../u_get_MDCR_EL2_Type_TDE"
+
+[dependencies.u_get_MDCR_EL3_Type_TDA]
+path = "../u_get_MDCR_EL3_Type_TDA"

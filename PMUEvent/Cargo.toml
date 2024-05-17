@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "PMUEvent"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.PMUEvent__1]
+path = "../PMUEvent__1"
+
+[dependencies.common]
+path = "../common"

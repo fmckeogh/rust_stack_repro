@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "SPEBranch"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.SPEBranch__1]
+path = "../SPEBranch__1"
+
+[dependencies.common]
+path = "../common"

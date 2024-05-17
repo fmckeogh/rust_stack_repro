@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "execute_PRFD_I_P_AI_D"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ActivePredicateElement]
+path = "../ActivePredicateElement"
+
+[dependencies.AnyActiveElement]
+path = "../AnyActiveElement"
+
+[dependencies.CheckNonStreamingSVEEnabled]
+path = "../CheckNonStreamingSVEEnabled"
+
+[dependencies.Elem_read]
+path = "../Elem_read"
+
+[dependencies.Hint_Prefetch]
+path = "../Hint_Prefetch"
+
+[dependencies.P_read]
+path = "../P_read"
+
+[dependencies.Z_read]
+path = "../Z_read"
+
+[dependencies.common]
+path = "../common"

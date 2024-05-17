@@ -1,0 +1,52 @@
+[package]
+edition = "2021"
+name = "MaybeZeroSVEUppers"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.CurrentSVL_read]
+path = "../CurrentSVL_read"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HaveSME]
+path = "../HaveSME"
+
+[dependencies.IsFPEnabled]
+path = "../IsFPEnabled"
+
+[dependencies.IsSVEEnabled]
+path = "../IsSVEEnabled"
+
+[dependencies.MaxImplementedSVL]
+path = "../MaxImplementedSVL"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.fdiv_int]
+path = "../fdiv_int"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.zext_subrange]
+path = "../zext_subrange"

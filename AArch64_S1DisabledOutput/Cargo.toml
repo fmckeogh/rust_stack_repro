@@ -1,0 +1,49 @@
+[package]
+edition = "2021"
+name = "AArch64_S1DisabledOutput"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_AddrTop]
+path = "../AArch64_AddrTop"
+
+[dependencies.AArch64_GetS1TTWParams]
+path = "../AArch64_GetS1TTWParams"
+
+[dependencies.AArch64_PAMax]
+path = "../AArch64_PAMax"
+
+[dependencies.AArch64_S1DisabledOutputMECID]
+path = "../AArch64_S1DisabledOutputMECID"
+
+[dependencies.AArch64_S1HasAlignmentFault]
+path = "../AArch64_S1HasAlignmentFault"
+
+[dependencies.AArch64_S1ICacheEnabled]
+path = "../AArch64_S1ICacheEnabled"
+
+[dependencies.CreateAddressDescriptor]
+path = "../CreateAddressDescriptor"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.HasUnprivileged]
+path = "../HasUnprivileged"
+
+[dependencies.SetInGuardedPage]
+path = "../SetInGuardedPage"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.is_zero_subrange]
+path = "../is_zero_subrange"
+
+[dependencies.replicate_bits_borealis_internal]
+path = "../replicate_bits_borealis_internal"
+
+[dependencies.u__UNKNOWN_AddressDescriptor]
+path = "../u__UNKNOWN_AddressDescriptor"

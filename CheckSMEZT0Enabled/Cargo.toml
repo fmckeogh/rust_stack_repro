@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "CheckSMEZT0Enabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.IsInHost]
+path = "../IsInHost"
+
+[dependencies.SMEAccessTrap]
+path = "../SMEAccessTrap"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_SMCR_EL1_Type_EZT0]
+path = "../u_get_SMCR_EL1_Type_EZT0"
+
+[dependencies.u_get_SMCR_EL2_Type_EZT0]
+path = "../u_get_SMCR_EL2_Type_EZT0"
+
+[dependencies.u_get_SMCR_EL3_Type_EZT0]
+path = "../u_get_SMCR_EL3_Type_EZT0"

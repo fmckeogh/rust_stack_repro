@@ -1,0 +1,61 @@
+[package]
+edition = "2021"
+name = "decode_msr_imm_aarch64_instrs_system_register_cpsr"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_CheckSystemAccess]
+path = "../AArch64_CheckSystemAccess"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.HaveDITExt]
+path = "../HaveDITExt"
+
+[dependencies.HaveFeatEBEP]
+path = "../HaveFeatEBEP"
+
+[dependencies.HaveFeatNMI]
+path = "../HaveFeatNMI"
+
+[dependencies.HaveMTEExt]
+path = "../HaveMTEExt"
+
+[dependencies.HavePANExt]
+path = "../HavePANExt"
+
+[dependencies.HaveSME]
+path = "../HaveSME"
+
+[dependencies.HaveSSBSExt]
+path = "../HaveSSBSExt"
+
+[dependencies.HaveUAOExt]
+path = "../HaveUAOExt"
+
+[dependencies.HaveVirtHostExt]
+path = "../HaveVirtHostExt"
+
+[dependencies.IsInHost]
+path = "../IsInHost"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_system_register_cpsr]
+path = "../execute_aarch64_instrs_system_register_cpsr"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_SCTLR_EL1_Type_UMA]
+path = "../u_get_SCTLR_EL1_Type_UMA"

@@ -1,0 +1,43 @@
+[package]
+edition = "2021"
+name = "AArch64_GenerateDebugExceptionsFrom"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.DoubleLockStatus]
+path = "../DoubleLockStatus"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.IsSecureEL2Enabled]
+path = "../IsSecureEL2Enabled"
+
+[dependencies.SDER32_EL3_read]
+path = "../SDER32_EL3_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_MDCR_EL2_Type_TDE]
+path = "../u_get_MDCR_EL2_Type_TDE"
+
+[dependencies.u_get_MDCR_EL3_Type_SDD]
+path = "../u_get_MDCR_EL3_Type_SDD"
+
+[dependencies.u_get_MDSCR_EL1_Type_KDE]
+path = "../u_get_MDSCR_EL1_Type_KDE"
+
+[dependencies.u_get_OSLSR_EL1_Type_OSLK]
+path = "../u_get_OSLSR_EL1_Type_OSLK"
+
+[dependencies.u_get_SDER32_EL3_Type_SUIDEN]
+path = "../u_get_SDER32_EL3_Type_SUIDEN"

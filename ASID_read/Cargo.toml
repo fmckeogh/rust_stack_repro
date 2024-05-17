@@ -1,0 +1,76 @@
+[package]
+edition = "2021"
+name = "ASID_read"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CONTEXTIDR_read]
+path = "../CONTEXTIDR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.TTBCR_read]
+path = "../TTBCR_read"
+
+[dependencies.TTBR0_EL1_read]
+path = "../TTBR0_EL1_read"
+
+[dependencies.TTBR0_EL2_read]
+path = "../TTBR0_EL2_read"
+
+[dependencies.TTBR0_read]
+path = "../TTBR0_read"
+
+[dependencies.TTBR1_EL1_read]
+path = "../TTBR1_EL1_read"
+
+[dependencies.TTBR1_read]
+path = "../TTBR1_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_CONTEXTIDR_Type_ASID]
+path = "../u_get_CONTEXTIDR_Type_ASID"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_TCR_EL1_Type_A1]
+path = "../u_get_TCR_EL1_Type_A1"
+
+[dependencies.u_get_TCR_EL2_Type_A1]
+path = "../u_get_TCR_EL2_Type_A1"
+
+[dependencies.u_get_TTBCR_Type_A1]
+path = "../u_get_TTBCR_Type_A1"
+
+[dependencies.u_get_TTBCR_Type_EAE]
+path = "../u_get_TTBCR_Type_EAE"
+
+[dependencies.u_get_TTBR0_EL1_Type_ASID]
+path = "../u_get_TTBR0_EL1_Type_ASID"
+
+[dependencies.u_get_TTBR0_EL2_Type_ASID]
+path = "../u_get_TTBR0_EL2_Type_ASID"
+
+[dependencies.u_get_TTBR0_Type_ASID]
+path = "../u_get_TTBR0_Type_ASID"
+
+[dependencies.u_get_TTBR1_EL1_Type_ASID]
+path = "../u_get_TTBR1_EL1_Type_ASID"
+
+[dependencies.u_get_TTBR1_EL2_Type_ASID]
+path = "../u_get_TTBR1_EL2_Type_ASID"
+
+[dependencies.u_get_TTBR1_Type_ASID]
+path = "../u_get_TTBR1_Type_ASID"

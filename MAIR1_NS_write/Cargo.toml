@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "MAIR1_NS_write"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.Mk_NMRR_Type]
+path = "../Mk_NMRR_Type"
+
+[dependencies.NMRR_NS_read]
+path = "../NMRR_NS_read"
+
+[dependencies.NMRR_NS_write]
+path = "../NMRR_NS_write"
+
+[dependencies.NMRR_read]
+path = "../NMRR_read"
+
+[dependencies.NMRR_write]
+path = "../NMRR_write"
+
+[dependencies.common]
+path = "../common"

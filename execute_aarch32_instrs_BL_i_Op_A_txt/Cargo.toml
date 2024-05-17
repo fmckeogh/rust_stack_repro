@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_BL_i_Op_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Align_bits]
+path = "../Align_bits"
+
+[dependencies.BranchWritePC]
+path = "../BranchWritePC"
+
+[dependencies.CurrentInstrSet]
+path = "../CurrentInstrSet"
+
+[dependencies.LR_write]
+path = "../LR_write"
+
+[dependencies.PC_read__1]
+path = "../PC_read__1"
+
+[dependencies.SelectInstrSet]
+path = "../SelectInstrSet"
+
+[dependencies.common]
+path = "../common"

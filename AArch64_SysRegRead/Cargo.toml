@@ -1,0 +1,160 @@
+[package]
+edition = "2021"
+name = "AArch64_SysRegRead"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_AutoGen_SysRegRead]
+path = "../AArch64_AutoGen_SysRegRead"
+
+[dependencies.AArch64_CheckNVCondsIfCurrentEL]
+path = "../AArch64_CheckNVCondsIfCurrentEL"
+
+[dependencies.AArch64_GetNumEventCountersAccessible]
+path = "../AArch64_GetNumEventCountersAccessible"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.CacheConfigRead]
+path = "../CacheConfigRead"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.DBGDSCRext_read]
+path = "../DBGDSCRext_read"
+
+[dependencies.DBGDSCRext_write]
+path = "../DBGDSCRext_write"
+
+[dependencies.DBGDSCRint_read]
+path = "../DBGDSCRint_read"
+
+[dependencies.DBGDSCRint_write]
+path = "../DBGDSCRint_write"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EDSCR_write]
+path = "../EDSCR_write"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.ExternalInvasiveDebugEnabled]
+path = "../ExternalInvasiveDebugEnabled"
+
+[dependencies.ExternalSecureInvasiveDebugEnabled]
+path = "../ExternalSecureInvasiveDebugEnabled"
+
+[dependencies.GetBRBENumRecords]
+path = "../GetBRBENumRecords"
+
+[dependencies.GetNumEventCounters]
+path = "../GetNumEventCounters"
+
+[dependencies.HaveRME]
+path = "../HaveRME"
+
+[dependencies.IsInHost]
+path = "../IsInHost"
+
+[dependencies.MPAM3_EL3_read]
+path = "../MPAM3_EL3_read"
+
+[dependencies.PMUCounterMask]
+path = "../PMUCounterMask"
+
+[dependencies.SPE_PMBIDR_P_Read]
+path = "../SPE_PMBIDR_P_Read"
+
+[dependencies.UsePrimarySpaceEL10]
+path = "../UsePrimarySpaceEL10"
+
+[dependencies.UsePrimarySpaceEL2]
+path = "../UsePrimarySpaceEL2"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.genRandomNum]
+path = "../genRandomNum"
+
+[dependencies.getISR]
+path = "../getISR"
+
+[dependencies.integer_access]
+path = "../integer_access"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.u_get_AMCGCR_EL0_Type_CG0NC]
+path = "../u_get_AMCGCR_EL0_Type_CG0NC"
+
+[dependencies.u_get_AMCGCR_EL0_Type_CG1NC]
+path = "../u_get_AMCGCR_EL0_Type_CG1NC"
+
+[dependencies.u_get_BRBFCR_EL1_Type_BANK]
+path = "../u_get_BRBFCR_EL1_Type_BANK"
+
+[dependencies.u_get_ERRIDR_EL1_Type_NUM]
+path = "../u_get_ERRIDR_EL1_Type_NUM"
+
+[dependencies.u_get_ERRSELR_EL1_Type_SEL]
+path = "../u_get_ERRSELR_EL1_Type_SEL"
+
+[dependencies.u_get_HCR_EL2_Type_TDZ]
+path = "../u_get_HCR_EL2_Type_TDZ"
+
+[dependencies.u_get_ID_AA64PFR0_EL1_Type_EL3]
+path = "../u_get_ID_AA64PFR0_EL1_Type_EL3"
+
+[dependencies.u_get_MPAM3_EL3_Type_FORCE_NS]
+path = "../u_get_MPAM3_EL3_Type_FORCE_NS"
+
+[dependencies.u_get_MPAMIDR_EL1_Type_HAS_ALTSP]
+path = "../u_get_MPAMIDR_EL1_Type_HAS_ALTSP"
+
+[dependencies.u_get_PMSELR_EL0_Type_SEL]
+path = "../u_get_PMSELR_EL0_Type_SEL"
+
+[dependencies.u_get_PMUSERENR_EL0_Type_EN]
+path = "../u_get_PMUSERENR_EL0_Type_EN"
+
+[dependencies.u_get_PMUSERENR_EL0_Type_ER]
+path = "../u_get_PMUSERENR_EL0_Type_ER"
+
+[dependencies.u_get_SCTLR_EL1_Type_DZE]
+path = "../u_get_SCTLR_EL1_Type_DZE"
+
+[dependencies.u_get_SCTLR_EL2_Type_DZE]
+path = "../u_get_SCTLR_EL2_Type_DZE"
+
+[dependencies.u_update_DBGDSCRext_Type_RXfull]
+path = "../u_update_DBGDSCRext_Type_RXfull"
+
+[dependencies.u_update_DBGDSCRint_Type_RXfull]
+path = "../u_update_DBGDSCRint_Type_RXfull"
+
+[dependencies.u_update_EDSCR_Type_RXfull]
+path = "../u_update_EDSCR_Type_RXfull"

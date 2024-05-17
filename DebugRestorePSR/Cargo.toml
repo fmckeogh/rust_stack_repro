@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "DebugRestorePSR"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.DLR_write]
+path = "../DLR_write"
+
+[dependencies.DSPSR_write]
+path = "../DSPSR_write"
+
+[dependencies.Mk_DSPSR_EL0_Type]
+path = "../Mk_DSPSR_EL0_Type"
+
+[dependencies.Mk_DSPSR_Type]
+path = "../Mk_DSPSR_Type"
+
+[dependencies.SPSR_read]
+path = "../SPSR_read"
+
+[dependencies.SetPSTATEFromPSR]
+path = "../SetPSTATEFromPSR"
+
+[dependencies.UpdateEDSCRFields]
+path = "../UpdateEDSCRFields"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"

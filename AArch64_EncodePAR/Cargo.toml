@@ -1,0 +1,100 @@
+[package]
+edition = "2021"
+name = "AArch64_EncodePAR"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_PARFaultStatus]
+path = "../AArch64_PARFaultStatus"
+
+[dependencies.AArch64_isPARFormatD128]
+path = "../AArch64_isPARFormatD128"
+
+[dependencies.EncodePARAttrs]
+path = "../EncodePARAttrs"
+
+[dependencies.HaveRME]
+path = "../HaveRME"
+
+[dependencies.IsFault]
+path = "../IsFault"
+
+[dependencies.Mk_PAR_EL1_Type]
+path = "../Mk_PAR_EL1_Type"
+
+[dependencies.PAREncodeShareability]
+path = "../PAREncodeShareability"
+
+[dependencies.PAR_EL1_read]
+path = "../PAR_EL1_read"
+
+[dependencies.PAR_EL1_write]
+path = "../PAR_EL1_write"
+
+[dependencies.ReportedPARAttrs]
+path = "../ReportedPARAttrs"
+
+[dependencies.ReportedPARShareability]
+path = "../ReportedPARShareability"
+
+[dependencies.SecurityStateForRegime]
+path = "../SecurityStateForRegime"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_bit]
+path = "../u__IMPDEF_bit"
+
+[dependencies.u__IMPDEF_bits]
+path = "../u__IMPDEF_bits"
+
+[dependencies.u__UNKNOWN_bit]
+path = "../u__UNKNOWN_bit"
+
+[dependencies.u_get_PAR_EL1_Type_D128]
+path = "../u_get_PAR_EL1_Type_D128"
+
+[dependencies.u_update_PAR_EL1_Type_ATTR]
+path = "../u_update_PAR_EL1_Type_ATTR"
+
+[dependencies.u_update_PAR_EL1_Type_AssuredOnly]
+path = "../u_update_PAR_EL1_Type_AssuredOnly"
+
+[dependencies.u_update_PAR_EL1_Type_D128]
+path = "../u_update_PAR_EL1_Type_D128"
+
+[dependencies.u_update_PAR_EL1_Type_DirtyBit]
+path = "../u_update_PAR_EL1_Type_DirtyBit"
+
+[dependencies.u_update_PAR_EL1_Type_F]
+path = "../u_update_PAR_EL1_Type_F"
+
+[dependencies.u_update_PAR_EL1_Type_FST]
+path = "../u_update_PAR_EL1_Type_FST"
+
+[dependencies.u_update_PAR_EL1_Type_NS]
+path = "../u_update_PAR_EL1_Type_NS"
+
+[dependencies.u_update_PAR_EL1_Type_NSE]
+path = "../u_update_PAR_EL1_Type_NSE"
+
+[dependencies.u_update_PAR_EL1_Type_Overlay]
+path = "../u_update_PAR_EL1_Type_Overlay"
+
+[dependencies.u_update_PAR_EL1_Type_PTW]
+path = "../u_update_PAR_EL1_Type_PTW"
+
+[dependencies.u_update_PAR_EL1_Type_S]
+path = "../u_update_PAR_EL1_Type_S"
+
+[dependencies.u_update_PAR_EL1_Type_SH]
+path = "../u_update_PAR_EL1_Type_SH"
+
+[dependencies.u_update_PAR_EL1_Type_TopLevel]
+path = "../u_update_PAR_EL1_Type_TopLevel"

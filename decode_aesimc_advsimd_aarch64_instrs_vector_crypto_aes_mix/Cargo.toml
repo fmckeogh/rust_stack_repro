@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_aesimc_advsimd_aarch64_instrs_vector_crypto_aes_mix"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveAESExt]
+path = "../HaveAESExt"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_vector_crypto_aes_mix]
+path = "../execute_aarch64_instrs_vector_crypto_aes_mix"

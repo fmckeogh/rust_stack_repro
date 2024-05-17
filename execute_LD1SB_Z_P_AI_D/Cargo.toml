@@ -1,0 +1,43 @@
+[package]
+edition = "2021"
+name = "execute_LD1SB_Z_P_AI_D"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ActivePredicateElement]
+path = "../ActivePredicateElement"
+
+[dependencies.AnyActiveElement]
+path = "../AnyActiveElement"
+
+[dependencies.CheckNonStreamingSVEEnabled]
+path = "../CheckNonStreamingSVEEnabled"
+
+[dependencies.CreateAccDescSVE]
+path = "../CreateAccDescSVE"
+
+[dependencies.Elem_read]
+path = "../Elem_read"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.Mem_read]
+path = "../Mem_read"
+
+[dependencies.P_read]
+path = "../P_read"
+
+[dependencies.Z_read]
+path = "../Z_read"
+
+[dependencies.Z_set]
+path = "../Z_set"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"

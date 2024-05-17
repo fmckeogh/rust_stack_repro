@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_LDR_ZT_BR__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveSME2]
+path = "../HaveSME2"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_LDR_ZT_BR__]
+path = "../execute_LDR_ZT_BR__"

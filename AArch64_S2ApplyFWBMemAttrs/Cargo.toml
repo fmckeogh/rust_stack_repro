@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "AArch64_S2ApplyFWBMemAttrs"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.DecodeDevice]
+path = "../DecodeDevice"
+
+[dependencies.DecodeShareability]
+path = "../DecodeShareability"
+
+[dependencies.EffectiveShareability]
+path = "../EffectiveShareability"
+
+[dependencies.S2CombineS1Device]
+path = "../S2CombineS1Device"
+
+[dependencies.S2CombineS1Shareability]
+path = "../S2CombineS1Shareability"
+
+[dependencies.S2MemTagType]
+path = "../S2MemTagType"
+
+[dependencies.common]
+path = "../common"

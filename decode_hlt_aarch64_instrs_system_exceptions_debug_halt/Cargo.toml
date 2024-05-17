@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "decode_hlt_aarch64_instrs_system_exceptions_debug_halt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.HaltingAllowed]
+path = "../HaltingAllowed"
+
+[dependencies.HaveBTIExt]
+path = "../HaveBTIExt"
+
+[dependencies.SetBTypeCompatible]
+path = "../SetBTypeCompatible"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_system_exceptions_debug_halt]
+path = "../execute_aarch64_instrs_system_exceptions_debug_halt"
+
+[dependencies.u_get_EDSCR_Type_HDE]
+path = "../u_get_EDSCR_Type_HDE"

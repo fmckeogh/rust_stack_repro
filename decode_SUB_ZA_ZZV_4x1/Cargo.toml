@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_SUB_ZA_ZZV_4x1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.HaveSME2]
+path = "../HaveSME2"
+
+[dependencies.HaveSMEI16I64]
+path = "../HaveSMEI16I64"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_SUB_ZA_ZZV_4x1]
+path = "../execute_SUB_ZA_ZZV_4x1"

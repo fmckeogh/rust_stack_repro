@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "IsAligned__1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Align_bits]
+path = "../Align_bits"
+
+[dependencies.common]
+path = "../common"

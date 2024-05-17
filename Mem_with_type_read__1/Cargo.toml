@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "Mem_with_type_read__1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_Abort]
+path = "../AArch32_Abort"
+
+[dependencies.AArch32_MemSingle_read]
+path = "../AArch32_MemSingle_read"
+
+[dependencies.AArch32_MemSingle_read__1]
+path = "../AArch32_MemSingle_read__1"
+
+[dependencies.AArch32_UnalignedAccessFaults]
+path = "../AArch32_UnalignedAccessFaults"
+
+[dependencies.AlignmentFault]
+path = "../AlignmentFault"
+
+[dependencies.BigEndian]
+path = "../BigEndian"
+
+[dependencies.ConstrainUnpredictable]
+path = "../ConstrainUnpredictable"
+
+[dependencies.IsAligned__1]
+path = "../IsAligned__1"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.reverse_endianness]
+path = "../reverse_endianness"

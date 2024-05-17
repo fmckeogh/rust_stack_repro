@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "DecodeGPTTable"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AbovePPS]
+path = "../AbovePPS"
+
+[dependencies.GPTL0Size]
+path = "../GPTL0Size"
+
+[dependencies.IsZero]
+path = "../IsZero"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.is_zero_subrange]
+path = "../is_zero_subrange"
+
+[dependencies.u__UNKNOWN_GPTTable]
+path = "../u__UNKNOWN_GPTTable"

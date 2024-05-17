@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "DebugWriteFault"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.EncodeLDFSC]
+path = "../EncodeLDFSC"
+
+[dependencies.HaveRME]
+path = "../HaveRME"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.set_subrange_zeros]
+path = "../set_subrange_zeros"

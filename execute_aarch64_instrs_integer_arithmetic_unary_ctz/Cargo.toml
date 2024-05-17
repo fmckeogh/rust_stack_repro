@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_integer_arithmetic_unary_ctz"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.BitReverse]
+path = "../BitReverse"
+
+[dependencies.CountLeadingZeroBits]
+path = "../CountLeadingZeroBits"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"

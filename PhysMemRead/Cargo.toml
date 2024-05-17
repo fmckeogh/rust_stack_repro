@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "PhysMemRead"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CreatePhysMemRetStatus]
+path = "../CreatePhysMemRetStatus"
+
+[dependencies.ZeroExtend1]
+path = "../ZeroExtend1"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.read_request]
+path = "../read_request"
+
+[dependencies.sail_mem_read]
+path = "../sail_mem_read"
+
+[dependencies.u__ReadGIC]
+path = "../u__ReadGIC"
+
+[dependencies.u__ReadUART]
+path = "../u__ReadUART"

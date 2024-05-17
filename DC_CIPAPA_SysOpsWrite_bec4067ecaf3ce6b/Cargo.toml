@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "DC_CIPAPA_SysOpsWrite_bec4067ecaf3ce6b"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.DC_CIPAPA]
+path = "../DC_CIPAPA"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

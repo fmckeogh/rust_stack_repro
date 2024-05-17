@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "u__set_MDSELR_EL1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_MDSELR_EL1_Type_BANK]
+path = "../u_get_MDSELR_EL1_Type_BANK"

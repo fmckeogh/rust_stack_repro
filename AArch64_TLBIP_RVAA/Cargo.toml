@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "AArch64_TLBIP_RVAA"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Broadcast]
+path = "../Broadcast"
+
+[dependencies.TLBI]
+path = "../TLBI"
+
+[dependencies.TLBIPRange]
+path = "../TLBIPRange"
+
+[dependencies.common]
+path = "../common"

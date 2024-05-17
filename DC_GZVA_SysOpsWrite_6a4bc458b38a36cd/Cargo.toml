@@ -1,0 +1,46 @@
+[package]
+edition = "2021"
+name = "DC_GZVA_SysOpsWrite_6a4bc458b38a36cd"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_MemZero]
+path = "../AArch64_MemZero"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_TDZ]
+path = "../u_get_HCR_EL2_Type_TDZ"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HFGITR_EL2_Type_DCZVA]
+path = "../u_get_HFGITR_EL2_Type_DCZVA"
+
+[dependencies.u_get_SCR_EL3_Type_FGTEn]
+path = "../u_get_SCR_EL3_Type_FGTEn"
+
+[dependencies.u_get_SCTLR_EL1_Type_DZE]
+path = "../u_get_SCTLR_EL1_Type_DZE"
+
+[dependencies.u_get_SCTLR_EL2_Type_DZE]
+path = "../u_get_SCTLR_EL2_Type_DZE"

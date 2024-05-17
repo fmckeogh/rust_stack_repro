@@ -1,0 +1,10 @@
+[package]
+edition = "2021"
+name = "decode_dmb_aarch64_instrs_system_barriers_dmb"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "TTBR0_EL2_SysRegWrite_6f2504a3aff125cc"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Mk_TTBR0_EL2_Type]
+path = "../Mk_TTBR0_EL2_Type"
+
+[dependencies.TTBR0_EL2_read]
+path = "../TTBR0_EL2_read"
+
+[dependencies.TTBR0_EL2_write]
+path = "../TTBR0_EL2_write"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_NV]
+path = "../u_get_HCR_EL2_Type_NV"

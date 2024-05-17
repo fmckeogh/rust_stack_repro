@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_aarch32_instrs_RFE_T2enc_AS_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ConditionPassed]
+path = "../ConditionPassed"
+
+[dependencies.InITBlock]
+path = "../InITBlock"
+
+[dependencies.LastInITBlock]
+path = "../LastInITBlock"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch32_instrs_RFE_Op_AS_txt]
+path = "../execute_aarch32_instrs_RFE_Op_AS_txt"

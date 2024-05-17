@@ -1,0 +1,70 @@
+[package]
+edition = "2021"
+name = "u__SetConfig"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.decode_max_smeveclen]
+path = "../decode_max_smeveclen"
+
+[dependencies.decode_max_sveveclen]
+path = "../decode_max_sveveclen"
+
+[dependencies.fdiv_int]
+path = "../fdiv_int"
+
+[dependencies.integer_access]
+path = "../integer_access"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.neq_int]
+path = "../neq_int"
+
+[dependencies.u__ConfigureV81]
+path = "../u__ConfigureV81"
+
+[dependencies.u__ConfigureV82]
+path = "../u__ConfigureV82"
+
+[dependencies.u__ConfigureV83]
+path = "../u__ConfigureV83"
+
+[dependencies.u__ConfigureV84]
+path = "../u__ConfigureV84"
+
+[dependencies.u__ConfigureV85]
+path = "../u__ConfigureV85"
+
+[dependencies.u__ConfigureV86]
+path = "../u__ConfigureV86"
+
+[dependencies.u__ConfigureV87]
+path = "../u__ConfigureV87"
+
+[dependencies.u__ConfigureV88]
+path = "../u__ConfigureV88"
+
+[dependencies.u__ConfigureV89]
+path = "../u__ConfigureV89"
+
+[dependencies.u__ConfigureV90]
+path = "../u__ConfigureV90"
+
+[dependencies.u__ConfigureV91]
+path = "../u__ConfigureV91"
+
+[dependencies.u__ConfigureV92]
+path = "../u__ConfigureV92"
+
+[dependencies.u__ConfigureV93]
+path = "../u__ConfigureV93"
+
+[dependencies.u__ConfigureV94]
+path = "../u__ConfigureV94"

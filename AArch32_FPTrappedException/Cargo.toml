@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "AArch32_FPTrappedException"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_GeneralExceptionsToAArch64]
+path = "../AArch32_GeneralExceptionsToAArch64"
+
+[dependencies.AArch32_TakeUndefInstrException]
+path = "../AArch32_TakeUndefInstrException"
+
+[dependencies.AArch64_FPTrappedException]
+path = "../AArch64_FPTrappedException"
+
+[dependencies.FPEXC_read]
+path = "../FPEXC_read"
+
+[dependencies.FPEXC_write]
+path = "../FPEXC_write"
+
+[dependencies.Mk_FPEXC_Type]
+path = "../Mk_FPEXC_Type"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_update_FPEXC_Type_DEX]
+path = "../u_update_FPEXC_Type_DEX"
+
+[dependencies.u_update_FPEXC_Type_TFV]
+path = "../u_update_FPEXC_Type_TFV"

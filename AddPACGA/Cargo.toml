@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "AddPACGA"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ComputePAC]
+path = "../ComputePAC"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.EL3SDDUndef]
+path = "../EL3SDDUndef"
+
+[dependencies.EL3SDDUndefPriority]
+path = "../EL3SDDUndefPriority"
+
+[dependencies.TrapPACUse]
+path = "../TrapPACUse"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_API]
+path = "../u_get_HCR_EL2_Type_API"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_SCR_EL3_Type_API]
+path = "../u_get_SCR_EL3_Type_API"

@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "AArch64_MemTag_read"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_Abort]
+path = "../AArch64_Abort"
+
+[dependencies.AArch64_AllocationTagAccessIsEnabled]
+path = "../AArch64_AllocationTagAccessIsEnabled"
+
+[dependencies.AArch64_TranslateAddress]
+path = "../AArch64_TranslateAddress"
+
+[dependencies.HandleExternalReadAbort]
+path = "../HandleExternalReadAbort"
+
+[dependencies.HaveMTE2Ext]
+path = "../HaveMTE2Ext"
+
+[dependencies.HaveMTECanonicalTagCheckingExt]
+path = "../HaveMTECanonicalTagCheckingExt"
+
+[dependencies.IsFault]
+path = "../IsFault"
+
+[dependencies.IsFault__2]
+path = "../IsFault__2"
+
+[dependencies.PhysMemTagRead]
+path = "../PhysMemTagRead"
+
+[dependencies.common]
+path = "../common"

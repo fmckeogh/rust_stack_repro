@@ -1,0 +1,151 @@
+[package]
+edition = "2021"
+name = "DCPSInstruction"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_WriteMode]
+path = "../AArch32_WriteMode"
+
+[dependencies.AArch64_MaybeZeroRegisterUppers]
+path = "../AArch64_MaybeZeroRegisterUppers"
+
+[dependencies.ConstrainUnpredictableBool]
+path = "../ConstrainUnpredictableBool"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.DLR_write]
+path = "../DLR_write"
+
+[dependencies.DSPSR_write]
+path = "../DSPSR_write"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELR_hyp_write]
+path = "../ELR_hyp_write"
+
+[dependencies.ELR_set__1]
+path = "../ELR_set__1"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.ESR_set__1]
+path = "../ESR_set__1"
+
+[dependencies.EffectiveEA]
+path = "../EffectiveEA"
+
+[dependencies.HSR_write]
+path = "../HSR_write"
+
+[dependencies.HaveDoubleFaultExt]
+path = "../HaveDoubleFaultExt"
+
+[dependencies.HaveGCS]
+path = "../HaveGCS"
+
+[dependencies.HaveIESB]
+path = "../HaveIESB"
+
+[dependencies.HaveMTEExt]
+path = "../HaveMTEExt"
+
+[dependencies.HavePANExt]
+path = "../HavePANExt"
+
+[dependencies.HaveSME]
+path = "../HaveSME"
+
+[dependencies.HaveUAOExt]
+path = "../HaveUAOExt"
+
+[dependencies.IsSecureEL2Enabled]
+path = "../IsSecureEL2Enabled"
+
+[dependencies.LR_write]
+path = "../LR_write"
+
+[dependencies.MaybeZeroSVEUppers]
+path = "../MaybeZeroSVEUppers"
+
+[dependencies.Mk_DSPSR_EL0_Type]
+path = "../Mk_DSPSR_EL0_Type"
+
+[dependencies.Mk_DSPSR_Type]
+path = "../Mk_DSPSR_Type"
+
+[dependencies.Mk_ESRType]
+path = "../Mk_ESRType"
+
+[dependencies.Mk_HSR_Type]
+path = "../Mk_HSR_Type"
+
+[dependencies.ResetSVEState]
+path = "../ResetSVEState"
+
+[dependencies.SCTLR_read__1]
+path = "../SCTLR_read__1"
+
+[dependencies.SCTLR_read__2]
+path = "../SCTLR_read__2"
+
+[dependencies.SPSR_set]
+path = "../SPSR_set"
+
+[dependencies.SynchronizeContext]
+path = "../SynchronizeContext"
+
+[dependencies.SynchronizeErrors]
+path = "../SynchronizeErrors"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.UpdateEDSCRFields]
+path = "../UpdateEDSCRFields"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_HCR_EL2_Type_E2H]
+path = "../u_get_HCR_EL2_Type_E2H"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_SCR_EL3_Type_NMEA]
+path = "../u_get_SCR_EL3_Type_NMEA"
+
+[dependencies.u_get_SCTLRType_EE]
+path = "../u_get_SCTLRType_EE"
+
+[dependencies.u_get_SCTLRType_IESB]
+path = "../u_get_SCTLRType_IESB"
+
+[dependencies.u_get_SCTLR_EL1_Type_SPAN]
+path = "../u_get_SCTLR_EL1_Type_SPAN"
+
+[dependencies.u_get_SCTLR_EL2_Type_SPAN]
+path = "../u_get_SCTLR_EL2_Type_SPAN"
+
+[dependencies.u_get_SCTLR_Type_SPAN]
+path = "../u_get_SCTLR_Type_SPAN"

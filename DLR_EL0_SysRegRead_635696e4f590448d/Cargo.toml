@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "DLR_EL0_SysRegRead_635696e4f590448d"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"

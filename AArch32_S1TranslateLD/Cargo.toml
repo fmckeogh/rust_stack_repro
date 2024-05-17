@@ -1,0 +1,73 @@
+[package]
+edition = "2021"
+name = "AArch32_S1TranslateLD"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_EL2Enabled]
+path = "../AArch32_EL2Enabled"
+
+[dependencies.AArch32_GetS1TTWParams]
+path = "../AArch32_GetS1TTWParams"
+
+[dependencies.AArch32_S1DCacheEnabled]
+path = "../AArch32_S1DCacheEnabled"
+
+[dependencies.AArch32_S1DisabledOutput]
+path = "../AArch32_S1DisabledOutput"
+
+[dependencies.AArch32_S1Enabled]
+path = "../AArch32_S1Enabled"
+
+[dependencies.AArch32_S1HasAlignmentFault]
+path = "../AArch32_S1HasAlignmentFault"
+
+[dependencies.AArch32_S1ICacheEnabled]
+path = "../AArch32_S1ICacheEnabled"
+
+[dependencies.AArch32_S1LDHasPermissionsFault]
+path = "../AArch32_S1LDHasPermissionsFault"
+
+[dependencies.AArch32_S1WalkLD]
+path = "../AArch32_S1WalkLD"
+
+[dependencies.AArch32_VAIsOutOfRange]
+path = "../AArch32_VAIsOutOfRange"
+
+[dependencies.CreateAddressDescriptor]
+path = "../CreateAddressDescriptor"
+
+[dependencies.ELStateUsingAArch32]
+path = "../ELStateUsingAArch32"
+
+[dependencies.EffectiveShareability]
+path = "../EffectiveShareability"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.NormalNCMemAttr]
+path = "../NormalNCMemAttr"
+
+[dependencies.SetInGuardedPage]
+path = "../SetInGuardedPage"
+
+[dependencies.StageOA]
+path = "../StageOA"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__UNKNOWN_AddressDescriptor]
+path = "../u__UNKNOWN_AddressDescriptor"
+
+[dependencies.u_get_HCR_EL2_Type_VM]
+path = "../u_get_HCR_EL2_Type_VM"
+
+[dependencies.u_get_HCR_Type_VM]
+path = "../u_get_HCR_Type_VM"

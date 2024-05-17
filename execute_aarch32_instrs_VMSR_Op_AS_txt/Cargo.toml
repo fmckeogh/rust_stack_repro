@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_VMSR_Op_AS_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckVFPEnabled]
+path = "../CheckVFPEnabled"
+
+[dependencies.FPEXC_write]
+path = "../FPEXC_write"
+
+[dependencies.FPSCR_write]
+path = "../FPSCR_write"
+
+[dependencies.Mk_FPEXC_Type]
+path = "../Mk_FPEXC_Type"
+
+[dependencies.Mk_FPSCR_Type]
+path = "../Mk_FPSCR_Type"
+
+[dependencies.R_read]
+path = "../R_read"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.common]
+path = "../common"

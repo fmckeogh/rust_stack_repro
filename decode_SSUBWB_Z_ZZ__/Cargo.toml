@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_SSUBWB_Z_ZZ__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.HaveSME]
+path = "../HaveSME"
+
+[dependencies.HaveSVE2]
+path = "../HaveSVE2"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_SSUBWB_Z_ZZ__]
+path = "../execute_SSUBWB_Z_ZZ__"

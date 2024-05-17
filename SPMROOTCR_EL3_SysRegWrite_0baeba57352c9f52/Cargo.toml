@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "SPMROOTCR_EL3_SysRegWrite_0baeba57352c9f52"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.SPMROOTCR_EL3_set]
+path = "../SPMROOTCR_EL3_set"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_SPMSELR_EL0_Type_SYSPMUSEL]
+path = "../u_get_SPMSELR_EL0_Type_SYSPMUSEL"

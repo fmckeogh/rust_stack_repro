@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "SCR_GEN_read"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveAArch64]
+path = "../HaveAArch64"
+
+[dependencies.Mk_SCRType]
+path = "../Mk_SCRType"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_branch_unconditional_eret"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_CheckForERetTrap]
+path = "../AArch64_CheckForERetTrap"
+
+[dependencies.AArch64_ExceptionReturn]
+path = "../AArch64_ExceptionReturn"
+
+[dependencies.AuthIA]
+path = "../AuthIA"
+
+[dependencies.AuthIB]
+path = "../AuthIB"
+
+[dependencies.ELR_read__1]
+path = "../ELR_read__1"
+
+[dependencies.SPSR_read]
+path = "../SPSR_read"
+
+[dependencies.SP_read]
+path = "../SP_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.return_exception]
+path = "../return_exception"

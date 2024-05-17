@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "decode_BFADD_ZA_ZW_4x4_16"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.HaveSMEB16B16]
+path = "../HaveSMEB16B16"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_BFADD_ZA_ZW_4x4_16]
+path = "../execute_BFADD_ZA_ZW_4x4_16"

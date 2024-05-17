@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "CollectPhysicalAddress"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.IsSecureEL2Enabled]
+path = "../IsSecureEL2Enabled"
+
+[dependencies.ProfilingBufferOwner]
+path = "../ProfilingBufferOwner"
+
+[dependencies.StatisticalProfilingEnabled]
+path = "../StatisticalProfilingEnabled"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_PMSCR_EL1_Type_PA]
+path = "../u_get_PMSCR_EL1_Type_PA"
+
+[dependencies.u_get_PMSCR_EL2_Type_PA]
+path = "../u_get_PMSCR_EL2_Type_PA"

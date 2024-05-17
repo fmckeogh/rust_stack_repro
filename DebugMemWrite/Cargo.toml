@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "DebugMemWrite"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_TranslateAddress]
+path = "../AArch64_TranslateAddress"
+
+[dependencies.IsFault]
+path = "../IsFault"
+
+[dependencies.PhysMemWrite]
+path = "../PhysMemWrite"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_PhysMemRetStatus]
+path = "../u__UNKNOWN_PhysMemRetStatus"

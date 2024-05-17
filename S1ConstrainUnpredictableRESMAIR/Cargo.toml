@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "S1ConstrainUnpredictableRESMAIR"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveFeatXS]
+path = "../HaveFeatXS"
+
+[dependencies.HaveMTE2Ext]
+path = "../HaveMTE2Ext"
+
+[dependencies.common]
+path = "../common"

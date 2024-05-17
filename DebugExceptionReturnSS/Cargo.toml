@@ -1,0 +1,49 @@
+[package]
+edition = "2021"
+name = "DebugExceptionReturnSS"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_GenerateDebugExceptions]
+path = "../AArch32_GenerateDebugExceptions"
+
+[dependencies.AArch32_GenerateDebugExceptionsFrom]
+path = "../AArch32_GenerateDebugExceptionsFrom"
+
+[dependencies.AArch64_GenerateDebugExceptions]
+path = "../AArch64_GenerateDebugExceptions"
+
+[dependencies.AArch64_GenerateDebugExceptionsFrom]
+path = "../AArch64_GenerateDebugExceptionsFrom"
+
+[dependencies.DebugTargetFrom]
+path = "../DebugTargetFrom"
+
+[dependencies.ELFromSPSR]
+path = "../ELFromSPSR"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.IllegalExceptionReturn]
+path = "../IllegalExceptionReturn"
+
+[dependencies.Restarting]
+path = "../Restarting"
+
+[dependencies.SecurityStateAtEL]
+path = "../SecurityStateAtEL"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_MDSCR_EL1_Type_SS]
+path = "../u_get_MDSCR_EL1_Type_SS"

@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "SelfHostedExtendedBPWPEnabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.NumBreakpointsImplemented]
+path = "../NumBreakpointsImplemented"
+
+[dependencies.NumWatchpointsImplemented]
+path = "../NumWatchpointsImplemented"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_MDCR_EL2_Type_EBWE]
+path = "../u_get_MDCR_EL2_Type_EBWE"
+
+[dependencies.u_get_MDCR_EL3_Type_EBWE]
+path = "../u_get_MDCR_EL3_Type_EBWE"
+
+[dependencies.u_get_MDSCR_EL1_Type_EMBWE]
+path = "../u_get_MDSCR_EL1_Type_EMBWE"

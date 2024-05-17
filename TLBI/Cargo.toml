@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "TLBI"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.report_tlbi]
+path = "../report_tlbi"
+
+[dependencies.u_TLBInvalidate]
+path = "../u_TLBInvalidate"

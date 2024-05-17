@@ -1,0 +1,52 @@
+[package]
+edition = "2021"
+name = "TakeReset"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_TakeReset]
+path = "../AArch32_TakeReset"
+
+[dependencies.AArch64_TakeReset]
+path = "../AArch64_TakeReset"
+
+[dependencies.HighestEL]
+path = "../HighestEL"
+
+[dependencies.InitFeatureImpl]
+path = "../InitFeatureImpl"
+
+[dependencies.InitVariantImplemented]
+path = "../InitVariantImplemented"
+
+[dependencies.SetResetVector]
+path = "../SetResetVector"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_access]
+path = "../integer_access"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.neq_int]
+path = "../neq_int"
+
+[dependencies.num_of_Feature]
+path = "../num_of_Feature"
+
+[dependencies.u_get_ID_AA64PFR0_EL1_Type_EL1]
+path = "../u_get_ID_AA64PFR0_EL1_Type_EL1"
+
+[dependencies.u_get_ID_AA64PFR0_EL1_Type_EL2]
+path = "../u_get_ID_AA64PFR0_EL1_Type_EL2"
+
+[dependencies.u_get_ID_AA64PFR0_EL1_Type_EL3]
+path = "../u_get_ID_AA64PFR0_EL1_Type_EL3"
+
+[dependencies.u_get_RMR_EL3_Type_AA64]
+path = "../u_get_RMR_EL3_Type_AA64"

@@ -1,0 +1,133 @@
+[package]
+edition = "2021"
+name = "AArch64_S1TTWParamsEL3"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_HaveHPDExt]
+path = "../AArch64_HaveHPDExt"
+
+[dependencies.AArch64_S1DecodeTG0]
+path = "../AArch64_S1DecodeTG0"
+
+[dependencies.Have128BitDescriptorExt]
+path = "../Have128BitDescriptorExt"
+
+[dependencies.Have52BitIPAAndPASpaceExt]
+path = "../Have52BitIPAAndPASpaceExt"
+
+[dependencies.HaveAIEExt]
+path = "../HaveAIEExt"
+
+[dependencies.HaveAccessFlagUpdateExt]
+path = "../HaveAccessFlagUpdateExt"
+
+[dependencies.HaveAccessFlagUpdateForTableExt]
+path = "../HaveAccessFlagUpdateForTableExt"
+
+[dependencies.HaveDirtyBitModifierExt]
+path = "../HaveDirtyBitModifierExt"
+
+[dependencies.HaveFeatMEC]
+path = "../HaveFeatMEC"
+
+[dependencies.HaveMTE4Ext]
+path = "../HaveMTE4Ext"
+
+[dependencies.HavePACExt]
+path = "../HavePACExt"
+
+[dependencies.HaveRME]
+path = "../HaveRME"
+
+[dependencies.HaveS1PIExt]
+path = "../HaveS1PIExt"
+
+[dependencies.HaveSecureEL2Ext]
+path = "../HaveSecureEL2Ext"
+
+[dependencies.HaveTHExt]
+path = "../HaveTHExt"
+
+[dependencies.Mk_MAIRType]
+path = "../Mk_MAIRType"
+
+[dependencies.Mk_S1PIRType]
+path = "../Mk_S1PIRType"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_SCR_EL3_Type_SIF]
+path = "../u_get_SCR_EL3_Type_SIF"
+
+[dependencies.u_get_SCTLR2_EL3_Type_EMEC]
+path = "../u_get_SCTLR2_EL3_Type_EMEC"
+
+[dependencies.u_get_SCTLR_EL3_Type_EE]
+path = "../u_get_SCTLR_EL3_Type_EE"
+
+[dependencies.u_get_SCTLR_EL3_Type_WXN]
+path = "../u_get_SCTLR_EL3_Type_WXN"
+
+[dependencies.u_get_TCR_EL3_Type_AIE]
+path = "../u_get_TCR_EL3_Type_AIE"
+
+[dependencies.u_get_TCR_EL3_Type_D128]
+path = "../u_get_TCR_EL3_Type_D128"
+
+[dependencies.u_get_TCR_EL3_Type_DS]
+path = "../u_get_TCR_EL3_Type_DS"
+
+[dependencies.u_get_TCR_EL3_Type_DisCH0]
+path = "../u_get_TCR_EL3_Type_DisCH0"
+
+[dependencies.u_get_TCR_EL3_Type_HA]
+path = "../u_get_TCR_EL3_Type_HA"
+
+[dependencies.u_get_TCR_EL3_Type_HAFT]
+path = "../u_get_TCR_EL3_Type_HAFT"
+
+[dependencies.u_get_TCR_EL3_Type_HD]
+path = "../u_get_TCR_EL3_Type_HD"
+
+[dependencies.u_get_TCR_EL3_Type_HPD]
+path = "../u_get_TCR_EL3_Type_HPD"
+
+[dependencies.u_get_TCR_EL3_Type_IRGN0]
+path = "../u_get_TCR_EL3_Type_IRGN0"
+
+[dependencies.u_get_TCR_EL3_Type_MTX]
+path = "../u_get_TCR_EL3_Type_MTX"
+
+[dependencies.u_get_TCR_EL3_Type_ORGN0]
+path = "../u_get_TCR_EL3_Type_ORGN0"
+
+[dependencies.u_get_TCR_EL3_Type_PIE]
+path = "../u_get_TCR_EL3_Type_PIE"
+
+[dependencies.u_get_TCR_EL3_Type_PS]
+path = "../u_get_TCR_EL3_Type_PS"
+
+[dependencies.u_get_TCR_EL3_Type_PnCH]
+path = "../u_get_TCR_EL3_Type_PnCH"
+
+[dependencies.u_get_TCR_EL3_Type_SH0]
+path = "../u_get_TCR_EL3_Type_SH0"
+
+[dependencies.u_get_TCR_EL3_Type_T0SZ]
+path = "../u_get_TCR_EL3_Type_T0SZ"
+
+[dependencies.u_get_TCR_EL3_Type_TBI]
+path = "../u_get_TCR_EL3_Type_TBI"
+
+[dependencies.u_get_TCR_EL3_Type_TBID]
+path = "../u_get_TCR_EL3_Type_TBID"
+
+[dependencies.u_get_TCR_EL3_Type_TG0]
+path = "../u_get_TCR_EL3_Type_TG0"
+
+[dependencies.u_get_TTBR0_EL3_Type_SKL]
+path = "../u_get_TTBR0_EL3_Type_SKL"

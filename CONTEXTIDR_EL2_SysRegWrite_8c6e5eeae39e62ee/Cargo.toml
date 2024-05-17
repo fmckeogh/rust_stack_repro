@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "CONTEXTIDR_EL2_SysRegWrite_8c6e5eeae39e62ee"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Mk_CONTEXTIDR_EL2_Type]
+path = "../Mk_CONTEXTIDR_EL2_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_NV]
+path = "../u_get_HCR_EL2_Type_NV"

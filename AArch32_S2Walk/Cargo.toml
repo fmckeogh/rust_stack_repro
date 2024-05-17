@@ -1,0 +1,79 @@
+[package]
+edition = "2021"
+name = "AArch32_S2Walk"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_DecodeDescriptorTypeLD]
+path = "../AArch32_DecodeDescriptorTypeLD"
+
+[dependencies.AArch32_GetS2TLBContext]
+path = "../AArch32_GetS2TLBContext"
+
+[dependencies.AArch32_S2IASize]
+path = "../AArch32_S2IASize"
+
+[dependencies.AArch32_S2InconsistentSL]
+path = "../AArch32_S2InconsistentSL"
+
+[dependencies.AArch32_S2StartLevel]
+path = "../AArch32_S2StartLevel"
+
+[dependencies.ContiguousSize]
+path = "../ContiguousSize"
+
+[dependencies.CreateAccDescS2TTW]
+path = "../CreateAccDescS2TTW"
+
+[dependencies.EffectiveShareability]
+path = "../EffectiveShareability"
+
+[dependencies.FetchDescriptor]
+path = "../FetchDescriptor"
+
+[dependencies.HCR2_read]
+path = "../HCR2_read"
+
+[dependencies.HaveExtendedExecuteNeverExt]
+path = "../HaveExtendedExecuteNeverExt"
+
+[dependencies.IsZero]
+path = "../IsZero"
+
+[dependencies.NormalNCMemAttr]
+path = "../NormalNCMemAttr"
+
+[dependencies.S2DecodeMemAttrs]
+path = "../S2DecodeMemAttrs"
+
+[dependencies.S2TLBCache]
+path = "../S2TLBCache"
+
+[dependencies.S2TLBLookup]
+path = "../S2TLBLookup"
+
+[dependencies.TGxGranuleBits]
+path = "../TGxGranuleBits"
+
+[dependencies.TranslationSize]
+path = "../TranslationSize"
+
+[dependencies.WalkMemAttrs]
+path = "../WalkMemAttrs"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.place_subrange]
+path = "../place_subrange"
+
+[dependencies.u__UNKNOWN_TTWState]
+path = "../u__UNKNOWN_TTWState"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.u_get_HCR2_Type_CD]
+path = "../u_get_HCR2_Type_CD"

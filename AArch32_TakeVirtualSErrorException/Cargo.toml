@@ -1,0 +1,97 @@
+[package]
+edition = "2021"
+name = "AArch32_TakeVirtualSErrorException"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_EnterMode]
+path = "../AArch32_EnterMode"
+
+[dependencies.AArch64_TakeVirtualSErrorException]
+path = "../AArch64_TakeVirtualSErrorException"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.ClearPendingVirtualSError]
+path = "../ClearPendingVirtualSError"
+
+[dependencies.DFAR_write]
+path = "../DFAR_write"
+
+[dependencies.DFSR_write]
+path = "../DFSR_write"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.EncodeLDFSC]
+path = "../EncodeLDFSC"
+
+[dependencies.EncodeSDFSC]
+path = "../EncodeSDFSC"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.HaveRASExt]
+path = "../HaveRASExt"
+
+[dependencies.Mk_DFSR_Type]
+path = "../Mk_DFSR_Type"
+
+[dependencies.TTBCR_read]
+path = "../TTBCR_read"
+
+[dependencies.ThisInstrAddr]
+path = "../ThisInstrAddr"
+
+[dependencies.VDFSR_read]
+path = "../VDFSR_read"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_bit]
+path = "../u__IMPDEF_bit"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"
+
+[dependencies.u__UNKNOWN_integer]
+path = "../u__UNKNOWN_integer"
+
+[dependencies.u_get_HCR_EL2_Type_AMO]
+path = "../u_get_HCR_EL2_Type_AMO"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HCR_Type_AMO]
+path = "../u_get_HCR_Type_AMO"
+
+[dependencies.u_get_HCR_Type_TGE]
+path = "../u_get_HCR_Type_TGE"
+
+[dependencies.u_get_TTBCR_Type_EAE]
+path = "../u_get_TTBCR_Type_EAE"
+
+[dependencies.u_get_VDFSR_Type_AET]
+path = "../u_get_VDFSR_Type_AET"
+
+[dependencies.u_get_VDFSR_Type_ExT]
+path = "../u_get_VDFSR_Type_ExT"
+
+[dependencies.u_get_VSESR_EL2_Type_AET]
+path = "../u_get_VSESR_EL2_Type_AET"
+
+[dependencies.u_get_VSESR_EL2_Type_ExT]
+path = "../u_get_VSESR_EL2_Type_ExT"

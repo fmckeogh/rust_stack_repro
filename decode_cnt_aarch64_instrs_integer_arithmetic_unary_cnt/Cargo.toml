@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_cnt_aarch64_instrs_integer_arithmetic_unary_cnt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveCSSC]
+path = "../HaveCSSC"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_integer_arithmetic_unary_cnt]
+path = "../execute_aarch64_instrs_integer_arithmetic_unary_cnt"

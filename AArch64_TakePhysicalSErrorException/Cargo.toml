@@ -1,0 +1,43 @@
+[package]
+edition = "2021"
+name = "AArch64_TakePhysicalSErrorException"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_PhysicalSErrorSyndrome]
+path = "../AArch64_PhysicalSErrorSyndrome"
+
+[dependencies.AArch64_TakeException]
+path = "../AArch64_TakeException"
+
+[dependencies.ClearPendingPhysicalSError]
+path = "../ClearPendingPhysicalSError"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ExceptionSyndrome]
+path = "../ExceptionSyndrome"
+
+[dependencies.IsInHost]
+path = "../IsInHost"
+
+[dependencies.IsSErrorEdgeTriggered]
+path = "../IsSErrorEdgeTriggered"
+
+[dependencies.ThisInstrAddr]
+path = "../ThisInstrAddr"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_AMO]
+path = "../u_get_HCR_EL2_Type_AMO"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_SCR_EL3_Type_EA]
+path = "../u_get_SCR_EL3_Type_EA"

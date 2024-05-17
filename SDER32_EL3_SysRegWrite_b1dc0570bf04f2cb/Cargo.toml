@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "SDER32_EL3_SysRegWrite_b1dc0570bf04f2cb"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveAArch32EL]
+path = "../HaveAArch32EL"
+
+[dependencies.Mk_SDER32_EL3_Type]
+path = "../Mk_SDER32_EL3_Type"
+
+[dependencies.SDER32_EL3_write]
+path = "../SDER32_EL3_write"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

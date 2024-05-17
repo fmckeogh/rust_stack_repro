@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "IsSecureEL2Enabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HaveSecureEL2Ext]
+path = "../HaveSecureEL2Ext"
+
+[dependencies.SecureOnlyImplementation]
+path = "../SecureOnlyImplementation"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_SCR_EL3_Type_EEL2]
+path = "../u_get_SCR_EL3_Type_EEL2"

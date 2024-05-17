@@ -1,0 +1,43 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_VMAXNM_Op_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckAdvSIMDOrVFPEnabled]
+path = "../CheckAdvSIMDOrVFPEnabled"
+
+[dependencies.D_read]
+path = "../D_read"
+
+[dependencies.D_set]
+path = "../D_set"
+
+[dependencies.Elem_read]
+path = "../Elem_read"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.FPMaxNum]
+path = "../FPMaxNum"
+
+[dependencies.FPMinNum]
+path = "../FPMinNum"
+
+[dependencies.FPSCR_read]
+path = "../FPSCR_read"
+
+[dependencies.S_read]
+path = "../S_read"
+
+[dependencies.S_set]
+path = "../S_set"
+
+[dependencies.StandardFPSCRValue]
+path = "../StandardFPSCRValue"
+
+[dependencies.common]
+path = "../common"

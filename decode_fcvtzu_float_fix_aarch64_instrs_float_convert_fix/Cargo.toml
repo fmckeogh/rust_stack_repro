@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "decode_fcvtzu_float_fix_aarch64_instrs_float_convert_fix"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.FPCR_read]
+path = "../FPCR_read"
+
+[dependencies.FPRoundingMode]
+path = "../FPRoundingMode"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_float_convert_fix]
+path = "../execute_aarch64_instrs_float_convert_fix"

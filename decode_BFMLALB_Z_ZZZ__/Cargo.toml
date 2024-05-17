@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "decode_BFMLALB_Z_ZZZ__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.HaveBF16Ext]
+path = "../HaveBF16Ext"
+
+[dependencies.HaveSME]
+path = "../HaveSME"
+
+[dependencies.HaveSVE]
+path = "../HaveSVE"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_BFMLALB_Z_ZZZ__]
+path = "../execute_BFMLALB_Z_ZZZ__"

@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "u__DecodeA32"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__DecodeA32_BranchBlock]
+path = "../u__DecodeA32_BranchBlock"
+
+[dependencies.u__DecodeA32_DataProMisc]
+path = "../u__DecodeA32_DataProMisc"
+
+[dependencies.u__DecodeA32_LoadStoreImmLit]
+path = "../u__DecodeA32_LoadStoreImmLit"
+
+[dependencies.u__DecodeA32_LoadStoreReg]
+path = "../u__DecodeA32_LoadStoreReg"
+
+[dependencies.u__DecodeA32_Media]
+path = "../u__DecodeA32_Media"
+
+[dependencies.u__DecodeA32_SysASIMDFP]
+path = "../u__DecodeA32_SysASIMDFP"
+
+[dependencies.u__DecodeA32_Unconditional]
+path = "../u__DecodeA32_Unconditional"

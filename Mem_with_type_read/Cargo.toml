@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "Mem_with_type_read"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Mem_with_type_read__1]
+path = "../Mem_with_type_read__1"
+
+[dependencies.common]
+path = "../common"

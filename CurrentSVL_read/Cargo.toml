@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "CurrentSVL_read"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ImplementedSMEVectorLength]
+path = "../ImplementedSMEVectorLength"
+
+[dependencies.IsInHost]
+path = "../IsInHost"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_SMCR_EL1_Type_LEN]
+path = "../u_get_SMCR_EL1_Type_LEN"
+
+[dependencies.u_get_SMCR_EL2_Type_LEN]
+path = "../u_get_SMCR_EL2_Type_LEN"
+
+[dependencies.u_get_SMCR_EL3_Type_LEN]
+path = "../u_get_SMCR_EL3_Type_LEN"

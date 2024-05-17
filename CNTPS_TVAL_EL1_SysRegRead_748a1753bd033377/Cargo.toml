@@ -1,0 +1,52 @@
+[package]
+edition = "2021"
+name = "CNTPS_TVAL_EL1_SysRegRead_748a1753bd033377"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.Mk_CNTPS_TVAL_EL1_Type]
+path = "../Mk_CNTPS_TVAL_EL1_Type"
+
+[dependencies.PhysicalCountInt]
+path = "../PhysicalCountInt"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"
+
+[dependencies.u__get_CNTPS_TVAL_EL1]
+path = "../u__get_CNTPS_TVAL_EL1"
+
+[dependencies.u_get_CNTHCTL_EL2_Type_ECV]
+path = "../u_get_CNTHCTL_EL2_Type_ECV"
+
+[dependencies.u_get_CNTPS_CTL_EL1_Type_ENABLE]
+path = "../u_get_CNTPS_CTL_EL1_Type_ENABLE"
+
+[dependencies.u_get_SCR_EL3_Type_ECVEn]
+path = "../u_get_SCR_EL3_Type_ECVEn"
+
+[dependencies.u_get_SCR_EL3_Type_EEL2]
+path = "../u_get_SCR_EL3_Type_EEL2"
+
+[dependencies.u_get_SCR_EL3_Type_NS]
+path = "../u_get_SCR_EL3_Type_NS"
+
+[dependencies.u_get_SCR_EL3_Type_ST]
+path = "../u_get_SCR_EL3_Type_ST"

@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "ExternalDebugInterruptsDisabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.ExternalInvasiveDebugEnabled]
+path = "../ExternalInvasiveDebugEnabled"
+
+[dependencies.ExternalRealmInvasiveDebugEnabled]
+path = "../ExternalRealmInvasiveDebugEnabled"
+
+[dependencies.ExternalRootInvasiveDebugEnabled]
+path = "../ExternalRootInvasiveDebugEnabled"
+
+[dependencies.ExternalSecureInvasiveDebugEnabled]
+path = "../ExternalSecureInvasiveDebugEnabled"
+
+[dependencies.Havev8p4Debug]
+path = "../Havev8p4Debug"
+
+[dependencies.SecurityStateAtEL]
+path = "../SecurityStateAtEL"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_EDSCR_Type_INTdis]
+path = "../u_get_EDSCR_Type_INTdis"

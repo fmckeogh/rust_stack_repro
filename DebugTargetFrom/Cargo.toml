@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "DebugTargetFrom"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.HDCR_read]
+path = "../HDCR_read"
+
+[dependencies.HaveAArch64]
+path = "../HaveAArch64"
+
+[dependencies.HaveSecureEL2Ext]
+path = "../HaveSecureEL2Ext"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HCR_Type_TGE]
+path = "../u_get_HCR_Type_TGE"
+
+[dependencies.u_get_HDCR_Type_TDE]
+path = "../u_get_HDCR_Type_TDE"
+
+[dependencies.u_get_MDCR_EL2_Type_TDE]
+path = "../u_get_MDCR_EL2_Type_TDE"
+
+[dependencies.u_get_SCR_EL3_Type_EEL2]
+path = "../u_get_SCR_EL3_Type_EEL2"

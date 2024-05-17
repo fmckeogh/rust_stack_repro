@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "RMR_EL1_SysRegRead_9adb359c4ff7cc32"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.IsHighestEL]
+path = "../IsHighestEL"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_RMR_EL1]
+path = "../u__get_RMR_EL1"

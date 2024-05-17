@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_system_tme_tcancel"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.FailTransaction__1]
+path = "../FailTransaction__1"
+
+[dependencies.IsTMEEnabled]
+path = "../IsTMEEnabled"
+
+[dependencies.common]
+path = "../common"

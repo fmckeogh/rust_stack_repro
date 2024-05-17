@@ -1,0 +1,49 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_VMRS_Op_AS_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_CheckAdvSIMDOrFPRegisterTraps]
+path = "../AArch32_CheckAdvSIMDOrFPRegisterTraps"
+
+[dependencies.CheckVFPEnabled]
+path = "../CheckVFPEnabled"
+
+[dependencies.FPEXC_read]
+path = "../FPEXC_read"
+
+[dependencies.FPSCR_read__1]
+path = "../FPSCR_read__1"
+
+[dependencies.MVFR0_read]
+path = "../MVFR0_read"
+
+[dependencies.MVFR1_read]
+path = "../MVFR1_read"
+
+[dependencies.MVFR2_read]
+path = "../MVFR2_read"
+
+[dependencies.R_set]
+path = "../R_set"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_FPSR_Type_C]
+path = "../u_get_FPSR_Type_C"
+
+[dependencies.u_get_FPSR_Type_N]
+path = "../u_get_FPSR_Type_N"
+
+[dependencies.u_get_FPSR_Type_V]
+path = "../u_get_FPSR_Type_V"
+
+[dependencies.u_get_FPSR_Type_Z]
+path = "../u_get_FPSR_Type_Z"

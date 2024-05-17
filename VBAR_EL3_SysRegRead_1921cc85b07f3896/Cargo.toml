@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "VBAR_EL3_SysRegRead_1921cc85b07f3896"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_VBAR_EL3]
+path = "../u__get_VBAR_EL3"

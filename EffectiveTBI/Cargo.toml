@@ -1,0 +1,61 @@
+[package]
+edition = "2021"
+name = "EffectiveTBI"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELIsInHost]
+path = "../ELIsInHost"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HavePACExt]
+path = "../HavePACExt"
+
+[dependencies.HaveVirtHostExt]
+path = "../HaveVirtHostExt"
+
+[dependencies.S1TranslationRegime]
+path = "../S1TranslationRegime"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_TCR_EL1_Type_TBI0]
+path = "../u_get_TCR_EL1_Type_TBI0"
+
+[dependencies.u_get_TCR_EL1_Type_TBI1]
+path = "../u_get_TCR_EL1_Type_TBI1"
+
+[dependencies.u_get_TCR_EL1_Type_TBID0]
+path = "../u_get_TCR_EL1_Type_TBID0"
+
+[dependencies.u_get_TCR_EL1_Type_TBID1]
+path = "../u_get_TCR_EL1_Type_TBID1"
+
+[dependencies.u_get_TCR_EL2_Type_TBI]
+path = "../u_get_TCR_EL2_Type_TBI"
+
+[dependencies.u_get_TCR_EL2_Type_TBI0]
+path = "../u_get_TCR_EL2_Type_TBI0"
+
+[dependencies.u_get_TCR_EL2_Type_TBI1]
+path = "../u_get_TCR_EL2_Type_TBI1"
+
+[dependencies.u_get_TCR_EL2_Type_TBID]
+path = "../u_get_TCR_EL2_Type_TBID"
+
+[dependencies.u_get_TCR_EL2_Type_TBID0]
+path = "../u_get_TCR_EL2_Type_TBID0"
+
+[dependencies.u_get_TCR_EL2_Type_TBID1]
+path = "../u_get_TCR_EL2_Type_TBID1"
+
+[dependencies.u_get_TCR_EL3_Type_TBI]
+path = "../u_get_TCR_EL3_Type_TBI"
+
+[dependencies.u_get_TCR_EL3_Type_TBID]
+path = "../u_get_TCR_EL3_Type_TBID"

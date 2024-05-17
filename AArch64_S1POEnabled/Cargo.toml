@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "AArch64_S1POEnabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveS1POExt]
+path = "../HaveS1POExt"
+
+[dependencies.IsTCR2EL1Enabled]
+path = "../IsTCR2EL1Enabled"
+
+[dependencies.IsTCR2EL2Enabled]
+path = "../IsTCR2EL2Enabled"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_TCR2_EL1_Type_POE]
+path = "../u_get_TCR2_EL1_Type_POE"
+
+[dependencies.u_get_TCR2_EL2_Type_POE]
+path = "../u_get_TCR2_EL2_Type_POE"
+
+[dependencies.u_get_TCR_EL3_Type_POE]
+path = "../u_get_TCR_EL3_Type_POE"

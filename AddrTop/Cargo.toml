@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "AddrTop"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.EffectiveTBI]
+path = "../EffectiveTBI"
+
+[dependencies.S1TranslationRegime]
+path = "../S1TranslationRegime"
+
+[dependencies.common]
+path = "../common"

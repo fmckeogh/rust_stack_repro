@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "execute_ZERO_ZA4_RI_4"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckStreamingSVEAndZAEnabled]
+path = "../CheckStreamingSVEAndZAEnabled"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.ZAvector_set]
+path = "../ZAvector_set"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.fmod_int]
+path = "../fmod_int"

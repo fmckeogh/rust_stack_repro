@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "AFSR1_EL3_SysRegRead_bbfc01f9fd46f6c4"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"

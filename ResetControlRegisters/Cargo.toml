@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "ResetControlRegisters"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_AutoGen_ArchitectureReset]
+path = "../AArch32_AutoGen_ArchitectureReset"
+
+[dependencies.AArch32_IMPDEFResets]
+path = "../AArch32_IMPDEFResets"
+
+[dependencies.AArch64_AutoGen_ArchitectureReset]
+path = "../AArch64_AutoGen_ArchitectureReset"
+
+[dependencies.AArch64_IMPDEFResets]
+path = "../AArch64_IMPDEFResets"
+
+[dependencies.HaveAArch64]
+path = "../HaveAArch64"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__Reset]
+path = "../u__Reset"

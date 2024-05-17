@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "ZCR_EL3_SysRegRead_db53f2dcbaed5b3a"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_ZCR_EL3]
+path = "../u__get_ZCR_EL3"
+
+[dependencies.u_get_CPTR_EL3_Type_EZ]
+path = "../u_get_CPTR_EL3_Type_EZ"

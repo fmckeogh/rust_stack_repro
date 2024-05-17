@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_PLD_l_Op_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Align_bits]
+path = "../Align_bits"
+
+[dependencies.Hint_PreloadData]
+path = "../Hint_PreloadData"
+
+[dependencies.PC_read__1]
+path = "../PC_read__1"
+
+[dependencies.common]
+path = "../common"

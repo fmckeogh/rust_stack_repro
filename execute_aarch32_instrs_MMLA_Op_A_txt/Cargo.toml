@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_MMLA_Op_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckAdvSIMDEnabled]
+path = "../CheckAdvSIMDEnabled"
+
+[dependencies.MatMulAdd]
+path = "../MatMulAdd"
+
+[dependencies.Q_read]
+path = "../Q_read"
+
+[dependencies.Q_set]
+path = "../Q_set"
+
+[dependencies.common]
+path = "../common"

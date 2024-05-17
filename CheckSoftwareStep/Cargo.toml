@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "CheckSoftwareStep"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_GenerateDebugExceptions]
+path = "../AArch64_GenerateDebugExceptions"
+
+[dependencies.AArch64_SoftwareStepException]
+path = "../AArch64_SoftwareStepException"
+
+[dependencies.DebugTarget]
+path = "../DebugTarget"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_MDSCR_EL1_Type_SS]
+path = "../u_get_MDSCR_EL1_Type_SS"

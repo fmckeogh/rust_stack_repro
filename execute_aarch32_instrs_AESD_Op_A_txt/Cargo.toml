@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "execute_aarch32_instrs_AESD_Op_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AESInvShiftRows]
+path = "../AESInvShiftRows"
+
+[dependencies.AESInvSubBytes]
+path = "../AESInvSubBytes"
+
+[dependencies.CheckCryptoEnabled32]
+path = "../CheckCryptoEnabled32"
+
+[dependencies.Q_read]
+path = "../Q_read"
+
+[dependencies.Q_set]
+path = "../Q_set"
+
+[dependencies.common]
+path = "../common"

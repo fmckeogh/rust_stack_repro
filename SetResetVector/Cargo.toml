@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "SetResetVector"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveAArch64]
+path = "../HaveAArch64"
+
+[dependencies.HighestEL]
+path = "../HighestEL"
+
+[dependencies.Mk_MVBAR_Type]
+path = "../Mk_MVBAR_Type"
+
+[dependencies.Mk_RVBAR_EL1_Type]
+path = "../Mk_RVBAR_EL1_Type"
+
+[dependencies.Mk_RVBAR_EL2_Type]
+path = "../Mk_RVBAR_EL2_Type"
+
+[dependencies.Mk_RVBAR_EL3_Type]
+path = "../Mk_RVBAR_EL3_Type"
+
+[dependencies.common]
+path = "../common"

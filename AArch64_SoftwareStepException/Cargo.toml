@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "AArch64_SoftwareStepException"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_TakeException]
+path = "../AArch64_TakeException"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ExceptionSyndrome]
+path = "../ExceptionSyndrome"
+
+[dependencies.SoftwareStep_DidNotStep]
+path = "../SoftwareStep_DidNotStep"
+
+[dependencies.SoftwareStep_SteppedEX]
+path = "../SoftwareStep_SteppedEX"
+
+[dependencies.ThisInstrAddr]
+path = "../ThisInstrAddr"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_MDCR_EL2_Type_TDE]
+path = "../u_get_MDCR_EL2_Type_TDE"

@@ -1,0 +1,64 @@
+[package]
+edition = "2021"
+name = "getISR"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.FIQPending]
+path = "../FIQPending"
+
+[dependencies.HaveFeatNMI]
+path = "../HaveFeatNMI"
+
+[dependencies.IRQPending]
+path = "../IRQPending"
+
+[dependencies.IsHCRXEL2Enabled]
+path = "../IsHCRXEL2Enabled"
+
+[dependencies.IsPhysicalSErrorPending]
+path = "../IsPhysicalSErrorPending"
+
+[dependencies.UsingAArch32]
+path = "../UsingAArch32"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCRX_EL2_Type_VFNMI]
+path = "../u_get_HCRX_EL2_Type_VFNMI"
+
+[dependencies.u_get_HCRX_EL2_Type_VINMI]
+path = "../u_get_HCRX_EL2_Type_VINMI"
+
+[dependencies.u_get_HCR_EL2_Type_AMO]
+path = "../u_get_HCR_EL2_Type_AMO"
+
+[dependencies.u_get_HCR_EL2_Type_FMO]
+path = "../u_get_HCR_EL2_Type_FMO"
+
+[dependencies.u_get_HCR_EL2_Type_IMO]
+path = "../u_get_HCR_EL2_Type_IMO"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_HCR_EL2_Type_VF]
+path = "../u_get_HCR_EL2_Type_VF"
+
+[dependencies.u_get_HCR_EL2_Type_VI]
+path = "../u_get_HCR_EL2_Type_VI"
+
+[dependencies.u_get_HCR_EL2_Type_VSE]
+path = "../u_get_HCR_EL2_Type_VSE"

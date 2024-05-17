@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "TLBI_ALLE3OS_SysOpsWrite_7d60d9e9832a86fc"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_TLBI_ALL]
+path = "../AArch64_TLBI_ALL"
+
+[dependencies.SecurityStateAtEL]
+path = "../SecurityStateAtEL"
+
+[dependencies.common]
+path = "../common"

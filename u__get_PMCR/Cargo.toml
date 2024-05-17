@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "u__get_PMCR"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.IsFeatureImplemented]
+path = "../IsFeatureImplemented"
+
+[dependencies.Mk_PMCR_Type]
+path = "../Mk_PMCR_Type"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"

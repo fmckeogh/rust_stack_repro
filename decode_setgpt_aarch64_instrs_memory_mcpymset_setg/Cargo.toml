@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "decode_setgpt_aarch64_instrs_memory_mcpymset_setg"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckMOPSEnabled]
+path = "../CheckMOPSEnabled"
+
+[dependencies.ConstrainUnpredictable]
+path = "../ConstrainUnpredictable"
+
+[dependencies.EndOfInstruction]
+path = "../EndOfInstruction"
+
+[dependencies.HaveFeatMOPS]
+path = "../HaveFeatMOPS"
+
+[dependencies.HaveMTEExt]
+path = "../HaveMTEExt"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_memory_mcpymset_setg]
+path = "../execute_aarch64_instrs_memory_mcpymset_setg"

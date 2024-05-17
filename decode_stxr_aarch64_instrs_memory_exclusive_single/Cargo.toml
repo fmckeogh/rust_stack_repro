@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_stxr_aarch64_instrs_memory_exclusive_single"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ConstrainUnpredictable]
+path = "../ConstrainUnpredictable"
+
+[dependencies.EndOfInstruction]
+path = "../EndOfInstruction"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_memory_exclusive_single]
+path = "../execute_aarch64_instrs_memory_exclusive_single"
+
+[dependencies.neq_int]
+path = "../neq_int"

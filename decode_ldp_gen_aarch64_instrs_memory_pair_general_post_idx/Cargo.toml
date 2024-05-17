@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "decode_ldp_gen_aarch64_instrs_memory_pair_general_post_idx"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.ConstrainUnpredictable]
+path = "../ConstrainUnpredictable"
+
+[dependencies.EndOfInstruction]
+path = "../EndOfInstruction"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_memory_pair_general_post_idx]
+path = "../execute_aarch64_instrs_memory_pair_general_post_idx"
+
+[dependencies.neq_int]
+path = "../neq_int"
+
+[dependencies.u__id]
+path = "../u__id"

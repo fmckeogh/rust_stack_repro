@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_rcwsetp_aarch64_instrs_memory_rcw_ld_128_rcwsetp"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Have128BitDescriptorExt]
+path = "../Have128BitDescriptorExt"
+
+[dependencies.HaveTHExt]
+path = "../HaveTHExt"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_memory_rcw_ld_128_rcwsetp]
+path = "../execute_aarch64_instrs_memory_rcw_ld_128_rcwsetp"
+
+[dependencies.neq_int]
+path = "../neq_int"

@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "IsSCTLR2EL2Enabled"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.HaveFeatSCTLR2]
+path = "../HaveFeatSCTLR2"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_SCR_EL3_Type_SCTLR2En]
+path = "../u_get_SCR_EL3_Type_SCTLR2En"

@@ -1,0 +1,49 @@
+[package]
+edition = "2021"
+name = "AArch32_UnallocatedSysRegAccess"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_CheckCP15InstrCoarseTraps]
+path = "../AArch32_CheckCP15InstrCoarseTraps"
+
+[dependencies.AArch32_SystemAccessTrap]
+path = "../AArch32_SystemAccessTrap"
+
+[dependencies.AArch64_AArch32SystemAccessTrap]
+path = "../AArch64_AArch32SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.GetNreg]
+path = "../GetNreg"
+
+[dependencies.HaveFGTExt]
+path = "../HaveFGTExt"
+
+[dependencies.PLOfEL]
+path = "../PLOfEL"
+
+[dependencies.R_set]
+path = "../R_set"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"
+
+[dependencies.u_get_HCR_EL2_Type_TID3]
+path = "../u_get_HCR_EL2_Type_TID3"

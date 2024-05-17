@@ -1,0 +1,49 @@
+[package]
+edition = "2021"
+name = "AArch32_Abort"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_TakeDataAbortException]
+path = "../AArch32_TakeDataAbortException"
+
+[dependencies.AArch32_TakePrefetchAbortException]
+path = "../AArch32_TakePrefetchAbortException"
+
+[dependencies.AArch64_Abort]
+path = "../AArch64_Abort"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.EffectiveEA]
+path = "../EffectiveEA"
+
+[dependencies.HaveRASExt]
+path = "../HaveRASExt"
+
+[dependencies.IsDebugException]
+path = "../IsDebugException"
+
+[dependencies.IsExternalAbort__1]
+path = "../IsExternalAbort__1"
+
+[dependencies.IsSecondStage]
+path = "../IsSecondStage"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_HCR_EL2_Type_TEA]
+path = "../u_get_HCR_EL2_Type_TEA"
+
+[dependencies.u_get_HCR_EL2_Type_TGE]
+path = "../u_get_HCR_EL2_Type_TGE"
+
+[dependencies.u_get_MDCR_EL2_Type_TDE]
+path = "../u_get_MDCR_EL2_Type_TDE"

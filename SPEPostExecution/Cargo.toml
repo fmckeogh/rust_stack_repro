@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "SPEPostExecution"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveStatisticalProfilingv1p2]
+path = "../HaveStatisticalProfilingv1p2"
+
+[dependencies.PMUEvent]
+path = "../PMUEvent"
+
+[dependencies.SPEBufferFilled]
+path = "../SPEBufferFilled"
+
+[dependencies.SPEBufferIsFull]
+path = "../SPEBufferIsFull"
+
+[dependencies.SPECollectRecord]
+path = "../SPECollectRecord"
+
+[dependencies.SPEConstructRecord]
+path = "../SPEConstructRecord"
+
+[dependencies.SPEResetSampleStorage]
+path = "../SPEResetSampleStorage"
+
+[dependencies.SPEStopCounter]
+path = "../SPEStopCounter"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_PMBLIMITR_EL1_Type_FM]
+path = "../u_get_PMBLIMITR_EL1_Type_FM"

@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "AArch64_PACEffectiveTxSZ"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_MaxTxSZ]
+path = "../AArch64_MaxTxSZ"
+
+[dependencies.AArch64_S1MinTxSZ]
+path = "../AArch64_S1MinTxSZ"
+
+[dependencies.AArch64_S1TxSZFaults]
+path = "../AArch64_S1TxSZFaults"
+
+[dependencies.ConstrainUnpredictable]
+path = "../ConstrainUnpredictable"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"

@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_sqrdmlsh_advsimd_vec_aarch64_instrs_vector_arithmetic_binary_uniform_mul_int_doubling_accum_sisd"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveQRDMLAHExt]
+path = "../HaveQRDMLAHExt"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_vector_arithmetic_binary_uniform_mul_int_doubling_accum_sisd]
+path = "../execute_aarch64_instrs_vector_arithmetic_binary_uniform_mul_int_doubling_accum_sisd"

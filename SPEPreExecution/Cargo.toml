@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name = "SPEPreExecution"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.PMUEvent]
+path = "../PMUEvent"
+
+[dependencies.SPESampleAddAddressPCVirtual]
+path = "../SPESampleAddAddressPCVirtual"
+
+[dependencies.SPESampleAddContext]
+path = "../SPESampleAddContext"
+
+[dependencies.SPESampleAddOpOther__1]
+path = "../SPESampleAddOpOther__1"
+
+[dependencies.SPESampleAddTimeStamp]
+path = "../SPESampleAddTimeStamp"
+
+[dependencies.SPEStartCounter]
+path = "../SPEStartCounter"
+
+[dependencies.SPEToCollectSample]
+path = "../SPEToCollectSample"
+
+[dependencies.StatisticalProfilingEnabled]
+path = "../StatisticalProfilingEnabled"
+
+[dependencies.common]
+path = "../common"

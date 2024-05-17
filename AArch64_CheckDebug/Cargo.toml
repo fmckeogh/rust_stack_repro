@@ -1,0 +1,37 @@
+[package]
+edition = "2021"
+name = "AArch64_CheckDebug"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_CheckBreakpoint]
+path = "../AArch64_CheckBreakpoint"
+
+[dependencies.AArch64_CheckWatchpoint]
+path = "../AArch64_CheckWatchpoint"
+
+[dependencies.AArch64_GenerateDebugExceptions]
+path = "../AArch64_GenerateDebugExceptions"
+
+[dependencies.AArch64_GenerateDebugExceptionsFrom]
+path = "../AArch64_GenerateDebugExceptionsFrom"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.HaltOnBreakpointOrWatchpoint]
+path = "../HaltOnBreakpointOrWatchpoint"
+
+[dependencies.IsDataAccess]
+path = "../IsDataAccess"
+
+[dependencies.NoFault__1]
+path = "../NoFault__1"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u_get_MDSCR_EL1_Type_MDE]
+path = "../u_get_MDSCR_EL1_Type_MDE"

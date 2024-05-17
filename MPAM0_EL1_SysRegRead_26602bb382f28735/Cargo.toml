@@ -1,0 +1,40 @@
+[package]
+edition = "2021"
+name = "MPAM0_EL1_SysRegRead_26602bb382f28735"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Halted]
+path = "../Halted"
+
+[dependencies.MPAM3_EL3_read]
+path = "../MPAM3_EL3_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__get_MPAM0_EL1]
+path = "../u__get_MPAM0_EL1"
+
+[dependencies.u_get_EDSCR_Type_SDD]
+path = "../u_get_EDSCR_Type_SDD"
+
+[dependencies.u_get_MPAM2_EL2_Type_TRAPMPAM0EL1]
+path = "../u_get_MPAM2_EL2_Type_TRAPMPAM0EL1"
+
+[dependencies.u_get_MPAM3_EL3_Type_TRAPLOWER]
+path = "../u_get_MPAM3_EL3_Type_TRAPLOWER"

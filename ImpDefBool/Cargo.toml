@@ -1,0 +1,19 @@
+[package]
+edition = "2021"
+name = "ImpDefBool"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HasArchVersion]
+path = "../HasArchVersion"
+
+[dependencies.HaveStatisticalProfilingv1p2]
+path = "../HaveStatisticalProfilingv1p2"
+
+[dependencies.HighestEL]
+path = "../HighestEL"
+
+[dependencies.common]
+path = "../common"

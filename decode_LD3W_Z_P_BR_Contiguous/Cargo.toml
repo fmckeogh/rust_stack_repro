@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_LD3W_Z_P_BR_Contiguous"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CurrentVL_read]
+path = "../CurrentVL_read"
+
+[dependencies.HaveSME]
+path = "../HaveSME"
+
+[dependencies.HaveSVE]
+path = "../HaveSVE"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_LD3W_Z_P_BR_Contiguous]
+path = "../execute_LD3W_Z_P_BR_Contiguous"

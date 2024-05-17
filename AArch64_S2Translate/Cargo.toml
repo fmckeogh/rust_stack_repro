@@ -1,0 +1,103 @@
+[package]
+edition = "2021"
+name = "AArch64_S2Translate"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_GetS2TTWParams]
+path = "../AArch64_GetS2TTWParams"
+
+[dependencies.AArch64_IPAIsOutOfRange]
+path = "../AArch64_IPAIsOutOfRange"
+
+[dependencies.AArch64_MaxTxSZ]
+path = "../AArch64_MaxTxSZ"
+
+[dependencies.AArch64_MemSwapTableDesc]
+path = "../AArch64_MemSwapTableDesc"
+
+[dependencies.AArch64_S2CheckPermissions]
+path = "../AArch64_S2CheckPermissions"
+
+[dependencies.AArch64_S2HasAlignmentFault]
+path = "../AArch64_S2HasAlignmentFault"
+
+[dependencies.AArch64_S2InconsistentSL]
+path = "../AArch64_S2InconsistentSL"
+
+[dependencies.AArch64_S2InvalidSL]
+path = "../AArch64_S2InvalidSL"
+
+[dependencies.AArch64_S2MinTxSZ]
+path = "../AArch64_S2MinTxSZ"
+
+[dependencies.AArch64_S2OutputMECID]
+path = "../AArch64_S2OutputMECID"
+
+[dependencies.AArch64_S2TxSZFaults]
+path = "../AArch64_S2TxSZFaults"
+
+[dependencies.AArch64_S2Walk]
+path = "../AArch64_S2Walk"
+
+[dependencies.AArch64_SettingAccessFlagPermitted]
+path = "../AArch64_SettingAccessFlagPermitted"
+
+[dependencies.AArch64_SettingDirtyStatePermitted]
+path = "../AArch64_SettingDirtyStatePermitted"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.ContiguousSize]
+path = "../ContiguousSize"
+
+[dependencies.CreateAccDescTTEUpdate]
+path = "../CreateAccDescTTEUpdate"
+
+[dependencies.CreateAddressDescriptor]
+path = "../CreateAddressDescriptor"
+
+[dependencies.NormalNCMemAttr]
+path = "../NormalNCMemAttr"
+
+[dependencies.S2CombineS1MemAttrs]
+path = "../S2CombineS1MemAttrs"
+
+[dependencies.S2TLBCache]
+path = "../S2TLBCache"
+
+[dependencies.S2TLBLookup]
+path = "../S2TLBLookup"
+
+[dependencies.StageOA]
+path = "../StageOA"
+
+[dependencies.TranslationSize]
+path = "../TranslationSize"
+
+[dependencies.VMID_read]
+path = "../VMID_read"
+
+[dependencies.Zeros]
+path = "../Zeros"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.integer_subrange]
+path = "../integer_subrange"
+
+[dependencies.set_subrange_zeros]
+path = "../set_subrange_zeros"
+
+[dependencies.u__UNKNOWN_AddressDescriptor]
+path = "../u__UNKNOWN_AddressDescriptor"
+
+[dependencies.u_get_HCR_EL2_Type_CD]
+path = "../u_get_HCR_EL2_Type_CD"
+
+[dependencies.u_get_HCR_EL2_Type_ID]
+path = "../u_get_HCR_EL2_Type_ID"

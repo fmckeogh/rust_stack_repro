@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "decode_aarch32_instrs_HLT_A1enc_A_txt"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.EDSCR_read]
+path = "../EDSCR_read"
+
+[dependencies.HaltingAllowed]
+path = "../HaltingAllowed"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch32_instrs_HLT_Op_A_txt]
+path = "../execute_aarch32_instrs_HLT_Op_A_txt"
+
+[dependencies.u_get_EDSCR_Type_HDE]
+path = "../u_get_EDSCR_Type_HDE"

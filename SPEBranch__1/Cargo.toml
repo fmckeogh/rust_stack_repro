@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "SPEBranch__1"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.Bit]
+path = "../Bit"
+
+[dependencies.CurrentSecurityState]
+path = "../CurrentSecurityState"
+
+[dependencies.IsZero]
+path = "../IsZero"
+
+[dependencies.StatisticalProfilingEnabled]
+path = "../StatisticalProfilingEnabled"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__IMPDEF_boolean]
+path = "../u__IMPDEF_boolean"
+
+[dependencies.u_get_PMSIDR_EL1_Type_PBT]
+path = "../u_get_PMSIDR_EL1_Type_PBT"

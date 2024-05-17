@@ -1,0 +1,115 @@
+[package]
+edition = "2021"
+name = "AArch64_S1Walk"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_BlocknTFaults]
+path = "../AArch64_BlocknTFaults"
+
+[dependencies.AArch64_ContiguousBitFaults]
+path = "../AArch64_ContiguousBitFaults"
+
+[dependencies.AArch64_DecodeDescriptorType]
+path = "../AArch64_DecodeDescriptorType"
+
+[dependencies.AArch64_GetS1TLBContext]
+path = "../AArch64_GetS1TLBContext"
+
+[dependencies.AArch64_GetVARange]
+path = "../AArch64_GetVARange"
+
+[dependencies.AArch64_MemSwapTableDesc]
+path = "../AArch64_MemSwapTableDesc"
+
+[dependencies.AArch64_OAOutOfRange]
+path = "../AArch64_OAOutOfRange"
+
+[dependencies.AArch64_S1AMECFault]
+path = "../AArch64_S1AMECFault"
+
+[dependencies.AArch64_S1DCacheEnabled]
+path = "../AArch64_S1DCacheEnabled"
+
+[dependencies.AArch64_S1EPD]
+path = "../AArch64_S1EPD"
+
+[dependencies.AArch64_S1InitialTTWState]
+path = "../AArch64_S1InitialTTWState"
+
+[dependencies.AArch64_S1NextWalkStateLeaf]
+path = "../AArch64_S1NextWalkStateLeaf"
+
+[dependencies.AArch64_S1NextWalkStateTable]
+path = "../AArch64_S1NextWalkStateTable"
+
+[dependencies.AArch64_S1SLTTEntryAddress]
+path = "../AArch64_S1SLTTEntryAddress"
+
+[dependencies.AArch64_S2Translate]
+path = "../AArch64_S2Translate"
+
+[dependencies.AArch64_TTEntryAddress]
+path = "../AArch64_TTEntryAddress"
+
+[dependencies.AArch64_TTWalkMECID]
+path = "../AArch64_TTWalkMECID"
+
+[dependencies.ContiguousSize]
+path = "../ContiguousSize"
+
+[dependencies.CreateAccDescS1TTW]
+path = "../CreateAccDescS1TTW"
+
+[dependencies.CreateAccDescTTEUpdate]
+path = "../CreateAccDescTTEUpdate"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.EffectiveShareability]
+path = "../EffectiveShareability"
+
+[dependencies.FetchDescriptor]
+path = "../FetchDescriptor"
+
+[dependencies.HasUnprivileged]
+path = "../HasUnprivileged"
+
+[dependencies.NormalNCMemAttr]
+path = "../NormalNCMemAttr"
+
+[dependencies.S1TLBCache]
+path = "../S1TLBCache"
+
+[dependencies.S1TLBLookup]
+path = "../S1TLBLookup"
+
+[dependencies.StageOA]
+path = "../StageOA"
+
+[dependencies.TranslationSize]
+path = "../TranslationSize"
+
+[dependencies.Unreachable]
+path = "../Unreachable"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_AddressDescriptor]
+path = "../u__UNKNOWN_AddressDescriptor"
+
+[dependencies.u__UNKNOWN_TTWState]
+path = "../u__UNKNOWN_TTWState"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"
+
+[dependencies.u__id]
+path = "../u__id"
+
+[dependencies.u_get_HCR_EL2_Type_VM]
+path = "../u_get_HCR_EL2_Type_VM"

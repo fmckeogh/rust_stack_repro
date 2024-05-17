@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "execute_ADDPL_R_RI__"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.CheckSVEEnabled]
+path = "../CheckSVEEnabled"
+
+[dependencies.SP_read]
+path = "../SP_read"
+
+[dependencies.SP_set]
+path = "../SP_set"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.X_set]
+path = "../X_set"
+
+[dependencies.common]
+path = "../common"

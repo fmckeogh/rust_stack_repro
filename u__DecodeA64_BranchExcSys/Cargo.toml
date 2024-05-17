@@ -1,0 +1,217 @@
+[package]
+edition = "2021"
+name = "u__DecodeA64_BranchExcSys"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.decode_autia_aarch64_instrs_integer_pac_autia_hint]
+path = "../decode_autia_aarch64_instrs_integer_pac_autia_hint"
+
+[dependencies.decode_autib_aarch64_instrs_integer_pac_autib_hint]
+path = "../decode_autib_aarch64_instrs_integer_pac_autib_hint"
+
+[dependencies.decode_axflag_aarch64_instrs_integer_flags_axflag]
+path = "../decode_axflag_aarch64_instrs_integer_flags_axflag"
+
+[dependencies.decode_b_cond_aarch64_instrs_branch_conditional_cond]
+path = "../decode_b_cond_aarch64_instrs_branch_conditional_cond"
+
+[dependencies.decode_b_uncond_aarch64_instrs_branch_unconditional_immediate]
+path = "../decode_b_uncond_aarch64_instrs_branch_unconditional_immediate"
+
+[dependencies.decode_bc_cond_aarch64_instrs_branch_conditional_hinted]
+path = "../decode_bc_cond_aarch64_instrs_branch_conditional_hinted"
+
+[dependencies.decode_bl_aarch64_instrs_branch_unconditional_immediate]
+path = "../decode_bl_aarch64_instrs_branch_unconditional_immediate"
+
+[dependencies.decode_blr_aarch64_instrs_branch_unconditional_register]
+path = "../decode_blr_aarch64_instrs_branch_unconditional_register"
+
+[dependencies.decode_blra_aarch64_instrs_branch_unconditional_register]
+path = "../decode_blra_aarch64_instrs_branch_unconditional_register"
+
+[dependencies.decode_br_aarch64_instrs_branch_unconditional_register]
+path = "../decode_br_aarch64_instrs_branch_unconditional_register"
+
+[dependencies.decode_bra_aarch64_instrs_branch_unconditional_register]
+path = "../decode_bra_aarch64_instrs_branch_unconditional_register"
+
+[dependencies.decode_brk_aarch64_instrs_system_exceptions_debug_breakpoint]
+path = "../decode_brk_aarch64_instrs_system_exceptions_debug_breakpoint"
+
+[dependencies.decode_bti_aarch64_instrs_system_hints]
+path = "../decode_bti_aarch64_instrs_system_hints"
+
+[dependencies.decode_cbnz_aarch64_instrs_branch_conditional_compare]
+path = "../decode_cbnz_aarch64_instrs_branch_conditional_compare"
+
+[dependencies.decode_cbz_aarch64_instrs_branch_conditional_compare]
+path = "../decode_cbz_aarch64_instrs_branch_conditional_compare"
+
+[dependencies.decode_cfinv_aarch64_instrs_integer_flags_cfinv]
+path = "../decode_cfinv_aarch64_instrs_integer_flags_cfinv"
+
+[dependencies.decode_chkfeat_aarch64_instrs_system_hints]
+path = "../decode_chkfeat_aarch64_instrs_system_hints"
+
+[dependencies.decode_clrbhb_aarch64_instrs_system_hints]
+path = "../decode_clrbhb_aarch64_instrs_system_hints"
+
+[dependencies.decode_clrex_aarch64_instrs_system_monitors]
+path = "../decode_clrex_aarch64_instrs_system_monitors"
+
+[dependencies.decode_csdb_aarch64_instrs_system_hints]
+path = "../decode_csdb_aarch64_instrs_system_hints"
+
+[dependencies.decode_dcps1_aarch64_instrs_system_exceptions_debug_exception]
+path = "../decode_dcps1_aarch64_instrs_system_exceptions_debug_exception"
+
+[dependencies.decode_dcps2_aarch64_instrs_system_exceptions_debug_exception]
+path = "../decode_dcps2_aarch64_instrs_system_exceptions_debug_exception"
+
+[dependencies.decode_dcps3_aarch64_instrs_system_exceptions_debug_exception]
+path = "../decode_dcps3_aarch64_instrs_system_exceptions_debug_exception"
+
+[dependencies.decode_dgh_aarch64_instrs_system_hints]
+path = "../decode_dgh_aarch64_instrs_system_hints"
+
+[dependencies.decode_dmb_aarch64_instrs_system_barriers_dmb]
+path = "../decode_dmb_aarch64_instrs_system_barriers_dmb"
+
+[dependencies.decode_drps_aarch64_instrs_branch_unconditional_dret]
+path = "../decode_drps_aarch64_instrs_branch_unconditional_dret"
+
+[dependencies.decode_dsb_aarch64_instrs_system_barriers_dsb]
+path = "../decode_dsb_aarch64_instrs_system_barriers_dsb"
+
+[dependencies.decode_dsb_aarch64_instrs_system_barriers_dsb_nxs]
+path = "../decode_dsb_aarch64_instrs_system_barriers_dsb_nxs"
+
+[dependencies.decode_eret_aarch64_instrs_branch_unconditional_eret]
+path = "../decode_eret_aarch64_instrs_branch_unconditional_eret"
+
+[dependencies.decode_ereta_aarch64_instrs_branch_unconditional_eret]
+path = "../decode_ereta_aarch64_instrs_branch_unconditional_eret"
+
+[dependencies.decode_esb_aarch64_instrs_system_hints]
+path = "../decode_esb_aarch64_instrs_system_hints"
+
+[dependencies.decode_gcsb_aarch64_instrs_system_hints]
+path = "../decode_gcsb_aarch64_instrs_system_hints"
+
+[dependencies.decode_hint_aarch64_instrs_system_hints]
+path = "../decode_hint_aarch64_instrs_system_hints"
+
+[dependencies.decode_hlt_aarch64_instrs_system_exceptions_debug_halt]
+path = "../decode_hlt_aarch64_instrs_system_exceptions_debug_halt"
+
+[dependencies.decode_hvc_aarch64_instrs_system_exceptions_runtime_hvc]
+path = "../decode_hvc_aarch64_instrs_system_exceptions_runtime_hvc"
+
+[dependencies.decode_isb_aarch64_instrs_system_barriers_isb]
+path = "../decode_isb_aarch64_instrs_system_barriers_isb"
+
+[dependencies.decode_mrrs_aarch64_instrs_system_register_system_128]
+path = "../decode_mrrs_aarch64_instrs_system_register_system_128"
+
+[dependencies.decode_mrs_aarch64_instrs_system_register_system]
+path = "../decode_mrs_aarch64_instrs_system_register_system"
+
+[dependencies.decode_msr_imm_aarch64_instrs_system_register_cpsr]
+path = "../decode_msr_imm_aarch64_instrs_system_register_cpsr"
+
+[dependencies.decode_msr_reg_aarch64_instrs_system_register_system]
+path = "../decode_msr_reg_aarch64_instrs_system_register_system"
+
+[dependencies.decode_msrr_aarch64_instrs_system_register_system_128]
+path = "../decode_msrr_aarch64_instrs_system_register_system_128"
+
+[dependencies.decode_nop_aarch64_instrs_system_hints]
+path = "../decode_nop_aarch64_instrs_system_hints"
+
+[dependencies.decode_pacia_aarch64_instrs_integer_pac_pacia_hint]
+path = "../decode_pacia_aarch64_instrs_integer_pac_pacia_hint"
+
+[dependencies.decode_pacib_aarch64_instrs_integer_pac_pacib_hint]
+path = "../decode_pacib_aarch64_instrs_integer_pac_pacib_hint"
+
+[dependencies.decode_psb_aarch64_instrs_system_hints]
+path = "../decode_psb_aarch64_instrs_system_hints"
+
+[dependencies.decode_ret_aarch64_instrs_branch_unconditional_register]
+path = "../decode_ret_aarch64_instrs_branch_unconditional_register"
+
+[dependencies.decode_reta_aarch64_instrs_branch_unconditional_register]
+path = "../decode_reta_aarch64_instrs_branch_unconditional_register"
+
+[dependencies.decode_sb_aarch64_instrs_system_barriers_sb]
+path = "../decode_sb_aarch64_instrs_system_barriers_sb"
+
+[dependencies.decode_sev_aarch64_instrs_system_hints]
+path = "../decode_sev_aarch64_instrs_system_hints"
+
+[dependencies.decode_sevl_aarch64_instrs_system_hints]
+path = "../decode_sevl_aarch64_instrs_system_hints"
+
+[dependencies.decode_smc_aarch64_instrs_system_exceptions_runtime_smc]
+path = "../decode_smc_aarch64_instrs_system_exceptions_runtime_smc"
+
+[dependencies.decode_svc_aarch64_instrs_system_exceptions_runtime_svc]
+path = "../decode_svc_aarch64_instrs_system_exceptions_runtime_svc"
+
+[dependencies.decode_sys_aarch64_instrs_system_sysops]
+path = "../decode_sys_aarch64_instrs_system_sysops"
+
+[dependencies.decode_sysl_aarch64_instrs_system_sysops]
+path = "../decode_sysl_aarch64_instrs_system_sysops"
+
+[dependencies.decode_sysp_aarch64_instrs_system_sysops_128]
+path = "../decode_sysp_aarch64_instrs_system_sysops_128"
+
+[dependencies.decode_tbnz_aarch64_instrs_branch_conditional_test]
+path = "../decode_tbnz_aarch64_instrs_branch_conditional_test"
+
+[dependencies.decode_tbz_aarch64_instrs_branch_conditional_test]
+path = "../decode_tbz_aarch64_instrs_branch_conditional_test"
+
+[dependencies.decode_tcancel_aarch64_instrs_system_tme_tcancel]
+path = "../decode_tcancel_aarch64_instrs_system_tme_tcancel"
+
+[dependencies.decode_tcommit_aarch64_instrs_system_tme_tcommit]
+path = "../decode_tcommit_aarch64_instrs_system_tme_tcommit"
+
+[dependencies.decode_tsb_aarch64_instrs_system_hints]
+path = "../decode_tsb_aarch64_instrs_system_hints"
+
+[dependencies.decode_tstart_aarch64_instrs_system_tme_tstart]
+path = "../decode_tstart_aarch64_instrs_system_tme_tstart"
+
+[dependencies.decode_ttest_aarch64_instrs_system_tme_ttest]
+path = "../decode_ttest_aarch64_instrs_system_tme_ttest"
+
+[dependencies.decode_wfe_aarch64_instrs_system_hints]
+path = "../decode_wfe_aarch64_instrs_system_hints"
+
+[dependencies.decode_wfet_aarch64_instrs_system_sysinstwithreg_wfet]
+path = "../decode_wfet_aarch64_instrs_system_sysinstwithreg_wfet"
+
+[dependencies.decode_wfi_aarch64_instrs_system_hints]
+path = "../decode_wfi_aarch64_instrs_system_hints"
+
+[dependencies.decode_wfit_aarch64_instrs_system_sysinstwithreg_wfit]
+path = "../decode_wfit_aarch64_instrs_system_sysinstwithreg_wfit"
+
+[dependencies.decode_xaflag_aarch64_instrs_integer_flags_xaflag]
+path = "../decode_xaflag_aarch64_instrs_integer_flags_xaflag"
+
+[dependencies.decode_xpac_aarch64_instrs_integer_pac_strip_hint]
+path = "../decode_xpac_aarch64_instrs_integer_pac_strip_hint"
+
+[dependencies.decode_yield_aarch64_instrs_system_hints]
+path = "../decode_yield_aarch64_instrs_system_hints"

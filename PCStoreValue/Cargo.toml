@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "PCStoreValue"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.PC_read__1]
+path = "../PC_read__1"
+
+[dependencies.common]
+path = "../common"

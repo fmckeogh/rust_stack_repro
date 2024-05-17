@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "DC_CIGDPAE_SysOpsWrite_8bfd8283adbf50a4"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.IsCurrentSecurityState]
+path = "../IsCurrentSecurityState"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"

@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "decode_crc32c_aarch64_instrs_integer_crc"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.HaveCRCExt]
+path = "../HaveCRCExt"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.execute_aarch64_instrs_integer_crc]
+path = "../execute_aarch64_instrs_integer_crc"

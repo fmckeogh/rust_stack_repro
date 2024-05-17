@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "execute_aarch64_instrs_vector_crypto_sm4_sm4enc"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_CheckFPAdvSIMDEnabled]
+path = "../AArch64_CheckFPAdvSIMDEnabled"
+
+[dependencies.Elem_read]
+path = "../Elem_read"
+
+[dependencies.Elem_set]
+path = "../Elem_set"
+
+[dependencies.ROL]
+path = "../ROL"
+
+[dependencies.Sbox]
+path = "../Sbox"
+
+[dependencies.V_read]
+path = "../V_read"
+
+[dependencies.V_set]
+path = "../V_set"
+
+[dependencies.common]
+path = "../common"

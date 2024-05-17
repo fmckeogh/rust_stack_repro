@@ -1,0 +1,76 @@
+[package]
+edition = "2021"
+name = "AArch32_AT"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch32_Abort]
+path = "../AArch32_Abort"
+
+[dependencies.AArch32_EncodePARLD]
+path = "../AArch32_EncodePARLD"
+
+[dependencies.AArch32_EncodePARSD]
+path = "../AArch32_EncodePARSD"
+
+[dependencies.AArch32_S1TranslateLD]
+path = "../AArch32_S1TranslateLD"
+
+[dependencies.AArch32_S1TranslateSD]
+path = "../AArch32_S1TranslateSD"
+
+[dependencies.AArch32_S2Translate]
+path = "../AArch32_S2Translate"
+
+[dependencies.CreateAccDescAT]
+path = "../CreateAccDescAT"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.ELUsingAArch32]
+path = "../ELUsingAArch32"
+
+[dependencies.HCR_read]
+path = "../HCR_read"
+
+[dependencies.HaveAArch32EL]
+path = "../HaveAArch32EL"
+
+[dependencies.IsExternalAbort__1]
+path = "../IsExternalAbort__1"
+
+[dependencies.Mk_PAR_Type]
+path = "../Mk_PAR_Type"
+
+[dependencies.NoFault__1]
+path = "../NoFault__1"
+
+[dependencies.PAR_write]
+path = "../PAR_write"
+
+[dependencies.SecurityStateAtEL]
+path = "../SecurityStateAtEL"
+
+[dependencies.TTBCR_NS_read]
+path = "../TTBCR_NS_read"
+
+[dependencies.TTBCR_read]
+path = "../TTBCR_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__UNKNOWN_bits]
+path = "../u__UNKNOWN_bits"
+
+[dependencies.u_get_HCR_Type_DC]
+path = "../u_get_HCR_Type_DC"
+
+[dependencies.u_get_HCR_Type_VM]
+path = "../u_get_HCR_Type_VM"
+
+[dependencies.u_get_TTBCR_Type_EAE]
+path = "../u_get_TTBCR_Type_EAE"

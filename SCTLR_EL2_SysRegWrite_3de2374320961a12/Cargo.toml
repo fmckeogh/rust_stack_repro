@@ -1,0 +1,28 @@
+[package]
+edition = "2021"
+name = "SCTLR_EL2_SysRegWrite_3de2374320961a12"
+version = "0.0.0"
+
+[dependencies]
+log = "0.4.21"
+
+[dependencies.AArch64_SystemAccessTrap]
+path = "../AArch64_SystemAccessTrap"
+
+[dependencies.EL2Enabled]
+path = "../EL2Enabled"
+
+[dependencies.Mk_SCTLR_EL2_Type]
+path = "../Mk_SCTLR_EL2_Type"
+
+[dependencies.X_read]
+path = "../X_read"
+
+[dependencies.common]
+path = "../common"
+
+[dependencies.u__set_SCTLR_EL2]
+path = "../u__set_SCTLR_EL2"
+
+[dependencies.u_get_HCR_EL2_Type_NV]
+path = "../u_get_HCR_EL2_Type_NV"
